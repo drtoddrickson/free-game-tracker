@@ -25,7 +25,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
 STATE_PATH = ROOT / "state.json"
-OUT_PATH = ROOT / "docs" / "master.xml"
+OUT_PATH = ROOT / "master.xml"
 
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
