@@ -1,0 +1,12 @@
+sources:
+  - name: LootScraper (All PC freebies)
+    url: https://feed.eikowagenknecht.com
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: [CROSS-PLATFORM]
+
+  - name: PlayStation Blog
+    url: https://blog.playstation.com/feed/
+    default_platforms: [PS5]
+    default_type: NEWS
+    default_tags: []
