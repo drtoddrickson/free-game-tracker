@@ -110,7 +110,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
         for e in feed.entries[:50]:
             # --- TEMP TEST ITEM ---
-            test_id = "manual-test-item"
+            test_id = f"manual-test-item-{int(time.time())}"
             if test_id not in items_state:
                 items_state[test_id] = {
                     "id": test_id,
