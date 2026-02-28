@@ -93,6 +93,11 @@ def entry_datetime(entry: Any) -> datetime:
 
 
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Build a rolling window feed:
+    - We still remember everything in state.json (so we can later suppress repeats / claimed / ignored).
+    - But we always OUTPUT the most recent N items so the feed is never empty.
+    """
     items_state: Dict[str, Any] = state.setdefault("items", {})
 
     out: List[Dict[str, Any]] = []
@@ -115,21 +120,19 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 continue
 
             sid = stable_id(src_name, title, link)
-
-            # Only emit once ever
-            if sid in items_state:
-                continue
-
-            items_state[sid] = {
-                "id": sid,
-                "source": src_name,
-                "title": title,
-                "link": link,
-                "first_seen": now.isoformat(),
-            }
-
             published = entry_datetime(e)
 
+            # Record it in state the first time we see it
+            if sid not in items_state:
+                items_state[sid] = {
+                    "id": sid,
+                    "source": src_name,
+                    "title": title,
+                    "link": link,
+                    "first_seen": now.isoformat(),
+                }
+
+            # ALWAYS include it in the output feed (rolling window behavior)
             out.append(
                 {
                     "id": sid,
@@ -140,8 +143,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 }
             )
 
+    # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
-    return out
+
+    # Keep only the most recent N items so the feed stays readable
+    N = 25
+    return out[:N]
 
 
 def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
