@@ -109,6 +109,26 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         feed = feedparser.parse(url)
 
         for e in feed.entries[:50]:
+            # --- TEMP TEST ITEM ---
+            test_id = "manual-test-item"
+            if test_id not in items_state:
+                items_state[test_id] = {
+                    "id": test_id,
+                    "source": "Manual Test",
+                    "title": "TEST ITEM - Discord Pipeline Check",
+                    "link": "https://example.com",
+                    "first_seen": now.isoformat(),
+                }
+                out.append(
+                    {
+                        "id": test_id,
+                        "published": now,
+                        "title": "[PS5] [NEWS] TEST ITEM - Discord Pipeline Check",
+                        "link": "https://example.com",
+                        "description": "Manual test item\n\nID: manual-test-item",
+                    }
+                )
+            # --- END TEST ---
             title = getattr(e, "title", "").strip()
             link = getattr(e, "link", "").strip()
             if not title or not link:
