@@ -69,6 +69,13 @@
       "link": "https://blog.playstation.com/2026/02/24/life-is-strange-reunion-hands-on-report-highlights-six-reasons-to-get-excited-for-march-26/",
       "source": "PlayStation Blog",
       "title": "Life is Strange: Reunion hands-on report highlights six reasons to get excited for March 26"
+    },
+    "manual-test-item": {
+      "first_seen": "2026-02-28T04:15:20.200968+00:00",
+      "id": "manual-test-item",
+      "link": "https://example.com",
+      "source": "Manual Test",
+      "title": "TEST ITEM - Discord Pipeline Check"
     }
   }
 }
