@@ -200,34 +200,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 }
             )
     
-    # ---- ROUTING TEST ITEMS (TEMP) ----
-    now_ts = int(time.time())
-
-    # PS5 routing test
-    test_ps5_id = f"routing-test-ps5-{now_ts}"
-    out.append(
-        {
-            "id": test_ps5_id,
-            "published": now,
-            "title": f"[PS5] [NEWS] ROUTING TEST PS5 - {now_ts}",
-            "link": "https://example.com",
-            "description": "Routing test PS5\n\nID: " + test_ps5_id,
-        }
-    )
-
-    # URGENT routing test (should ping @FreeGameAlert in #urgent-expiring)
-    test_urgent_id = f"routing-test-urgent-{now_ts}"
-    out.append(
-        {
-            "id": test_urgent_id,
-            "published": now,
-            "title": f"[EXP<72H] [PS5] [DLC] ROUTING TEST URGENT - {now_ts}",
-            "link": "https://example.com",
-            "description": "Routing test URGENT\n\nID: " + test_urgent_id,
-        }
-    )
-    # ---- END TEST ITEMS ----
-    
     # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
 
