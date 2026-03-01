@@ -209,7 +209,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         {
             "id": test_ps5_id,
             "published": now,
-            "title": "[PS5] [NEWS] ROUTING TEST PS5",
+            "title": f"[PS5] [NEWS] ROUTING TEST PS5 - {now_ts}",
             "link": "https://example.com",
             "description": "Routing test PS5\n\nID: " + test_ps5_id,
         }
@@ -221,7 +221,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         {
             "id": test_urgent_id,
             "published": now,
-            "title": "[EXP<72H] [PS5] [DLC] ROUTING TEST URGENT",
+            "title": f"[EXP<72H] [PS5] [DLC] ROUTING TEST URGENT - {now_ts}",
             "link": "https://example.com",
             "description": "Routing test URGENT\n\nID: " + test_urgent_id,
         }
