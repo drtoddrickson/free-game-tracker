@@ -4,8 +4,8 @@
 <title>Free Game Tracker - Master Feed</title>
 <link>https://drtoddrickson.github.io/free-game-tracker/</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Sun, 01 Mar 2026 07:46:37 +0000</lastBuildDate>
-<generator>build-1772351197</generator>
+<lastBuildDate>Sun, 01 Mar 2026 07:52:50 +0000</lastBuildDate>
+<generator>build-1772351570</generator>
 <ttl>20</ttl>
 <item>
 <title><![CDATA[[PC] [PS5] [SWITCH] [NEWS] [AGG] 30 Horror Masterpieces To Play Before You Die]]></title>
@@ -13,6 +13,9 @@
 <guid isPermaLink='false'>961bef064503e5a8</guid>
 <pubDate>Sat, 28 Feb 2026 13:15:00 +0000</pubDate>
 <description><![CDATA[30 Horror Masterpieces To Play Before You Die
+
+Matched games: ['fortnite']
+Matched triggers: ['drop', 'reward', 'pack', 'code', 'ends']
 
 Source: IGN (All)
 ID: 961bef064503e5a8]]></description>
@@ -23,6 +26,9 @@ ID: 961bef064503e5a8]]></description>
 <guid isPermaLink='false'>e141f60f9fab9faf</guid>
 <pubDate>Fri, 27 Feb 2026 22:20:00 +0000</pubDate>
 <description><![CDATA[The 27" Samsung OLED Gaming Monitor Drops to $350, Includes Free Resident Evil: Requiem Game Code
+
+Matched games: ['fortnite']
+Matched triggers: ['free', 'drop', 'drops', 'code', 'ends']
 
 Source: IGN (All)
 ID: e141f60f9fab9faf]]></description>
