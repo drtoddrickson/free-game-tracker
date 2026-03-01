@@ -5,12 +5,6 @@ sources:
     default_type: GAME
     default_tags: [CROSS-PLATFORM]
 
-  - name: PlayStation Blog
-    url: https://blog.playstation.com/feed/
-    default_platforms: [PS5]
-    default_type: NEWS
-    default_tags: []
-
   - name: IGN (All)
     url: http://feeds.ign.com/ign/all
     default_platforms: [PS5, SWITCH, PC]
