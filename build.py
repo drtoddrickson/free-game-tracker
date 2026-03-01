@@ -248,6 +248,7 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
+    parts.append(f"<ttl>{int(now.timestamp())}</ttl>")
 
     for it in items:
         parts.append("<item>")
