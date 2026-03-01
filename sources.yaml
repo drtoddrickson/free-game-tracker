@@ -10,3 +10,27 @@ sources:
     default_platforms: [PS5]
     default_type: NEWS
     default_tags: []
+
+  - name: Pokemon Reddit (Main)
+    url: https://www.reddit.com/r/Pokemon/.rss
+    default_platforms: [SWITCH]
+    default_type: DROPS
+    default_tags: [POKEMON]
+
+  - name: Pokemon ScarletViolet Reddit
+    url: https://www.reddit.com/r/PokemonScarletViolet/.rss
+    default_platforms: [SWITCH]
+    default_type: DROPS
+    default_tags: [POKEMON, SCARLETVIOLET]
+
+  - name: Pokemon Legends Arceus Reddit
+    url: https://www.reddit.com/r/PokemonLegendsArceus/.rss
+    default_platforms: [SWITCH]
+    default_type: DROPS
+    default_tags: [POKEMON, LEGENDSARCEUS]
+
+  - name: Pokemon SwordShield Reddit
+    url: https://www.reddit.com/r/PokemonSwordAndShield/.rss
+    default_platforms: [SWITCH]
+    default_type: DROPS
+    default_tags: [POKEMON, SWORDSHIELD]
