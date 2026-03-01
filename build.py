@@ -31,40 +31,38 @@ OUT_PATH = ROOT / "master.xml"
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
 
-POKEMON_KEYWORDS = [
-    # Core distribution terms
+POKEMON_STRONG = [
     "mystery gift",
     "mysterygift",
     "mystery-gift",
-    "distribution",
-    "distribute",
     "serial code",
     "serial-code",
-    "code",
+    "distribution",
+    "distribute",
     "redeem",
     "redemption",
-    "gift",
+    "gift code",
+    "code:",
+    "mystery gift code",
+]
 
-    # Event language
+POKEMON_WEAK = [
     "event",
     "limited time",
     "limited-time",
     "ends",
     "expires",
     "expiring",
-
-    # Raid language (Scarlet/Violet)
     "tera raid",
     "tera-raid",
     "raid event",
     "7-star",
     "6-star",
-
-    # Competitive / special Pokémon
-    "shiny",
+    "outbreak",
+    "mass outbreak",
+    "tournament",
     "championship",
     "worlds",
-    "wc code",
 ]
 
 
@@ -129,10 +127,14 @@ def entry_datetime(entry: Any) -> datetime:
     return datetime.now(tz=timezone.utc)
 
 
-def text_contains_any(text: str, needles: List[str]) -> bool:
+def normalize_text(text: str) -> str:
     t = (text or "").lower()
-    t = re.sub(r"[^a-z0-9\s\-]", " ", t)  # normalize punctuation
-    return any(n in t for n in needles)
+    t = re.sub(r"\s+", " ", t)
+    return t
+
+def count_hits(text: str, needles: List[str]) -> int:
+    t = normalize_text(text)
+    return sum(1 for n in needles if n in t)
 
 
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -166,7 +168,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if "POKEMON" in [t.upper() for t in tags]:
                 summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
                 combined = f"{title}\n{summary}\n{link}"
-                if not text_contains_any(combined, POKEMON_KEYWORDS):
+
+                strong_hits = count_hits(combined, POKEMON_STRONG)
+                weak_hits = count_hits(combined, POKEMON_WEAK)
+
+                # Keep if it looks like a real distribution / redeemable / official timed event
+                if not (strong_hits >= 1 or weak_hits >= 2):
                     continue
 
             sid = stable_id(src_name, title, link)
