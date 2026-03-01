@@ -65,12 +65,68 @@ WATCH_GAMES = [
 ]
 
 FREE_TRIGGERS = [
-    "free", "free-to-claim", "claim", "claimable",
-    "drop", "drops", "reward", "cosmetic",
-    "dlc", "bundle", "pack",
-    "code", "redeem",
-    "limited time", "expires", "ends",
-    "giveaway",
+    # Strong “free” language
+    "free",
+    "free-to-claim",
+    "free to claim",
+    "claim free",
+    "claimable",
+    "no cost",
+    "at no cost",
+
+    # Redeem/code language (keep but require “redeem” or “free” via rule below)
+    "redeem",
+    "redemption",
+    "mystery gift",
+
+    # Time sensitivity
+    "limited time",
+    "ends",
+    "ending",
+    "expires",
+    "expiring",
+    "last chance",
+
+    # Content type signals
+    "free dlc",
+    "free cosmetic",
+    "free skin",
+    "free pack",
+    "free bundle",
+]
+
+DEAL_SPAM_BLOCKLIST = [
+    # price drop language
+    "drops to $",
+    "dropped to $",
+    "price drop",
+    "lowest price",
+    "now $",
+    "only $",
+
+    # generic deal spam
+    "deal",
+    "deals",
+    "best deal",
+    "save ",
+    "save up to",
+    "discount",
+    "sale",
+    "% off",
+    "off ",
+    "coupon",
+
+    # hardware spam
+    "monitor",
+    "tv",
+    "keyboard",
+    "mouse",
+    "controller",
+    "headset",
+    "laptop",
+    "ssd",
+    "graphics card",
+    "gpu",
 ]
 
 
@@ -164,20 +220,20 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             tags_upper = {t.upper() for t in tags}
             if "AGG" in tags_upper:
-                summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
-                content = ""
-                if getattr(e, "content", None):
-                    try:
-                        content = " ".join(c.get("value", "") for c in e.content if isinstance(c, dict))
-                    except Exception:
-                        content = ""
+                title_lc = title.lower()
             
-                combined = f"{title}\n{summary}\n{content}".lower()
+                # Block obvious deal spam early
+                if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
+                    continue
             
-                matched_games = [g for g in WATCH_GAMES if g in combined]
-                matched_triggers = [k for k in FREE_TRIGGERS if k in combined]
+                matched_games = [g for g in WATCH_GAMES if g in title_lc]
+                matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
             
                 if not matched_games or not matched_triggers:
+                    continue
+            
+                # Guardrail: code-only mentions are noisy unless explicitly free/redeem
+                if "code" in title_lc and ("free" not in title_lc and "redeem" not in title_lc):
                     continue
 
                 if not any(g in combined for g in WATCH_GAMES):
