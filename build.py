@@ -199,7 +199,20 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
                 }
             )
-
+    
+    # ---- ROUTING TEST ITEM (PS5) ----
+    test_id = f"routing-test-ps5-{int(time.time())}"
+    out.append(
+        {
+            "id": test_id,
+            "published": now,
+            "title": "[PS5] [NEWS] ROUTING TEST PS5",
+            "link": "https://example.com",
+            "description": "Routing test PS5\n\nID: " + test_id,
+        }
+    )
+    # ---- END TEST ----
+    
     # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
 
