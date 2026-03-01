@@ -167,12 +167,18 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
                 content = ""
                 if getattr(e, "content", None):
-                    # feedparser content is usually a list of dicts
                     try:
                         content = " ".join(c.get("value", "") for c in e.content if isinstance(c, dict))
                     except Exception:
                         content = ""
+            
                 combined = f"{title}\n{summary}\n{content}".lower()
+            
+                matched_games = [g for g in WATCH_GAMES if g in combined]
+                matched_triggers = [k for k in FREE_TRIGGERS if k in combined]
+            
+                if not matched_games or not matched_triggers:
+                    continue
 
                 if not any(g in combined for g in WATCH_GAMES):
                     continue
@@ -199,7 +205,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "published": published,
                     "title": format_title(platforms, item_type, tags, title),
                     "link": link,
-                    "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
+                    "description": (
+                        f"{title}\n\n"
+                        f"Matched games: {matched_games}\n"
+                        f"Matched triggers: {matched_triggers}\n\n"
+                        f"Source: {src_name}\n"
+                        f"ID: {sid}"
+                    ),
                 }
             )
     
