@@ -21,7 +21,6 @@ from typing import Any, Dict, List
 
 import feedparser
 import yaml
-import re
 
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
@@ -30,6 +29,47 @@ OUT_PATH = ROOT / "master.xml"
 
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
+
+WATCH_GAMES = [
+    # your current set (kept)
+    "fortnite",
+    "fall guys",
+    "rocket league",
+    "disney dreamlight valley",
+    "pokemon scarlet",
+    "pokemon violet",
+    "pokemon sword",
+    "pokemon brilliant diamond",
+    "pokemon shining pearl",
+    "pokemon legends arceus",
+    "minecraft",  # includes Minecraft (Switch) and Minecraft Legends keywords
+
+    # new PS5 list (excluding ESO, and excluding Apex for now)
+    "star wars battlefront ii",
+    "hot wheels unleashed",
+    "hot wheels unleashed 2",
+    "harry potter: quidditch champions",
+    "lego star wars: the skywalker saga",
+    "minecraft legends",
+    "lego 2k drive",
+    "farming simulator 22",
+    "jurassic world evolution 2",
+    "diablo iv",
+    "sackboy: a big adventure",
+    "destiny 2",
+    "hogwarts legacy",
+    "the sims 4",
+    "injustice 2",
+]
+
+FREE_TRIGGERS = [
+    "free", "free-to-claim", "claim", "claimable",
+    "drop", "drops", "reward", "cosmetic",
+    "dlc", "bundle", "pack",
+    "code", "redeem",
+    "limited time", "expires", "ends",
+    "giveaway",
+]
 
 
 def load_sources() -> List[Dict[str, Any]]:
@@ -93,17 +133,6 @@ def entry_datetime(entry: Any) -> datetime:
     return datetime.now(tz=timezone.utc)
 
 
-def normalize_text(text: str) -> str:
-    t = (text or "").lower()
-    t = re.sub(r"\s+", " ", t)
-    return t
-
-
-def count_hits(text: str, needles: List[str]) -> int:
-    t = normalize_text(text)
-    return sum(1 for n in needles if n in t)
-
-
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Build a rolling window feed:
@@ -130,6 +159,16 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             link = getattr(e, "link", "").strip()
             if not title or not link:
                 continue
+
+            tags_upper = {t.upper() for t in tags}
+            if "AGG" in tags_upper:
+                summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
+                combined = f"{title}\n{summary}".lower()
+
+                if not any(g in combined for g in WATCH_GAMES):
+                    continue
+                if not any(k in combined for k in FREE_TRIGGERS):
+                    continue
 
             sid = stable_id(src_name, title, link)
             published = entry_datetime(e)
@@ -164,7 +203,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
 
 def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=timezone.utc
+    ttl_time = now + timedetla(minutes=20)
 
     parts: List[str] = []
     parts.append('<?xml version="1.0" encoding="UTF-8"?>')
@@ -175,7 +215,7 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
-    parts.append(f"<ttl>{int(now.timestamp())}</ttl>")
+    parts.append(f"<ttl>{int(ttl_time.timestamp())}</ttl>")
 
     for it in items:
         parts.append("<item>")
@@ -205,7 +245,7 @@ def main() -> None:
 
     save_state(state)
 
-    print(f"Wrote {OUT_PATH} with {len(items)} NEW items.")
+    print(f"Wrote {OUT_PATH} with {len(items)} items (rolling window).")
 
 
 if __name__ == "__main__":
