@@ -163,7 +163,14 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             tags_upper = {t.upper() for t in tags}
             if "AGG" in tags_upper:
                 summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
-                combined = f"{title}\n{summary}".lower()
+                content = ""
+                if getattr(e, "content", None):
+                    # feedparser content is usually a list of dicts
+                    try:
+                        content = " ".join(c.get("value", "") for c in e.content if isinstance(c, dict))
+                    except Exception:
+                        content = ""
+                combined = f"{title}\n{summary}\n{content}".lower()
 
                 if not any(g in combined for g in WATCH_GAMES):
                     continue
@@ -203,7 +210,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
 
 def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
-    now = datetime.now(tz=timezone.utc
+    now = datetime.now(tz=timezone.utc)
     ttl_time = now + timedetla(minutes=20)
 
     parts: List[str] = []
@@ -215,7 +222,7 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
-    parts.append(f"<ttl>{int(ttl_time.timestamp())}</ttl>")
+    parts.append(f"<expires>{int(ttl_time.timestamp())}</expires>")
 
     for it in items:
         parts.append("<item>")
