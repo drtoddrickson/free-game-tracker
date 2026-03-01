@@ -21,6 +21,7 @@ from typing import Any, Dict, List
 
 import feedparser
 import yaml
+import re
 
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
@@ -29,6 +30,42 @@ OUT_PATH = ROOT / "master.xml"
 
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
+
+POKEMON_KEYWORDS = [
+    # Core distribution terms
+    "mystery gift",
+    "mysterygift",
+    "mystery-gift",
+    "distribution",
+    "distribute",
+    "serial code",
+    "serial-code",
+    "code",
+    "redeem",
+    "redemption",
+    "gift",
+
+    # Event language
+    "event",
+    "limited time",
+    "limited-time",
+    "ends",
+    "expires",
+    "expiring",
+
+    # Raid language (Scarlet/Violet)
+    "tera raid",
+    "tera-raid",
+    "raid event",
+    "7-star",
+    "6-star",
+
+    # Competitive / special Pokémon
+    "shiny",
+    "championship",
+    "worlds",
+    "wc code",
+]
 
 
 def load_sources() -> List[Dict[str, Any]]:
@@ -92,6 +129,12 @@ def entry_datetime(entry: Any) -> datetime:
     return datetime.now(tz=timezone.utc)
 
 
+def text_contains_any(text: str, needles: List[str]) -> bool:
+    t = (text or "").lower()
+    t = re.sub(r"[^a-z0-9\s\-]", " ", t)  # normalize punctuation
+    return any(n in t for n in needles)
+
+
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Build a rolling window feed:
@@ -118,6 +161,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             link = getattr(e, "link", "").strip()
             if not title or not link:
                 continue
+
+            # Pokémon Reddit noise filter: only allow posts likely to be distributions/events/codes
+            if "POKEMON" in [t.upper() for t in tags]:
+                summary = getattr(e, "summary", "") or getattr(e, "description", "") or ""
+                combined = f"{title}\n{summary}\n{link}"
+                if not text_contains_any(combined, POKEMON_KEYWORDS):
+                    continue
 
             sid = stable_id(src_name, title, link)
             published = entry_datetime(e)
