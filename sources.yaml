@@ -65,8 +65,8 @@ sources:
     default_type: NEWS
     default_tags: [AGG, FORTNITE]
 
-  - name: Game Rant - Fortnite News (Community)
-    url: https://gamerant.com/feed/fortnite-news/
+  - name: Game Rant - Fortnite - Latest Stories (Community)
+    url: https://gamerant.com/feed/db/video-game/fortnite/
     default_platforms: [PS5, SWITCH]
     default_type: NEWS
     default_tags: [AGG, FORTNITE]
