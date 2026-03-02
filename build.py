@@ -62,6 +62,12 @@ WATCH_GAMES = [
     "injustice 2",
 ]
 
+CROSSPLATFORM_GAMES = [
+    "fortnite",
+    "rocket league",
+    "fall guys",
+]
+
 FREE_TRIGGERS = [
     # Strong “free” language
     "free",
@@ -180,6 +186,16 @@ def format_title(platforms: List[str], item_type: str, tags: List[str], title: s
     parts.append(title.strip())
     return " ".join(parts)
 
+
+def is_crossplatform_item(title: str, src_name: str, tags: List[str]) -> bool:
+    """
+    Conservative rule:
+    - Only tag as CROSS-PLATFORM if the item is explicitly for one of our known cross-account games.
+    - Source doesn't matter; we infer from title.
+    """
+    t = (title or "").lower()
+    return any(g in t for g in CROSSPLATFORM_GAMES)
+    
 
 def entry_datetime(entry: Any) -> datetime:
     if getattr(entry, "published_parsed", None):
