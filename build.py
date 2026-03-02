@@ -268,12 +268,20 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "first_seen": now.isoformat(),
                 }
 
+            # Build per-item tags (copy defaults)
+            item_tags = list(tags)
+
+            # Add CROSS-PLATFORM only when confidently detected
+            if is_crossplatform_item(title):
+                if not any(t.upper() == "CROSS-PLATFORM" for t in item_tags):
+                    item_tags.append("CROSS-PLATFORM")
+
             # ALWAYS include it in the output feed (rolling window behavior)
             out.append(
                 {
                     "id": sid,
                     "published": published,
-                    "title": format_title(platforms, item_type, tags, title),
+                    "title": format_title(platforms, item_type, item_tags, title),
                     "link": link,
                     "description": (
                         f"{title}\n\n"
