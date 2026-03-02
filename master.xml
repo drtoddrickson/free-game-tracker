@@ -4,17 +4,8 @@
 <title>Free Game Tracker - Master Feed</title>
 <link>https://drtoddrickson.github.io/free-game-tracker/</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Mon, 02 Mar 2026 14:09:22 +0000</lastBuildDate>
-<generator>build-1772460562</generator>
-<item>
-<title><![CDATA[[PS5] [NEWS] DELIVERY TEST delivery-test-1772460562]]></title>
-<link>https://example.com</link>
-<guid isPermaLink='false'>delivery-test-1772460562</guid>
-<pubDate>Mon, 02 Mar 2026 14:09:22 +0000</pubDate>
-<description><![CDATA[Delivery test item
-
-ID: delivery-test-1772460562]]></description>
-</item>
+<lastBuildDate>Mon, 02 Mar 2026 15:01:19 +0000</lastBuildDate>
+<generator>build-1772463679</generator>
 <item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
 <link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
@@ -254,6 +245,16 @@ ID: 5a03adf4ed2815fb]]></description>
 
 Source: LootScraper - Amazon Games
 ID: cf952b3dd4b0bfcc]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [GAME] Amazon Prime (Game) - Ashworld]]></title>
+<link>https://luna.amazon.com/claims/ashworld-gog/dp/amzn1.pg.item.6f28092d-5884-4aaf-be02-a13f24a43b83?ingress=amzn&amp;ref_=SM_Ashworld_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>64740fbd0c2902ab</guid>
+<pubDate>Thu, 18 Dec 2025 18:01:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Ashworld
+
+Source: LootScraper - Amazon Games
+ID: 64740fbd0c2902ab]]></description>
 </item>
 </channel>
 </rss>
