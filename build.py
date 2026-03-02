@@ -282,12 +282,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "published": published,
                     "title": format_title(platforms, item_type, item_tags, title),
                     "link": link,
-                    "description": (
-                        f"{title}\n\n"
-                        f"Matched games: {matched_games}\n"
-                        f"Matched triggers: {matched_triggers}\n\n"
-                        f"Source: {src_name}\n"
-                        f"ID: {sid}"
+                    "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
                     ),
                 }
             )
