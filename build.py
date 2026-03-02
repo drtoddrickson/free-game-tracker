@@ -140,6 +140,17 @@ def load_sources() -> List[Dict[str, Any]]:
     return data.get("sources", [])
 
 
+def xml_escape(s: str) -> str:
+    return (
+        (s or "")
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
 def load_state() -> Dict[str, Any]:
     if not STATE_PATH.exists():
         return {"items": {}}
@@ -302,7 +313,7 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append('<rss version="2.0">')
     parts.append("<channel>")
     parts.append("<title>Free Game Tracker - Master Feed</title>")
-    parts.append(f"<link>{site_url}</link>")
+    parts.append(f"<link>{xml_escape(site_url)}</link>")
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
@@ -310,8 +321,8 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     for it in items:
         parts.append("<item>")
         parts.append(f"<title><![CDATA[{it['title']}]]></title>")
-        parts.append(f"<link>{it['link']}</link>")
-        parts.append(f"<guid isPermaLink='false'>{it['id']}</guid>")
+        parts.append(f"<link>{xml_escape(it['link'])}</link>")
+        parts.append(f"<guid isPermaLink='false'>{xml_escape(it['id'])}</guid>")
         parts.append(f"<pubDate>{format_datetime(it['published'])}</pubDate>")
         parts.append(f"<description><![CDATA[{it['description']}]]></description>")
         parts.append("</item>")
