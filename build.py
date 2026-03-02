@@ -283,7 +283,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "title": format_title(platforms, item_type, item_tags, title),
                     "link": link,
                     "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
-                    ),
                 }
             )
     
