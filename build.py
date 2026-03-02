@@ -30,8 +30,6 @@ OUT_PATH = ROOT / "master.xml"
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
 
-TTL_MINUTES = 20
-
 WATCH_GAMES = [
     # your current set (kept)
     "fortnite",
@@ -291,8 +289,7 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
-    parts.append(f"<ttl>{TTL_MINUTES}</ttl>")
-
+    
     for it in items:
         parts.append("<item>")
         parts.append(f"<title><![CDATA[{it['title']}]]></title>")
