@@ -245,20 +245,24 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             tags_upper = {t.upper() for t in tags}
             if "AGG" in tags_upper:
                 title_lc = title.lower()
-            
-                # Block obvious deal spam early
-                if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
-                    continue
-            
+
+                # Block obvious deal spam early (if you have this list)
+                if "DEAL_SPAM_BLOCKLIST" in globals():
+                    if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
+                        continue
+
                 matched_games = [g for g in WATCH_GAMES if g in title_lc]
                 matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
-            
+
                 if not matched_games or not matched_triggers:
                     continue
-            
-                # Guardrail: code-only mentions are noisy unless explicitly free/redeem
+
+                # Guardrail: "code" mentions are noisy unless explicitly free/redeem
                 if "code" in title_lc and ("free" not in title_lc and "redeem" not in title_lc):
                     continue
+            else:
+                matched_games = []
+                matched_triggers = []
 
                 if not any(g in combined for g in WATCH_GAMES):
                     continue
