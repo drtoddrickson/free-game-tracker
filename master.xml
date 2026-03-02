@@ -4,8 +4,17 @@
 <title>Free Game Tracker - Master Feed</title>
 <link>https://drtoddrickson.github.io/free-game-tracker/</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Mon, 02 Mar 2026 05:41:25 +0000</lastBuildDate>
-<generator>build-1772430085</generator>
+<lastBuildDate>Mon, 02 Mar 2026 06:38:59 +0000</lastBuildDate>
+<generator>build-1772433539</generator>
+<item>
+<title><![CDATA[[PS5] [NEWS] DELIVERY TEST delivery-test-1772433539]]></title>
+<link>https://example.com</link>
+<guid isPermaLink='false'>delivery-test-1772433539</guid>
+<pubDate>Mon, 02 Mar 2026 06:38:59 +0000</pubDate>
+<description><![CDATA[Delivery test item
+
+ID: delivery-test-1772433539]]></description>
+</item>
 <item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
 <link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
@@ -245,16 +254,6 @@ ID: 5a03adf4ed2815fb]]></description>
 
 Source: LootScraper - Amazon Games
 ID: cf952b3dd4b0bfcc]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [GAME] Amazon Prime (Game) - Living Legends: The Crystal Tear: CE]]></title>
-<link>https://luna.amazon.com/claims/living-legends-the-crystal-tear-ce-aga/dp/amzn1.pg.item.2ba68f14-f393-4688-98ba-426f2b07a8f0?ingress=amzn&amp;ref_=SM_LivingLegendsTheCrystalTearCE_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>50e18c2e6f9caf30</guid>
-<pubDate>Tue, 30 Dec 2025 19:00:40 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Living Legends: The Crystal Tear: CE
-
-Source: LootScraper - Amazon Games
-ID: 50e18c2e6f9caf30]]></description>
 </item>
 </channel>
 </rss>
