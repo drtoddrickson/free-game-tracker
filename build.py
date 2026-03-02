@@ -247,8 +247,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 title_lc = title.lower()
 
                 # Block obvious deal spam early (if you have this list)
-                if "DEAL_SPAM_BLOCKLIST" in globals():
-                    if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
+                if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
                         continue
 
                 matched_games = [g for g in WATCH_GAMES if g in title_lc]
@@ -263,11 +262,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             else:
                 matched_games = []
                 matched_triggers = []
-
-                if not any(g in combined for g in WATCH_GAMES):
-                    continue
-                if not any(k in combined for k in FREE_TRIGGERS):
-                    continue
 
             sid = stable_id(src_name, title, link)
             published = entry_datetime(e)
