@@ -3,8 +3,8 @@ name: Build Master RSS
 on:
   workflow_dispatch:
   schedule:
-    # Every 6 hours. We can tune later.
-    - cron: "0 */6 * * *"
+    # Every 15 minutes. We can tune later.
+    - cron: "*/15 * * * *" 
 
 permissions:
   contents: write
