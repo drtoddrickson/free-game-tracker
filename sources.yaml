@@ -1,9 +1,51 @@
 sources:
-  - name: LootScraper (All PC freebies)
-    url: https://feed.eikowagenknecht.com
+  - name: LootScraper - Epic Games (PC)
+    url: https://feed.eikowagenknecht.com/lootscraper_epic_game.xml
     default_platforms: [PC]
     default_type: GAME
+    default_tags: []
+
+  - name: LootScraper - Steam Games
+    url: https://feed.eikowagenknecht.com/lootscraper_steam_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
+
+  - name: LootScraper - Steam In-game Loot
+    url: https://feed.eikowagenknecht.com/lootscraper_steam_loot.xml
+    default_platforms: [PC]
+    default_type: DLC
+    default_tags: []
+
+    - name: LootScraper - Amazon Games
+    url: https://feed.eikowagenknecht.com/lootscraper_amazon_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
+
+    - name: LootScraper - Amazon Games In-game Loot
+    url: https://feed.eikowagenknecht.com/lootscraper_amazon_loot.xml
+    default_platforms: [PC]
+    default_type: DLC
     default_tags: [CROSS-PLATFORM]
+
+    - name: LootScraper - GOG Games
+    url: https://feed.eikowagenknecht.com/lootscraper_gog_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
+
+    - name: LootScraper - Humble Games
+    url: https://feed.eikowagenknecht.com/lootscraper_humble_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
+
+    - name: LootScraper - itch.io Games
+    url: https://feed.eikowagenknecht.com/lootscraper_itch_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
   - name: IGN (All)
     url: http://feeds.ign.com/ign/all
