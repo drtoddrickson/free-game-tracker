@@ -294,6 +294,18 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
                 }
             )
+
+    # TEMP: delivery test item (remove after confirming)
+    test_id = f"delivery-test-{int(time.time())}"
+    out.append(
+        {
+            "id": test_id,
+            "published": datetime.now(tz=timezone.utc),
+            "title": f"[PS5] [NEWS] DELIVERY TEST {test_id}",
+            "link": "https://example.com",
+            "description": f"Delivery test item\n\nID: {test_id}",
+        }
+    )
     
     # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
