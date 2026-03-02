@@ -186,8 +186,7 @@ def format_title(platforms: List[str], item_type: str, tags: List[str], title: s
     parts.append(title.strip())
     return " ".join(parts)
 
-
-def is_crossplatform_item(title: str, src_name: str, tags: List[str]) -> bool:
+def is_crossplatform_item(title: str) -> bool:
     """
     Conservative rule:
     - Only tag as CROSS-PLATFORM if the item is explicitly for one of our known cross-account games.
