@@ -59,11 +59,11 @@ sources:
     default_type: NEWS
     default_tags: [AGG]
 
-#  - name: FortniteNews.com (Community)
-#    url: https://fortnitenews.com/rss/
-#    default_platforms: [PS5, SWITCH]
-#    default_type: NEWS
-#    default_tags: [AGG, FORTNITE]
+  - name: FortniteNews.com (Community)
+    url: https://fortnitenews.com/rss/
+    default_platforms: [PS5, SWITCH]
+    default_type: NEWS
+    default_tags: [AGG, FORTNITE]
 
   - name: Game Rant - Fortnite News (Community)
     url: https://gamerant.com/feed/fortnite-news/
