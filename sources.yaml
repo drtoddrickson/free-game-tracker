@@ -71,7 +71,6 @@ sources:
     default_type: NEWS
     default_tags: [AGG, FORTNITE]
 
-####
   - name: GamerPower - Playstation
     url: https://www.gamerpower.com/rss/playstation
     default_platforms: [PS5]
