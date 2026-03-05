@@ -4,8 +4,8 @@
 <title>Free Game Tracker - Master Feed</title>
 <link>https://drtoddrickson.github.io/free-game-tracker/</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Thu, 05 Mar 2026 11:38:58 +0000</lastBuildDate>
-<generator>build-1772710738</generator>
+<lastBuildDate>Thu, 05 Mar 2026 12:03:10 +0000</lastBuildDate>
+<generator>build-1772712190</generator>
 <item>
 <title><![CDATA[[PC] [PS5] [SWITCH] [GAME] Planet Coaster (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
@@ -157,16 +157,6 @@ Source: GamerPower - PC
 ID: 5945bdf7ad0af72e]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [GAME] Steam (Game) - Just Move:Clean City Messy Battle]]></title>
-<link>https://store.steampowered.com/app/3414900</link>
-<guid isPermaLink='false'>2079d1b0e4ce86f4</guid>
-<pubDate>Fri, 27 Feb 2026 18:03:03 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Just Move:Clean City Messy Battle
-
-Source: LootScraper - Steam Games
-ID: 2079d1b0e4ce86f4]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
 <link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>534dc9a3820b8e85</guid>
@@ -255,6 +245,16 @@ ID: 2d40cadfd046faac]]></description>
 
 Source: GamerPower - Full Games
 ID: a0e10f443988328a]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [GAME] My Night Job (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/my-night-job-epic-games-giveaway</link>
+<guid isPermaLink='false'>bc79a1c3fd6a804a</guid>
+<pubDate>Thu, 26 Feb 2026 16:00:52 +0000</pubDate>
+<description><![CDATA[My Night Job (Epic Games) Giveaway
+
+Source: GamerPower - PC
+ID: bc79a1c3fd6a804a]]></description>
 </item>
 </channel>
 </rss>
