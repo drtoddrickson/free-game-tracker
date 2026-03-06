@@ -4,8 +4,8 @@
 <title>Free Game Tracker - Master Feed</title>
 <link>https://drtoddrickson.github.io/free-game-tracker/</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Fri, 06 Mar 2026 19:10:48 +0000</lastBuildDate>
-<generator>build-1772824248</generator>
+<lastBuildDate>Fri, 06 Mar 2026 19:49:47 +0000</lastBuildDate>
+<generator>build-1772826587</generator>
 <item>
 <title><![CDATA[[PC] [GAME] Crowalt: Traces of the Lost Colony (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/crowalt-traces-of-the-lost-colony-steam-giveaway</link>
@@ -15,6 +15,16 @@
 
 Source: GamerPower - Full Games
 ID: cf4cba9642aea83a]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [GAME] Crowalt: Traces of the Lost Colony (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/crowalt-traces-of-the-lost-colony-steam-giveaway</link>
+<guid isPermaLink='false'>4b8fe02b7a93b5c5</guid>
+<pubDate>Fri, 06 Mar 2026 18:53:27 +0000</pubDate>
+<description><![CDATA[Crowalt: Traces of the Lost Colony (Steam) Giveaway
+
+Source: GamerPower - Steam
+ID: 4b8fe02b7a93b5c5]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [GAME] Crowalt: Traces of the Lost Colony (Steam) Giveaway]]></title>
@@ -245,16 +255,6 @@ ID: aaea047e88086e04]]></description>
 
 Source: GamerPower - Steam
 ID: 81e5494f422d1c57]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [GAME] World Crafter TD (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/world-crafter-td-steam-giveaway</link>
-<guid isPermaLink='false'>1a9c5c1da6545aa3</guid>
-<pubDate>Mon, 02 Mar 2026 18:09:31 +0000</pubDate>
-<description><![CDATA[World Crafter TD (Steam) Giveaway
-
-Source: GamerPower - PC
-ID: 1a9c5c1da6545aa3]]></description>
 </item>
 </channel>
 </rss>
