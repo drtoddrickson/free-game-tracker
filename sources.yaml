@@ -85,13 +85,13 @@ sources:
 
   - name: GamerPower - Full Games
     url: https://www.gamerpower.com/rss/games
-    default_platforms: [PS5, SWITCH, PC]
+    default_platforms: [PC]
     default_type: GAME
     default_tags: []
 
   - name: GamerPower - Loot
     url: https://www.gamerpower.com/rss/loot
-    default_platforms: [PS5, SWITCH, PC]
+    default_platforms: [PC]
     default_type: DLC
     default_tags: []
 
