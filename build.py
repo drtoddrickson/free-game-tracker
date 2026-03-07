@@ -259,6 +259,34 @@ def format_title(platforms: List[str], item_type: str, tags: List[str], title: s
     parts.append(title.strip())
     return " ".join(parts)
 
+
+def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
+    """
+    Infer platform more precisely from title text.
+    Only narrows platforms when confidence is high.
+    """
+    t = (title or "").lower()
+
+    pc_markers = [
+        "steam", "epic", "epic games", "gog", "itch.io",
+        "humble", "prime gaming", "pc", "windows"
+    ]
+
+    console_markers = {
+        "ps5": ["ps5", "playstation"],
+        "switch": ["switch", "nintendo switch"],
+    }
+
+    if any(m in t for m in pc_markers):
+        return ["PC"]
+
+    for platform, markers in console_markers.items():
+        if any(m in t for m in markers):
+            return [platform.upper()]
+
+    return default_platforms
+
+
 def is_crossplatform_item(title: str) -> bool:
     """
     Conservative rule:
@@ -267,6 +295,25 @@ def is_crossplatform_item(title: str) -> bool:
     """
     t = (title or "").lower()
     return any(g in t for g in CROSSPLATFORM_GAMES)
+
+
+def platform_specificity_score(platforms: List[str]) -> int:
+    """
+    Higher score = more specific / better for routing.
+    Prefer single-platform items over broad multi-platform defaults.
+    """
+    p = normalize_platforms(platforms)
+
+    if not p:
+        return 0
+
+    if len(p) == 1:
+        return 100
+
+    if len(p) == 2:
+        return 50
+
+    return 10
     
 
 def entry_datetime(entry: Any) -> datetime:
@@ -294,7 +341,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         src_name = src["name"]
         url = src["url"]
 
-        platforms = normalize_platforms(src.get("default_platforms", []))
+        default_platforms = normalize_platforms(src.get("default_platforms", []))
+        platforms = infer_platforms(title, src_name, default_platforms)
         item_type = normalize_type(src.get("default_type", "NEWS"))
         tags = src.get("default_tags", [])
 
@@ -350,8 +398,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     item_tags.append("CROSS-PLATFORM")
 
             candidate = {
-                "id": offer_key,   # use canonical offer key for feed GUID
+                "id": offer_key,
                 "published": published,
+                "platforms": platforms,
                 "title": format_title(platforms, item_type, item_tags, title),
                 "link": link,
                 "description": f"{title}\n\nSource: {src_name}\nState ID: {sid}\nOffer ID: {offer_key}",
@@ -362,14 +411,23 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if existing is None:
                 offer_map[offer_key] = candidate
             else:
-                # Keep the newer item; if tied, prefer the shorter title
-                if candidate["published"] > existing["published"]:
+                candidate_score = platform_specificity_score(candidate.get("platforms", []))
+                existing_score = platform_specificity_score(existing.get("platforms", []))
+            
+                # First prefer better/more specific platform tagging
+                if candidate_score > existing_score:
                     offer_map[offer_key] = candidate
-                elif (
-                    candidate["published"] == existing["published"]
-                    and len(title) < len(existing["title"])
-                ):
-                    offer_map[offer_key] = candidate
+            
+                elif candidate_score == existing_score:
+                    # Then prefer newer item
+                    if candidate["published"] > existing["published"]:
+                        offer_map[offer_key] = candidate
+                    # If tied, prefer shorter rendered title
+                    elif (
+                        candidate["published"] == existing["published"]
+                        and len(candidate["title"]) < len(existing["title"])
+                    ):
+                        offer_map[offer_key] = candidate
     
     out = list(offer_map.values())
 
