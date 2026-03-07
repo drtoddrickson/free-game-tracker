@@ -324,6 +324,22 @@ def entry_datetime(entry: Any) -> datetime:
     return datetime.now(tz=timezone.utc)
 
 
+def platform_specificity_score(platforms: List[str]) -> int:
+    """
+    Higher score = better / more specific routing.
+    Prefer a single clear platform over broad defaults.
+    """
+    p = normalize_platforms(platforms)
+
+    if not p:
+        return 0
+    if len(p) == 1:
+        return 100
+    if len(p) == 2:
+        return 50
+    return 10
+
+
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Build a rolling window feed:
@@ -334,6 +350,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
+    offer_map: Dict[str, Dict[str, Any]] = {}
 
     offer_map: Dict[str, Dict[str, Any]] = {}
 
@@ -376,8 +393,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 matched_triggers = []
 
             sid = stable_id(src_name, title, link)
-            offer_key = canonical_offer_key(title, link, item_type)
             published = entry_datetime(e)
+            offer_key = canonical_offer_key(title, link, item_type)
 
             # Record it in state the first time we see it
             if sid not in items_state:
