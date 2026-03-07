@@ -19,6 +19,9 @@ from email.utils import format_datetime
 from pathlib import Path
 from typing import Any, Dict, List
 
+import re
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
+
 import feedparser
 import yaml
 
@@ -168,6 +171,65 @@ def stable_id(source_name: str, title: str, link: str) -> str:
     return hashlib.sha1(raw).hexdigest()[:16]
 
 
+def normalize_title_for_match(title: str) -> str:
+    t = (title or "").lower().strip()
+
+    # Remove bracketed prefixes your own feed may add later if reused
+    t = re.sub(r"\[[^\]]+\]\s*", "", t)
+
+    # Normalize common separators/punctuation
+    t = t.replace("–", "-").replace("—", "-").replace(":", " ")
+    t = re.sub(r"[^a-z0-9\s\-]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+
+    # Remove noisy offer words that vary by source
+    noise = {
+        "free", "claim", "claimed", "redeem", "redeemable", "giveaway",
+        "loot", "drop", "drops", "dlc", "bonus", "pack", "bundle",
+        "trial", "demo", "exclusive", "limited", "offer"
+    }
+    words = [w for w in t.split() if w not in noise]
+    return " ".join(words).strip()
+
+
+def canonicalize_link(link: str) -> str:
+    """
+    Normalize links so tracking params don't create fake duplicates.
+    Keep host/path and sorted non-tracking query params.
+    """
+    if not link:
+        return ""
+
+    p = urlparse(link.strip())
+    host = (p.netloc or "").lower()
+    path = (p.path or "").rstrip("/")
+
+    filtered_q = []
+    for k, v in parse_qsl(p.query, keep_blank_values=True):
+        kl = k.lower()
+        if kl.startswith("utm_"):
+            continue
+        if kl in {"fbclid", "gclid", "mc_cid", "mc_eid", "ref", "source"}:
+            continue
+        filtered_q.append((k, v))
+
+    filtered_q.sort()
+    query = urlencode(filtered_q, doseq=True)
+
+    return urlunparse((p.scheme.lower(), host, path, "", query, ""))
+
+
+def canonical_offer_key(title: str, link: str, item_type: str) -> str:
+    """
+    Cross-source dedupe key.
+    Intentionally excludes source name so the same offer from multiple feeds collapses.
+    """
+    norm_title = normalize_title_for_match(title)
+    norm_link = canonicalize_link(link)
+    raw = f"{item_type.strip().upper()}||{norm_title}||{norm_link}".encode("utf-8")
+    return hashlib.sha1(raw).hexdigest()[:16]
+
+
 def normalize_platforms(platforms: List[str]) -> List[str]:
     out = []
     for p in platforms:
@@ -226,6 +288,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
 
+    offer_map: Dict[str, Dict[str, Any]] = {}
+
     for src in sources:
         src_name = src["name"]
         url = src["url"]
@@ -264,6 +328,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 matched_triggers = []
 
             sid = stable_id(src_name, title, link)
+            offer_key = canonical_offer_key(title, link, item_type)
             published = entry_datetime(e)
 
             # Record it in state the first time we see it
@@ -284,17 +349,30 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if not any(t.upper() == "CROSS-PLATFORM" for t in item_tags):
                     item_tags.append("CROSS-PLATFORM")
 
-            # ALWAYS include it in the output feed (rolling window behavior)
-            out.append(
-                {
-                    "id": sid,
-                    "published": published,
-                    "title": format_title(platforms, item_type, item_tags, title),
-                    "link": link,
-                    "description": f"{title}\n\nSource: {src_name}\nID: {sid}",
-                }
-            )
+            candidate = {
+                "id": offer_key,   # use canonical offer key for feed GUID
+                "published": published,
+                "title": format_title(platforms, item_type, item_tags, title),
+                "link": link,
+                "description": f"{title}\n\nSource: {src_name}\nState ID: {sid}\nOffer ID: {offer_key}",
+            }
+
+            existing = offer_map.get(offer_key)
+
+            if existing is None:
+                offer_map[offer_key] = candidate
+            else:
+                # Keep the newer item; if tied, prefer the shorter title
+                if candidate["published"] > existing["published"]:
+                    offer_map[offer_key] = candidate
+                elif (
+                    candidate["published"] == existing["published"]
+                    and len(title) < len(existing["title"])
+                ):
+                    offer_map[offer_key] = candidate
     
+    out = list(offer_map.values())
+
     # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
 
