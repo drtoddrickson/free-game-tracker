@@ -306,6 +306,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     now = datetime.now(tz=timezone.utc)
 
+    # NEW: make build date stable unless items change
+    build_dt = max((it["published"] for it in items), default=now)
+
     parts: List[str] = []
     parts.append('<?xml version="1.0" encoding="UTF-8"?>')
     parts.append('<rss version="2.0">')
@@ -313,8 +316,12 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append("<title>Free Game Tracker - Master Feed</title>")
     parts.append(f"<link>{xml_escape(site_url)}</link>")
     parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
-    parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
-    parts.append(f"<generator>build-{int(now.timestamp())}</generator>")
+
+    # CHANGED:
+    parts.append(f"<lastBuildDate>{format_datetime(build_dt)}</lastBuildDate>")
+
+    # CHANGED: static generator (don’t force diffs)
+    parts.append("<generator>free-game-tracker/build.py</generator>")
     
     for it in items:
         parts.append("<item>")
