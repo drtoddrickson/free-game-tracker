@@ -28,8 +28,9 @@ import yaml
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
 STATE_PATH = ROOT / "state.json"
-OUT_PATH = ROOT / "master.xml"
-OUT_LOOT_PATH = ROOT / "loot.xml"
+OUT_DIR = ROOT / "docs"
+OUT_PATH = OUT_DIR / "master.xml"
+OUT_LOOT_PATH = OUT_DIR / "loot.xml"
 
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
@@ -547,7 +548,7 @@ def main() -> None:
         feed_description="Free DLC, cosmetics, in-game loot, and drops",
     )
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(rss_xml, encoding="utf-8")
     OUT_LOOT_PATH.write_text(loot_rss_xml, encoding="utf-8")
 
