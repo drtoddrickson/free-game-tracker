@@ -49,7 +49,7 @@ sources:
 
   - name: IGN (All)
     url: http://feeds.ign.com/ign/all
-    default_platforms: [PS5, SWITCH, PC]
+    default_platforms: []
     default_type: NEWS
     default_tags: [AGG]
 
@@ -71,38 +71,8 @@ sources:
     default_type: NEWS
     default_tags: [AGG, FORTNITE]
 
-  - name: GamerPower - Playstation
-    url: https://www.gamerpower.com/rss/playstation
-    default_platforms: [PS5]
-    default_type: DLC
-    default_tags: []
-
-  - name: GamerPower - Nintendo Switch
-    url: https://www.gamerpower.com/rss/nintendo
-    default_platforms: [SWITCH]
-    default_type: DLC
-    default_tags: []
-
-  - name: GamerPower - Full Games
-    url: https://www.gamerpower.com/rss/games
+  - name: GamerPower - All (Giveaways)
+    url: https://www.gamerpower.com/rss/giveaways
     default_platforms: [PC]
-    default_type: GAME
-    default_tags: []
-
-  - name: GamerPower - Loot
-    url: https://www.gamerpower.com/rss/loot
-    default_platforms: [PC]
-    default_type: DLC
-    default_tags: []
-
-  - name: GamerPower - Steam
-    url: https://www.gamerpower.com/rss/steam
-    default_platforms: [PC]
-    default_type: GAME
-    default_tags: []
-
-  - name: GamerPower - PC
-    url: https://www.gamerpower.com/rss/pc
-    default_platforms: [PC]
-    default_type: GAME
-    default_tags: []
+    default_type: NEWS
+    default_tags: [AGG]
