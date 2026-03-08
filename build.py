@@ -138,6 +138,37 @@ DEAL_SPAM_BLOCKLIST = [
     "gpu",
 ]
 
+GAMERPOWER_ALL_SOURCE_NAMES = {
+    "GamerPower - All (Giveaways)",
+}
+
+GAMERPOWER_SUPPRESS_MARKERS = [
+    "beta",
+    "playtest",
+    "play test",
+    "demo",
+    "trial",
+]
+
+GAMERPOWER_LOOT_MARKERS = [
+    "dlc",
+    "loot",
+    "drop",
+    "drops",
+    "skin",
+    "skins",
+    "cosmetic",
+    "cosmetics",
+    "emote",
+    "spray",
+    "wrap",
+    "starter pack",
+    "in-game",
+    "in game",
+    "bonus content",
+    "booster",
+]
+
 
 def load_sources() -> List[Dict[str, Any]]:
     with open(SOURCES_PATH, "r", encoding="utf-8") as f:
@@ -302,6 +333,30 @@ def add_content_tags(item_type: str, title: str, item_tags: List[str]) -> List[s
     return out
 
 
+def is_gamerpower_all_source(src_name: str) -> bool:
+    return src_name.strip() in GAMERPOWER_ALL_SOURCE_NAMES
+
+
+def should_suppress_gamerpower_title(title: str) -> bool:
+    t = (title or "").lower()
+    return any(marker in t for marker in GAMERPOWER_SUPPRESS_MARKERS)
+
+
+def classify_gamerpower_item_type(title: str) -> str:
+    """
+    GamerPower - All (Giveaways) is mixed-content input.
+    Deterministic rule:
+    - obvious loot/DLC markers => DLC
+    - otherwise => GAME
+    """
+    t = (title or "").lower()
+
+    if any(marker in t for marker in GAMERPOWER_LOOT_MARKERS):
+        return "DLC"
+
+    return "GAME"
+
+
 def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
     """
     Infer platform more precisely from title text.
@@ -380,7 +435,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         url = src["url"]
 
         default_platforms = normalize_platforms(src.get("default_platforms", []))
-        item_type = normalize_type(src.get("default_type", "NEWS"))
+        default_item_type = normalize_type(src.get("default_type", "NEWS"))
         tags = src.get("default_tags", [])
 
         feed = feedparser.parse(url)
@@ -393,13 +448,24 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             platforms = infer_platforms(title, src_name, default_platforms)
 
+            resolved_item_type = default_item_type
             tags_upper = {t.upper() for t in tags}
-            if "AGG" in tags_upper:
+
+            if is_gamerpower_all_source(src_name):
+                if should_suppress_gamerpower_title(title):
+                    continue
+
+                resolved_item_type = classify_gamerpower_item_type(title)
+
+                matched_games = []
+                matched_triggers = []
+
+            elif "AGG" in tags_upper:
                 title_lc = title.lower()
 
-                # Block obvious deal spam early (if you have this list)
+                # Block obvious deal spam early
                 if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
-                        continue
+                    continue
 
                 matched_games = [g for g in WATCH_GAMES if g in title_lc]
                 matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
@@ -416,7 +482,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             sid = stable_id(src_name, title, link)
             published = entry_datetime(e)
-            offer_key = canonical_offer_key(title, link, item_type)
+            offer_key = canonical_offer_key(title, link, resolved_item_type)
 
             # Record it in state the first time we see it
             if sid not in items_state:
@@ -430,10 +496,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
-            
+
             # Add content-routing tags
-            item_tags = add_content_tags(item_type, title, item_tags)
-            
+            item_tags = add_content_tags(resolved_item_type, title, item_tags)
+
             # Add CROSS-PLATFORM only when confidently detected
             if is_crossplatform_item(title):
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
@@ -443,7 +509,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 "id": offer_key,
                 "published": published,
                 "platforms": platforms,
-                "title": format_title(platforms, item_type, item_tags, title),
+                "title": format_title(platforms, resolved_item_type, item_tags, title),
                 "link": link,
                 "description": f"{title}\n\nSource: {src_name}\nState ID: {sid}\nOffer ID: {offer_key}",
             }
