@@ -69,4 +69,4 @@ sources:
     url: https://www.gamerpower.com/rss/giveaways
     default_platforms: [PC]
     default_type: NEWS
-    default_tags: [AGG]
+    default_tags: []
