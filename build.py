@@ -506,11 +506,7 @@ def render_rss(
     parts.append(f'<atom:link href="{xml_escape(site_url)}" rel="self" type="application/rss+xml" />')
     parts.append(f"<pubDate>{format_datetime(build_dt)}</pubDate>")
     parts.append("<ttl>15</ttl>")
-
-    # CHANGED:
-    parts.append(f"<lastBuildDate>{format_datetime(build_dt)}</lastBuildDate>")
-
-    # CHANGED: static generator (don’t force diffs)
+    parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append("<generator>free-game-tracker/build.py</generator>")
     
     for it in items:
