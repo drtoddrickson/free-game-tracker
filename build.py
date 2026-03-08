@@ -222,11 +222,21 @@ def canonicalize_link(link: str) -> str:
 def canonical_offer_key(title: str, link: str, item_type: str) -> str:
     """
     Cross-source dedupe key.
-    Intentionally excludes source name so the same offer from multiple feeds collapses.
+    Prefer title-based identity so the same offer from different article URLs
+    can still collapse into one item.
     """
     norm_title = normalize_title_for_match(title)
     norm_link = canonicalize_link(link)
-    raw = f"{item_type.strip().upper()}||{norm_title}||{norm_link}".encode("utf-8")
+    item_type_norm = item_type.strip().upper()
+
+    # Primary key: title + type only
+    # This is intentionally aggressive so duplicate aggregator/article URLs collapse.
+    if norm_title:
+        raw = f"{item_type_norm}||{norm_title}".encode("utf-8")
+    else:
+        # Fallback only if title normalization somehow empties out
+        raw = f"{item_type_norm}||{norm_link}".encode("utf-8")
+
     return hashlib.sha1(raw).hexdigest()[:16]
 
 
