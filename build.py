@@ -447,7 +447,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 continue
 
             platforms = infer_platforms(title, src_name, default_platforms)
-
+            # Drop items for platforms we do not track yet
+            if not any(p in ALLOWED_PLATFORMS for p in platforms):
+                continue
+            
             resolved_item_type = default_item_type
             tags_upper = {t.upper() for t in tags}
 
