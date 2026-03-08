@@ -295,25 +295,6 @@ def is_crossplatform_item(title: str) -> bool:
     """
     t = (title or "").lower()
     return any(g in t for g in CROSSPLATFORM_GAMES)
-
-
-def platform_specificity_score(platforms: List[str]) -> int:
-    """
-    Higher score = more specific / better for routing.
-    Prefer single-platform items over broad multi-platform defaults.
-    """
-    p = normalize_platforms(platforms)
-
-    if not p:
-        return 0
-
-    if len(p) == 1:
-        return 100
-
-    if len(p) == 2:
-        return 50
-
-    return 10
     
 
 def entry_datetime(entry: Any) -> datetime:
@@ -350,7 +331,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
-    offer_map: Dict[str, Dict[str, Any]] = {}
 
     offer_map: Dict[str, Dict[str, Any]] = {}
 
@@ -359,7 +339,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         url = src["url"]
 
         default_platforms = normalize_platforms(src.get("default_platforms", []))
-        platforms = infer_platforms(title, src_name, default_platforms)
         item_type = normalize_type(src.get("default_type", "NEWS"))
         tags = src.get("default_tags", [])
 
@@ -370,6 +349,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             link = getattr(e, "link", "").strip()
             if not title or not link:
                 continue
+
+            platforms = infer_platforms(title, src_name, default_platforms)
 
             tags_upper = {t.upper() for t in tags}
             if "AGG" in tags_upper:
