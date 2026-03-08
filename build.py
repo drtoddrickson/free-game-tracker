@@ -228,6 +228,7 @@ def canonical_offer_key(title: str, link: str, item_type: str) -> str:
     can still collapse into one item.
     """
     norm_title = normalize_title_for_match(title)
+    norm_link = canonicalize_link(link)
     item_type_norm = item_type.strip().upper()
 
     # Primary key: title + type only
