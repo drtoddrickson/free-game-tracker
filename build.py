@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
 STATE_PATH = ROOT / "state.json"
 OUT_PATH = ROOT / "master.xml"
+OUT_LOOT_PATH = ROOT / "loot.xml"
 
 ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
@@ -258,16 +259,50 @@ def normalize_type(t: str) -> str:
     return t2 if t2 in ALLOWED_TYPES else "NEWS"
 
 
+def has_tag(tags: List[str], target: str) -> bool:
+    return any(t.strip().upper() == target.upper() for t in tags)
+
+
 def format_title(platforms: List[str], item_type: str, tags: List[str], title: str) -> str:
-    parts: List[str] = []
+    parts = []
+
     for p in platforms:
         parts.append(f"[{p}]")
-    parts.append(f"[{item_type}]")
-    for tag in tags:
-        tag2 = tag.strip().upper().replace(" ", "-")
-        parts.append(f"[{tag2}]")
-    parts.append(title.strip())
+
+    # Prefer specific display tags over generic type labels
+    if item_type == "GAME" and has_tag(tags, "FULL-GAME"):
+        pass
+    elif item_type == "DLC" and has_tag(tags, "LOOT-DROP"):
+        pass
+    elif item_type:
+        parts.append(f"[{item_type}]")
+
+    for t in tags:
+        parts.append(f"[{t}]")
+
+    parts.append(title)
     return " ".join(parts)
+
+
+def has_tag(tags: List[str], target: str) -> bool:
+    return any(t.strip().upper() == target.upper() for t in tags)
+
+
+def add_content_tags(item_type: str, title: str, item_tags: List[str]) -> List[str]:
+    """
+    Add routing tags without changing core item types.
+    - GAME -> FULL-GAME
+    - DLC  -> LOOT-DROP
+    """
+    out = list(item_tags)
+
+    if item_type == "GAME" and not has_tag(out, "FULL-GAME"):
+        out.append("FULL-GAME")
+
+    if item_type == "DLC" and not has_tag(out, "LOOT-DROP"):
+        out.append("LOOT-DROP")
+
+    return out
 
 
 def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
@@ -398,10 +433,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
-
+            
+            # Add content-routing tags
+            item_tags = add_content_tags(item_type, title, item_tags)
+            
             # Add CROSS-PLATFORM only when confidently detected
             if is_crossplatform_item(title):
-                if not any(t.upper() == "CROSS-PLATFORM" for t in item_tags):
+                if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
 
             candidate = {
@@ -446,7 +484,17 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     return out[:N]
 
 
-def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
+def filter_items_by_tag(items: List[Dict[str, Any]], tag: str) -> List[Dict[str, Any]]:
+    needle = f"[{tag.strip().upper()}]"
+    return [it for it in items if needle in it.get("title", "")]
+
+
+def render_rss(
+    items: List[Dict[str, Any]],
+    site_url: str,
+    feed_title: str = "Free Game Tracker - Master Feed",
+    feed_description: str = "Free games + free DLC/cosmetics/drops tracker",
+) -> str:
     now = datetime.now(tz=timezone.utc)
 
     # NEW: make build date stable unless items change
@@ -456,9 +504,9 @@ def render_rss(items: List[Dict[str, Any]], site_url: str) -> str:
     parts.append('<?xml version="1.0" encoding="UTF-8"?>')
     parts.append('<rss version="2.0">')
     parts.append("<channel>")
-    parts.append("<title>Free Game Tracker - Master Feed</title>")
+    parts.append(f"<title>{xml_escape(feed_title)}</title>")
     parts.append(f"<link>{xml_escape(site_url)}</link>")
-    parts.append("<description>Free games + free DLC/cosmetics/drops tracker</description>")
+    parts.append(f"<description>{xml_escape(feed_description)}</description>")
 
     # CHANGED:
     parts.append(f"<lastBuildDate>{format_datetime(build_dt)}</lastBuildDate>")
@@ -487,14 +535,30 @@ def main() -> None:
     site_url = "https://drtoddrickson.github.io/free-game-tracker/"
 
     items = build_items(sources, state)
-    rss_xml = render_rss(items, site_url)
+    loot_items = filter_items_by_tag(items, "LOOT-DROP")
+
+    rss_xml = render_rss(
+        items,
+        site_url,
+        feed_title="Free Game Tracker - Master Feed",
+        feed_description="Free games + free DLC/cosmetics/drops tracker",
+    )
+
+    loot_rss_xml = render_rss(
+        loot_items,
+        site_url + "loot.xml",
+        feed_title="Free Game Tracker - Loot Drops",
+        feed_description="Free DLC, cosmetics, in-game loot, and drops",
+    )
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(rss_xml, encoding="utf-8")
+    OUT_LOOT_PATH.write_text(loot_rss_xml, encoding="utf-8")
 
     save_state(state)
 
     print(f"Wrote {OUT_PATH} with {len(items)} items (rolling window).")
+    print(f"Wrote {OUT_LOOT_PATH} with {len(loot_items)} items.")
 
 
 if __name__ == "__main__":
