@@ -5,32 +5,10 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 07 Mar 2026 22:35:19 +0000</pubDate>
+<pubDate>Fri, 06 Mar 2026 18:01:58 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 07 Mar 2026 22:35:19 +0000</lastBuildDate>
+<lastBuildDate>Sun, 08 Mar 2026 06:25:16 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] The Assault: Survivor (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/the-assault-survivor-epic-games-giveaway</link>
-<guid isPermaLink='false'>469800b53aeb3b85</guid>
-<pubDate>Sat, 07 Mar 2026 22:35:19 +0000</pubDate>
-<description><![CDATA[The Assault: Survivor (Epic Games) Giveaway
-
-Source: GamerPower - Full Games
-State ID: 49a2dfa892245a84
-Offer ID: 469800b53aeb3b85]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Crowalt: Traces of the Lost Colony (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/crowalt-traces-of-the-lost-colony-steam-giveaway</link>
-<guid isPermaLink='false'>fc7f9468ee1eb6a5</guid>
-<pubDate>Fri, 06 Mar 2026 18:53:27 +0000</pubDate>
-<description><![CDATA[Crowalt: Traces of the Lost Colony (Steam) Giveaway
-
-Source: GamerPower - Full Games
-State ID: cf4cba9642aea83a
-Offer ID: fc7f9468ee1eb6a5]]></description>
-</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Crowalt: Traces of the Lost Colony]]></title>
 <link>https://store.steampowered.com/app/1269500</link>
@@ -43,28 +21,6 @@ State ID: b506ebab88847aea
 Offer ID: a17021bdaebbef9d]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
-<guid isPermaLink='false'>497485c3589ec0af</guid>
-<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
-<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
-
-Source: GamerPower - Loot
-State ID: 70cf0392cb2add04
-Offer ID: 497485c3589ec0af]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
-<guid isPermaLink='false'>47ca6785101e0440</guid>
-<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
-<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
-
-Source: GamerPower - Steam
-State ID: 5feb40d88704b560
-Offer ID: 47ca6785101e0440]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Booms & Blooms]]></title>
 <link>https://store.steampowered.com/app/1353170</link>
 <guid isPermaLink='false'>3fe02e4a498920a3</guid>
@@ -74,39 +30,6 @@ Offer ID: 47ca6785101e0440]]></description>
 Source: LootScraper - Steam In-game Loot
 State ID: 100273e2a518c545
 Offer ID: 3fe02e4a498920a3]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Along the Edge (Itch.io) Giveaway]]></title>
-<link>https://www.gamerpower.com/along-the-edge-itch-io-giveaway</link>
-<guid isPermaLink='false'>d0dd88aa0e915dd1</guid>
-<pubDate>Thu, 05 Mar 2026 18:23:19 +0000</pubDate>
-<description><![CDATA[Along the Edge (Itch.io) Giveaway
-
-Source: GamerPower - Full Games
-State ID: f8b6a04aab20ebae
-Offer ID: d0dd88aa0e915dd1]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Dinos and Dynasties (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway</link>
-<guid isPermaLink='false'>e8664a6f279b49f7</guid>
-<pubDate>Thu, 05 Mar 2026 18:11:14 +0000</pubDate>
-<description><![CDATA[Parkitect - Dinos and Dynasties (Steam) Giveaway
-
-Source: GamerPower - Loot
-State ID: fe042a9764445be6
-Offer ID: e8664a6f279b49f7]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Parkitect - Dinos and Dynasties (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway</link>
-<guid isPermaLink='false'>26ff82010258f958</guid>
-<pubDate>Thu, 05 Mar 2026 18:11:14 +0000</pubDate>
-<description><![CDATA[Parkitect - Dinos and Dynasties (Steam) Giveaway
-
-Source: GamerPower - Steam
-State ID: ce2f1411866be719
-Offer ID: 26ff82010258f958]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Dinos & Dynasties]]></title>
@@ -153,50 +76,6 @@ State ID: 7a325cd856e840db
 Offer ID: d983f5810f695438]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Little Nightmares (Mobile) Giveaway]]></title>
-<link>https://www.gamerpower.com/little-nightmares-mobile-giveaway</link>
-<guid isPermaLink='false'>688aec554439f524</guid>
-<pubDate>Thu, 05 Mar 2026 16:29:30 +0000</pubDate>
-<description><![CDATA[Little Nightmares (Mobile) Giveaway
-
-Source: GamerPower - Full Games
-State ID: 8c8fdefe1e0acd24
-Offer ID: 688aec554439f524]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Turnip Boy Robs a Bank (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/turnip-boy-robs-a-bank-epic-games-giveaway</link>
-<guid isPermaLink='false'>7da0450b80b5f0ef</guid>
-<pubDate>Thu, 05 Mar 2026 16:08:04 +0000</pubDate>
-<description><![CDATA[Turnip Boy Robs a Bank (Epic Games) Giveaway
-
-Source: GamerPower - Full Games
-State ID: aa8ea6f3e13a3b24
-Offer ID: 7da0450b80b5f0ef]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway]]></title>
-<link>https://www.gamerpower.com/idle-champions-of-the-forgotten-realms-raistlin-s-renown-pack-giveaway</link>
-<guid isPermaLink='false'>9f836d35bfae7d18</guid>
-<pubDate>Thu, 05 Mar 2026 16:07:22 +0000</pubDate>
-<description><![CDATA[Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway
-
-Source: GamerPower - Loot
-State ID: b0aa6844a24ff30f
-Offer ID: 9f836d35bfae7d18]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway]]></title>
-<link>https://www.gamerpower.com/idle-champions-of-the-forgotten-realms-raistlin-s-renown-pack-giveaway</link>
-<guid isPermaLink='false'>d3053a03bc052733</guid>
-<pubDate>Thu, 05 Mar 2026 16:07:22 +0000</pubDate>
-<description><![CDATA[Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway
-
-Source: GamerPower - PC
-State ID: e5114d0b5722e77a
-Offer ID: d3053a03bc052733]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Idle Champions of the Forgotten Realms]]></title>
 <link>https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms</link>
 <guid isPermaLink='false'>a5e368e883c92587</guid>
@@ -219,61 +98,6 @@ State ID: ee183006c162eda2
 Offer ID: 9546cea3b364b726]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
-<guid isPermaLink='false'>7ff7f224550f10cc</guid>
-<pubDate>Wed, 04 Mar 2026 17:43:32 +0000</pubDate>
-<description><![CDATA[Planet Coaster (Steam) Giveaway
-
-Source: GamerPower - Full Games
-State ID: 30637d452648ee3d
-Offer ID: 7ff7f224550f10cc]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] BrightGunner (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/brightgunner-epic-games-giveaway</link>
-<guid isPermaLink='false'>0d61e6854c673487</guid>
-<pubDate>Wed, 04 Mar 2026 16:20:14 +0000</pubDate>
-<description><![CDATA[BrightGunner (Epic Games) Giveaway
-
-Source: GamerPower - Full Games
-State ID: 8ee142cb663a3fce
-Offer ID: 0d61e6854c673487]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Star Trek Online: Corruption Gift Pack Key Giveaway]]></title>
-<link>https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway</link>
-<guid isPermaLink='false'>9c46ce3cb93fa765</guid>
-<pubDate>Tue, 03 Mar 2026 17:22:02 +0000</pubDate>
-<description><![CDATA[Star Trek Online: Corruption Gift Pack Key Giveaway
-
-Source: GamerPower - Loot
-State ID: 6535d8f2d52ca9a9
-Offer ID: 9c46ce3cb93fa765]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Star Trek Online: Corruption Gift Pack Key Giveaway]]></title>
-<link>https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway</link>
-<guid isPermaLink='false'>b117ffa0503ee49e</guid>
-<pubDate>Tue, 03 Mar 2026 17:22:02 +0000</pubDate>
-<description><![CDATA[Star Trek Online: Corruption Gift Pack Key Giveaway
-
-Source: GamerPower - PC
-State ID: 6d3affed3631e4cf
-Offer ID: b117ffa0503ee49e]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] World Crafter TD (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/world-crafter-td-steam-giveaway</link>
-<guid isPermaLink='false'>9062f5c0972aa43f</guid>
-<pubDate>Mon, 02 Mar 2026 18:09:31 +0000</pubDate>
-<description><![CDATA[World Crafter TD (Steam) Giveaway
-
-Source: GamerPower - Full Games
-State ID: aaea047e88086e04
-Offer ID: 9062f5c0972aa43f]]></description>
-</item>
-<item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
 <link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
 <guid isPermaLink='false'>f0e873b60fe9f7f0</guid>
@@ -283,6 +107,182 @@ Offer ID: 9062f5c0972aa43f]]></description>
 Source: Game Rant - Fortnite - Latest Stories (Community)
 State ID: 9b3e764e20f58075
 Offer ID: f0e873b60fe9f7f0]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
+<link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>850ca047f9ad7146</guid>
+<pubDate>Thu, 26 Feb 2026 19:00:44 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Total War: ATTILA
+
+Source: LootScraper - Amazon Games
+State ID: 534dc9a3820b8e85
+Offer ID: 850ca047f9ad7146]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tavern Talk]]></title>
+<link>https://luna.amazon.com/claims/tavern-talk-aga/dp/amzn1.pg.item.7a5cc817-9506-45a0-b9c9-7064d4bd1499?ingress=amzn&amp;ref_=SM_TavernTalk_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>4f331a0c645e8fea</guid>
+<pubDate>Thu, 26 Feb 2026 19:00:42 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tavern Talk
+
+Source: LootScraper - Amazon Games
+State ID: c488175997d036f7
+Offer ID: 4f331a0c645e8fea]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Rebel Galaxy Outlaw]]></title>
+<link>https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&amp;ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>5567dc4ef8852e55</guid>
+<pubDate>Thu, 26 Feb 2026 19:00:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy Outlaw
+
+Source: LootScraper - Amazon Games
+State ID: ada16268ecf34c03
+Offer ID: 5567dc4ef8852e55]]></description>
+</item>
+<item>
+<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Foundation Banner in Fortnite]]></title>
+<link>https://gamerant.com/fortnite-how-get-free-the-foundation-banner/</link>
+<guid isPermaLink='false'>cf37818eb4c72269</guid>
+<pubDate>Thu, 26 Feb 2026 17:33:37 +0000</pubDate>
+<description><![CDATA[How to Get the Free Foundation Banner in Fortnite
+
+Source: Game Rant - Fortnite - Latest Stories (Community)
+State ID: 079587e0d210a018
+Offer ID: cf37818eb4c72269]]></description>
+</item>
+<item>
+<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get Free Fortnite Skins (March 2026)]]></title>
+<link>https://gamerant.com/all-free-fortnite-skins-available-now/</link>
+<guid isPermaLink='false'>25c036d10c72ccd1</guid>
+<pubDate>Thu, 26 Feb 2026 07:10:21 +0000</pubDate>
+<description><![CDATA[How to Get Free Fortnite Skins (March 2026)
+
+Source: Game Rant - Fortnite - Latest Stories (Community)
+State ID: 17afa4f5f5af67ba
+Offer ID: 25c036d10c72ccd1]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Meganoid]]></title>
+<link>https://luna.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?ingress=amzn&amp;ref_=SM_Meganoid_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>93a32ef19b76b350</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:28 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Meganoid
+
+Source: LootScraper - Amazon Games
+State ID: 5df43b3cc8512da5
+Offer ID: 93a32ef19b76b350]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Captain Blood]]></title>
+<link>https://luna.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?ingress=amzn&amp;ref_=SM_CaptainBlood_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a130a32fd62b5267</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:26 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Captain Blood
+
+Source: LootScraper - Amazon Games
+State ID: 215270d4fd39412c
+Offer ID: a130a32fd62b5267]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Ambition: A Minuet in Power]]></title>
+<link>https://luna.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?ingress=amzn&amp;ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>68b6f18d5e39459b</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:23 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Ambition: A Minuet in Power
+
+Source: LootScraper - Amazon Games
+State ID: 8c70431691b4dd0c
+Offer ID: 68b6f18d5e39459b]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Around The World: Travel To Brazil: CE]]></title>
+<link>https://luna.amazon.com/claims/around-the-world-travel-to-brazil-ce-legacy/dp/amzn1.pg.item.dcd8fad0-8d47-400f-878b-2dfc6df9c3e7?ingress=amzn&amp;ref_=SM_AroundTheWorldTravelToBrazilCE_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>02ed2c6ea2644403</guid>
+<pubDate>Thu, 12 Feb 2026 19:00:45 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Around The World: Travel To Brazil: CE
+
+Source: LootScraper - Amazon Games
+State ID: 8ab134349ab6b9f3
+Offer ID: 02ed2c6ea2644403]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Hexguardian]]></title>
+<link>https://luna.amazon.com/claims/hexguardian-epic/dp/amzn1.pg.item.c1fbdc33-68e3-4dca-b6ac-3d1ab2c70c13?ingress=amzn&amp;ref_=SM_Hexguardian_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>d67241da91194129</guid>
+<pubDate>Thu, 12 Feb 2026 19:00:43 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Hexguardian
+
+Source: LootScraper - Amazon Games
+State ID: 45e2b68efc9276ba
+Offer ID: d67241da91194129]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tiny Tina's Wonderlands]]></title>
+<link>https://luna.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?ingress=amzn&amp;ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>4275c1a0efaf90fd</guid>
+<pubDate>Thu, 05 Feb 2026 19:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tiny Tina's Wonderlands
+
+Source: LootScraper - Amazon Games
+State ID: 7f012b1fce49d722
+Offer ID: 4275c1a0efaf90fd]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Dread Templar]]></title>
+<link>https://luna.amazon.com/claims/dread-templar-aga/dp/amzn1.pg.item.177b6043-fc6c-4d88-8062-9cf5fe29491d?ingress=amzn&amp;ref_=SM_DreadTemplar_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>9e71d3062c9c03bc</guid>
+<pubDate>Thu, 05 Feb 2026 19:00:46 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Dread Templar
+
+Source: LootScraper - Amazon Games
+State ID: a333c38347bbe99f
+Offer ID: 9e71d3062c9c03bc]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Harold Halibut]]></title>
+<link>https://luna.amazon.com/claims/harold-halibut-gog/dp/amzn1.pg.item.69f08f25-e52d-4805-92dd-18cea2d72ce1?ingress=amzn&amp;ref_=SM_HaroldHalibut_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>b3596e677883bdbf</guid>
+<pubDate>Thu, 22 Jan 2026 19:00:42 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Harold Halibut
+
+Source: LootScraper - Amazon Games
+State ID: 7e4dc0c47d0c6f0c
+Offer ID: b3596e677883bdbf]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Gunslugs: Rogue Tactics]]></title>
+<link>https://luna.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?ingress=amzn&amp;ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>dd5a3424d285f1d1</guid>
+<pubDate>Thu, 15 Jan 2026 19:00:44 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Gunslugs: Rogue Tactics
+
+Source: LootScraper - Amazon Games
+State ID: 8a11a850df5dda55
+Offer ID: dd5a3424d285f1d1]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Reflections of Life: Dark Architect: CE]]></title>
+<link>https://luna.amazon.com/claims/reflections-of-life-dark-architect-ce-aga/dp/amzn1.pg.item.31f8beb1-a474-4be5-884f-76b8de8777fe?ingress=amzn&amp;ref_=SM_ReflectionsofLifeDarkArchitectCE_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>81ab6c78f8c191a8</guid>
+<pubDate>Tue, 06 Jan 2026 19:01:25 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Reflections of Life: Dark Architect: CE
+
+Source: LootScraper - Amazon Games
+State ID: 5a03adf4ed2815fb
+Offer ID: 81ab6c78f8c191a8]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Sid Meier's Civilization VI]]></title>
+<link>https://luna.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?ingress=amzn&amp;ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>90953816c1773747</guid>
+<pubDate>Tue, 06 Jan 2026 19:01:19 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sid Meier's Civilization VI
+
+Source: LootScraper - Amazon Games
+State ID: cf952b3dd4b0bfcc
+Offer ID: 90953816c1773747]]></description>
 </item>
 </channel>
 </rss>
