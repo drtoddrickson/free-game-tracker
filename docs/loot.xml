@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Free Game Tracker - Loot Drops</title>
+<link>https://drtoddrickson.github.io/free-game-tracker/loot.xml</link>
+<description>Free DLC, cosmetics, in-game loot, and drops</description>
+<atom:link href="https://drtoddrickson.github.io/free-game-tracker/loot.xml" rel="self" type="application/rss+xml" />
+<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
+<ttl>15</ttl>
+<lastBuildDate>Thu, 05 Mar 2026 19:03:14 +0000</lastBuildDate>
+<generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
+<guid isPermaLink='false'>497485c3589ec0af</guid>
+<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
+
+Source: GamerPower - Loot
+State ID: 70cf0392cb2add04
+Offer ID: 497485c3589ec0af]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Booms & Blooms]]></title>
+<link>https://store.steampowered.com/app/1353170</link>
+<guid isPermaLink='false'>3fe02e4a498920a3</guid>
+<pubDate>Thu, 05 Mar 2026 18:30:25 +0000</pubDate>
+<description><![CDATA[Steam (Loot) - Parkitect - Booms & Blooms
+
+Source: LootScraper - Steam In-game Loot
+State ID: 100273e2a518c545
+Offer ID: 3fe02e4a498920a3]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Dinos and Dynasties (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway</link>
+<guid isPermaLink='false'>e8664a6f279b49f7</guid>
+<pubDate>Thu, 05 Mar 2026 18:11:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Dinos and Dynasties (Steam) Giveaway
+
+Source: GamerPower - Loot
+State ID: fe042a9764445be6
+Offer ID: e8664a6f279b49f7]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Dinos & Dynasties]]></title>
+<link>https://store.steampowered.com/app/3919200</link>
+<guid isPermaLink='false'>705ddbfd9d53e573</guid>
+<pubDate>Thu, 05 Mar 2026 18:03:57 +0000</pubDate>
+<description><![CDATA[Steam (Loot) - Parkitect - Dinos & Dynasties
+
+Source: LootScraper - Steam In-game Loot
+State ID: 3a944df6a8c38c20
+Offer ID: 705ddbfd9d53e573]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway]]></title>
+<link>https://www.gamerpower.com/idle-champions-of-the-forgotten-realms-raistlin-s-renown-pack-giveaway</link>
+<guid isPermaLink='false'>9f836d35bfae7d18</guid>
+<pubDate>Thu, 05 Mar 2026 16:07:22 +0000</pubDate>
+<description><![CDATA[Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway
+
+Source: GamerPower - Loot
+State ID: b0aa6844a24ff30f
+Offer ID: 9f836d35bfae7d18]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Star Trek Online: Corruption Gift Pack Key Giveaway]]></title>
+<link>https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway</link>
+<guid isPermaLink='false'>9c46ce3cb93fa765</guid>
+<pubDate>Tue, 03 Mar 2026 17:22:02 +0000</pubDate>
+<description><![CDATA[Star Trek Online: Corruption Gift Pack Key Giveaway
+
+Source: GamerPower - Loot
+State ID: 6535d8f2d52ca9a9
+Offer ID: 9c46ce3cb93fa765]]></description>
+</item>
+</channel>
+</rss>

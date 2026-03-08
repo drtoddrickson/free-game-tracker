@@ -1,109 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Free Game Tracker - Master Feed</title>
-<link>https://drtoddrickson.github.io/free-game-tracker/</link>
+<link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
-<lastBuildDate>Fri, 27 Feb 2026 23:31:27 +0000</lastBuildDate>
+<atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
+<pubDate>Sat, 07 Mar 2026 22:35:19 +0000</pubDate>
+<ttl>15</ttl>
+<lastBuildDate>Sat, 07 Mar 2026 22:35:19 +0000</lastBuildDate>
+<generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PS5] [NEWS] Official PlayStation Podcast Episode 535: Returning Residents]]></title>
-<link>https://blog.playstation.com/2026/02/27/official-playstation-podcast-episode-535-returning-residents/</link>
-<guid isPermaLink='false'>9eecab3db77fe0c0</guid>
-<pubDate>Fri, 27 Feb 2026 18:02:08 +0000</pubDate>
-<description><![CDATA[Official PlayStation Podcast Episode 535: Returning Residents
+<title><![CDATA[[PC] [FULL-GAME] The Assault: Survivor (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/the-assault-survivor-epic-games-giveaway</link>
+<guid isPermaLink='false'>469800b53aeb3b85</guid>
+<pubDate>Sat, 07 Mar 2026 22:35:19 +0000</pubDate>
+<description><![CDATA[The Assault: Survivor (Epic Games) Giveaway
 
-Source: PlayStation Blog
-ID: 9eecab3db77fe0c0]]></description>
+Source: GamerPower - Full Games
+State ID: 49a2dfa892245a84
+Offer ID: 469800b53aeb3b85]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Share of the Week: Framing]]></title>
-<link>https://blog.playstation.com/2026/02/27/share-of-the-week-framing/</link>
-<guid isPermaLink='false'>d7c17805af73cdd8</guid>
-<pubDate>Fri, 27 Feb 2026 17:00:03 +0000</pubDate>
-<description><![CDATA[Share of the Week: Framing
+<title><![CDATA[[PC] [FULL-GAME] Crowalt: Traces of the Lost Colony (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/crowalt-traces-of-the-lost-colony-steam-giveaway</link>
+<guid isPermaLink='false'>fc7f9468ee1eb6a5</guid>
+<pubDate>Fri, 06 Mar 2026 18:53:27 +0000</pubDate>
+<description><![CDATA[Crowalt: Traces of the Lost Colony (Steam) Giveaway
 
-Source: PlayStation Blog
-ID: d7c17805af73cdd8]]></description>
+Source: GamerPower - Full Games
+State ID: cf4cba9642aea83a
+Offer ID: fc7f9468ee1eb6a5]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Where Winds Meet launches new Hexi expansion on March 5]]></title>
-<link>https://blog.playstation.com/2026/02/27/where-winds-meet-launches-new-hexi-expansion-on-march-5/</link>
-<guid isPermaLink='false'>41e25511c9059e9f</guid>
-<pubDate>Fri, 27 Feb 2026 14:00:22 +0000</pubDate>
-<description><![CDATA[Where Winds Meet launches new Hexi expansion on March 5
+<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Crowalt: Traces of the Lost Colony]]></title>
+<link>https://store.steampowered.com/app/1269500</link>
+<guid isPermaLink='false'>a17021bdaebbef9d</guid>
+<pubDate>Fri, 06 Mar 2026 18:01:58 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Crowalt: Traces of the Lost Colony
 
-Source: PlayStation Blog
-ID: 41e25511c9059e9f]]></description>
+Source: LootScraper - Steam Games
+State ID: b506ebab88847aea
+Offer ID: a17021bdaebbef9d]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Upgraded PSSR upscaler is coming to PS5 Pro]]></title>
-<link>https://blog.playstation.com/2026/02/27/upgraded-pssr-upscaler-is-coming-to-ps5-pro/</link>
-<guid isPermaLink='false'>eacb08fe66175ddb</guid>
-<pubDate>Fri, 27 Feb 2026 13:00:12 +0000</pubDate>
-<description><![CDATA[Upgraded PSSR upscaler is coming to PS5 Pro
+<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
+<guid isPermaLink='false'>497485c3589ec0af</guid>
+<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
 
-Source: PlayStation Blog
-ID: eacb08fe66175ddb]]></description>
+Source: GamerPower - Loot
+State ID: 70cf0392cb2add04
+Offer ID: 497485c3589ec0af]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] The Legacy of Kain: Defiance Remastered restores lost content and demo, out March 3]]></title>
-<link>https://blog.playstation.com/2026/02/26/the-legacy-of-kain-defiance-remastered-restores-lost-content-and-demo-out-march-3/</link>
-<guid isPermaLink='false'>c66b2208059d88ed</guid>
-<pubDate>Thu, 26 Feb 2026 15:01:17 +0000</pubDate>
-<description><![CDATA[The Legacy of Kain: Defiance Remastered restores lost content and demo, out March 3
+<title><![CDATA[[PC] [FULL-GAME] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
+<guid isPermaLink='false'>47ca6785101e0440</guid>
+<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
 
-Source: PlayStation Blog
-ID: c66b2208059d88ed]]></description>
+Source: GamerPower - Steam
+State ID: 5feb40d88704b560
+Offer ID: 47ca6785101e0440]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Unlock God of War Sons of Sparta’s toughest challenge in The Pit]]></title>
-<link>https://blog.playstation.com/2026/02/26/unlock-god-of-war-sons-of-spartas-toughest-challenge-in-the-pit/</link>
-<guid isPermaLink='false'>d69194befa65128c</guid>
-<pubDate>Thu, 26 Feb 2026 14:00:14 +0000</pubDate>
-<description><![CDATA[Unlock God of War Sons of Sparta’s toughest challenge in The Pit
+<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Booms & Blooms]]></title>
+<link>https://store.steampowered.com/app/1353170</link>
+<guid isPermaLink='false'>3fe02e4a498920a3</guid>
+<pubDate>Thu, 05 Mar 2026 18:30:25 +0000</pubDate>
+<description><![CDATA[Steam (Loot) - Parkitect - Booms & Blooms
 
-Source: PlayStation Blog
-ID: d69194befa65128c]]></description>
+Source: LootScraper - Steam In-game Loot
+State ID: 100273e2a518c545
+Offer ID: 3fe02e4a498920a3]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] PlayStation Plus Monthly Games for March: PGA Tour 2K25, Monster Hunter Rise, Slime Rancher 2, The Elder Scrolls Online Collection: Gold Road]]></title>
-<link>https://blog.playstation.com/2026/02/25/playstation-plus-monthly-games-for-march-pga-tour-2k25-monster-hunter-rise-slime-rancher-2-the-elder-scrolls-online-collection-gold-road/</link>
-<guid isPermaLink='false'>46bbbeec41819ce5</guid>
-<pubDate>Wed, 25 Feb 2026 16:30:40 +0000</pubDate>
-<description><![CDATA[PlayStation Plus Monthly Games for March: PGA Tour 2K25, Monster Hunter Rise, Slime Rancher 2, The Elder Scrolls Online Collection: Gold Road
+<title><![CDATA[[PC] [FULL-GAME] Along the Edge (Itch.io) Giveaway]]></title>
+<link>https://www.gamerpower.com/along-the-edge-itch-io-giveaway</link>
+<guid isPermaLink='false'>d0dd88aa0e915dd1</guid>
+<pubDate>Thu, 05 Mar 2026 18:23:19 +0000</pubDate>
+<description><![CDATA[Along the Edge (Itch.io) Giveaway
 
-Source: PlayStation Blog
-ID: 46bbbeec41819ce5]]></description>
+Source: GamerPower - Full Games
+State ID: f8b6a04aab20ebae
+Offer ID: d0dd88aa0e915dd1]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Life is Strange: Reunion hands-on report highlights six reasons to get excited for March 26]]></title>
-<link>https://blog.playstation.com/2026/02/24/life-is-strange-reunion-hands-on-report-highlights-six-reasons-to-get-excited-for-march-26/</link>
-<guid isPermaLink='false'>ef5dc26b19aeb312</guid>
-<pubDate>Tue, 24 Feb 2026 16:30:08 +0000</pubDate>
-<description><![CDATA[Life is Strange: Reunion hands-on report highlights six reasons to get excited for March 26
+<title><![CDATA[[PC] [LOOT-DROP] Parkitect - Dinos and Dynasties (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway</link>
+<guid isPermaLink='false'>e8664a6f279b49f7</guid>
+<pubDate>Thu, 05 Mar 2026 18:11:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Dinos and Dynasties (Steam) Giveaway
 
-Source: PlayStation Blog
-ID: ef5dc26b19aeb312]]></description>
+Source: GamerPower - Loot
+State ID: fe042a9764445be6
+Offer ID: e8664a6f279b49f7]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Scott Pilgrim EX: Enter Casa Vania, meet Goth Neil and Lady Envy]]></title>
-<link>https://blog.playstation.com/2026/02/24/scott-pilgrim-ex-enter-casa-vania-meet-goth-neil-and-lady-envy/</link>
-<guid isPermaLink='false'>8727845d1e3376b1</guid>
-<pubDate>Tue, 24 Feb 2026 16:00:05 +0000</pubDate>
-<description><![CDATA[Scott Pilgrim EX: Enter Casa Vania, meet Goth Neil and Lady Envy
+<title><![CDATA[[PC] [FULL-GAME] Parkitect - Dinos and Dynasties (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway</link>
+<guid isPermaLink='false'>26ff82010258f958</guid>
+<pubDate>Thu, 05 Mar 2026 18:11:14 +0000</pubDate>
+<description><![CDATA[Parkitect - Dinos and Dynasties (Steam) Giveaway
 
-Source: PlayStation Blog
-ID: 8727845d1e3376b1]]></description>
+Source: GamerPower - Steam
+State ID: ce2f1411866be719
+Offer ID: 26ff82010258f958]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [NEWS] Death Stranding 2 PC specs detailed, out March 19]]></title>
-<link>https://blog.playstation.com/2026/02/24/death-stranding-2-pc-specs-detailed-out-march-19/</link>
-<guid isPermaLink='false'>d4bbfbf91eb8ab2e</guid>
-<pubDate>Tue, 24 Feb 2026 14:00:13 +0000</pubDate>
-<description><![CDATA[Death Stranding 2 PC specs detailed, out March 19
+<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Dinos & Dynasties]]></title>
+<link>https://store.steampowered.com/app/3919200</link>
+<guid isPermaLink='false'>705ddbfd9d53e573</guid>
+<pubDate>Thu, 05 Mar 2026 18:03:57 +0000</pubDate>
+<description><![CDATA[Steam (Loot) - Parkitect - Dinos & Dynasties
 
-Source: PlayStation Blog
-ID: d4bbfbf91eb8ab2e]]></description>
+Source: LootScraper - Steam In-game Loot
+State ID: 3a944df6a8c38c20
+Offer ID: 705ddbfd9d53e573]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Siege of Avalon: Anthology]]></title>
+<link>https://luna.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?ingress=amzn&amp;ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>89bf926c57905424</guid>
+<pubDate>Thu, 05 Mar 2026 18:02:11 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Siege of Avalon: Anthology
+
+Source: LootScraper - Amazon Games
+State ID: 81dfcf4e11e2cc26
+Offer ID: 89bf926c57905424]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot]]></title>
+<link>https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&amp;ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>f8a145f37bb2a1f1</guid>
+<pubDate>Thu, 05 Mar 2026 18:02:09 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot
+
+Source: LootScraper - Amazon Games
+State ID: b842af078faa2a07
+Offer ID: f8a145f37bb2a1f1]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tattoo Tycoon]]></title>
+<link>https://luna.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?ingress=amzn&amp;ref_=SM_TattooTycoon_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>d983f5810f695438</guid>
+<pubDate>Thu, 05 Mar 2026 18:02:06 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tattoo Tycoon
+
+Source: LootScraper - Amazon Games
+State ID: 7a325cd856e840db
+Offer ID: d983f5810f695438]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Little Nightmares (Mobile) Giveaway]]></title>
+<link>https://www.gamerpower.com/little-nightmares-mobile-giveaway</link>
+<guid isPermaLink='false'>688aec554439f524</guid>
+<pubDate>Thu, 05 Mar 2026 16:29:30 +0000</pubDate>
+<description><![CDATA[Little Nightmares (Mobile) Giveaway
+
+Source: GamerPower - Full Games
+State ID: 8c8fdefe1e0acd24
+Offer ID: 688aec554439f524]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Turnip Boy Robs a Bank (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/turnip-boy-robs-a-bank-epic-games-giveaway</link>
+<guid isPermaLink='false'>7da0450b80b5f0ef</guid>
+<pubDate>Thu, 05 Mar 2026 16:08:04 +0000</pubDate>
+<description><![CDATA[Turnip Boy Robs a Bank (Epic Games) Giveaway
+
+Source: GamerPower - Full Games
+State ID: aa8ea6f3e13a3b24
+Offer ID: 7da0450b80b5f0ef]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway]]></title>
+<link>https://www.gamerpower.com/idle-champions-of-the-forgotten-realms-raistlin-s-renown-pack-giveaway</link>
+<guid isPermaLink='false'>9f836d35bfae7d18</guid>
+<pubDate>Thu, 05 Mar 2026 16:07:22 +0000</pubDate>
+<description><![CDATA[Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway
+
+Source: GamerPower - Loot
+State ID: b0aa6844a24ff30f
+Offer ID: 9f836d35bfae7d18]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway]]></title>
+<link>https://www.gamerpower.com/idle-champions-of-the-forgotten-realms-raistlin-s-renown-pack-giveaway</link>
+<guid isPermaLink='false'>d3053a03bc052733</guid>
+<pubDate>Thu, 05 Mar 2026 16:07:22 +0000</pubDate>
+<description><![CDATA[Idle Champions of the Forgotten Realms: Raistlin's Renown Pack Giveaway
+
+Source: GamerPower - PC
+State ID: e5114d0b5722e77a
+Offer ID: d3053a03bc052733]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Idle Champions of the Forgotten Realms]]></title>
+<link>https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms</link>
+<guid isPermaLink='false'>a5e368e883c92587</guid>
+<pubDate>Thu, 05 Mar 2026 16:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Idle Champions of the Forgotten Realms
+
+Source: LootScraper - Epic Games (PC)
+State ID: ac06647da9cfc51f
+Offer ID: a5e368e883c92587]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Turnip Boy Robs a Bank]]></title>
+<link>https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e</link>
+<guid isPermaLink='false'>9546cea3b364b726</guid>
+<pubDate>Thu, 05 Mar 2026 16:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Turnip Boy Robs a Bank
+
+Source: LootScraper - Epic Games (PC)
+State ID: ee183006c162eda2
+Offer ID: 9546cea3b364b726]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
+<guid isPermaLink='false'>7ff7f224550f10cc</guid>
+<pubDate>Wed, 04 Mar 2026 17:43:32 +0000</pubDate>
+<description><![CDATA[Planet Coaster (Steam) Giveaway
+
+Source: GamerPower - Full Games
+State ID: 30637d452648ee3d
+Offer ID: 7ff7f224550f10cc]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] BrightGunner (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/brightgunner-epic-games-giveaway</link>
+<guid isPermaLink='false'>0d61e6854c673487</guid>
+<pubDate>Wed, 04 Mar 2026 16:20:14 +0000</pubDate>
+<description><![CDATA[BrightGunner (Epic Games) Giveaway
+
+Source: GamerPower - Full Games
+State ID: 8ee142cb663a3fce
+Offer ID: 0d61e6854c673487]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] Star Trek Online: Corruption Gift Pack Key Giveaway]]></title>
+<link>https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway</link>
+<guid isPermaLink='false'>9c46ce3cb93fa765</guid>
+<pubDate>Tue, 03 Mar 2026 17:22:02 +0000</pubDate>
+<description><![CDATA[Star Trek Online: Corruption Gift Pack Key Giveaway
+
+Source: GamerPower - Loot
+State ID: 6535d8f2d52ca9a9
+Offer ID: 9c46ce3cb93fa765]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Star Trek Online: Corruption Gift Pack Key Giveaway]]></title>
+<link>https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway</link>
+<guid isPermaLink='false'>b117ffa0503ee49e</guid>
+<pubDate>Tue, 03 Mar 2026 17:22:02 +0000</pubDate>
+<description><![CDATA[Star Trek Online: Corruption Gift Pack Key Giveaway
+
+Source: GamerPower - PC
+State ID: 6d3affed3631e4cf
+Offer ID: b117ffa0503ee49e]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] World Crafter TD (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/world-crafter-td-steam-giveaway</link>
+<guid isPermaLink='false'>9062f5c0972aa43f</guid>
+<pubDate>Mon, 02 Mar 2026 18:09:31 +0000</pubDate>
+<description><![CDATA[World Crafter TD (Steam) Giveaway
+
+Source: GamerPower - Full Games
+State ID: aaea047e88086e04
+Offer ID: 9062f5c0972aa43f]]></description>
+</item>
+<item>
+<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
+<link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
+<guid isPermaLink='false'>f0e873b60fe9f7f0</guid>
+<pubDate>Fri, 27 Feb 2026 18:32:44 +0000</pubDate>
+<description><![CDATA[How to Get the Lantern Fest Skin for Free in Fortnite
+
+Source: Game Rant - Fortnite - Latest Stories (Community)
+State ID: 9b3e764e20f58075
+Offer ID: f0e873b60fe9f7f0]]></description>
 </item>
 </channel>
 </rss>
