@@ -284,10 +284,6 @@ def format_title(platforms: List[str], item_type: str, tags: List[str], title: s
     return " ".join(parts)
 
 
-def has_tag(tags: List[str], target: str) -> bool:
-    return any(t.strip().upper() == target.upper() for t in tags)
-
-
 def add_content_tags(item_type: str, title: str, item_tags: List[str]) -> List[str]:
     """
     Add routing tags without changing core item types.
