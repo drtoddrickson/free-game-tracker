@@ -331,7 +331,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
-
     offer_map: Dict[str, Dict[str, Any]] = {}
 
     for src in sources:
