@@ -499,11 +499,14 @@ def render_rss(
 
     parts: List[str] = []
     parts.append('<?xml version="1.0" encoding="UTF-8"?>')
-    parts.append('<rss version="2.0">')
+    parts.append('<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">')
     parts.append("<channel>")
     parts.append(f"<title>{xml_escape(feed_title)}</title>")
     parts.append(f"<link>{xml_escape(site_url)}</link>")
     parts.append(f"<description>{xml_escape(feed_description)}</description>")
+    parts.append(f'<atom:link href="{xml_escape(site_url)}" rel="self" type="application/rss+xml" />')
+    parts.append(f"<pubDate>{format_datetime(build_dt)}</pubDate>")
+    parts.append("<ttl>15</ttl>")
 
     # CHANGED:
     parts.append(f"<lastBuildDate>{format_datetime(build_dt)}</lastBuildDate>")
@@ -529,21 +532,23 @@ def main() -> None:
     sources = load_sources()
     state = load_state()
 
-    site_url = "https://drtoddrickson.github.io/free-game-tracker/"
+    site_root = "https://drtoddrickson.github.io/free-game-tracker/"
+    master_feed_url = site_root + "master.xml"
+    loot_feed_url = site_root + "loot.xml"
 
     items = build_items(sources, state)
     loot_items = filter_items_by_tag(items, "LOOT-DROP")
 
     rss_xml = render_rss(
         items,
-        site_url,
+        master_feed_url,
         feed_title="Free Game Tracker - Master Feed",
         feed_description="Free games + free DLC/cosmetics/drops tracker",
     )
-
+    
     loot_rss_xml = render_rss(
         loot_items,
-        site_url + "loot.xml",
+        loot_feed_url,
         feed_title="Free Game Tracker - Loot Drops",
         feed_description="Free DLC, cosmetics, in-game loot, and drops",
     )
