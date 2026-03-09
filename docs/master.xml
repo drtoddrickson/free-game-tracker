@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 07 Mar 2026 22:35:19 +0000</pubDate>
+<pubDate>Mon, 09 Mar 2026 14:52:05 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 09 Mar 2026 14:31:16 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Mar 2026 15:42:10 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Die Young (IndieGala) Giveaway]]></title>
+<link>https://www.gamerpower.com/die-young</link>
+<guid isPermaLink='false'>0a1d75ce06da1aa7</guid>
+<pubDate>Mon, 09 Mar 2026 14:52:05 +0000</pubDate>
+<description><![CDATA[Die Young (IndieGala) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: e24bd61d5b490cc7
+Offer ID: 0a1d75ce06da1aa7]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] The Assault: Survivor (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/the-assault-survivor-epic-games-giveaway</link>
@@ -272,17 +283,6 @@ Offer ID: 850ca047f9ad7146]]></description>
 Source: LootScraper - Amazon Games
 State ID: c488175997d036f7
 Offer ID: 4f331a0c645e8fea]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Rebel Galaxy Outlaw]]></title>
-<link>https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&amp;ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>5567dc4ef8852e55</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:40 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy Outlaw
-
-Source: LootScraper - Amazon Games
-State ID: ada16268ecf34c03
-Offer ID: 5567dc4ef8852e55]]></description>
 </item>
 </channel>
 </rss>
