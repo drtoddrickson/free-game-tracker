@@ -5,31 +5,9 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/loot.xml</link>
 <description>Free DLC, cosmetics, in-game loot, and drops</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/loot.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 05 Mar 2026 18:30:25 +0000</pubDate>
+<pubDate>Mon, 09 Mar 2026 17:36:01 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 09 Mar 2026 16:41:56 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Mar 2026 17:36:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Booms & Blooms]]></title>
-<link>https://store.steampowered.com/app/1353170</link>
-<guid isPermaLink='false'>3fe02e4a498920a3</guid>
-<pubDate>Thu, 05 Mar 2026 18:30:25 +0000</pubDate>
-<description><![CDATA[Steam (Loot) - Parkitect - Booms & Blooms
-
-Source: LootScraper - Steam In-game Loot
-State ID: 100273e2a518c545
-Offer ID: 3fe02e4a498920a3]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Dinos & Dynasties]]></title>
-<link>https://store.steampowered.com/app/3919200</link>
-<guid isPermaLink='false'>705ddbfd9d53e573</guid>
-<pubDate>Thu, 05 Mar 2026 18:03:57 +0000</pubDate>
-<description><![CDATA[Steam (Loot) - Parkitect - Dinos & Dynasties
-
-Source: LootScraper - Steam In-game Loot
-State ID: 3a944df6a8c38c20
-Offer ID: 705ddbfd9d53e573]]></description>
-</item>
 </channel>
 </rss>

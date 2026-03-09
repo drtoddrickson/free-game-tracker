@@ -5,10 +5,32 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 09 Mar 2026 14:52:05 +0000</pubDate>
+<pubDate>Mon, 09 Mar 2026 17:16:55 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 09 Mar 2026 16:41:56 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Mar 2026 17:36:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Deponia (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/deponia-steam-giveaway</link>
+<guid isPermaLink='false'>781706eb02ba597c</guid>
+<pubDate>Mon, 09 Mar 2026 17:16:55 +0000</pubDate>
+<description><![CDATA[Deponia (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 99a1133140690988
+Offer ID: 781706eb02ba597c]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Deponia]]></title>
+<link>https://store.steampowered.com/app/214340</link>
+<guid isPermaLink='false'>b6460e7a8c57f954</guid>
+<pubDate>Mon, 09 Mar 2026 17:02:10 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Deponia
+
+Source: LootScraper - Steam Games
+State ID: cc38b59f70a1eee3
+Offer ID: b6460e7a8c57f954]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Die Young (IndieGala) Giveaway]]></title>
 <link>https://www.gamerpower.com/die-young</link>
@@ -43,17 +65,6 @@ State ID: 75c9be835d3f6d32
 Offer ID: fc7f9468ee1eb6a5]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Crowalt: Traces of the Lost Colony]]></title>
-<link>https://store.steampowered.com/app/1269500</link>
-<guid isPermaLink='false'>a17021bdaebbef9d</guid>
-<pubDate>Fri, 06 Mar 2026 18:01:58 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Crowalt: Traces of the Lost Colony
-
-Source: LootScraper - Steam Games
-State ID: b506ebab88847aea
-Offer ID: a17021bdaebbef9d]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
 <guid isPermaLink='false'>47ca6785101e0440</guid>
@@ -63,17 +74,6 @@ Offer ID: a17021bdaebbef9d]]></description>
 Source: GamerPower - All (Giveaways)
 State ID: 70de87381e19ca27
 Offer ID: 47ca6785101e0440]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Booms & Blooms]]></title>
-<link>https://store.steampowered.com/app/1353170</link>
-<guid isPermaLink='false'>3fe02e4a498920a3</guid>
-<pubDate>Thu, 05 Mar 2026 18:30:25 +0000</pubDate>
-<description><![CDATA[Steam (Loot) - Parkitect - Booms & Blooms
-
-Source: LootScraper - Steam In-game Loot
-State ID: 100273e2a518c545
-Offer ID: 3fe02e4a498920a3]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Along the Edge (Itch.io) Giveaway]]></title>
@@ -96,17 +96,6 @@ Offer ID: d0dd88aa0e915dd1]]></description>
 Source: GamerPower - All (Giveaways)
 State ID: d247da106fa66b8b
 Offer ID: 26ff82010258f958]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [LOOT-DROP] Steam (Loot) - Parkitect - Dinos & Dynasties]]></title>
-<link>https://store.steampowered.com/app/3919200</link>
-<guid isPermaLink='false'>705ddbfd9d53e573</guid>
-<pubDate>Thu, 05 Mar 2026 18:03:57 +0000</pubDate>
-<description><![CDATA[Steam (Loot) - Parkitect - Dinos & Dynasties
-
-Source: LootScraper - Steam In-game Loot
-State ID: 3a944df6a8c38c20
-Offer ID: 705ddbfd9d53e573]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Siege of Avalon: Anthology]]></title>
@@ -252,17 +241,6 @@ State ID: 9b3e764e20f58075
 Offer ID: f0e873b60fe9f7f0]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Just Move:Clean City Messy Battle (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/just-move-clean-city-messy-battle-steam-giveaway</link>
-<guid isPermaLink='false'>208db85a18256d0b</guid>
-<pubDate>Fri, 27 Feb 2026 18:13:16 +0000</pubDate>
-<description><![CDATA[Just Move:Clean City Messy Battle (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: c0ccc552dba912e2
-Offer ID: 208db85a18256d0b]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
 <link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>850ca047f9ad7146</guid>
@@ -283,6 +261,28 @@ Offer ID: 850ca047f9ad7146]]></description>
 Source: LootScraper - Amazon Games
 State ID: c488175997d036f7
 Offer ID: 4f331a0c645e8fea]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Rebel Galaxy Outlaw]]></title>
+<link>https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&amp;ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>5567dc4ef8852e55</guid>
+<pubDate>Thu, 26 Feb 2026 19:00:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy Outlaw
+
+Source: LootScraper - Amazon Games
+State ID: ada16268ecf34c03
+Offer ID: 5567dc4ef8852e55]]></description>
+</item>
+<item>
+<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Foundation Banner in Fortnite]]></title>
+<link>https://gamerant.com/fortnite-how-get-free-the-foundation-banner/</link>
+<guid isPermaLink='false'>cf37818eb4c72269</guid>
+<pubDate>Thu, 26 Feb 2026 17:33:37 +0000</pubDate>
+<description><![CDATA[How to Get the Free Foundation Banner in Fortnite
+
+Source: Game Rant - Fortnite - Latest Stories (Community)
+State ID: 079587e0d210a018
+Offer ID: cf37818eb4c72269]]></description>
 </item>
 </channel>
 </rss>
