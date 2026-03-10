@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 09 Mar 2026 17:16:55 +0000</pubDate>
+<pubDate>Tue, 10 Mar 2026 15:56:36 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 10 Mar 2026 15:44:48 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 16:41:44 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
+<guid isPermaLink='false'>7ff7f224550f10cc</guid>
+<pubDate>Tue, 10 Mar 2026 15:56:36 +0000</pubDate>
+<description><![CDATA[Planet Coaster (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 3adf37ac93a94ffb
+Offer ID: 7ff7f224550f10cc]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Deponia (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/deponia-steam-giveaway</link>
@@ -184,17 +195,6 @@ Offer ID: a5e368e883c92587]]></description>
 Source: LootScraper - Epic Games (PC)
 State ID: ee183006c162eda2
 Offer ID: 9546cea3b364b726]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
-<guid isPermaLink='false'>7ff7f224550f10cc</guid>
-<pubDate>Wed, 04 Mar 2026 17:43:32 +0000</pubDate>
-<description><![CDATA[Planet Coaster (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 3adf37ac93a94ffb
-Offer ID: 7ff7f224550f10cc]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] BrightGunner (Epic Games) Giveaway]]></title>
