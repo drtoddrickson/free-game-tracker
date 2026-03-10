@@ -32,8 +32,52 @@ OUT_DIR = ROOT / "docs"
 OUT_PATH = OUT_DIR / "master.xml"
 OUT_LOOT_PATH = OUT_DIR / "loot.xml"
 
-ALLOWED_PLATFORMS = {"PC", "PS5", "SWITCH"}
+ALLOWED_PLATFORMS = set(SUPPORTED_PLATFORM_MARKERS.keys())
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
+
+
+SUPPORTED_PLATFORM_MARKERS = {
+    "PC": [
+        r"\bsteam\b",
+        r"\bepic\b",
+        r"\bepic games\b",
+        r"\bgog\b",
+        r"\bitch\.io\b",
+        r"\bhumble\b",
+        r"\bprime gaming\b",
+        r"\bwindows\b",
+        r"\bpc\b",
+    ],
+    "PS5": [
+        r"\bps5\b",
+        r"\bplaystation\b",
+        r"\bpsn\b",
+        r"\bps4\b",
+    ],
+    "SWITCH": [
+        r"\bnintendo switch\b",
+        r"\bswitch\b",
+        r"\bnintendo\b",
+    ],
+}
+
+EXCLUDED_PLATFORM_MARKERS = {
+    "XBOX": [
+        r"\bxbox\b",
+        r"\bxbox one\b",
+        r"\bxbox series\b",
+        r"\bmicrosoft store\b",
+    ],
+    "MOBILE": [
+        r"\bandroid\b",
+        r"\bios\b",
+        r"\biphone\b",
+        r"\bipad\b",
+        r"\bmobile\b",
+        r"\bgoogle play\b",
+        r"\bapp store\b",
+    ],
+}
 
 WATCH_GAMES = [
     # your current set (kept)
@@ -359,27 +403,27 @@ def classify_gamerpower_item_type(title: str) -> str:
 
 def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
     """
-    Infer platform more precisely from title text.
-    Only narrows platforms when confidence is high.
+    Infer platform from title text using word-boundary matching.
+
+    Returns:
+        [] if explicitly unsupported platform detected
+        supported platform list if detected
+        default_platforms if nothing detected
     """
+
     t = (title or "").lower()
 
-    pc_markers = [
-        "steam", "epic", "epic games", "gog", "itch.io",
-        "humble", "prime gaming", "pc", "windows"
-    ]
+    # Detect excluded platforms first
+    for markers in EXCLUDED_PLATFORM_MARKERS.values():
+        for pattern in markers:
+            if re.search(pattern, t):
+                return []
 
-    console_markers = {
-        "ps5": ["ps5", "playstation"],
-        "switch": ["switch", "nintendo switch"],
-    }
-
-    if any(m in t for m in pc_markers):
-        return ["PC"]
-
-    for platform, markers in console_markers.items():
-        if any(m in t for m in markers):
-            return [platform.upper()]
+    # Detect supported platforms
+    for platform, markers in SUPPORTED_PLATFORM_MARKERS.items():
+        for pattern in markers:
+            if re.search(pattern, t):
+                return [platform]
 
     return default_platforms
 
