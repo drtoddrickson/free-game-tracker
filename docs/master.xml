@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Tue, 10 Mar 2026 15:56:36 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 10 Mar 2026 18:29:35 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 19:24:30 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
@@ -219,17 +219,6 @@ State ID: 474ad17d94a322c2
 Offer ID: b117ffa0503ee49e]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] World Crafter TD (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/world-crafter-td-steam-giveaway</link>
-<guid isPermaLink='false'>9062f5c0972aa43f</guid>
-<pubDate>Mon, 02 Mar 2026 18:09:31 +0000</pubDate>
-<description><![CDATA[World Crafter TD (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 63ec30f55e3bcbc5
-Offer ID: 9062f5c0972aa43f]]></description>
-</item>
-<item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
 <link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
 <guid isPermaLink='false'>f0e873b60fe9f7f0</guid>
@@ -283,6 +272,17 @@ Offer ID: 5567dc4ef8852e55]]></description>
 Source: LootScraper - Amazon Games
 State ID: 5df43b3cc8512da5
 Offer ID: 93a32ef19b76b350]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Captain Blood]]></title>
+<link>https://luna.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?ingress=amzn&amp;ref_=SM_CaptainBlood_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a130a32fd62b5267</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:26 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Captain Blood
+
+Source: LootScraper - Amazon Games
+State ID: 215270d4fd39412c
+Offer ID: a130a32fd62b5267]]></description>
 </item>
 </channel>
 </rss>
