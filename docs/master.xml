@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Tue, 10 Mar 2026 15:56:36 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 11 Mar 2026 20:04:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Mar 2026 20:50:38 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
@@ -219,17 +219,6 @@ State ID: 474ad17d94a322c2
 Offer ID: b117ffa0503ee49e]]></description>
 </item>
 <item>
-<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Lantern Fest Skin for Free in Fortnite]]></title>
-<link>https://gamerant.com/fortnite-how-get-lantern-fest-skin-for-free/</link>
-<guid isPermaLink='false'>f0e873b60fe9f7f0</guid>
-<pubDate>Fri, 27 Feb 2026 18:32:44 +0000</pubDate>
-<description><![CDATA[How to Get the Lantern Fest Skin for Free in Fortnite
-
-Source: Game Rant - Fortnite - Latest Stories (Community)
-State ID: 9b3e764e20f58075
-Offer ID: f0e873b60fe9f7f0]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
 <link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>850ca047f9ad7146</guid>
@@ -283,6 +272,17 @@ Offer ID: 93a32ef19b76b350]]></description>
 Source: LootScraper - Amazon Games
 State ID: 215270d4fd39412c
 Offer ID: a130a32fd62b5267]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Ambition: A Minuet in Power]]></title>
+<link>https://luna.amazon.com/claims/ambition-a-minuet-in-power-gog/dp/amzn1.pg.item.00d7bea9-3558-4df4-881a-2f8cb63fb56f?ingress=amzn&amp;ref_=SM_AmbitionAMinuetinPower_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>68b6f18d5e39459b</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:23 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Ambition: A Minuet in Power
+
+Source: LootScraper - Amazon Games
+State ID: 8c70431691b4dd0c
+Offer ID: 68b6f18d5e39459b]]></description>
 </item>
 </channel>
 </rss>
