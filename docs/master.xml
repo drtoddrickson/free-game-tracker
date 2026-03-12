@@ -5,10 +5,32 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Tue, 10 Mar 2026 15:56:36 +0000</pubDate>
+<pubDate>Thu, 12 Mar 2026 15:05:05 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 12 Mar 2026 14:27:47 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Mar 2026 15:33:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Cozy Grove]]></title>
+<link>https://store.epicgames.com/en-US/p/cozy-grove</link>
+<guid isPermaLink='false'>c38626529c635158</guid>
+<pubDate>Thu, 12 Mar 2026 15:05:05 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Cozy Grove
+
+Source: LootScraper - Epic Games (PC)
+State ID: 8a6fc256d14c488a
+Offer ID: c38626529c635158]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Isonzo]]></title>
+<link>https://store.epicgames.com/en-US/p/isonzo</link>
+<guid isPermaLink='false'>937132b99fce1b9a</guid>
+<pubDate>Thu, 12 Mar 2026 15:05:05 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Isonzo
+
+Source: LootScraper - Epic Games (PC)
+State ID: 97b5a244965057cd
+Offer ID: 937132b99fce1b9a]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Planet Coaster (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/planet-coaster-steam-giveaway</link>
@@ -173,28 +195,6 @@ Offer ID: 7da0450b80b5f0ef]]></description>
 Source: GamerPower - All (Giveaways)
 State ID: 66f0ac4ba574e4fc
 Offer ID: d3053a03bc052733]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Idle Champions of the Forgotten Realms]]></title>
-<link>https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms</link>
-<guid isPermaLink='false'>a5e368e883c92587</guid>
-<pubDate>Thu, 05 Mar 2026 16:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Idle Champions of the Forgotten Realms
-
-Source: LootScraper - Epic Games (PC)
-State ID: ac06647da9cfc51f
-Offer ID: a5e368e883c92587]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Epic Games (Game) - Turnip Boy Robs a Bank]]></title>
-<link>https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e</link>
-<guid isPermaLink='false'>9546cea3b364b726</guid>
-<pubDate>Thu, 05 Mar 2026 16:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Turnip Boy Robs a Bank
-
-Source: LootScraper - Epic Games (PC)
-State ID: ee183006c162eda2
-Offer ID: 9546cea3b364b726]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] BrightGunner (Epic Games) Giveaway]]></title>
