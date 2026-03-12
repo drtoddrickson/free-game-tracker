@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 12 Mar 2026 17:00:49 +0000</pubDate>
+<pubDate>Thu, 12 Mar 2026 23:46:11 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 12 Mar 2026 23:34:01 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Mar 2026 23:59:38 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Umm Oyoun (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/umm-oyoun-epic-games-giveaway-1</link>
+<guid isPermaLink='false'>aec5d74949df9639</guid>
+<pubDate>Thu, 12 Mar 2026 23:46:11 +0000</pubDate>
+<description><![CDATA[Umm Oyoun (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 71ed7e273d968ac5
+Offer ID: aec5d74949df9639]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Turmoil]]></title>
 <link>https://luna.amazon.com/claims/turmoil-epic/dp/amzn1.pg.item.d7d941e2-d63a-41cb-9ebb-1ca172de03b0?ingress=amzn&amp;ref_=SM_Turmoil_S03_FGWP_CRWN</link>
@@ -239,17 +250,6 @@ Offer ID: f8a145f37bb2a1f1]]></description>
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: d983f5810f695438]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Little Nightmares (Mobile) Giveaway]]></title>
-<link>https://www.gamerpower.com/little-nightmares-mobile-giveaway</link>
-<guid isPermaLink='false'>688aec554439f524</guid>
-<pubDate>Thu, 05 Mar 2026 16:29:30 +0000</pubDate>
-<description><![CDATA[Little Nightmares (Mobile) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: eb0cc25e3129a264
-Offer ID: 688aec554439f524]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
