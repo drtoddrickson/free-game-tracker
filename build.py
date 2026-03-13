@@ -79,6 +79,39 @@ EXCLUDED_PLATFORM_MARKERS = {
     ],
 }
 
+STORE_TAG_MARKERS = {
+    "STEAM": [
+        "steam",
+    ],
+    "EPIC": [
+        "epic games",
+        "epic",
+    ],
+    "GOG": [
+        "gog",
+    ],
+    "HUMBLE GAMES": [
+        "humble",
+        "humble games",
+    ],
+    "ITCH.IO": [
+        "itch.io",
+        "itch",
+    ],
+    "AMAZON": [
+        "amazon games",
+        "prime gaming",
+        "amazon",
+        "luna",
+        "amazon luna",
+    ],
+    "PSN": [
+        "playstation store",
+        "playstation",
+        "psn",
+    ],
+}
+
 WATCH_GAMES = [
     # your current set (kept)
     "fortnite",
@@ -401,6 +434,31 @@ def classify_gamerpower_item_type(title: str) -> str:
     return "GAME"
 
 
+def detect_store_tags(title: str, src_name: str) -> List[str]:
+    """
+    Detect store/platform ecosystem tags from title and source name.
+    Deterministic and additive only.
+    """
+    text = f"{src_name} {title}".lower()
+    out: List[str] = []
+
+    for store_tag, markers in STORE_TAG_MARKERS.items():
+        if any(marker in text for marker in markers):
+            out.append(store_tag)
+
+    # Keep stable ordering
+    order = {
+        "STEAM": 0,
+        "EPIC": 1,
+        "GOG": 2,
+        "HUMBLE": 3,
+        "ITCH": 4,
+        "AMAZON": 5,
+        "PSN": 6,
+    }
+    return sorted(set(out), key=lambda x: order.get(x, 99))
+
+
 def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
     """
     Infer platform from title text using word-boundary matching.
@@ -546,6 +604,11 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Add content-routing tags
             item_tags = add_content_tags(resolved_item_type, title, item_tags)
+            
+            # Add store tags
+            for store_tag in detect_store_tags(title, src_name):
+                if not has_tag(item_tags, store_tag):
+                    item_tags.append(store_tag)
 
             # Add CROSS-PLATFORM only when confidently detected
             if is_crossplatform_item(title):
