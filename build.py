@@ -32,10 +32,6 @@ OUT_DIR = ROOT / "docs"
 OUT_PATH = OUT_DIR / "master.xml"
 OUT_LOOT_PATH = OUT_DIR / "loot.xml"
 
-ALLOWED_PLATFORMS = set(SUPPORTED_PLATFORM_MARKERS.keys())
-ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
-
-
 SUPPORTED_PLATFORM_MARKERS = {
     "PC": [
         r"\bsteam\b",
@@ -79,6 +75,9 @@ EXCLUDED_PLATFORM_MARKERS = {
     ],
 }
 
+ALLOWED_PLATFORMS = set(SUPPORTED_PLATFORM_MARKERS.keys())
+ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
+
 STORE_TAG_MARKERS = {
     "STEAM": [
         "steam",
@@ -90,7 +89,7 @@ STORE_TAG_MARKERS = {
     "GOG": [
         "gog",
     ],
-    "HUMBLE GAMES": [
+    "HUMBLE": [
         "humble",
         "humble games",
     ],
@@ -452,7 +451,7 @@ def detect_store_tags(title: str, src_name: str) -> List[str]:
         "EPIC": 1,
         "GOG": 2,
         "HUMBLE": 3,
-        "ITCH": 4,
+        "ITCH.IO": 4,
         "AMAZON": 5,
         "PSN": 6,
     }
