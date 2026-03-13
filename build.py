@@ -517,6 +517,15 @@ def platform_specificity_score(platforms: List[str]) -> int:
     if len(p) == 2:
         return 50
     return 10
+    
+    
+def store_tag_score(tags: List[str]) -> int:
+    """
+    Higher score = better/more specific source identity for dedupe winner selection.
+    Prefer direct store/platform tags over generic/untagged items.
+    """
+    preferred = {"STEAM", "EPIC", "GOG", "HUMBLE", "ITCH", "AMAZON", "PSN"}
+    return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
@@ -618,6 +627,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 "id": offer_key,
                 "published": published,
                 "platforms": platforms,
+                "tags": list(item_tags),
                 "title": format_title(platforms, resolved_item_type, item_tags, title),
                 "link": link,
                 "description": f"{title}\n\nSource: {src_name}\nState ID: {sid}\nOffer ID: {offer_key}",
@@ -628,23 +638,31 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if existing is None:
                 offer_map[offer_key] = candidate
             else:
-                candidate_score = platform_specificity_score(candidate.get("platforms", []))
-                existing_score = platform_specificity_score(existing.get("platforms", []))
-            
-                # First prefer better/more specific platform tagging
-                if candidate_score > existing_score:
+                candidate_platform_score = platform_specificity_score(candidate.get("platforms", []))
+                existing_platform_score = platform_specificity_score(existing.get("platforms", []))
+
+                candidate_store_score = store_tag_score(candidate.get("tags", []))
+                existing_store_score = store_tag_score(existing.get("tags", []))
+
+                # 1) Prefer better/more specific platform tagging
+                if candidate_platform_score > existing_platform_score:
                     offer_map[offer_key] = candidate
-            
-                elif candidate_score == existing_score:
-                    # Then prefer newer item
-                    if candidate["published"] > existing["published"]:
+
+                elif candidate_platform_score == existing_platform_score:
+                    # 2) Prefer item with better store identity
+                    if candidate_store_score > existing_store_score:
                         offer_map[offer_key] = candidate
-                    # If tied, prefer shorter rendered title
-                    elif (
-                        candidate["published"] == existing["published"]
-                        and len(candidate["title"]) < len(existing["title"])
-                    ):
-                        offer_map[offer_key] = candidate
+
+                    elif candidate_store_score == existing_store_score:
+                        # 3) Then prefer newer item
+                        if candidate["published"] > existing["published"]:
+                            offer_map[offer_key] = candidate
+                        # 4) If still tied, prefer shorter rendered title
+                        elif (
+                            candidate["published"] == existing["published"]
+                            and len(candidate["title"]) < len(existing["title"])
+                        ):
+                            offer_map[offer_key] = candidate
     
     out = list(offer_map.values())
 
