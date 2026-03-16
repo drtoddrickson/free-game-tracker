@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Mon, 16 Mar 2026 19:08:52 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 16 Mar 2026 19:56:55 +0000</lastBuildDate>
+<lastBuildDate>Mon, 16 Mar 2026 20:50:47 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Crime Boss: Rockay City Chase Character Pack Steam Key Giveaway]]></title>
@@ -208,17 +208,6 @@ State ID: 75c9be835d3f6d32
 Offer ID: fc7f9468ee1eb6a5]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Parkitect - Booms and Blooms (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway</link>
-<guid isPermaLink='false'>47ca6785101e0440</guid>
-<pubDate>Thu, 05 Mar 2026 19:03:14 +0000</pubDate>
-<description><![CDATA[Parkitect - Booms and Blooms (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 70de87381e19ca27
-Offer ID: 47ca6785101e0440]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Siege of Avalon: Anthology]]></title>
 <link>https://luna.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?ingress=amzn&amp;ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>89bf926c57905424</guid>
@@ -283,6 +272,17 @@ Offer ID: 4f331a0c645e8fea]]></description>
 Source: LootScraper - Amazon Games
 State ID: ada16268ecf34c03
 Offer ID: 5567dc4ef8852e55]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Meganoid]]></title>
+<link>https://luna.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?ingress=amzn&amp;ref_=SM_Meganoid_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>93a32ef19b76b350</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:28 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Meganoid
+
+Source: LootScraper - Amazon Games
+State ID: 5df43b3cc8512da5
+Offer ID: 93a32ef19b76b350]]></description>
 </item>
 </channel>
 </rss>
