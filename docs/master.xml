@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Mon, 16 Mar 2026 19:08:52 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 17 Mar 2026 11:31:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Mar 2026 12:34:34 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Crime Boss: Rockay City Chase Character Pack Steam Key Giveaway]]></title>
@@ -164,17 +164,6 @@ State ID: 99a1133140690988
 Offer ID: 781706eb02ba597c]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Deponia]]></title>
-<link>https://store.steampowered.com/app/214340</link>
-<guid isPermaLink='false'>b6460e7a8c57f954</guid>
-<pubDate>Mon, 09 Mar 2026 17:02:10 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Deponia
-
-Source: LootScraper - Steam Games
-State ID: cc38b59f70a1eee3
-Offer ID: b6460e7a8c57f954]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] Die Young (IndieGala) Giveaway]]></title>
 <link>https://www.gamerpower.com/die-young</link>
 <guid isPermaLink='false'>0a1d75ce06da1aa7</guid>
@@ -283,6 +272,17 @@ Offer ID: 5567dc4ef8852e55]]></description>
 Source: LootScraper - Amazon Games
 State ID: 5df43b3cc8512da5
 Offer ID: 93a32ef19b76b350]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Captain Blood]]></title>
+<link>https://luna.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?ingress=amzn&amp;ref_=SM_CaptainBlood_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a130a32fd62b5267</guid>
+<pubDate>Thu, 19 Feb 2026 19:01:26 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Captain Blood
+
+Source: LootScraper - Amazon Games
+State ID: 215270d4fd39412c
+Offer ID: a130a32fd62b5267]]></description>
 </item>
 </channel>
 </rss>
