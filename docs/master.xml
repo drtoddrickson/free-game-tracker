@@ -5,10 +5,32 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 19 Mar 2026 17:30:19 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2026 18:00:42 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 19 Mar 2026 17:43:16 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Mar 2026 18:36:22 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Sir Questionnaire]]></title>
+<link>https://luna.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?ingress=amzn&amp;ref_=SM_SirQuestionnaire_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>9a983b9426720915</guid>
+<pubDate>Thu, 19 Mar 2026 18:00:42 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sir Questionnaire
+
+Source: LootScraper - Amazon Games
+State ID: c6a2bc56aa21f2b7
+Offer ID: 9a983b9426720915]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Rebel Galaxy]]></title>
+<link>https://luna.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?ingress=amzn&amp;ref_=SM_RebelGalaxy_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>66259fe86ea1abb5</guid>
+<pubDate>Thu, 19 Mar 2026 18:00:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy
+
+Source: LootScraper - Amazon Games
+State ID: dee852aa2b4da929
+Offer ID: 66259fe86ea1abb5]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Pet Lands]]></title>
 <link>https://store.steampowered.com/app/3144950</link>
@@ -261,28 +283,6 @@ Offer ID: f8a145f37bb2a1f1]]></description>
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: d983f5810f695438]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
-<link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>850ca047f9ad7146</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Total War: ATTILA
-
-Source: LootScraper - Amazon Games
-State ID: 534dc9a3820b8e85
-Offer ID: 850ca047f9ad7146]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tavern Talk]]></title>
-<link>https://luna.amazon.com/claims/tavern-talk-aga/dp/amzn1.pg.item.7a5cc817-9506-45a0-b9c9-7064d4bd1499?ingress=amzn&amp;ref_=SM_TavernTalk_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>4f331a0c645e8fea</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:42 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Tavern Talk
-
-Source: LootScraper - Amazon Games
-State ID: c488175997d036f7
-Offer ID: 4f331a0c645e8fea]]></description>
 </item>
 </channel>
 </rss>
