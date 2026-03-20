@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 19 Mar 2026 20:41:59 +0000</pubDate>
+<pubDate>Fri, 20 Mar 2026 00:05:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 19 Mar 2026 23:45:31 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Mar 2026 02:36:08 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] I Need Spirit: Off Road Edition (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway</link>
+<guid isPermaLink='false'>df407daa1b13805b</guid>
+<pubDate>Fri, 20 Mar 2026 00:05:39 +0000</pubDate>
+<description><![CDATA[I Need Spirit: Off Road Edition (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 32ba3d43602f44a0
+Offer ID: df407daa1b13805b]]></description>
+</item>
 <item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get a Free Buggs Avatar on Discord (Fortnite Quest)]]></title>
 <link>https://gamerant.com/fortnite-looney-tunes-discord-quest-how-get-bugs-bunny-free-avatar/</link>
@@ -272,17 +283,6 @@ Offer ID: 89bf926c57905424]]></description>
 Source: LootScraper - Amazon Games
 State ID: b842af078faa2a07
 Offer ID: f8a145f37bb2a1f1]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tattoo Tycoon]]></title>
-<link>https://luna.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?ingress=amzn&amp;ref_=SM_TattooTycoon_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>d983f5810f695438</guid>
-<pubDate>Thu, 05 Mar 2026 18:02:06 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Tattoo Tycoon
-
-Source: LootScraper - Amazon Games
-State ID: 7a325cd856e840db
-Offer ID: d983f5810f695438]]></description>
 </item>
 </channel>
 </rss>
