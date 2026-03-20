@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 20 Mar 2026 15:24:26 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Mar 2026 16:07:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Barricade Skin in Fortnite]]></title>
@@ -85,17 +85,6 @@ Offer ID: 5ec4acf0f861ec41]]></description>
 Source: GamerPower - All (Giveaways)
 State ID: 63d920b1314455fb
 Offer ID: 05e47cf00f750f7b]]></description>
-</item>
-<item>
-<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Fish Stick Pickaxe in Fortnite]]></title>
-<link>https://gamerant.com/fortnite-rivalries-quests-how-get-free-fish-stick-pickaxe/</link>
-<guid isPermaLink='false'>05ac17bc9c7f8607</guid>
-<pubDate>Thu, 19 Mar 2026 16:34:48 +0000</pubDate>
-<description><![CDATA[How to Get the Free Fish Stick Pickaxe in Fortnite
-
-Source: Game Rant - Fortnite - Latest Stories (Community)
-State ID: 78ee9ae1ba09943f
-Offer ID: 05ac17bc9c7f8607]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Potion Permit (Mobile) Giveaway]]></title>
@@ -283,6 +272,17 @@ Offer ID: f3c80632bac71bac]]></description>
 Source: LootScraper - Amazon Games
 State ID: 81dfcf4e11e2cc26
 Offer ID: 89bf926c57905424]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot]]></title>
+<link>https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&amp;ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>f8a145f37bb2a1f1</guid>
+<pubDate>Thu, 05 Mar 2026 18:02:09 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot
+
+Source: LootScraper - Amazon Games
+State ID: b842af078faa2a07
+Offer ID: f8a145f37bb2a1f1]]></description>
 </item>
 </channel>
 </rss>
