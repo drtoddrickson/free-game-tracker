@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 20 Mar 2026 00:05:39 +0000</pubDate>
+<pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 20 Mar 2026 10:52:25 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Mar 2026 11:36:30 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Barricade Skin in Fortnite]]></title>
+<link>https://gamerant.com/fortnite-how-get-free-barricade-skin/</link>
+<guid isPermaLink='false'>b4a592b6e7286b50</guid>
+<pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
+<description><![CDATA[How to Get the Free Barricade Skin in Fortnite
+
+Source: Game Rant - Fortnite - Latest Stories (Community)
+State ID: 50c6c8cbdeef4081
+Offer ID: b4a592b6e7286b50]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] I Need Spirit: Off Road Edition (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway</link>
@@ -272,17 +283,6 @@ Offer ID: f3c80632bac71bac]]></description>
 Source: LootScraper - Amazon Games
 State ID: 81dfcf4e11e2cc26
 Offer ID: 89bf926c57905424]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot]]></title>
-<link>https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&amp;ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>f8a145f37bb2a1f1</guid>
-<pubDate>Thu, 05 Mar 2026 18:02:09 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot
-
-Source: LootScraper - Amazon Games
-State ID: b842af078faa2a07
-Offer ID: f8a145f37bb2a1f1]]></description>
 </item>
 </channel>
 </rss>
