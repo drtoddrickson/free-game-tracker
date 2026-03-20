@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 20 Mar 2026 19:41:20 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Mar 2026 20:02:57 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Barricade Skin in Fortnite]]></title>
@@ -30,17 +30,6 @@ Offer ID: b4a592b6e7286b50]]></description>
 Source: GamerPower - All (Giveaways)
 State ID: 32ba3d43602f44a0
 Offer ID: df407daa1b13805b]]></description>
-</item>
-<item>
-<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get a Free Buggs Avatar on Discord (Fortnite Quest)]]></title>
-<link>https://gamerant.com/fortnite-looney-tunes-discord-quest-how-get-bugs-bunny-free-avatar/</link>
-<guid isPermaLink='false'>ff9031f16c7d262d</guid>
-<pubDate>Thu, 19 Mar 2026 20:41:59 +0000</pubDate>
-<description><![CDATA[How to Get a Free Buggs Avatar on Discord (Fortnite Quest)
-
-Source: Game Rant - Fortnite - Latest Stories (Community)
-State ID: 4547c4a1e8aa9273
-Offer ID: ff9031f16c7d262d]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Sir Questionnaire]]></title>
@@ -283,6 +272,17 @@ Offer ID: 89bf926c57905424]]></description>
 Source: LootScraper - Amazon Games
 State ID: b842af078faa2a07
 Offer ID: f8a145f37bb2a1f1]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Tattoo Tycoon]]></title>
+<link>https://luna.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?ingress=amzn&amp;ref_=SM_TattooTycoon_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>d983f5810f695438</guid>
+<pubDate>Thu, 05 Mar 2026 18:02:06 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tattoo Tycoon
+
+Source: LootScraper - Amazon Games
+State ID: 7a325cd856e840db
+Offer ID: d983f5810f695438]]></description>
 </item>
 </channel>
 </rss>
