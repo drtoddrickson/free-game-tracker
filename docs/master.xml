@@ -5,21 +5,10 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
+<pubDate>Fri, 20 Mar 2026 00:05:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 21 Mar 2026 00:02:19 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Mar 2026 02:48:28 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
-<item>
-<title><![CDATA[[PS5] [SWITCH] [NEWS] [AGG] [FORTNITE] [CROSS-PLATFORM] How to Get the Free Barricade Skin in Fortnite]]></title>
-<link>https://gamerant.com/fortnite-how-get-free-barricade-skin/</link>
-<guid isPermaLink='false'>b4a592b6e7286b50</guid>
-<pubDate>Fri, 20 Mar 2026 11:31:23 +0000</pubDate>
-<description><![CDATA[How to Get the Free Barricade Skin in Fortnite
-
-Source: Game Rant - Fortnite - Latest Stories (Community)
-State ID: 50c6c8cbdeef4081
-Offer ID: b4a592b6e7286b50]]></description>
-</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] I Need Spirit: Off Road Edition (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway</link>
@@ -283,6 +272,17 @@ Offer ID: f8a145f37bb2a1f1]]></description>
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: d983f5810f695438]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
+<link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>850ca047f9ad7146</guid>
+<pubDate>Thu, 26 Feb 2026 19:00:44 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Total War: ATTILA
+
+Source: LootScraper - Amazon Games
+State ID: 534dc9a3820b8e85
+Offer ID: 850ca047f9ad7146]]></description>
 </item>
 </channel>
 </rss>
