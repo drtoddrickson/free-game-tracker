@@ -5,10 +5,21 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 22 Mar 2026 17:10:46 +0000</pubDate>
+<pubDate>Sun, 22 Mar 2026 17:46:06 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 22 Mar 2026 17:30:25 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Mar 2026 17:59:23 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] The Princess Factory (Itchio) Giveaway]]></title>
+<link>https://www.gamerpower.com/the-princess-factory-itchio-giveaway</link>
+<guid isPermaLink='false'>a769337496ce1b8a</guid>
+<pubDate>Sun, 22 Mar 2026 17:46:06 +0000</pubDate>
+<description><![CDATA[The Princess Factory (Itchio) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: f8fbedb30b1942e7
+Offer ID: a769337496ce1b8a]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Narvas (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/narvas-steam-giveaway</link>
@@ -272,17 +283,6 @@ Offer ID: f8a145f37bb2a1f1]]></description>
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: d983f5810f695438]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Total War: ATTILA]]></title>
-<link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>850ca047f9ad7146</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Total War: ATTILA
-
-Source: LootScraper - Amazon Games
-State ID: 534dc9a3820b8e85
-Offer ID: 850ca047f9ad7146]]></description>
 </item>
 </channel>
 </rss>
