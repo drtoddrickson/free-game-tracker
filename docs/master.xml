@@ -5,10 +5,32 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 22 Mar 2026 12:55:07 +0000</pubDate>
+<pubDate>Sun, 22 Mar 2026 17:10:46 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 22 Mar 2026 16:48:14 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Mar 2026 17:30:25 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Narvas (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/narvas-steam-giveaway</link>
+<guid isPermaLink='false'>a193d97f0f8d0fe2</guid>
+<pubDate>Sun, 22 Mar 2026 17:10:46 +0000</pubDate>
+<description><![CDATA[Narvas (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 6f520995879f9a5e
+Offer ID: a193d97f0f8d0fe2]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Narvas]]></title>
+<link>https://store.steampowered.com/app/640700</link>
+<guid isPermaLink='false'>b99b66f4bdd22297</guid>
+<pubDate>Sun, 22 Mar 2026 17:02:09 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Narvas
+
+Source: LootScraper - Steam Games
+State ID: ffd0bd008931ece1
+Offer ID: b99b66f4bdd22297]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Wave Gods: Ammo Night (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/wave-gods-ammo-night-epic-games-giveaway</link>
@@ -63,17 +85,6 @@ Offer ID: 9a983b9426720915]]></description>
 Source: LootScraper - Amazon Games
 State ID: dee852aa2b4da929
 Offer ID: 66259fe86ea1abb5]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Steam (Game) - Pet Lands]]></title>
-<link>https://store.steampowered.com/app/3144950</link>
-<guid isPermaLink='false'>5ec4acf0f861ec41</guid>
-<pubDate>Thu, 19 Mar 2026 17:30:19 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Pet Lands
-
-Source: LootScraper - Steam Games
-State ID: 7cf37629a7b348e7
-Offer ID: 5ec4acf0f861ec41]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Pet Lands (Steam) Giveaway]]></title>
@@ -228,17 +239,6 @@ Offer ID: efb4491b7c0880b9]]></description>
 Source: LootScraper - Amazon Games
 State ID: 693b01a6be25b298
 Offer ID: 8ae7fbc0ca29278f]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] Wonder Boy: The Dragon's Trap (Mobile) Giveaway]]></title>
-<link>https://www.gamerpower.com/wonder-boy-the-dragons-trap-mobile-giveaway</link>
-<guid isPermaLink='false'>dad0f0b596bd1c61</guid>
-<pubDate>Thu, 12 Mar 2026 16:03:33 +0000</pubDate>
-<description><![CDATA[Wonder Boy: The Dragon's Trap (Mobile) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 25ea4f4ec9ede7ac
-Offer ID: dad0f0b596bd1c61]]></description>
 </item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Amazon Prime (Game) - Siege of Avalon: Anthology]]></title>
