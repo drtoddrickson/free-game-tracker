@@ -567,7 +567,7 @@ def store_tag_score(tags: List[str]) -> int:
     Higher score = better/more specific source identity for dedupe winner selection.
     Prefer direct store/platform tags over generic/untagged items.
     """
-    preferred = {"STEAM", "EPIC", "GOG", "HUMBLE", "ITCH.IO", "AMAZON", "PSN"}
+    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE", "ITCH.IO"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
