@@ -232,7 +232,7 @@ GAMERPOWER_SUPPRESS_MARKERS = [
     "trial",
 ]
 
-GAMERPOWER_LOOT_MARKERS = [
+LOOT_MARKERS = [
     "dlc",
     "loot",
     "drop",
@@ -249,7 +249,25 @@ GAMERPOWER_LOOT_MARKERS = [
     "in game",
     "bonus content",
     "booster",
+    " pack giveaway",
+    " collection giveaway",
+    " pack",
+    " collection",
 ]
+
+
+def is_lootscraper_game_source(src_name: str) -> bool:
+    s = (src_name or "").strip().lower()
+    return s.startswith("lootscraper -") and "in-game loot" not in s
+
+
+def classify_lootlike_item_type(title: str, default_item_type: str) -> str:
+    t = (title or "").lower()
+
+    if any(marker in t for marker in LOOT_MARKERS):
+        return "DLC"
+
+    return default_item_type
 
 
 def load_sources() -> List[Dict[str, Any]]:
@@ -433,7 +451,7 @@ def classify_gamerpower_item_type(title: str) -> str:
     """
     t = (title or "").lower()
 
-    if any(marker in t for marker in GAMERPOWER_LOOT_MARKERS):
+    if any(marker in t for marker in LOOT_MARKERS):
         return "DLC"
 
     return "GAME"
@@ -599,7 +617,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if should_suppress_gamerpower_title(title):
                     continue
 
-                resolved_item_type = classify_gamerpower_item_type(title)
+                resolved_item_type = classify_lootlike_item_type(title, "GAME")
+
+                matched_games = []
+                matched_triggers = []
+
+            elif is_lootscraper_game_source(src_name):
+                resolved_item_type = classify_lootlike_item_type(title, default_item_type)
 
                 matched_games = []
                 matched_triggers = []
