@@ -478,16 +478,22 @@ def is_blocked_store_item(title: str, src_name: str, link: str) -> bool:
     return False
 
 
-def infer_platforms(title: str, src_name: str, default_platforms: List[str], link: str = "") -> List[str]:
+def infer_platforms(
+    title: str,
+    src_name: str,
+    default_platforms: List[str],
+    link: str = "",
+    description: str = "",
+) -> List[str]:
     """
-    Infer platform from title/link text using word-boundary matching.
+    Infer platform from title/link/description text using word-boundary matching.
 
     Returns:
         [] if explicitly unsupported platform detected
         supported platform list if detected
         default_platforms if nothing detected
     """
-    text = f"{title} {link}".lower()
+    text = f"{title} {link} {description}".lower()
 
     # Detect excluded platforms first
     for markers in EXCLUDED_PLATFORM_MARKERS.values():
@@ -579,7 +585,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if is_blocked_store_item(title, src_name, link):
                 continue
 
-            platforms = infer_platforms(title, src_name, default_platforms, link)
+            summary = getattr(e, "summary", "") or getattr(e, "description", "")
+
+            platforms = infer_platforms(title, src_name, default_platforms, link, summary)
             # Drop items for platforms we do not track yet
             if not any(p in ALLOWED_PLATFORMS for p in platforms):
                 continue
