@@ -457,21 +457,6 @@ def should_suppress_gamerpower_title(title: str) -> bool:
     return any(marker in t for marker in GAMERPOWER_SUPPRESS_MARKERS)
 
 
-def classify_gamerpower_item_type(title: str) -> str:
-    """
-    GamerPower - All (Giveaways) is mixed-content input.
-    Deterministic rule:
-    - obvious loot/DLC markers => DLC
-    - otherwise => GAME
-    """
-    t = (title or "").lower()
-
-    if any(marker in t for marker in LOOT_MARKERS):
-        return "DLC"
-
-    return "GAME"
-
-
 def detect_store_tags(title: str, src_name: str) -> List[str]:
     """
     Detect store/platform ecosystem tags from title and source name.
@@ -582,7 +567,7 @@ def store_tag_score(tags: List[str]) -> int:
     Higher score = better/more specific source identity for dedupe winner selection.
     Prefer direct store/platform tags over generic/untagged items.
     """
-    preferred = {"STEAM", "EPIC", "GOG", "HUMBLE", "ITCH", "AMAZON", "PSN"}
+    preferred = {"STEAM", "EPIC", "GOG", "HUMBLE", "ITCH.IO", "AMAZON", "PSN"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
