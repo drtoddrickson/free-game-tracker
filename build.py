@@ -310,6 +310,20 @@ def normalize_title_for_match(title: str) -> str:
     # Remove bracketed prefixes your own feed may add later if reused
     t = re.sub(r"\[[^\]]+\]\s*", "", t)
 
+    # Remove LootScraper-style leading boilerplate
+    t = re.sub(
+        r"^(steam|epic games|gog|humble|itch\.io|amazon games|prime gaming|playstation store)\s*\((game|games|dlc|loot|in-game loot)\)\s*-\s*",
+        "",
+        t,
+    )
+
+    # Remove GamerPower-style trailing store marker before giveaway words
+    t = re.sub(
+        r"\s*\((steam|epic games|gog|humble|itch\.io|amazon games|prime gaming|playstation|psn)\)\s*(giveaway)?\s*$",
+        "",
+        t,
+    )
+
     # Normalize common separators/punctuation
     t = t.replace("–", "-").replace("—", "-").replace(":", " ")
     t = re.sub(r"[^a-z0-9\s\-]", " ", t)
@@ -360,15 +374,16 @@ def canonical_offer_key(title: str, link: str, item_type: str) -> str:
     """
     norm_title = normalize_title_for_match(title)
     norm_link = canonicalize_link(link)
-    item_type_norm = item_type.strip().upper()
 
-    # Primary key: title + type only
-    # This is intentionally aggressive so duplicate aggregator/article URLs collapse.
+    # Treat GAME and DLC as the same dedupe family so source classification
+    # differences do not create duplicate feed items.
+    item_type_norm = item_type.strip().upper()
+    key_type = "OFFER" if item_type_norm in {"GAME", "DLC"} else item_type_norm
+
     if norm_title:
-        raw = f"{item_type_norm}||{norm_title}".encode("utf-8")
+        raw = f"{key_type}||{norm_title}".encode("utf-8")
     else:
-        # Fallback only if title normalization somehow empties out
-        raw = f"{item_type_norm}||{norm_link}".encode("utf-8")
+        raw = f"{key_type}||{norm_link}".encode("utf-8")
 
     return hashlib.sha1(raw).hexdigest()[:16]
 
