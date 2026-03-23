@@ -111,6 +111,12 @@ STORE_TAG_MARKERS = {
     ],
 }
 
+BLOCKED_STORE_MARKERS = {
+    "INDIEGALA": [
+        "indiegala",
+    ],
+}
+
 WATCH_GAMES = [
     # your current set (kept)
     "fortnite",
@@ -456,30 +462,43 @@ def detect_store_tags(title: str, src_name: str) -> List[str]:
         "PSN": 6,
     }
     return sorted(set(out), key=lambda x: order.get(x, 99))
-
-
-def infer_platforms(title: str, src_name: str, default_platforms: List[str]) -> List[str]:
+    
+    
+def is_blocked_store_item(title: str, src_name: str, link: str) -> bool:
     """
-    Infer platform from title text using word-boundary matching.
+    Exclude stores we do not want from any source.
+    Checks title, source name, and link deterministically.
+    """
+    text = f"{src_name} {title} {link}".lower()
+
+    for markers in BLOCKED_STORE_MARKERS.values():
+        if any(marker in text for marker in markers):
+            return True
+
+    return False
+
+
+def infer_platforms(title: str, src_name: str, default_platforms: List[str], link: str = "") -> List[str]:
+    """
+    Infer platform from title/link text using word-boundary matching.
 
     Returns:
         [] if explicitly unsupported platform detected
         supported platform list if detected
         default_platforms if nothing detected
     """
-
-    t = (title or "").lower()
+    text = f"{title} {link}".lower()
 
     # Detect excluded platforms first
     for markers in EXCLUDED_PLATFORM_MARKERS.values():
         for pattern in markers:
-            if re.search(pattern, t):
+            if re.search(pattern, text):
                 return []
 
     # Detect supported platforms
     for platform, markers in SUPPORTED_PLATFORM_MARKERS.items():
         for pattern in markers:
-            if re.search(pattern, t):
+            if re.search(pattern, text):
                 return [platform]
 
     return default_platforms
@@ -555,8 +574,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             link = getattr(e, "link", "").strip()
             if not title or not link:
                 continue
+                
+            # Exclude blocked stores globally
+            if is_blocked_store_item(title, src_name, link):
+                continue
 
-            platforms = infer_platforms(title, src_name, default_platforms)
+            platforms = infer_platforms(title, src_name, default_platforms, link)
             # Drop items for platforms we do not track yet
             if not any(p in ALLOWED_PLATFORMS for p in platforms):
                 continue
