@@ -82,12 +82,6 @@ sources:
       default_platforms: [PC, PS5, SWITCH]
       default_type: NEWS
       default_tags: [AGG]
-      
-    - name: GameSpot - Free Games
-      url: https://www.gamespot.com/feeds/mashup/news/free-games/
-      default_platforms: [PC, PS5, SWITCH]
-      default_type: NEWS
-      default_tags: [AGG]
 
     - name: Reddit - FreeGameFindings
       url: https://www.reddit.com/r/FreeGameFindings/.rss
