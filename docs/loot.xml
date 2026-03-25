@@ -5,9 +5,42 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/loot.xml</link>
 <description>Free DLC, cosmetics, in-game loot, and drops</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/loot.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 23 Mar 2026 04:49:35 +0000</pubDate>
+<pubDate>Thu, 19 Mar 2026 15:05:05 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 23 Mar 2026 04:49:35 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Mar 2026 02:52:07 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] [EPIC] Epic Games (Game) - World of Warships — Epic Anniversary Tachibana Pack]]></title>
+<link>https://store.epicgames.com/en-US/p/world-of-warships-world-of-warships-—-tachibana-lima-pack-5930e4</link>
+<guid isPermaLink='false'>ffb88fb8a924c0c8</guid>
+<pubDate>Thu, 19 Mar 2026 15:05:05 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - World of Warships — Epic Anniversary Tachibana Pack
+
+Source: LootScraper - Epic Games (PC)
+State ID: 572e6170e6bb650a
+Offer ID: ffb88fb8a924c0c8]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] [STEAM] Crime Boss: Rockay City Chase Character Pack Steam Key Giveaway]]></title>
+<link>https://www.gamerpower.com/crime-boss-rockay-city-chase-character-pack-steam-key-giveaway</link>
+<guid isPermaLink='false'>88326cde001344fe</guid>
+<pubDate>Mon, 16 Mar 2026 19:08:52 +0000</pubDate>
+<description><![CDATA[Crime Boss: Rockay City Chase Character Pack Steam Key Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 24740936baf73c49
+Offer ID: 88326cde001344fe]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [LOOT-DROP] World of Warships: Sabaton Collection Giveaway]]></title>
+<link>https://www.gamerpower.com/world-of-warships-sabaton-collection-giveaway</link>
+<guid isPermaLink='false'>c774803f014803c4</guid>
+<pubDate>Fri, 13 Mar 2026 18:13:25 +0000</pubDate>
+<description><![CDATA[World of Warships: Sabaton Collection Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 2ce86112ba3ae105
+Offer ID: c774803f014803c4]]></description>
+</item>
 </channel>
 </rss>
