@@ -23,7 +23,7 @@ sources:
     default_type: GAME
     default_tags: []
 
-  - name: LootScraper - Amazon Games In-game Loot
+  - name: LootScraper - Amazon In-game Loot
     url: https://feed.eikowagenknecht.com/lootscraper_amazon_loot.xml
     default_platforms: [PC]
     default_type: DLC
