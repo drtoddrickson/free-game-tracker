@@ -530,6 +530,14 @@ def infer_platforms(
     
 def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
     return items_state.get(sid, {}).get("status", "NEW")
+    
+    
+def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
+    return items_state.get(sid, {}).get("status", "ACTIVE")
+
+
+def get_user_state(items_state: Dict[str, Any], sid: str) -> str:
+    return items_state.get(sid, {}).get("user_state", "NONE")
 
 
 def is_crossplatform_item(title: str) -> bool:
@@ -675,9 +683,19 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "source": src_name,
                     "title": title,
                     "link": link,
+                    "offer_key": offer_key,
                     "first_seen": now.isoformat(),
-                    "status": "NEW",  # NEW | CLAIMED | IGNORED
+                    "last_seen": now.isoformat(),
+                    "status": "ACTIVE",      # ACTIVE | EXPIRED
+                    "user_state": "NONE",    # NONE | CLAIMED | IGNORED
                 }
+            else:
+                items_state[sid]["last_seen"] = now.isoformat()
+                items_state[sid]["status"] = "ACTIVE"
+                items_state[sid]["title"] = title
+                items_state[sid]["link"] = link
+                items_state[sid]["source"] = src_name
+                items_state[sid]["offer_key"] = offer_key
 
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
@@ -696,6 +714,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     item_tags.append("CROSS-PLATFORM")
 
             status = get_item_status(items_state, sid)
+            
+            system_status = get_item_status(items_state, sid)
+            user_state = get_user_state(items_state, sid)
+            
+            if get_user_state(items_state, sid) == "IGNORED":
+                continue
 
             candidate = {
                 "id": offer_key,
@@ -709,7 +733,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     f"Source: {src_name}\n"
                     f"State ID: {sid}\n"
                     f"Offer ID: {offer_key}\n"
-                    f"Status: {status}"
+                    f"Status: {system_status}\n"
+                    f"User State: {user_state}"
                 ),
             }
 
