@@ -529,10 +529,6 @@ def infer_platforms(
     
     
 def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
-    return items_state.get(sid, {}).get("status", "NEW")
-    
-    
-def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
     return items_state.get(sid, {}).get("status", "ACTIVE")
 
 
@@ -691,7 +687,14 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 }
             else:
                 items_state[sid]["last_seen"] = now.isoformat()
+                if items_state[sid].get("user_state") == "CLAIMED":
+                    continue
+                    
                 items_state[sid]["status"] = "ACTIVE"
+                # 🔹 Backfill missing fields for legacy entries
+                items_state[sid].setdefault("user_state", "NONE")
+                items_state[sid].setdefault("first_seen", now.isoformat())
+                # 🔹 Refresh observed metadata (already in your code)
                 items_state[sid]["title"] = title
                 items_state[sid]["link"] = link
                 items_state[sid]["source"] = src_name
@@ -712,8 +715,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if is_crossplatform_item(title):
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
-
-            status = get_item_status(items_state, sid)
             
             system_status = get_item_status(items_state, sid)
             user_state = get_user_state(items_state, sid)
