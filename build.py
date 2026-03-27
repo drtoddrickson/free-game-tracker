@@ -591,7 +591,19 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         default_item_type = normalize_type(src.get("default_type", "NEWS"))
         tags = src.get("default_tags", [])
 
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(
+            url,
+            agent="free-game-tracker/1.0 (+https://drtoddrickson.github.io/free-game-tracker/)",
+            request_headers={
+                "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+        )
+
+        print(
+            f"{src_name}: status={getattr(feed, 'status', 'n/a')} "
+            f"bozo={getattr(feed, 'bozo', False)} entries={len(feed.entries)}"
+        )
 
         for e in feed.entries[:50]:
             title = getattr(e, "title", "").strip()
