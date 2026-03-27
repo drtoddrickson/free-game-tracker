@@ -445,6 +445,50 @@ def add_content_tags(item_type: str, title: str, item_tags: List[str]) -> List[s
         out.append("LOOT-DROP")
 
     return out
+    
+    
+def is_noise_title(title: str) -> bool:
+    t = (title or "").lower()
+    noise_markers = [
+        "demo",
+        "trial",
+        "open beta",
+        "closed beta",
+        "beta test",
+        "playtest",
+        "test server",
+        "public test server",
+        "pts",
+        "stress test",
+        "server test",
+        "alpha test",
+    ]
+    return any(m in t for m in noise_markers)
+
+
+def has_blocked_platform(platforms: List[str]) -> bool:
+    p = {x.strip().upper() for x in platforms}
+    return "MOBILE" in p or "XBOX" in p
+
+
+def should_keep_loot_item(title: str, src_name: str, tags: List[str]) -> bool:
+    t = (title or "").lower()
+    tags_upper = {x.strip().upper() for x in tags}
+
+    # Keep high-signal loot ecosystems already intentionally tracked
+    if "FORTNITE" in tags_upper:
+        return True
+
+    # Keep AGG loot only when it matches your existing signal model
+    matched_games = [g for g in WATCH_GAMES if g in t]
+    matched_triggers = [k for k in FREE_TRIGGERS if k in t]
+
+    if matched_games and matched_triggers:
+        if "code" in t and ("free" not in t and "redeem" not in t):
+            return False
+        return True
+
+    return False
 
 
 def is_gamerpower_all_source(src_name: str) -> bool:
@@ -625,8 +669,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
 
             platforms = infer_platforms(title, src_name, default_platforms, link, summary)
-            # Drop items for platforms we do not track yet
+
+            # Drop items only when no allowed platform remains
             if not any(p in ALLOWED_PLATFORMS for p in platforms):
+                continue
+
+            # Explicit blocked-platform safeguard
+            if has_blocked_platform(platforms):
                 continue
             
             resolved_item_type = default_item_type
@@ -648,21 +697,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 matched_triggers = []
 
             elif "AGG" in tags_upper:
-                title_lc = title.lower()
-
-                # Block obvious deal spam early
-                if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
-                    continue
-
-                matched_games = [g for g in WATCH_GAMES if g in title_lc]
-                matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
-
-                if not matched_games or not matched_triggers:
-                    continue
-
-                # Guardrail: "code" mentions are noisy unless explicitly free/redeem
-                if "code" in title_lc and ("free" not in title_lc and "redeem" not in title_lc):
-                    continue
+                matched_games = []
+                matched_triggers = []
             else:
                 matched_games = []
                 matched_triggers = []
@@ -714,6 +750,25 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if is_crossplatform_item(title):
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
+            
+            is_full_game = has_tag(item_tags, "FULL-GAME")
+            is_loot = has_tag(item_tags, "LOOT-DROP")
+
+            # Global noise filter for all items
+            if is_noise_title(title):
+                continue
+
+            # Preserve your existing AGG deal-spam suppression globally for noisy aggregators
+            if "AGG" in tags_upper:
+                title_lc = title.lower()
+                if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
+                    continue
+
+            # Filtering model refinement:
+            # - Full games pass by default unless blocked elsewhere
+            # - Loot stays strict
+            if is_loot and not should_keep_loot_item(title, src_name, item_tags):
+                continue
             
             system_status = get_item_status(items_state, sid)
             user_state = get_user_state(items_state, sid)
