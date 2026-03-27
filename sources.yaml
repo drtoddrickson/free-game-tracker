@@ -1,90 +1,90 @@
 sources:
-    - name: LootScraper - Epic Games (PC)
-     url: https://feed.eikowagenknecht.com/lootscraper_epic_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - Epic Games (PC)
+    url: https://feed.eikowagenknecht.com/lootscraper_epic_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: LootScraper - Steam Games
-     url: https://feed.eikowagenknecht.com/lootscraper_steam_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - Steam Games
+    url: https://feed.eikowagenknecht.com/lootscraper_steam_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: LootScraper - Steam In-game Loot
-     url: https://feed.eikowagenknecht.com/lootscraper_steam_loot.xml
-     default_platforms: [PC]
-     default_type: DLC
-     default_tags: []
+  - name: LootScraper - Steam In-game Loot
+    url: https://feed.eikowagenknecht.com/lootscraper_steam_loot.xml
+    default_platforms: [PC]
+    default_type: DLC
+    default_tags: []
 
-    - name: LootScraper - Amazon Games
-     url: https://feed.eikowagenknecht.com/lootscraper_amazon_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - Amazon Games
+    url: https://feed.eikowagenknecht.com/lootscraper_amazon_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: LootScraper - Amazon In-game Loot
-     url: https://feed.eikowagenknecht.com/lootscraper_amazon_loot.xml
-     default_platforms: [PC]
-     default_type: DLC
-     default_tags: []
+  - name: LootScraper - Amazon In-game Loot
+    url: https://feed.eikowagenknecht.com/lootscraper_amazon_loot.xml
+    default_platforms: [PC]
+    default_type: DLC
+    default_tags: []
 
-    - name: LootScraper - GOG Games
-     url: https://feed.eikowagenknecht.com/lootscraper_gog_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - GOG Games
+    url: https://feed.eikowagenknecht.com/lootscraper_gog_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: LootScraper - Humble Games
-     url: https://feed.eikowagenknecht.com/lootscraper_humble_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - Humble Games
+    url: https://feed.eikowagenknecht.com/lootscraper_humble_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: LootScraper - itch.io Games
-     url: https://feed.eikowagenknecht.com/lootscraper_itch_game.xml
-     default_platforms: [PC]
-     default_type: GAME
-     default_tags: []
+  - name: LootScraper - itch.io Games
+    url: https://feed.eikowagenknecht.com/lootscraper_itch_game.xml
+    default_platforms: [PC]
+    default_type: GAME
+    default_tags: []
 
-    - name: PlayStation Blog
-     url: https://blog.playstation.com/feed/
-     default_platforms: [PS5]
-     default_type: NEWS
-     default_tags: [AGG]
+  - name: PlayStation Blog
+    url: https://blog.playstation.com/feed/
+    default_platforms: [PS5]
+    default_type: NEWS
+    default_tags: [AGG]
 
-    - name: FortniteNews.com (Community)
-     url: https://fortnitenews.com/rss/
-     default_platforms: [PS5, SWITCH]
-     default_type: NEWS
-     default_tags: [AGG, FORTNITE]
+  - name: FortniteNews.com (Community)
+    url: https://fortnitenews.com/rss/
+    default_platforms: [PS5, SWITCH]
+    default_type: NEWS
+    default_tags: [AGG, FORTNITE]
 
-    - name: GamerPower - All (Giveaways)
-     url: https://www.gamerpower.com/rss/giveaways
-     default_platforms: [PC]
-     default_type: NEWS
-     default_tags: []
-    
-    - name: SteamDeckHQ - Free Games
-     url: https://steamdeckhq.com/tag/free-games/feed/
-     default_platforms: [PC]
-     default_type: NEWS
-     default_tags: [AGG]
-    
-    - name: Fortnite Official
-     url: https://www.fortnite.com/news/rss
-     default_platforms: [PC, PS5, SWITCH]
-     default_type: NEWS
-     default_tags: [AGG, FORTNITE]
-     
-    - name: GameSpot - Free Games
-     url: https://www.gamespot.com/feeds/mashup/news/free-games/
-     default_platforms: [PC, PS5, SWITCH]
-     default_type: NEWS
-     default_tags: [AGG]
+  - name: GamerPower - All (Giveaways)
+    url: https://www.gamerpower.com/rss/giveaways
+    default_platforms: [PC]
+    default_type: NEWS
+    default_tags: []
 
-    - name: Reddit - FreeGameFindings
-     url: https://www.reddit.com/r/FreeGameFindings/.rss
-     default_platforms: [PC, PS5, SWITCH]
-     default_type: NEWS
-     default_tags: [AGG]
+  - name: SteamDeckHQ - Free Games
+    url: https://steamdeckhq.com/tag/free-games/feed/
+    default_platforms: [PC]
+    default_type: NEWS
+    default_tags: [AGG]
+
+  - name: Fortnite Official
+    url: https://www.fortnite.com/news/rss
+    default_platforms: [PC, PS5, SWITCH]
+    default_type: NEWS
+    default_tags: [AGG, FORTNITE]
+
+  - name: GameSpot - Free Games
+    url: https://www.gamespot.com/feeds/mashup/news/free-games/
+    default_platforms: [PC, PS5, SWITCH]
+    default_type: NEWS
+    default_tags: [AGG]
+
+  - name: Reddit - FreeGameFindings
+    url: https://www.reddit.com/r/FreeGameFindings/.rss
+    default_platforms: [PC, PS5, SWITCH]
+    default_type: NEWS
+    default_tags: [AGG]
