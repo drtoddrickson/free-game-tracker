@@ -526,6 +526,10 @@ def infer_platforms(
                 return [platform]
 
     return default_platforms
+    
+    
+def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
+    return items_state.get(sid, {}).get("status", "NEW")
 
 
 def is_crossplatform_item(title: str) -> bool:
@@ -672,6 +676,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "title": title,
                     "link": link,
                     "first_seen": now.isoformat(),
+                    "status": "NEW",  # NEW | CLAIMED | IGNORED
                 }
 
             # Build per-item tags (copy defaults)
@@ -697,7 +702,15 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 "tags": list(item_tags),
                 "title": format_title(platforms, resolved_item_type, item_tags, title),
                 "link": link,
-                "description": f"{title}\n\nSource: {src_name}\nState ID: {sid}\nOffer ID: {offer_key}",
+                status = get_item_status(items_state, sid)
+
+                "description": (
+                    f"{title}\n\n"
+                    f"Source: {src_name}\n"
+                    f"State ID: {sid}\n"
+                    f"Offer ID: {offer_key}\n"
+                    f"Status: {status}"
+                ),
             }
 
             existing = offer_map.get(offer_key)
