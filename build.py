@@ -695,6 +695,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
 
+            status = get_item_status(items_state, sid)
+
             candidate = {
                 "id": offer_key,
                 "published": published,
@@ -702,8 +704,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 "tags": list(item_tags),
                 "title": format_title(platforms, resolved_item_type, item_tags, title),
                 "link": link,
-                status = get_item_status(items_state, sid)
-
                 "description": (
                     f"{title}\n\n"
                     f"Source: {src_name}\n"
