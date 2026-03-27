@@ -6,7 +6,6 @@ Step A behavior:
 - Each item is only emitted once (prevents repeat notifications).
 - State stored in state.json
 - Titles are prefixed with tags like [PS5] [NEWS] ...
-- CLAIMED/IGNORED support will come later; for now we just do "seen once".
 """
 
 from __future__ import annotations
