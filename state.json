@@ -45,9 +45,13 @@
     "0581525b5bb9ec5c": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "0581525b5bb9ec5c",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/chimp-quest-spirit-isle-legacy/dp/amzn1.pg.item.7a29f232-6382-4783-b5e0-dc09f2af4233?ingress=amzn&ref_=SM_ChimpQuestSpiritIsle_S01_FGWP_CRWN",
+      "offer_key": "873c54e5ea6acbd8",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Chimp Quest: Spirit Isle"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Chimp Quest: Spirit Isle",
+      "user_state": "NONE"
     },
     "079587e0d210a018": {
       "first_seen": "2026-03-02T05:41:20.949122+00:00",
@@ -73,16 +77,24 @@
     "097ec53a7a83e0f1": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "097ec53a7a83e0f1",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/veil-of-darkness-gog/dp/amzn1.pg.item.837b8893-53b0-4072-8f3f-24037351b77d?ingress=amzn&ref_=SM_VeilofDarkness_S01_FGWP_CRWN",
+      "offer_key": "58e984e486e54077",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Veil of Darkness"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Veil of Darkness",
+      "user_state": "NONE"
     },
     "09f3c8ceaee6d926": {
       "first_seen": "2026-03-22T13:11:19.468569+00:00",
       "id": "09f3c8ceaee6d926",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/wave-gods-ammo-night-epic-games-giveaway",
+      "offer_key": "abe07eb337834117",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Wave Gods: Ammo Night (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "Wave Gods: Ammo Night (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "0d6126fcdd87eaa7": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -185,9 +197,13 @@
     "215270d4fd39412c": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "215270d4fd39412c",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
+      "offer_key": "31f506787066a9a8",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Captain Blood"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Captain Blood",
+      "user_state": "NONE"
     },
     "2160ad857c070059": {
       "first_seen": "2026-03-19T15:28:09.807232+00:00",
@@ -227,9 +243,13 @@
     "286a7642561de493": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "286a7642561de493",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://store.epicgames.com/en-US/p/hyper-echelon-2d23ff",
+      "offer_key": "ceb3cde4ba572ea5",
       "source": "LootScraper - Epic Games (PC)",
-      "title": "Epic Games (Game) - Hyper Echelon"
+      "status": "ACTIVE",
+      "title": "Epic Games (Game) - Hyper Echelon",
+      "user_state": "NONE"
     },
     "28df280f799235bb": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -283,23 +303,35 @@
     "309e693a6f6cce09": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "309e693a6f6cce09",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/deep-sky-derelicts-aga/dp/amzn1.pg.item.2bee44d2-9560-4916-a052-6a41cd434318?ingress=amzn&ref_=SM_DeepSkyDerelicts_S01_FGWP_CRWN",
+      "offer_key": "8f41b3ac2495003e",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Deep Sky Derelicts"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Deep Sky Derelicts",
+      "user_state": "NONE"
     },
     "325fc1384d6bed7b": {
       "first_seen": "2026-03-02T05:25:34.740274+00:00",
       "id": "325fc1384d6bed7b",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://fortnitenews.com/fortnite-winterfest-2025-free-outfits-revealed/",
+      "offer_key": "6e05159425ba6bb4",
       "source": "FortniteNews.com (Community)",
-      "title": "Fortnite Winterfest 2025: Free Outfits Revealed"
+      "status": "ACTIVE",
+      "title": "Fortnite Winterfest 2025: Free Outfits Revealed",
+      "user_state": "NONE"
     },
     "32ba3d43602f44a0": {
       "first_seen": "2026-03-20T02:36:02.708139+00:00",
       "id": "32ba3d43602f44a0",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway",
+      "offer_key": "72cb14934f1b1ca7",
       "source": "GamerPower - All (Giveaways)",
-      "title": "I Need Spirit: Off Road Edition (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "I Need Spirit: Off Road Edition (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "32cceee92e03daff": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -353,9 +385,13 @@
     "3bcb36a42d0f45c9": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "3bcb36a42d0f45c9",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/turmoil-epic/dp/amzn1.pg.item.d7d941e2-d63a-41cb-9ebb-1ca172de03b0?ingress=amzn&ref_=SM_Turmoil_S03_FGWP_CRWN",
+      "offer_key": "9274584500c8e064",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Turmoil"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Turmoil",
+      "user_state": "NONE"
     },
     "3fcfdfdb2edfd511": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -465,9 +501,13 @@
     "534dc9a3820b8e85": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "534dc9a3820b8e85",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&ref_=SM_TotalWarATTILA_S01_FGWP_CRWN",
+      "offer_key": "6710eb8bda5f2544",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Total War: ATTILA"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Total War: ATTILA",
+      "user_state": "NONE"
     },
     "572e6170e6bb650a": {
       "first_seen": "2026-03-19T15:28:09.807232+00:00",
@@ -507,9 +547,13 @@
     "5df43b3cc8512da5": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "5df43b3cc8512da5",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?ingress=amzn&ref_=SM_Meganoid_S01_FGWP_CRWN",
+      "offer_key": "f5eae7aa1a42f696",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Meganoid"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Meganoid",
+      "user_state": "NONE"
     },
     "5fbd71ab70612bb4": {
       "first_seen": "2026-03-06T19:10:32.847173+00:00",
@@ -549,9 +593,13 @@
     "63d920b1314455fb": {
       "first_seen": "2026-03-19T17:43:13.830891+00:00",
       "id": "63d920b1314455fb",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/pet-lands-steam-giveaway",
+      "offer_key": "ae8c00b27c5d20fb",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Pet Lands (Steam) Giveaway"
+      "status": "ACTIVE",
+      "title": "Pet Lands (Steam) Giveaway",
+      "user_state": "NONE"
     },
     "63ec30f55e3bcbc5": {
       "first_seen": "2026-03-08T07:08:21.702117+00:00",
@@ -584,9 +632,13 @@
     "693b01a6be25b298": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "693b01a6be25b298",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/total-war-rome-ii-emperor-edition-epic/dp/amzn1.pg.item.e39ffc2d-d79a-4f43-946d-47c9f6949d9b?ingress=amzn&ref_=SM_TotalWarRomeIIEmperorEdition_S01_FGWP_CRWN",
+      "offer_key": "72c49d401b958d69",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Total War: Rome II: Emperor Edition"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Total War: Rome II: Emperor Edition",
+      "user_state": "NONE"
     },
     "69805252dd66568d": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -612,9 +664,13 @@
     "6f520995879f9a5e": {
       "first_seen": "2026-03-22T17:30:20.730213+00:00",
       "id": "6f520995879f9a5e",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/narvas-steam-giveaway",
+      "offer_key": "2c0d3b5c9e73b851",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Narvas (Steam) Giveaway"
+      "status": "ACTIVE",
+      "title": "Narvas (Steam) Giveaway",
+      "user_state": "NONE"
     },
     "70372deacea27071": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
@@ -675,9 +731,13 @@
     "77c8c94a564c241f": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "77c8c94a564c241f",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/total-war-three-kingdoms-epic/dp/amzn1.pg.item.320652b9-ed39-4323-8f84-65c356de1bf3?ingress=amzn&ref_=SM_TotalWarTHREEKINGDOMS_S01_FGWP_CRWN",
+      "offer_key": "67bd6c662343e623",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Total War: THREE KINGDOMS"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Total War: THREE KINGDOMS",
+      "user_state": "NONE"
     },
     "78ee9ae1ba09943f": {
       "first_seen": "2026-03-19T17:43:13.830891+00:00",
@@ -689,9 +749,13 @@
     "7a325cd856e840db": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "7a325cd856e840db",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
+      "offer_key": "cfe93c48d9ef3faf",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Tattoo Tycoon"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Tattoo Tycoon",
+      "user_state": "NONE"
     },
     "7cf37629a7b348e7": {
       "first_seen": "2026-03-19T17:43:13.830891+00:00",
@@ -710,16 +774,24 @@
     "7f012b1fce49d722": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "7f012b1fce49d722",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
+      "offer_key": "3970cc5076419987",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Tiny Tina's Wonderlands"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Tiny Tina's Wonderlands",
+      "user_state": "NONE"
     },
     "7f3e670097a83e72": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "7f3e670097a83e72",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/lucky-goal-epic-games-giveaway",
+      "offer_key": "605ad48f05fac623",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Lucky Goal (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "Lucky Goal (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "7f9d5f550fe39171": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -745,9 +817,13 @@
     "81dfcf4e11e2cc26": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "81dfcf4e11e2cc26",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?ingress=amzn&ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN",
+      "offer_key": "19010feae274a214",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Siege of Avalon: Anthology"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Siege of Avalon: Anthology",
+      "user_state": "NONE"
     },
     "81e5494f422d1c57": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -794,9 +870,13 @@
     "8a11a850df5dda55": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "8a11a850df5dda55",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?ingress=amzn&ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN",
+      "offer_key": "24fed108ffdaa365",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Gunslugs: Rogue Tactics"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Gunslugs: Rogue Tactics",
+      "user_state": "NONE"
     },
     "8a6fc256d14c488a": {
       "first_seen": "2026-03-12T15:33:36.815500+00:00",
@@ -829,9 +909,13 @@
     "8c872f31a58936a8": {
       "first_seen": "2026-03-19T15:28:09.807232+00:00",
       "id": "8c872f31a58936a8",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/electrician-simulator-epic-games-giveaway",
+      "offer_key": "88210860a050d4ab",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Electrician Simulator (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "Electrician Simulator (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "8c8fdefe1e0acd24": {
       "first_seen": "2026-03-05T17:49:26.238427+00:00",
@@ -941,9 +1025,13 @@
     "994b68c476a9f423": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "994b68c476a9f423",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/static-voice-itch-io-giveaway",
+      "offer_key": "7e36e4ff946bb789",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Static Voice (Itch.io) Giveaway"
+      "status": "ACTIVE",
+      "title": "Static Voice (Itch.io) Giveaway",
+      "user_state": "NONE"
     },
     "99a1133140690988": {
       "first_seen": "2026-03-09T17:35:57.237017+00:00",
@@ -983,9 +1071,13 @@
     "9f4e8a7920ec6edb": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "9f4e8a7920ec6edb",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/phantasie-memorial-set-gog/dp/amzn1.pg.item.65303365-eba0-4a95-b10c-83c4303b9cba?ingress=amzn&ref_=SM_PhantasieMemorialSet_S01_FGWP_CRWN",
+      "offer_key": "463b4211db57f543",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Phantasie Memorial Set"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Phantasie Memorial Set",
+      "user_state": "NONE"
     },
     "a0e10f443988328a": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -997,16 +1089,24 @@
     "a0f08a5bcc50c84a": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "a0f08a5bcc50c84a",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/mahokenshi-the-samurai-deckbuilder-gog/dp/amzn1.pg.item.63d1e16c-0f19-4672-b3d6-128f62e58a3f?ingress=amzn&ref_=SM_MahokenshiTheSamuraiDeckbuilder_S01_FGWP_CRWN",
+      "offer_key": "2513f18a9ccec6d8",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Mahokenshi: The Samurai Deckbuilder"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Mahokenshi: The Samurai Deckbuilder",
+      "user_state": "NONE"
     },
     "a320fbeb495641c5": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "a320fbeb495641c5",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/symmetry-epic-games-giveaway",
+      "offer_key": "284b00ee56c76ad0",
       "source": "GamerPower - All (Giveaways)",
-      "title": "SYMMETRY (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "SYMMETRY (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "a333c38347bbe99f": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
@@ -1060,16 +1160,24 @@
     "ada16268ecf34c03": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "ada16268ecf34c03",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
+      "offer_key": "89c965cb1dc26b12",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Rebel Galaxy Outlaw"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Rebel Galaxy Outlaw",
+      "user_state": "NONE"
     },
     "b02da3825bd43ad9": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "b02da3825bd43ad9",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/havendock-epic-games-giveaway",
+      "offer_key": "66b675475b9cb980",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Havendock (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "Havendock (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "b0a37ad01303975e": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1144,9 +1252,13 @@
     "b842af078faa2a07": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "b842af078faa2a07",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
+      "offer_key": "bb6f423461850a25",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot",
+      "user_state": "NONE"
     },
     "b8f999ef24e544be": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1207,9 +1319,13 @@
     "c488175997d036f7": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "c488175997d036f7",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/tavern-talk-aga/dp/amzn1.pg.item.7a5cc817-9506-45a0-b9c9-7064d4bd1499?ingress=amzn&ref_=SM_TavernTalk_S01_FGWP_CRWN",
+      "offer_key": "78ec684c69e56173",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Tavern Talk"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Tavern Talk",
+      "user_state": "NONE"
     },
     "c51c3a2863cc0bb5": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1235,9 +1351,13 @@
     "c6a2bc56aa21f2b7": {
       "first_seen": "2026-03-19T18:36:18.511703+00:00",
       "id": "c6a2bc56aa21f2b7",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?ingress=amzn&ref_=SM_SirQuestionnaire_S01_FGWP_CRWN",
+      "offer_key": "116ddfdbbb0d8b21",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Sir Questionnaire"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Sir Questionnaire",
+      "user_state": "NONE"
     },
     "c8d7c730af08809c": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1298,9 +1418,13 @@
     "cf952b3dd4b0bfcc": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "cf952b3dd4b0bfcc",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
+      "offer_key": "5e748dc72bf3794c",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Sid Meier's Civilization VI"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Sid Meier's Civilization VI",
+      "user_state": "NONE"
     },
     "cfda2ecaa279736f": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1382,9 +1506,13 @@
     "dee852aa2b4da929": {
       "first_seen": "2026-03-19T18:36:18.511703+00:00",
       "id": "dee852aa2b4da929",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://luna.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
+      "offer_key": "7196dd194cd4417d",
       "source": "LootScraper - Amazon Games",
-      "title": "Amazon Prime (Game) - Rebel Galaxy"
+      "status": "ACTIVE",
+      "title": "Amazon Prime (Game) - Rebel Galaxy",
+      "user_state": "NONE"
     },
     "e141f60f9fab9faf": {
       "first_seen": "2026-03-01T07:46:36.090617+00:00",
@@ -1431,9 +1559,13 @@
     "e62e31e17be42025": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "e62e31e17be42025",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/hyper-echelon-epic-games-giveaway",
+      "offer_key": "ceb3cde4ba572ea5",
       "source": "GamerPower - All (Giveaways)",
-      "title": "Hyper Echelon (Epic Games) Giveaway"
+      "status": "ACTIVE",
+      "title": "Hyper Echelon (Epic Games) Giveaway",
+      "user_state": "NONE"
     },
     "e6ff40a00abc3641": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1613,9 +1745,13 @@
     "f89f089570d13f10": {
       "first_seen": "2026-03-22T13:11:19.468569+00:00",
       "id": "f89f089570d13f10",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/the-last-days-of-baltaseth-itchio-giveaway",
+      "offer_key": "e2078d83b7929746",
       "source": "GamerPower - All (Giveaways)",
-      "title": "The Last Days of Baltaseth (Itchio) Giveaway"
+      "status": "ACTIVE",
+      "title": "The Last Days of Baltaseth (Itchio) Giveaway",
+      "user_state": "NONE"
     },
     "f8b6a04aab20ebae": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
@@ -1627,9 +1763,13 @@
     "f8fbedb30b1942e7": {
       "first_seen": "2026-03-22T17:59:18.140601+00:00",
       "id": "f8fbedb30b1942e7",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://www.gamerpower.com/the-princess-factory-itchio-giveaway",
+      "offer_key": "fe3bdd0b66fb3e82",
       "source": "GamerPower - All (Giveaways)",
-      "title": "The Princess Factory (Itchio) Giveaway"
+      "status": "ACTIVE",
+      "title": "The Princess Factory (Itchio) Giveaway",
+      "user_state": "NONE"
     },
     "f942f65f634ab4e2": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1648,9 +1788,13 @@
     "fa55d26ece0a513f": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "fa55d26ece0a513f",
+      "last_seen": "2026-03-27T21:51:21.491600+00:00",
       "link": "https://store.epicgames.com/en-US/p/havendock-64983e",
+      "offer_key": "66b675475b9cb980",
       "source": "LootScraper - Epic Games (PC)",
-      "title": "Epic Games (Game) - Havendock"
+      "status": "ACTIVE",
+      "title": "Epic Games (Game) - Havendock",
+      "user_state": "NONE"
     },
     "fbdb5cdc4bd40e6f": {
       "first_seen": "2026-03-19T15:28:09.807232+00:00",
