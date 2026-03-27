@@ -737,7 +737,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     out.sort(key=lambda x: x["published"], reverse=True)
 
     # Keep only the most recent N items so the feed stays readable
-    N = 25
+    N = 50
     return out[:N]
 
 
