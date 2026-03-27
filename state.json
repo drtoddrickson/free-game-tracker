@@ -45,7 +45,7 @@
     "0581525b5bb9ec5c": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "0581525b5bb9ec5c",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/chimp-quest-spirit-isle-legacy/dp/amzn1.pg.item.7a29f232-6382-4783-b5e0-dc09f2af4233?ingress=amzn&ref_=SM_ChimpQuestSpiritIsle_S01_FGWP_CRWN",
       "offer_key": "873c54e5ea6acbd8",
       "source": "LootScraper - Amazon Games",
@@ -77,7 +77,7 @@
     "097ec53a7a83e0f1": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "097ec53a7a83e0f1",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/veil-of-darkness-gog/dp/amzn1.pg.item.837b8893-53b0-4072-8f3f-24037351b77d?ingress=amzn&ref_=SM_VeilofDarkness_S01_FGWP_CRWN",
       "offer_key": "58e984e486e54077",
       "source": "LootScraper - Amazon Games",
@@ -88,7 +88,7 @@
     "09f3c8ceaee6d926": {
       "first_seen": "2026-03-22T13:11:19.468569+00:00",
       "id": "09f3c8ceaee6d926",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/wave-gods-ammo-night-epic-games-giveaway",
       "offer_key": "abe07eb337834117",
       "source": "GamerPower - All (Giveaways)",
@@ -103,12 +103,34 @@
       "source": "GamerPower - Loot",
       "title": "THE FINALS: Free 500 Multibucks Keys"
     },
+    "0eb2bd51e00a3538": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "0eb2bd51e00a3538",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/24/virtual-hunter-brings-the-pursuit-to-ps-vr2-on-may-27/",
+      "offer_key": "96213bdd0aee9edc",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Virtual Hunter brings the pursuit to PS VR2 on May 27",
+      "user_state": "NONE"
+    },
     "100273e2a518c545": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "100273e2a518c545",
       "link": "https://store.steampowered.com/app/1353170",
       "source": "LootScraper - Steam In-game Loot",
       "title": "Steam (Loot) - Parkitect - Booms & Blooms"
+    },
+    "110715d08a30f948": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "110715d08a30f948",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s4qbu0/epic_games_game_lucky_goal/",
+      "offer_key": "4762335b1014a0de",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) Lucky Goal",
+      "user_state": "NONE"
     },
     "117be772bfb8646f": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -187,6 +209,28 @@
       "source": "Game Rant - Fortnite - Latest Stories (Community)",
       "title": "How to Get Grace Ashcroft Fortnite Skin for Free"
     },
+    "1f0a31498bab96d6": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "1f0a31498bab96d6",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/23/damon-and-baby-hands-on-with-the-ridiculous-twin-stick-shooter-out-march-26/",
+      "offer_key": "88c400682bdb47da",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Damon and Baby: hands-on with the ridiculous twin-stick shooter, out March 26",
+      "user_state": "NONE"
+    },
+    "1fabefe424744e03": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "1fabefe424744e03",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s49ut2/epic_games_game_havendock/",
+      "offer_key": "a4381f448a41e2b9",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) Havendock",
+      "user_state": "NONE"
+    },
     "2079d1b0e4ce86f4": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "2079d1b0e4ce86f4",
@@ -194,10 +238,21 @@
       "source": "LootScraper - Steam Games",
       "title": "Steam (Game) - Just Move:Clean City Messy Battle"
     },
+    "210037a1f6ba3a01": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "210037a1f6ba3a01",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/27/share-of-the-week-resident-evil-30th-anniversary/",
+      "offer_key": "d563bf9d504ac113",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Share of the Week: Resident Evil 30th Anniversary",
+      "user_state": "NONE"
+    },
     "215270d4fd39412c": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "215270d4fd39412c",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/captain-blood-gog/dp/amzn1.pg.item.8a0464ae-6ca1-4567-902f-ff1debdb42c8?ingress=amzn&ref_=SM_CaptainBlood_S01_FGWP_CRWN",
       "offer_key": "31f506787066a9a8",
       "source": "LootScraper - Amazon Games",
@@ -243,7 +298,7 @@
     "286a7642561de493": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "286a7642561de493",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://store.epicgames.com/en-US/p/hyper-echelon-2d23ff",
       "offer_key": "ceb3cde4ba572ea5",
       "source": "LootScraper - Epic Games (PC)",
@@ -265,6 +320,17 @@
       "source": "GamerPower - Steam",
       "title": "Deadswitch Combat: Weapons Skins Steam Key Giveaway"
     },
+    "2c9649276b9f0596": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "2c9649276b9f0596",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/24/the-spring-sale-comes-to-playstation-store-march-25/",
+      "offer_key": "6b7f19fddbed1d14",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "The Spring Sale comes to PlayStation Store March 25",
+      "user_state": "NONE"
+    },
     "2ce86112ba3ae105": {
       "first_seen": "2026-03-13T19:09:26.459273+00:00",
       "id": "2ce86112ba3ae105",
@@ -278,6 +344,17 @@
       "link": "https://www.gamerpower.com/boxes-lost-fragments-epic-games-giveaway",
       "source": "GamerPower - PC",
       "title": "Boxes: Lost Fragments (Epic Games) Giveaway"
+    },
+    "2dd32b90d909ca88": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "2dd32b90d909ca88",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-x-dc-new-batman-beyond-set-available-now/",
+      "offer_key": "c723be4ad87c5a6a",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite x DC: New Batman Beyond Set Available Now",
+      "user_state": "NONE"
     },
     "2e34ac9855d8d523": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -293,6 +370,17 @@
       "source": "GamerPower - Full Games",
       "title": "Boxes: Lost Fragments (Epic Games) Giveaway"
     },
+    "2eb0c048f69f0d94": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "2eb0c048f69f0d94",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s4d6sd/psa_total_war_three_kingdoms_egs_chimp_quest/",
+      "offer_key": "958a75d09b16eca6",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[PSA] Total War: Three Kingdoms (EGS), Chimp Quest: Spirit Isle (Legacy Games), Phantasie Memorial Set (GOG), Deep Sky Derelicts (Amazon Games) are complimentary with Amazon Prime",
+      "user_state": "NONE"
+    },
     "30637d452648ee3d": {
       "first_seen": "2026-03-04T18:59:14.520025+00:00",
       "id": "30637d452648ee3d",
@@ -303,7 +391,7 @@
     "309e693a6f6cce09": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "309e693a6f6cce09",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/deep-sky-derelicts-aga/dp/amzn1.pg.item.2bee44d2-9560-4916-a052-6a41cd434318?ingress=amzn&ref_=SM_DeepSkyDerelicts_S01_FGWP_CRWN",
       "offer_key": "8f41b3ac2495003e",
       "source": "LootScraper - Amazon Games",
@@ -314,7 +402,7 @@
     "325fc1384d6bed7b": {
       "first_seen": "2026-03-02T05:25:34.740274+00:00",
       "id": "325fc1384d6bed7b",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://fortnitenews.com/fortnite-winterfest-2025-free-outfits-revealed/",
       "offer_key": "6e05159425ba6bb4",
       "source": "FortniteNews.com (Community)",
@@ -325,7 +413,7 @@
     "32ba3d43602f44a0": {
       "first_seen": "2026-03-20T02:36:02.708139+00:00",
       "id": "32ba3d43602f44a0",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway",
       "offer_key": "72cb14934f1b1ca7",
       "source": "GamerPower - All (Giveaways)",
@@ -339,6 +427,17 @@
       "link": "https://www.reddit.com/r/PokemonScarletViolet/comments/1rbr1yk/weekly_shiny_pok\u00e9mon_megathread/",
       "source": "Pokemon ScarletViolet Reddit",
       "title": "Weekly Shiny Pok\u00e9mon Megathread"
+    },
+    "33955446a3b20ead": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "33955446a3b20ead",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-x-adidas-new-kicks-available-now/",
+      "offer_key": "e72e464eef332201",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite x Adidas: New Kicks Available Now",
+      "user_state": "NONE"
     },
     "33df07651b0f3b8f": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -385,7 +484,7 @@
     "3bcb36a42d0f45c9": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "3bcb36a42d0f45c9",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/turmoil-epic/dp/amzn1.pg.item.d7d941e2-d63a-41cb-9ebb-1ca172de03b0?ingress=amzn&ref_=SM_Turmoil_S03_FGWP_CRWN",
       "offer_key": "9274584500c8e064",
       "source": "LootScraper - Amazon Games",
@@ -427,6 +526,17 @@
       "link": "https://gamerant.com/fortnite-looney-tunes-discord-quest-how-get-bugs-bunny-free-avatar/",
       "source": "Game Rant - Fortnite - Latest Stories (Community)",
       "title": "How to Get a Free Buggs Avatar on Discord (Fortnite Quest)"
+    },
+    "4595c3972f63ed01": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "4595c3972f63ed01",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1ry2qux/epic_games_game_electrician_simulator/",
+      "offer_key": "4cf52b0e5df317c7",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) Electrician Simulator",
+      "user_state": "NONE"
     },
     "45e2b68efc9276ba": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
@@ -484,12 +594,34 @@
       "source": "GamerPower - Steam",
       "title": "Crowalt: Traces of the Lost Colony (Steam) Giveaway"
     },
+    "50479adfc98a27cb": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "50479adfc98a27cb",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1ry5uat/psa_steam_spring_sale_2026_3_stickers/",
+      "offer_key": "cd96681b3839d8c3",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[PSA] Steam Spring Sale 2026 - 3 Stickers",
+      "user_state": "NONE"
+    },
     "50c6c8cbdeef4081": {
       "first_seen": "2026-03-20T11:36:25.646850+00:00",
       "id": "50c6c8cbdeef4081",
       "link": "https://gamerant.com/fortnite-how-get-free-barricade-skin/",
       "source": "Game Rant - Fortnite - Latest Stories (Community)",
       "title": "How to Get the Free Barricade Skin in Fortnite"
+    },
+    "50d23e7161bb675c": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "50d23e7161bb675c",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/og-season-7-hotfix-bolt-action-sniper-rifle-vaulted-weapon-stats-updated/",
+      "offer_key": "f096e0adf921004e",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "OG Season 7 Hotfix - Bolt-Action Sniper Rifle Vaulted, Weapon Stats Updated",
+      "user_state": "NONE"
     },
     "50e18c2e6f9caf30": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
@@ -501,12 +633,23 @@
     "534dc9a3820b8e85": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "534dc9a3820b8e85",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&ref_=SM_TotalWarATTILA_S01_FGWP_CRWN",
       "offer_key": "6710eb8bda5f2544",
       "source": "LootScraper - Amazon Games",
       "status": "ACTIVE",
       "title": "Amazon Prime (Game) - Total War: ATTILA",
+      "user_state": "NONE"
+    },
+    "55fd652c55530eb8": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "55fd652c55530eb8",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-announces-winterfest-2025/",
+      "offer_key": "15fdf2cc9bd03d2b",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite Announces Winterfest 2025",
       "user_state": "NONE"
     },
     "572e6170e6bb650a": {
@@ -515,6 +658,17 @@
       "link": "https://store.epicgames.com/en-US/p/world-of-warships-world-of-warships-\u2014-tachibana-lima-pack-5930e4",
       "source": "LootScraper - Epic Games (PC)",
       "title": "Epic Games (Game) - World of Warships \u2014 Epic Anniversary Tachibana Pack"
+    },
+    "57e65e481223b6e9": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "57e65e481223b6e9",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s4jpeo/itchiogame_static_voice/",
+      "offer_key": "8d7ee6b69400388a",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Itch.io](Game) Static Voice",
+      "user_state": "NONE"
     },
     "5945bdf7ad0af72e": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -544,10 +698,21 @@
       "source": "GamerPower - Full Games",
       "title": "Paragnosia (Steam) Giveaway"
     },
+    "5d319417302cb333": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "5d319417302cb333",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s0rmnb/itchiogame_the_princess_factory/",
+      "offer_key": "d29eae3d4dc80f90",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Itch.io](Game) The Princess Factory",
+      "user_state": "NONE"
+    },
     "5df43b3cc8512da5": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "5df43b3cc8512da5",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/meganoid-gog/dp/amzn1.pg.item.593601a3-507c-4235-befd-a62df5d73eed?ingress=amzn&ref_=SM_Meganoid_S01_FGWP_CRWN",
       "offer_key": "f5eae7aa1a42f696",
       "source": "LootScraper - Amazon Games",
@@ -583,6 +748,17 @@
       "source": "Pokemon Legends Arceus Reddit",
       "title": "Hopes and dreams shattered"
     },
+    "625646684e9c46d1": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "625646684e9c46d1",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamerpower.com/do-not-disturb-itchio-giveaway",
+      "offer_key": "72f74f9086bdc899",
+      "source": "GamerPower - All (Giveaways)",
+      "status": "ACTIVE",
+      "title": "Do Not Disturb (Itchio) Giveaway",
+      "user_state": "NONE"
+    },
     "633b1ceb0bb458c1": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
       "id": "633b1ceb0bb458c1",
@@ -593,7 +769,7 @@
     "63d920b1314455fb": {
       "first_seen": "2026-03-19T17:43:13.830891+00:00",
       "id": "63d920b1314455fb",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/pet-lands-steam-giveaway",
       "offer_key": "ae8c00b27c5d20fb",
       "source": "GamerPower - All (Giveaways)",
@@ -632,7 +808,7 @@
     "693b01a6be25b298": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "693b01a6be25b298",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/total-war-rome-ii-emperor-edition-epic/dp/amzn1.pg.item.e39ffc2d-d79a-4f43-946d-47c9f6949d9b?ingress=amzn&ref_=SM_TotalWarRomeIIEmperorEdition_S01_FGWP_CRWN",
       "offer_key": "72c49d401b958d69",
       "source": "LootScraper - Amazon Games",
@@ -647,12 +823,45 @@
       "source": "Pokemon ScarletViolet Reddit",
       "title": "7-Star Blaziken (basically) cheese"
     },
+    "6992750914fdf9e0": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "6992750914fdf9e0",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/27/official-playstation-podcast-episode-537-speaking-saros/",
+      "offer_key": "5bdb8276af6c7bf8",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Official PlayStation Podcast Episode 537: Speaking Saros",
+      "user_state": "NONE"
+    },
+    "6a1adbde0d448d14": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "6a1adbde0d448d14",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/the-ps5-price-hike-was-inevitable-but-what-comes-next/1100-6539077/?ftag=CAD-01-10abi2f",
+      "offer_key": "825866c9a14fb006",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "The PS5 Price Hike Was Inevitable, But What Comes Next?",
+      "user_state": "NONE"
+    },
     "6af1b290118a5b01": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "6af1b290118a5b01",
       "link": "https://www.gamerpower.com/parkitect-dinos-amp-dynasties-steam-giveaway",
       "source": "GamerPower - PC",
       "title": "Parkitect - Dinos and Dynasties (Steam) Giveaway"
+    },
+    "6cf870e4aaa6af6f": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "6cf870e4aaa6af6f",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-v39-11-all-leaked-cosmetics/",
+      "offer_key": "4f3570fdb3b7d859",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite v39.11 - All Leaked Cosmetics",
+      "user_state": "NONE"
     },
     "6d3affed3631e4cf": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -661,10 +870,21 @@
       "source": "GamerPower - PC",
       "title": "Star Trek Online: Corruption Gift Pack Key Giveaway"
     },
+    "6ec663c9b4d54e55": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "6ec663c9b4d54e55",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s1mmxa/exiled_giveaways_and_itchio_mega_threads/",
+      "offer_key": "d5339809e4c19eca",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "Exiled Giveaways and Itch.io Mega Threads",
+      "user_state": "NONE"
+    },
     "6f520995879f9a5e": {
       "first_seen": "2026-03-22T17:30:20.730213+00:00",
       "id": "6f520995879f9a5e",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/narvas-steam-giveaway",
       "offer_key": "2c0d3b5c9e73b851",
       "source": "GamerPower - All (Giveaways)",
@@ -692,6 +912,17 @@
       "link": "https://www.gamerpower.com/parkitect-booms-and-blooms-steam-giveaway",
       "source": "GamerPower - All (Giveaways)",
       "title": "Parkitect - Booms and Blooms (Steam) Giveaway"
+    },
+    "71141fa1c146c015": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "71141fa1c146c015",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/super-smash-bros-series-amiibo-at-target/1100-6539072/?ftag=CAD-01-10abi2f",
+      "offer_key": "73a8ce2602f96a20",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Super Smash Bros. Amiibo Figures Are Discounted At Target",
+      "user_state": "NONE"
     },
     "71dc2ae28eca9f90": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -731,7 +962,7 @@
     "77c8c94a564c241f": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "77c8c94a564c241f",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/total-war-three-kingdoms-epic/dp/amzn1.pg.item.320652b9-ed39-4323-8f84-65c356de1bf3?ingress=amzn&ref_=SM_TotalWarTHREEKINGDOMS_S01_FGWP_CRWN",
       "offer_key": "67bd6c662343e623",
       "source": "LootScraper - Amazon Games",
@@ -749,12 +980,23 @@
     "7a325cd856e840db": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "7a325cd856e840db",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/tattoo-tycoon-epic/dp/amzn1.pg.item.4efdece7-33f4-40ae-88d6-f4a73e79bcb4?ingress=amzn&ref_=SM_TattooTycoon_S01_FGWP_CRWN",
       "offer_key": "cfe93c48d9ef3faf",
       "source": "LootScraper - Amazon Games",
       "status": "ACTIVE",
       "title": "Amazon Prime (Game) - Tattoo Tycoon",
+      "user_state": "NONE"
+    },
+    "7ae901dec7649edc": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "7ae901dec7649edc",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/record-sales-declining-stock-production-decreases-is-switch-2-a-massive-success-or-not/1100-6539066/?ftag=CAD-01-10abi2f",
+      "offer_key": "dbb2576dea26c593",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Record Sales, Declining Stock Prices, Production Decreases: Is Switch 2 A Massive Success Or Not?",
       "user_state": "NONE"
     },
     "7cf37629a7b348e7": {
@@ -774,7 +1016,7 @@
     "7f012b1fce49d722": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "7f012b1fce49d722",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?ingress=amzn&ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN",
       "offer_key": "3970cc5076419987",
       "source": "LootScraper - Amazon Games",
@@ -785,7 +1027,7 @@
     "7f3e670097a83e72": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "7f3e670097a83e72",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/lucky-goal-epic-games-giveaway",
       "offer_key": "605ad48f05fac623",
       "source": "GamerPower - All (Giveaways)",
@@ -799,6 +1041,17 @@
       "link": "https://www.gamerpower.com/kards-special-bundle-key-giveaway",
       "source": "GamerPower - Loot",
       "title": "KARDS Special Bundle Key Giveaway"
+    },
+    "801b50507a3d3d5e": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "801b50507a3d3d5e",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s0hsl7/epic_games_game_wave_gods_ammo_night/",
+      "offer_key": "b6fbb3e695f9d2a5",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) WAVE GODS: AMMO NIGHT",
+      "user_state": "NONE"
     },
     "807a0685fed104f7": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -817,7 +1070,7 @@
     "81dfcf4e11e2cc26": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "81dfcf4e11e2cc26",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?ingress=amzn&ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN",
       "offer_key": "19010feae274a214",
       "source": "LootScraper - Amazon Games",
@@ -831,6 +1084,17 @@
       "link": "https://www.gamerpower.com/world-crafter-td-steam-giveaway",
       "source": "GamerPower - Steam",
       "title": "World Crafter TD (Steam) Giveaway"
+    },
+    "8222ae710f330f31": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "8222ae710f330f31",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-x-bleach-revealed-available-december-20/",
+      "offer_key": "b47588a1aaa8a3dc",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite x Bleach Revealed, Available December 20",
+      "user_state": "NONE"
     },
     "8563e256f78c494a": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -867,10 +1131,32 @@
       "source": "Pokemon Legends Arceus Reddit",
       "title": "i got a shalpha rotom on pokemon day :)"
     },
+    "888015121ffe6bc4": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "888015121ffe6bc4",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/save-48-on-the-a-court-of-thorns-and-roses-paperback-5-novel-box-set/1100-6539045/?ftag=CAD-01-10abi2f",
+      "offer_key": "553c2665f7c1a335",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Save 48% On The A Court Of Thorns And Roses Paperback 5-Novel Box Set",
+      "user_state": "NONE"
+    },
+    "894f478f64ae1f9c": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "894f478f64ae1f9c",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/this-lego-r2-d2-deal-at-amazon-is-too-good-for-star-wars-fans-to-miss/1100-6539074/?ftag=CAD-01-10abi2f",
+      "offer_key": "465433155443c77c",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "This Lego R2-D2 Deal At Amazon Is Too Good For Star Wars Fans To Miss",
+      "user_state": "NONE"
+    },
     "8a11a850df5dda55": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "8a11a850df5dda55",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?ingress=amzn&ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN",
       "offer_key": "24fed108ffdaa365",
       "source": "LootScraper - Amazon Games",
@@ -898,6 +1184,17 @@
       "link": "https://www.gamerpower.com/residual-mobile-giveaway",
       "source": "GamerPower - Full Games",
       "title": "Residual (Mobile) Giveaway"
+    },
+    "8c609bd4a76c7b40": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "8c609bd4a76c7b40",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/25/elevate-your-mission-in-directive-8020-with-playstation-5-pro-enhancements-out-may-12/",
+      "offer_key": "51c448a220ece982",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Elevate your mission in Directive 8020 with PlayStation 5 Pro enhancements, out May 12",
+      "user_state": "NONE"
     },
     "8c70431691b4dd0c": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
@@ -931,6 +1228,17 @@
       "source": "GamerPower - PC",
       "title": "Planet Coaster (Steam) Giveaway"
     },
+    "8d8ac7c8655c9df1": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "8d8ac7c8655c9df1",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/26/saros-hands-on-report-intense-sci-fi-action-in-a-beautiful-deadly-alien-world/",
+      "offer_key": "69c72e45897115fe",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "Saros hands-on report: intense sci-fi action in a beautiful, deadly alien world",
+      "user_state": "NONE"
+    },
     "8dc1a677c5abcd51": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
       "id": "8dc1a677c5abcd51",
@@ -944,6 +1252,17 @@
       "link": "https://www.gamerpower.com/voidtrain-tour-de-void-steam-giveaway",
       "source": "GamerPower - Steam",
       "title": "Voidtrain - Tour de Void (Steam) Giveaway"
+    },
+    "8e4a2fde532197a1": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "8e4a2fde532197a1",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/this-comfortable-nintendo-switch-2-grip-is-discounted-in-amazons-spring-sale-2026-event/1100-6539046/?ftag=CAD-01-10abi2f",
+      "offer_key": "1dddd7a472aedc96",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "This Comfortable Nintendo Switch 2 Grip Is Discounted In Amazon's Spring Sale 2026 Event",
+      "user_state": "NONE"
     },
     "8ee142cb663a3fce": {
       "first_seen": "2026-03-04T16:59:43.438109+00:00",
@@ -965,6 +1284,17 @@
       "link": "https://www.reddit.com/r/PokemonScarletViolet/comments/1rhbu3d/discuss\u00e3o_todos_os_pok\u00e9mon_lend\u00e1rios_e_m\u00edticos/",
       "source": "Pokemon ScarletViolet Reddit",
       "title": "[Discuss\u00e3o] Todos os Pok\u00e9mon Lend\u00e1rios e M\u00edticos"
+    },
+    "92fcfb6761e52cd8": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "92fcfb6761e52cd8",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/ishowspeed-joins-the-fortnite-icon-series/",
+      "offer_key": "ab0772d4e1942bbe",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "IShowSpeed Joins the Fortnite Icon Series",
+      "user_state": "NONE"
     },
     "9453425e68b950ff": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -993,6 +1323,17 @@
       "link": "https://www.ign.com/articles/30-horror-masterpieces-to-play-before-you-die",
       "source": "IGN (All)",
       "title": "30 Horror Masterpieces To Play Before You Die"
+    },
+    "96580dc91e5cde7c": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "96580dc91e5cde7c",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/27/20260327-ps/",
+      "offer_key": "28070b5765a33c20",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "(For Southeast Asia) New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
+      "user_state": "NONE"
     },
     "9672ac01e198c643": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1025,7 +1366,7 @@
     "994b68c476a9f423": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "994b68c476a9f423",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/static-voice-itch-io-giveaway",
       "offer_key": "7e36e4ff946bb789",
       "source": "GamerPower - All (Giveaways)",
@@ -1071,7 +1412,7 @@
     "9f4e8a7920ec6edb": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "9f4e8a7920ec6edb",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/phantasie-memorial-set-gog/dp/amzn1.pg.item.65303365-eba0-4a95-b10c-83c4303b9cba?ingress=amzn&ref_=SM_PhantasieMemorialSet_S01_FGWP_CRWN",
       "offer_key": "463b4211db57f543",
       "source": "LootScraper - Amazon Games",
@@ -1089,7 +1430,7 @@
     "a0f08a5bcc50c84a": {
       "first_seen": "2026-03-12T17:36:56.305807+00:00",
       "id": "a0f08a5bcc50c84a",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/mahokenshi-the-samurai-deckbuilder-gog/dp/amzn1.pg.item.63d1e16c-0f19-4672-b3d6-128f62e58a3f?ingress=amzn&ref_=SM_MahokenshiTheSamuraiDeckbuilder_S01_FGWP_CRWN",
       "offer_key": "2513f18a9ccec6d8",
       "source": "LootScraper - Amazon Games",
@@ -1097,10 +1438,32 @@
       "title": "Amazon Prime (Game) - Mahokenshi: The Samurai Deckbuilder",
       "user_state": "NONE"
     },
+    "a137bd653929b72a": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "a137bd653929b72a",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/26/how-super-meat-boy-3d-captures-the-series-identity-out-may-31/",
+      "offer_key": "f1b829f2dc7b7724",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "How Super Meat Boy 3D captures the series\u2019 identity, out March 31",
+      "user_state": "NONE"
+    },
+    "a1e3bf024d6ffd1b": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "a1e3bf024d6ffd1b",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s49utc/epic_games_game_hyper_echelon/",
+      "offer_key": "9079ed7bc239e1b1",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) Hyper Echelon",
+      "user_state": "NONE"
+    },
     "a320fbeb495641c5": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "a320fbeb495641c5",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/symmetry-epic-games-giveaway",
       "offer_key": "284b00ee56c76ad0",
       "source": "GamerPower - All (Giveaways)",
@@ -1128,6 +1491,17 @@
       "link": "https://www.gamerpower.com/isonzo-epic-games-giveaway",
       "source": "GamerPower - All (Giveaways)",
       "title": "Isonzo (Epic Games) Giveaway"
+    },
+    "aa19822a3f1b31c6": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "aa19822a3f1b31c6",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/new-kim-kardashian-set-available-now/",
+      "offer_key": "fedabdfddc8d81a9",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "New Kim Kardashian Set Available Now",
+      "user_state": "NONE"
     },
     "aa8ea6f3e13a3b24": {
       "first_seen": "2026-03-05T17:49:26.238427+00:00",
@@ -1157,10 +1531,21 @@
       "source": "LootScraper - Epic Games (PC)",
       "title": "Epic Games (Game) - Idle Champions of the Forgotten Realms"
     },
+    "acf10c7458d2e356": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "acf10c7458d2e356",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-x-back-to-the-future-doc-brown-available-now/",
+      "offer_key": "2a6d8514e36a2f6c",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite x Back to the Future: Doc Brown Available Now",
+      "user_state": "NONE"
+    },
     "ada16268ecf34c03": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "ada16268ecf34c03",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN",
       "offer_key": "89c965cb1dc26b12",
       "source": "LootScraper - Amazon Games",
@@ -1168,15 +1553,48 @@
       "title": "Amazon Prime (Game) - Rebel Galaxy Outlaw",
       "user_state": "NONE"
     },
+    "afefd2c6cde5ba74": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "afefd2c6cde5ba74",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s5jb1o/itchiogame_do_not_disturb/",
+      "offer_key": "1ac2cde0eaadf809",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Itch.io](Game) Do Not Disturb",
+      "user_state": "NONE"
+    },
     "b02da3825bd43ad9": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "b02da3825bd43ad9",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/havendock-epic-games-giveaway",
       "offer_key": "66b675475b9cb980",
       "source": "GamerPower - All (Giveaways)",
       "status": "ACTIVE",
       "title": "Havendock (Epic Games) Giveaway",
+      "user_state": "NONE"
+    },
+    "b06eca0cc033005b": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "b06eca0cc033005b",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s0qx0g/steam_game_narvas/",
+      "offer_key": "54105c98b9570bc8",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Steam] (Game) Narvas",
+      "user_state": "NONE"
+    },
+    "b077c458e0344864": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "b077c458e0344864",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://blog.playstation.com/2026/03/27/new-price-changes-for-ps5-ps5-pro-and-playstation-portal-remote-player/",
+      "offer_key": "e2da65a5206d3d39",
+      "source": "PlayStation Blog",
+      "status": "ACTIVE",
+      "title": "New Price Changes for PS5, PS5 Pro, and PlayStation Portal remote player",
       "user_state": "NONE"
     },
     "b0a37ad01303975e": {
@@ -1207,12 +1625,34 @@
       "source": "Pokemon SwordShield Reddit",
       "title": "Help evolve Porygon"
     },
+    "b1e39a30bb873941": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "b1e39a30bb873941",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/leak-new-sabrina-carpenter-hatsune-miku-coming-for-winterfest-2025/",
+      "offer_key": "c48e15083dd55124",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Leak: New Sabrina Carpenter, Hatsune Miku coming for Winterfest 2025",
+      "user_state": "NONE"
+    },
     "b240b24adbd1c1b3": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
       "id": "b240b24adbd1c1b3",
       "link": "https://www.gamerpower.com/tempest-pirate-action-rpg-steam-key-giveaway",
       "source": "GamerPower - Steam",
       "title": "Tempest: Pirate Action RPG (Steam) Key Giveaway"
+    },
+    "b35a357ced23beb9": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "b35a357ced23beb9",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/fortnite-x-sabrina-carpenter-new-santa-brina-outfit-available-now/",
+      "offer_key": "1ac06fa16cb7cc7b",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "Fortnite x Sabrina Carpenter: New Santa 'Brina Outfit Available Now",
+      "user_state": "NONE"
     },
     "b36056461c1761cc": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1227,6 +1667,17 @@
       "link": "https://store.steampowered.com/app/1269500",
       "source": "LootScraper - Steam Games",
       "title": "Steam (Game) - Crowalt: Traces of the Lost Colony"
+    },
+    "b717f9302b21538c": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "b717f9302b21538c",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1ry5zyi/steam_game_pet_lands/",
+      "offer_key": "2d50f8cf3378c5e1",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Steam] (Game) Pet Lands",
+      "user_state": "NONE"
     },
     "b7368e8f10ad4d98": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1252,7 +1703,7 @@
     "b842af078faa2a07": {
       "first_seen": "2026-03-05T19:20:24.050825+00:00",
       "id": "b842af078faa2a07",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN",
       "offer_key": "bb6f423461850a25",
       "source": "LootScraper - Amazon Games",
@@ -1288,12 +1739,34 @@
       "source": "GamerPower - PC",
       "title": "Neon Phonk Robots (IndieGala) Giveaway"
     },
+    "c083945b57904492": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c083945b57904492",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/videos/a-complete-guide-to-the-greymane-camp-in-crimson-desert/2300-6466793/",
+      "offer_key": "a335c61feb2de050",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "A Complete Guide To The Greymane Camp In Crimson Desert",
+      "user_state": "NONE"
+    },
     "c0ccc552dba912e2": {
       "first_seen": "2026-03-08T07:08:21.702117+00:00",
       "id": "c0ccc552dba912e2",
       "link": "https://www.gamerpower.com/just-move-clean-city-messy-battle-steam-giveaway",
       "source": "GamerPower - All (Giveaways)",
       "title": "Just Move:Clean City Messy Battle (Steam) Giveaway"
+    },
+    "c11b55c9a7ea2fc3": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c11b55c9a7ea2fc3",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/new-lil-dill-sidekick-available-now/",
+      "offer_key": "461c8dfe356220a9",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "New Lil' Dill Sidekick Available Now",
+      "user_state": "NONE"
     },
     "c14fcfd5f5d0c5bb": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1309,6 +1782,28 @@
       "source": "Pokemon Legends Arceus Reddit",
       "title": "Removal of \"No Repetitive Screenshots\" Rule"
     },
+    "c231911020c4c6a9": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c231911020c4c6a9",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1ryfoxx/epicgame_i_need_spirit_offroad_edition/",
+      "offer_key": "ae59b793e931904b",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic](Game) I Need Spirit! Off-Road Edition",
+      "user_state": "NONE"
+    },
+    "c2c132193739974b": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c2c132193739974b",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/boy-there-sure-was-a-lot-of-bad-news-this-week-right/1100-6539070/?ftag=CAD-01-10abi2f",
+      "offer_key": "3d59f89d189d03bd",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Boy, There Sure Was A Lot Of Bad News This Week, Right?",
+      "user_state": "NONE"
+    },
     "c3503caf5dc514d7": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
       "id": "c3503caf5dc514d7",
@@ -1316,10 +1811,21 @@
       "source": "GamerPower - Steam",
       "title": "Paragnosia (Steam) Giveaway"
     },
+    "c37b242b7f808ddd": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c37b242b7f808ddd",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1rznqz9/steam_game_act/",
+      "offer_key": "f666f3a1dded962a",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Steam] (game) ACT",
+      "user_state": "NONE"
+    },
     "c488175997d036f7": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "c488175997d036f7",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/tavern-talk-aga/dp/amzn1.pg.item.7a5cc817-9506-45a0-b9c9-7064d4bd1499?ingress=amzn&ref_=SM_TavernTalk_S01_FGWP_CRWN",
       "offer_key": "78ec684c69e56173",
       "source": "LootScraper - Amazon Games",
@@ -1333,6 +1839,17 @@
       "link": "https://www.reddit.com/r/PokemonScarletViolet/comments/1rh8p9r/pombon_and_their_new_friends_oc/",
       "source": "Pokemon ScarletViolet Reddit",
       "title": "Pombon and their new friends! [OC]"
+    },
+    "c54ff468d107132a": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c54ff468d107132a",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1rytxuu/steam_game_project_scrapper/",
+      "offer_key": "eb1dea3c218ad196",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Steam] (game) Project Scrapper",
+      "user_state": "NONE"
     },
     "c621cb49f706b641": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1351,12 +1868,23 @@
     "c6a2bc56aa21f2b7": {
       "first_seen": "2026-03-19T18:36:18.511703+00:00",
       "id": "c6a2bc56aa21f2b7",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?ingress=amzn&ref_=SM_SirQuestionnaire_S01_FGWP_CRWN",
       "offer_key": "116ddfdbbb0d8b21",
       "source": "LootScraper - Amazon Games",
       "status": "ACTIVE",
       "title": "Amazon Prime (Game) - Sir Questionnaire",
+      "user_state": "NONE"
+    },
+    "c7a759d0c5294b6f": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "c7a759d0c5294b6f",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://fortnitenews.com/ishowspeed-to-join-the-fortnite-icon-series/",
+      "offer_key": "3b81c871eb928167",
+      "source": "FortniteNews.com (Community)",
+      "status": "ACTIVE",
+      "title": "IShowSpeed to Join the Fortnite Icon Series",
       "user_state": "NONE"
     },
     "c8d7c730af08809c": {
@@ -1418,7 +1946,7 @@
     "cf952b3dd4b0bfcc": {
       "first_seen": "2026-03-02T03:48:35.999944+00:00",
       "id": "cf952b3dd4b0bfcc",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/sid-meiers-civilization-vi-epic/dp/amzn1.pg.item.6b4d0ed8-afb2-4473-b9ef-275e6267eb38?ingress=amzn&ref_=SM_SidMeiersCivilizationVI_S01_FGWP_CRWN",
       "offer_key": "5e748dc72bf3794c",
       "source": "LootScraper - Amazon Games",
@@ -1439,6 +1967,17 @@
       "link": "https://www.gamerpower.com/cozy-grove-epic-games-giveaway",
       "source": "GamerPower - All (Giveaways)",
       "title": "Cozy Grove (Epic Games) Giveaway"
+    },
+    "d08c8ee96ca40d02": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "d08c8ee96ca40d02",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s48g2o/epic_games_game_symmetry/",
+      "offer_key": "425356562a6b4e92",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Epic Games] (Game) Symmetry",
+      "user_state": "NONE"
     },
     "d247da106fa66b8b": {
       "first_seen": "2026-03-08T07:08:21.702117+00:00",
@@ -1506,7 +2045,7 @@
     "dee852aa2b4da929": {
       "first_seen": "2026-03-19T18:36:18.511703+00:00",
       "id": "dee852aa2b4da929",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://luna.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?ingress=amzn&ref_=SM_RebelGalaxy_S01_FGWP_CRWN",
       "offer_key": "7196dd194cd4417d",
       "source": "LootScraper - Amazon Games",
@@ -1559,7 +2098,7 @@
     "e62e31e17be42025": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "e62e31e17be42025",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/hyper-echelon-epic-games-giveaway",
       "offer_key": "ceb3cde4ba572ea5",
       "source": "GamerPower - All (Giveaways)",
@@ -1573,6 +2112,17 @@
       "link": "https://www.gamerpower.com/magellania-steam-giveaway",
       "source": "GamerPower - Steam",
       "title": "Magellania (Steam) Giveaway"
+    },
+    "e784d5e11b28a5c2": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "e784d5e11b28a5c2",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/the-new-pubg-game-is-closing-after-less-than-2-months/1100-6539078/?ftag=CAD-01-10abi2f",
+      "offer_key": "e452f05aa641b8e7",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "The New PUBG Game Is Closing After Less Than 2 Months",
+      "user_state": "NONE"
     },
     "e7b26a938f27d8b6": {
       "first_seen": "2026-03-01T01:19:24.576020+00:00",
@@ -1629,6 +2179,17 @@
       "link": "https://www.gamerpower.com/the-assault-survivor-epic-games-giveaway",
       "source": "GamerPower - All (Giveaways)",
       "title": "The Assault: Survivor (Epic Games) Giveaway"
+    },
+    "ebf3988bbb440af5": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "ebf3988bbb440af5",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/amazon-spring-sale-grab-this-commodore-64-replica-console-for-just-85/1100-6539039/?ftag=CAD-01-10abi2f",
+      "offer_key": "ce81bdd7c524e616",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Amazon Spring Sale - Grab This Commodore 64 Replica Console For Just $85",
+      "user_state": "NONE"
     },
     "ecb2f4372c9cabc9": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
@@ -1700,6 +2261,17 @@
       "source": "Pokemon Legends Arceus Reddit",
       "title": "Yo I just found I could take pics with my Pok\u00e9mon\u2019s"
     },
+    "f2af1a080a924f69": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "f2af1a080a924f69",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/save-on-the-official-cosmere-ttrpg-based-on-brandon-sandersons-stormlight-archive-series/1100-6539071/?ftag=CAD-01-10abi2f",
+      "offer_key": "2ce615279075f737",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Save On The Official Cosmere TTRPG Based On Brandon Sanderson's Stormlight Archive Series",
+      "user_state": "NONE"
+    },
     "f373974bff15991f": {
       "first_seen": "2026-03-04T05:50:09.505370+00:00",
       "id": "f373974bff15991f",
@@ -1745,7 +2317,7 @@
     "f89f089570d13f10": {
       "first_seen": "2026-03-22T13:11:19.468569+00:00",
       "id": "f89f089570d13f10",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/the-last-days-of-baltaseth-itchio-giveaway",
       "offer_key": "e2078d83b7929746",
       "source": "GamerPower - All (Giveaways)",
@@ -1763,7 +2335,7 @@
     "f8fbedb30b1942e7": {
       "first_seen": "2026-03-22T17:59:18.140601+00:00",
       "id": "f8fbedb30b1942e7",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://www.gamerpower.com/the-princess-factory-itchio-giveaway",
       "offer_key": "fe3bdd0b66fb3e82",
       "source": "GamerPower - All (Giveaways)",
@@ -1785,15 +2357,37 @@
       "source": "GamerPower - PC",
       "title": "Voidtrain - Tour de Void (Steam) Giveaway"
     },
+    "fa478e66e3853bd1": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "fa478e66e3853bd1",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.gamespot.com/articles/slay-the-spire-2-dev-adjusts-update-that-led-to-review-bombing/1100-6539079/?ftag=CAD-01-10abi2f",
+      "offer_key": "8b8a9fad3bcf8f9a",
+      "source": "GameSpot - Free Games",
+      "status": "ACTIVE",
+      "title": "Slay the Spire 2 Dev Adjusts Update That Led To Review Bombing",
+      "user_state": "NONE"
+    },
     "fa55d26ece0a513f": {
       "first_seen": "2026-03-27T20:45:21.841506+00:00",
       "id": "fa55d26ece0a513f",
-      "last_seen": "2026-03-27T23:17:26.824689+00:00",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
       "link": "https://store.epicgames.com/en-US/p/havendock-64983e",
       "offer_key": "66b675475b9cb980",
       "source": "LootScraper - Epic Games (PC)",
       "status": "ACTIVE",
       "title": "Epic Games (Game) - Havendock",
+      "user_state": "NONE"
+    },
+    "fb871882ffb9c8c4": {
+      "first_seen": "2026-03-27T23:53:44.658240+00:00",
+      "id": "fb871882ffb9c8c4",
+      "last_seen": "2026-03-27T23:53:44.658240+00:00",
+      "link": "https://www.reddit.com/r/FreeGameFindings/comments/1s0hkxs/itchiogame_the_last_days_of_baltaseth/",
+      "offer_key": "e2fc7392c32274a4",
+      "source": "Reddit - FreeGameFindings",
+      "status": "ACTIVE",
+      "title": "[Itch.io](Game) The Last Days of Baltaseth",
       "user_state": "NONE"
     },
     "fbdb5cdc4bd40e6f": {
