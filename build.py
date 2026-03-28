@@ -765,7 +765,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             else:
                 items_state[sid]["last_seen"] = now.isoformat()
                 
-                if items_state[sid].get("user_state") in {"CLAIMED", "FORCE_EXPIRED"}:
+                if items_state[sid].get("user_state") == "CLAIMED":
                     continue
                     
                 items_state[sid]["status"] = "ACTIVE"
