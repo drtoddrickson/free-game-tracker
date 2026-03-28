@@ -41,12 +41,6 @@ sources:
     default_type: GAME
     default_tags: []
 
-  - name: LootScraper - itch.io Games
-    url: https://feed.eikowagenknecht.com/lootscraper_itch_game.xml
-    default_platforms: [PC]
-    default_type: GAME
-    default_tags: []
-
   - name: PlayStation Blog
     url: https://blog.playstation.com/feed/
     default_platforms: [PS5]
@@ -63,7 +57,7 @@ sources:
     url: https://www.gamerpower.com/rss/giveaways
     default_platforms: [PC]
     default_type: NEWS
-    default_tags: []
+    default_tags: [AGG]
 
   - name: SteamDeckHQ - Free Games
     url: https://steamdeckhq.com/tag/free-games/feed/
