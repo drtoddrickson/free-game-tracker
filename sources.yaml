@@ -57,7 +57,7 @@ sources:
     url: https://www.gamerpower.com/rss/giveaways
     default_platforms: [PC]
     default_type: NEWS
-    default_tags: [AGG]
+    default_tags: []
 
   - name: SteamDeckHQ - Free Games
     url: https://steamdeckhq.com/tag/free-games/feed/

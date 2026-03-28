@@ -628,6 +628,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     for src in sources:
         src_name = src["name"]
         url = src["url"]
+        source_counts.setdefault(src_name, 0)
 
         default_platforms = normalize_platforms(src.get("default_platforms", []))
         default_item_type = normalize_type(src.get("default_type", "NEWS"))
@@ -738,8 +739,20 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             # Preserve your existing AGG deal-spam suppression globally for noisy aggregators
             if "AGG" in tags_upper:
                 title_lc = title.lower()
+
                 if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
                     continue
+
+                # AGG non-loot items must still look like actual freebies/claims,
+                # otherwise generic news/posts leak through.
+                if not is_loot:
+                    matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
+                    if not matched_triggers:
+                        continue
+
+                    # Extra safety for vague code/redemption chatter
+                    if "code" in title_lc and ("free" not in title_lc and "redeem" not in title_lc):
+                        continue
 
             # Filtering model refinement:
             # - Full games pass by default unless blocked elsewhere
