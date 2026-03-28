@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 27 Mar 2026 01:47:49 +0000</pubDate>
+<pubDate>Sat, 28 Mar 2026 14:57:00 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 28 Mar 2026 14:52:31 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Mar 2026 15:36:53 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] FrostLight Escape (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/frostlight-escape-epic-games-giveaway</link>
+<guid isPermaLink='false'>69f432ddcfaca3de</guid>
+<pubDate>Sat, 28 Mar 2026 14:57:00 +0000</pubDate>
+<description><![CDATA[FrostLight Escape (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: a34bc9c438d01000
+Offer ID: 69f432ddcfaca3de
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Lucky Goal (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/lucky-goal-epic-games-giveaway</link>
@@ -199,21 +214,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: dee852aa2b4da929
 Offer ID: 7196dd194cd4417d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Pet Lands (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/pet-lands-steam-giveaway</link>
-<guid isPermaLink='false'>ae8c00b27c5d20fb</guid>
-<pubDate>Thu, 19 Mar 2026 17:11:48 +0000</pubDate>
-<description><![CDATA[Pet Lands (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 63d920b1314455fb
-Offer ID: ae8c00b27c5d20fb
 Status: ACTIVE
 User State: NONE
 Expires At: None
