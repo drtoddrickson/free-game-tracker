@@ -687,21 +687,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
                 resolved_item_type = classify_lootlike_item_type(title, "GAME")
 
-                matched_games = []
-                matched_triggers = []
-
             elif is_lootscraper_game_source(src_name):
                 resolved_item_type = classify_lootlike_item_type(title, default_item_type)
-
-                matched_games = []
-                matched_triggers = []
-
-            elif "AGG" in tags_upper:
-                matched_games = []
-                matched_triggers = []
-            else:
-                matched_games = []
-                matched_triggers = []
 
             sid = stable_id(src_name, title, link)
             published = entry_datetime(e)
@@ -751,7 +738,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
             
-            is_full_game = has_tag(item_tags, "FULL-GAME")
             is_loot = has_tag(item_tags, "LOOT-DROP")
 
             # Global noise filter for all items
