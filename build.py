@@ -577,6 +577,54 @@ def is_expired(last_seen_iso: str, now: datetime) -> bool:
         return False
 
     return (now - last_seen) > timedelta(hours=EXPIRATION_HOURS)
+    
+    
+def parse_expires_at(text: str, now: datetime) -> str | None:
+    text = (text or "").strip()
+
+    patterns = [
+        r"(?i)\bends?\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}(?:\s+\d{1,2}:\d{2}\s*(?:AM|PM))?)",
+        r"(?i)\bexpires?\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}(?:\s+\d{1,2}:\d{2}\s*(?:AM|PM))?)",
+        r"(?i)\buntil\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}(?:\s+\d{1,2}:\d{2}\s*(?:AM|PM))?)",
+    ]
+
+    for pattern in patterns:
+        m = re.search(pattern, text)
+        if not m:
+            continue
+
+        raw = m.group(1).strip()
+        for fmt in ("%B %d, %Y %I:%M %p", "%b %d, %Y %I:%M %p", "%B %d, %Y", "%b %d, %Y"):
+            try:
+                dt = datetime.strptime(raw, fmt).replace(tzinfo=timezone.utc)
+                return dt.isoformat()
+            except ValueError:
+                pass
+
+    return None
+
+
+def is_expiring_soon(expires_at_iso: str | None, now: datetime) -> bool:
+    if not expires_at_iso:
+        return False
+    try:
+        expires_at = datetime.fromisoformat(expires_at_iso)
+    except Exception:
+        return False
+
+    delta = expires_at - now
+    return timedelta(0) < delta <= timedelta(hours=72)
+
+
+def is_expired_by_expires_at(expires_at_iso: str | None, now: datetime) -> bool:
+    if not expires_at_iso:
+        return False
+    try:
+        expires_at = datetime.fromisoformat(expires_at_iso)
+    except Exception:
+        return False
+
+    return expires_at <= now
 
 
 def is_crossplatform_item(title: str) -> bool:
@@ -669,6 +717,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 continue
 
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
+            
+            expires_at = parse_expires_at(f"{title}\n{summary}", now)
 
             platforms = infer_platforms(title, default_platforms, link, summary)
 
@@ -706,8 +756,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "offer_key": offer_key,
                     "first_seen": now.isoformat(),
                     "last_seen": now.isoformat(),
-                    "status": "ACTIVE",      # ACTIVE | EXPIRED
-                    "user_state": "NONE",    # NONE | CLAIMED | IGNORED
+                    "status": "ACTIVE",          # ACTIVE | EXPIRING_SOON | EXPIRED
+                    "user_state": "NONE",        # NONE | CLAIMED | IGNORED | FORCE_EXPIRED
+                    "expires_at": None,          # ISO timestamp when known
                 }
             else:
                 items_state[sid]["last_seen"] = now.isoformat()
@@ -718,6 +769,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 # 🔹 Backfill missing fields for legacy entries
                 items_state[sid].setdefault("user_state", "NONE")
                 items_state[sid].setdefault("first_seen", now.isoformat())
+                items_state[sid].setdefault("expires_at", None)
                 # 🔹 Refresh observed metadata (already in your code)
                 items_state[sid]["title"] = title
                 items_state[sid]["link"] = link
