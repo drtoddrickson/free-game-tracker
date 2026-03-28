@@ -5,7 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Any, Dict, List
@@ -68,6 +68,7 @@ EXCLUDED_PLATFORM_MARKERS = {
 
 ALLOWED_PLATFORMS = set(SUPPORTED_PLATFORM_MARKERS.keys())
 ALLOWED_TYPES = {"GAME", "DLC", "EVENT", "SEASON", "NEWS"}
+EXPIRATION_HOURS = 72
 
 STORE_TAG_MARKERS = {
     "STEAM": [
@@ -567,6 +568,15 @@ def get_item_status(items_state: Dict[str, Any], sid: str) -> str:
 
 def get_user_state(items_state: Dict[str, Any], sid: str) -> str:
     return items_state.get(sid, {}).get("user_state", "NONE")
+    
+    
+def is_expired(last_seen_iso: str, now: datetime) -> bool:
+    try:
+        last_seen = datetime.fromisoformat(last_seen_iso)
+    except Exception:
+        return False
+
+    return (now - last_seen) > timedelta(hours=EXPIRATION_HOURS)
 
 
 def is_crossplatform_item(title: str) -> bool:
@@ -714,6 +724,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 items_state[sid]["source"] = src_name
                 items_state[sid]["offer_key"] = offer_key
 
+            if is_expired(items_state[sid].get("last_seen", ""), now):
+                items_state[sid]["status"] = "EXPIRED"
+    
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
 
@@ -762,7 +775,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             
             system_status = get_item_status(items_state, sid)
             user_state = get_user_state(items_state, sid)
-            
+
+            if system_status == "EXPIRED":
+                continue
+
             if user_state == "IGNORED":
                 continue
                 
@@ -815,6 +831,11 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                             and len(candidate["title"]) < len(existing["title"])
                         ):
                             offer_map[offer_key] = candidate
+    
+    for item in items_state.values():
+    last_seen_iso = item.get("last_seen", "")
+    if is_expired(last_seen_iso, now):
+        item["status"] = "EXPIRED"
     
     out = list(offer_map.values())
 
