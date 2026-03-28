@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-Build a single master RSS feed at docs/master.xml from multiple RSS/Atom sources.
-
-Step A behavior:
-- Each item is only emitted once (prevents repeat notifications).
-- State stored in state.json
-- Titles are prefixed with tags like [PS5] [NEWS] ...
-"""
 
 from __future__ import annotations
 
@@ -471,7 +463,7 @@ def has_blocked_platform(platforms: List[str]) -> bool:
     return "MOBILE" in p or "XBOX" in p
 
 
-def should_keep_loot_item(title: str, src_name: str, tags: List[str]) -> bool:
+def should_keep_loot_item(title: str, tags: List[str]) -> bool:
     t = (title or "").lower()
     tags_upper = {x.strip().upper() for x in tags}
 
@@ -541,7 +533,6 @@ def is_blocked_store_item(title: str, src_name: str, link: str) -> bool:
 
 def infer_platforms(
     title: str,
-    src_name: str,
     default_platforms: List[str],
     link: str = "",
     description: str = "",
@@ -668,7 +659,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
 
-            platforms = infer_platforms(title, src_name, default_platforms, link, summary)
+            platforms = infer_platforms(title, default_platforms, link, summary)
 
             # Drop items only when no allowed platform remains
             if not any(p in ALLOWED_PLATFORMS for p in platforms):
@@ -753,13 +744,13 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             # Filtering model refinement:
             # - Full games pass by default unless blocked elsewhere
             # - Loot stays strict
-            if is_loot and not should_keep_loot_item(title, src_name, item_tags):
+            if is_loot and not should_keep_loot_item(title, item_tags):
                 continue
             
             system_status = get_item_status(items_state, sid)
             user_state = get_user_state(items_state, sid)
             
-            if get_user_state(items_state, sid) == "IGNORED":
+            if user_state == "IGNORED":
                 continue
 
             candidate = {
@@ -833,7 +824,6 @@ def render_rss(
 ) -> str:
     now = datetime.now(tz=timezone.utc)
 
-    # NEW: make build date stable unless items change
     build_dt = max((it["published"] for it in items), default=now)
 
     parts: List[str] = []
