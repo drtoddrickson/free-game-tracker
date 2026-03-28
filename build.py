@@ -723,9 +723,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 items_state[sid]["link"] = link
                 items_state[sid]["source"] = src_name
                 items_state[sid]["offer_key"] = offer_key
-
-            if is_expired(items_state[sid].get("last_seen", ""), now):
-                items_state[sid]["status"] = "EXPIRED"
     
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
@@ -833,9 +830,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                             offer_map[offer_key] = candidate
     
     for item in items_state.values():
-    last_seen_iso = item.get("last_seen", "")
-    if is_expired(last_seen_iso, now):
-        item["status"] = "EXPIRED"
+        last_seen_iso = item.get("last_seen", "")
+        if is_expired(last_seen_iso, now):
+            item["status"] = "EXPIRED"
     
     out = list(offer_map.values())
 
