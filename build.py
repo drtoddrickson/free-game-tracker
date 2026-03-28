@@ -84,10 +84,6 @@ STORE_TAG_MARKERS = {
         "humble",
         "humble games",
     ],
-    "ITCH.IO": [
-        "itch.io",
-        "itch",
-    ],
     "AMAZON": [
         "amazon games",
         "prime gaming",
@@ -105,6 +101,10 @@ STORE_TAG_MARKERS = {
 BLOCKED_STORE_MARKERS = {
     "INDIEGALA": [
         "indiegala",
+    ],
+    "ITCH.IO": [
+        "itch.io",
+        "itch",
     ],
 }
 
@@ -510,9 +510,8 @@ def detect_store_tags(title: str, src_name: str) -> List[str]:
         "EPIC": 1,
         "GOG": 2,
         "HUMBLE": 3,
-        "ITCH.IO": 4,
-        "AMAZON": 5,
-        "PSN": 6,
+        "AMAZON": 4,
+        "PSN": 5,
     }
     return sorted(set(out), key=lambda x: order.get(x, 99))
     
@@ -609,7 +608,7 @@ def store_tag_score(tags: List[str]) -> int:
     Higher score = better/more specific source identity for dedupe winner selection.
     Prefer direct store/platform tags over generic/untagged items.
     """
-    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE", "ITCH.IO"}
+    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
@@ -619,6 +618,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     - We still remember everything in state.json (so we can later suppress repeats / claimed / ignored).
     - But we always OUTPUT the most recent N items so the feed is never empty.
     """
+    source_counts: Dict[str, int] = {}
     items_state: Dict[str, Any] = state.setdefault("items", {})
 
     out: List[Dict[str, Any]] = []
@@ -752,6 +752,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             
             if user_state == "IGNORED":
                 continue
+                
+            source_counts[src_name] = source_counts.get(src_name, 0) + 1
 
             candidate = {
                 "id": offer_key,
@@ -805,6 +807,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
     # Sort once (newest first)
     out.sort(key=lambda x: x["published"], reverse=True)
+    
+    print("\n=== Source Contribution Summary ===")
+    for src, count in sorted(source_counts.items(), key=lambda x: x[1]):
+        print(f"{src}: {count}")
 
     # Keep only the most recent N items so the feed stays readable
     N = 50
