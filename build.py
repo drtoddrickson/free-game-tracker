@@ -678,6 +678,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     """
     source_counts: Dict[str, int] = {}
     items_state: Dict[str, Any] = state.setdefault("items", {})
+    current_seen_ids = set()
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
@@ -781,21 +782,19 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     items_state[sid]["expires_at"] = expires_at
             
             # NEW: lifecycle evaluation happens here        
-            for item in items_state.values():
-                if item.get("user_state") == "FORCE_EXPIRED":
-                    item["status"] = "EXPIRED"
-                    continue
-
-                expires_at_iso = item.get("expires_at")
+            if items_state[sid].get("user_state") == "FORCE_EXPIRED":
+                items_state[sid]["status"] = "EXPIRED"
+            else:
+                expires_at_iso = items_state[sid].get("expires_at")
 
                 if is_expired_by_expires_at(expires_at_iso, now):
-                    item["status"] = "EXPIRED"
+                    items_state[sid]["status"] = "EXPIRED"
                 elif is_expiring_soon(expires_at_iso, now):
-                    item["status"] = "EXPIRING_SOON"
-                elif is_expired(item.get("last_seen", ""), now):
-                    item["status"] = "EXPIRED"
+                    items_state[sid]["status"] = "EXPIRING_SOON"
+                elif is_expired(items_state[sid].get("last_seen", ""), now):
+                    items_state[sid]["status"] = "EXPIRED"
                 else:
-                    item["status"] = "ACTIVE"
+                    items_state[sid]["status"] = "ACTIVE"
     
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
@@ -902,8 +901,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                             and len(candidate["title"]) < len(existing["title"])
                         ):
                             offer_map[offer_key] = candidate
-    
-    current_seen_ids = set()
     
     for sid, item in items_state.items():
         if sid in current_seen_ids:
