@@ -743,6 +743,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 resolved_item_type = classify_lootlike_item_type(title, default_item_type)
 
             sid = stable_id(src_name, title, link)
+            current_seen_ids.add(sid)
             published = entry_datetime(e)
             offer_key = canonical_offer_key(title, link, resolved_item_type)
 
@@ -758,11 +759,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     "last_seen": now.isoformat(),
                     "status": "ACTIVE",          # ACTIVE | EXPIRING_SOON | EXPIRED
                     "user_state": "NONE",        # NONE | CLAIMED | IGNORED | FORCE_EXPIRED
-                    "expires_at": None,          # ISO timestamp when known
+                    "expires_at": expires_at,          # ISO timestamp when known
                 }
             else:
                 items_state[sid]["last_seen"] = now.isoformat()
-                if items_state[sid].get("user_state") == "CLAIMED":
+                
+                if items_state[sid].get("user_state") in {"CLAIMED", "FORCE_EXPIRED"}:
                     continue
                     
                 items_state[sid]["status"] = "ACTIVE"
@@ -775,6 +777,25 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 items_state[sid]["link"] = link
                 items_state[sid]["source"] = src_name
                 items_state[sid]["offer_key"] = offer_key
+                if expires_at:
+                    items_state[sid]["expires_at"] = expires_at
+            
+            # NEW: lifecycle evaluation happens here        
+            for item in items_state.values():
+                if item.get("user_state") == "FORCE_EXPIRED":
+                    item["status"] = "EXPIRED"
+                    continue
+
+                expires_at_iso = item.get("expires_at")
+
+                if is_expired_by_expires_at(expires_at_iso, now):
+                    item["status"] = "EXPIRED"
+                elif is_expiring_soon(expires_at_iso, now):
+                    item["status"] = "EXPIRING_SOON"
+                elif is_expired(item.get("last_seen", ""), now):
+                    item["status"] = "EXPIRED"
+                else:
+                    item["status"] = "ACTIVE"
     
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
@@ -828,7 +849,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if system_status == "EXPIRED":
                 continue
 
-            if user_state == "IGNORED":
+            if user_state in {"IGNORED", "FORCE_EXPIRED"}:
                 continue
                 
             source_counts[src_name] = source_counts.get(src_name, 0) + 1
@@ -846,7 +867,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                     f"State ID: {sid}\n"
                     f"Offer ID: {offer_key}\n"
                     f"Status: {system_status}\n"
-                    f"User State: {user_state}"
+                    f"User State: {user_state}\n"
+                    f"Expires At: {items_state[sid].get('expires_at')}\n"
                 ),
             }
 
@@ -881,10 +903,26 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                         ):
                             offer_map[offer_key] = candidate
     
-    for item in items_state.values():
-        last_seen_iso = item.get("last_seen", "")
-        if is_expired(last_seen_iso, now):
+    current_seen_ids = set()
+    
+    for sid, item in items_state.items():
+        if sid in current_seen_ids:
+            continue
+
+        if item.get("user_state") == "FORCE_EXPIRED":
             item["status"] = "EXPIRED"
+            continue
+
+        expires_at_iso = item.get("expires_at")
+
+        if is_expired_by_expires_at(expires_at_iso, now):
+            item["status"] = "EXPIRED"
+        elif is_expiring_soon(expires_at_iso, now):
+            item["status"] = "EXPIRING_SOON"
+        elif is_expired(item.get("last_seen", ""), now):
+            item["status"] = "EXPIRED"
+        else:
+            item["status"] = "ACTIVE"
     
     out = list(offer_map.values())
 
