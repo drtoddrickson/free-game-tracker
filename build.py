@@ -1,4 +1,18 @@
 #!/usr/bin/env python3
+"""
+RSS-based Free Game Tracker build pipeline.
+
+Generates:
+- docs/master.xml
+- docs/loot.xml
+
+Responsibilities:
+- ingest configured RSS feeds from sources.yaml
+- normalize items across heterogeneous sources
+- apply filtering, tagging, routing, and dedupe
+- persist lifecycle and manual state in state.json
+- emit stable feed output for GitHub Pages / MonitoRSS use
+"""
 
 from __future__ import annotations
 
@@ -360,9 +374,13 @@ def canonicalize_link(link: str) -> str:
 
 def canonical_offer_key(title: str, link: str, item_type: str) -> str:
     """
-    Cross-source dedupe key.
-    Prefer title-based identity so the same offer from different article URLs
-    can still collapse into one item.
+    Build a cross-source dedupe key for one logical offer.
+
+    Prefer normalized title identity so the same offer surfaced by
+    different feeds or article URLs can collapse into one output item.
+
+    GAME and DLC are intentionally grouped into the same dedupe family
+    so minor source classification differences do not create duplicates.
     """
     norm_title = normalize_title_for_match(title)
     norm_link = canonicalize_link(link)
@@ -425,9 +443,14 @@ def format_title(platforms: List[str], item_type: str, tags: List[str], title: s
 
 def add_content_tags(item_type: str, title: str, item_tags: List[str]) -> List[str]:
     """
-    Add routing tags without changing core item types.
+    Add routing/display tags without changing the core item type.
+
+    Mappings:
     - GAME -> FULL-GAME
     - DLC  -> LOOT-DROP
+
+    These tags are used for feed splitting and downstream routing
+    without changing the normalized item_type field itself.
     """
     out = list(item_tags)
 
@@ -457,11 +480,6 @@ def is_noise_title(title: str) -> bool:
         "alpha test",
     ]
     return any(m in t for m in noise_markers)
-
-
-def has_blocked_platform(platforms: List[str]) -> bool:
-    p = {x.strip().upper() for x in platforms}
-    return "MOBILE" in p or "XBOX" in p
 
 
 def should_keep_loot_item(title: str, tags: List[str]) -> bool:
@@ -495,8 +513,13 @@ def should_suppress_gamerpower_title(title: str) -> bool:
 
 def detect_store_tags(title: str, src_name: str) -> List[str]:
     """
-    Detect store/platform ecosystem tags from title and source name.
-    Deterministic and additive only.
+    Detect store/ecosystem tags from source name and title.
+
+    This is deterministic and additive only:
+    - used for metadata, display, and dedupe tie-breaking
+    - not used for allow/block decisions
+
+    Store blocking is handled separately by is_blocked_store_item(...).
     """
     text = f"{src_name} {title}".lower()
     out: List[str] = []
@@ -519,8 +542,10 @@ def detect_store_tags(title: str, src_name: str) -> List[str]:
     
 def is_blocked_store_item(title: str, src_name: str, link: str) -> bool:
     """
-    Exclude stores we do not want from any source.
-    Checks title, source name, and link deterministically.
+    Return True when an item belongs to a globally blocked store.
+
+    Checks source name, title, and link text deterministically.
+    Used for hard exclusion before tagging, dedupe, and output.
     """
     text = f"{src_name} {title} {link}".lower()
 
@@ -531,19 +556,20 @@ def is_blocked_store_item(title: str, src_name: str, link: str) -> bool:
     return False
 
 
-def infer_platforms(
-    title: str,
+def infer_platforms(title: str,
     default_platforms: List[str],
     link: str = "",
     description: str = "",
 ) -> List[str]:
     """
-    Infer platform from title/link/description text using word-boundary matching.
+    Infer a platform from title, link, and description text.
 
-    Returns:
-        [] if explicitly unsupported platform detected
-        supported platform list if detected
-        default_platforms if nothing detected
+    Rules:
+    - Return [] immediately if an excluded platform is detected
+    - Return a single supported platform when confidently matched
+    - Fall back to default_platforms when no explicit platform is found
+
+    This keeps platform inference deterministic and conservative.
     """
     text = f"{title} {link} {description}".lower()
 
@@ -579,7 +605,7 @@ def is_expired(last_seen_iso: str, now: datetime) -> bool:
     return (now - last_seen) > timedelta(hours=EXPIRATION_HOURS)
     
     
-def parse_expires_at(text: str, now: datetime) -> str | None:
+def parse_expires_at(text: str) -> str | None:
     text = (text or "").strip()
 
     patterns = [
@@ -613,7 +639,7 @@ def is_expiring_soon(expires_at_iso: str | None, now: datetime) -> bool:
         return False
 
     delta = expires_at - now
-    return timedelta(0) < delta <= timedelta(hours=72)
+    return timedelta(0) < delta <= timedelta(hours=EXPIRATION_HOURS)
 
 
 def is_expired_by_expires_at(expires_at_iso: str | None, now: datetime) -> bool:
@@ -625,6 +651,21 @@ def is_expired_by_expires_at(expires_at_iso: str | None, now: datetime) -> bool:
         return False
 
     return expires_at <= now
+    
+
+def compute_lifecycle_status(item: Dict[str, Any], now: datetime) -> str:
+    if item.get("user_state") == "FORCE_EXPIRED":
+        return "EXPIRED"
+
+    expires_at_iso = item.get("expires_at")
+
+    if is_expired_by_expires_at(expires_at_iso, now):
+        return "EXPIRED"
+    if is_expiring_soon(expires_at_iso, now):
+        return "EXPIRING_SOON"
+    if is_expired(item.get("last_seen", ""), now):
+        return "EXPIRED"
+    return "ACTIVE"
 
 
 def is_crossplatform_item(title: str) -> bool:
@@ -663,8 +704,10 @@ def platform_specificity_score(platforms: List[str]) -> int:
     
 def store_tag_score(tags: List[str]) -> int:
     """
-    Higher score = better/more specific source identity for dedupe winner selection.
-    Prefer direct store/platform tags over generic/untagged items.
+    Score store tags for cross-source dedupe winner selection.
+
+    Higher score = stronger/more specific store identity.
+    Used only as a tie-breaker after platform specificity.
     """
     preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
@@ -672,9 +715,23 @@ def store_tag_score(tags: List[str]) -> int:
 
 def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
-    Build a rolling window feed:
-    - We still remember everything in state.json (so we can later suppress repeats / claimed / ignored).
-    - But we always OUTPUT the most recent N items so the feed is never empty.
+    Build the current rolling-window feed output from all configured sources.
+
+    Behavior:
+    - Parse and normalize source entries into a unified item model
+    - Track persistent item state in state.json
+    - Apply filtering, routing tags, and cross-source dedupe
+    - Compute lifecycle status:
+        ACTIVE | EXPIRING_SOON | EXPIRED
+    - Respect manual user_state overrides:
+        NONE | CLAIMED | IGNORED | FORCE_EXPIRED
+    - Output only visible, non-expired items, keeping the most recent N
+
+    Notes:
+    - state.json keeps historical item state even when items no longer appear in feeds
+    - EXPIRED items are retained in state but omitted from feed output
+    - EXPIRING_SOON items remain visible in the feed
+    - A per-source contribution summary is printed for pruning analysis
     """
     source_counts: Dict[str, int] = {}
     items_state: Dict[str, Any] = state.setdefault("items", {})
@@ -719,16 +776,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
             
-            expires_at = parse_expires_at(f"{title}\n{summary}", now)
+            expires_at = parse_expires_at(f"{title}\n{summary}")
 
             platforms = infer_platforms(title, default_platforms, link, summary)
 
             # Drop items only when no allowed platform remains
             if not any(p in ALLOWED_PLATFORMS for p in platforms):
-                continue
-
-            # Explicit blocked-platform safeguard
-            if has_blocked_platform(platforms):
                 continue
             
             resolved_item_type = default_item_type
@@ -781,20 +834,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if expires_at:
                     items_state[sid]["expires_at"] = expires_at
             
-            # NEW: lifecycle evaluation happens here        
-            if items_state[sid].get("user_state") == "FORCE_EXPIRED":
-                items_state[sid]["status"] = "EXPIRED"
-            else:
-                expires_at_iso = items_state[sid].get("expires_at")
-
-                if is_expired_by_expires_at(expires_at_iso, now):
-                    items_state[sid]["status"] = "EXPIRED"
-                elif is_expiring_soon(expires_at_iso, now):
-                    items_state[sid]["status"] = "EXPIRING_SOON"
-                elif is_expired(items_state[sid].get("last_seen", ""), now):
-                    items_state[sid]["status"] = "EXPIRED"
-                else:
-                    items_state[sid]["status"] = "ACTIVE"
+            # Compute lifecycle for the current item before candidate creation so
+            # EXPIRING_SOON / EXPIRED state affects visibility in the current run.       
+            items_state[sid]["status"] = compute_lifecycle_status(items_state[sid], now)
     
             # Build per-item tags (copy defaults)
             item_tags = list(tags)
@@ -902,24 +944,12 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                         ):
                             offer_map[offer_key] = candidate
     
+    # Recompute lifecycle for saved items that were NOT seen in this run.
+    # This is what allows disappeared offers to age into EXPIRING_SOON or EXPIRED.
     for sid, item in items_state.items():
         if sid in current_seen_ids:
             continue
-
-        if item.get("user_state") == "FORCE_EXPIRED":
-            item["status"] = "EXPIRED"
-            continue
-
-        expires_at_iso = item.get("expires_at")
-
-        if is_expired_by_expires_at(expires_at_iso, now):
-            item["status"] = "EXPIRED"
-        elif is_expiring_soon(expires_at_iso, now):
-            item["status"] = "EXPIRING_SOON"
-        elif is_expired(item.get("last_seen", ""), now):
-            item["status"] = "EXPIRED"
-        else:
-            item["status"] = "ACTIVE"
+        item["status"] = compute_lifecycle_status(item, now)
     
     out = list(offer_map.values())
 
@@ -948,6 +978,8 @@ def render_rss(
 ) -> str:
     now = datetime.now(tz=timezone.utc)
 
+    # Use the newest item pubdate as the feed pubDate so feed readers only
+    # see meaningful freshness changes when item content actually changes.
     build_dt = max((it["published"] for it in items), default=now)
 
     parts: List[str] = []
@@ -960,6 +992,7 @@ def render_rss(
     parts.append(f'<atom:link href="{xml_escape(site_url)}" rel="self" type="application/rss+xml" />')
     parts.append(f"<pubDate>{format_datetime(build_dt)}</pubDate>")
     parts.append("<ttl>15</ttl>")
+    # lastBuildDate reflects the actual build time of this feed render.
     parts.append(f"<lastBuildDate>{format_datetime(now)}</lastBuildDate>")
     parts.append("<generator>free-game-tracker/build.py</generator>")
     
