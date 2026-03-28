@@ -1,11 +1,11 @@
 # RSS Free Game Tracker Roadmap
 Version: 2026-03-28  
-Status: Current source-of-truth roadmap for architecture, prioritization, and feature sequencing.
+Status: Source-of-truth roadmap for architecture, prioritization, and feature sequencing.
 
 ---
 
 ## Purpose
-This roadmap controls the direction of:
+Controls direction of:
 - Build / Feature Development
 - Debugging follow-up priorities
 - Source / Feed Optimization decisions
@@ -28,171 +28,117 @@ Infrastructure:
 - GitHub Pages serves feeds from `/docs`
 - MonitoRSS distributes RSS output to Discord
 
-Current outputs:
+Outputs:
 - `master.xml`
 - `loot.xml`
-
-Completed foundations:
-- State tracking expansion
-- Filtering model refinement
-- Source pruning / block logic updates
-- Expiration tracking
 
 ---
 
 ## ACTIVE
-These are the next intended implementation targets, in order.
 
-### 1) Feed structure evolution
-Priority: High
-
+### R-001) Feed structure evolution
+Status: ACTIVE  
 Scope:
 - Add `full_games.xml`
 - Keep `master.xml`
 - Keep `loot.xml`
 
-Intent:
-- Clean split between full games and loot
-- Reduce downstream filtering burden
-- Improve future email digest structure
+---
+
+### R-002) Manual state management workflow
+Status: ACTIVE  
+Scope:
+- Easier way to update `state.json`
+- Support:
+  - CLAIMED
+  - IGNORED
+  - FORCE_EXPIRED
 
 ---
 
-### 2) Manual state management workflow
-Priority: High
-
+### R-003) Owned games YAML
+Status: ACTIVE  
 Scope:
-- Create a cleaner manual workflow for updating `state.json`
-- Support easy setting of:
-  - `CLAIMED`
-  - `IGNORED`
-  - `FORCE_EXPIRED`
-
-Intent:
-- Make current state features practical to use
-- Avoid tedious direct editing
-- Bridge toward future user-facing controls
-
----
-
-### 3) Owned games YAML
-Priority: High
-
-Scope:
-- Add a file-based owned library
-- Keep storage simple and repo-friendly
-- Prepare for owned-aware loot targeting later
-
-Intent:
-- Move watch/ownership data out of code and into data
-- Improve maintainability and personalization
-- Stay aligned with current YAML-based architecture
+- File-based owned game inventory
+- YAML structure aligned with current system
 
 ---
 
 ## BACKLOG
-Important features that should likely be built after the active tier.
 
-### 4) Owned-aware DLC targeting
-- Use wanted/owned game data to filter or prioritize loot
-- Keep full games broad, keep loot targeted
+### R-004) Owned-aware DLC targeting
+Status: BACKLOG  
+- Use owned data to filter/prioritize loot
 
-### 5) Platform inference improvements
-- Reduce false positives
-- Improve confidence across mixed-source titles
+### R-005) Platform inference improvements
+Status: BACKLOG  
 
-### 6) Store detection expansion
-- Improve store/ecosystem tagging accuracy
-- Support better routing and dedupe tie-breaking
+### R-006) Store detection expansion
+Status: BACKLOG  
 
-### 7) Dedupe improvements
-- Refine winner selection logic
-- Balance platform specificity, store quality, and recency
+### R-007) Dedupe improvements
+Status: BACKLOG  
 
-### 8) Source reliability scoring
-- Score sources based on quality / usefulness
-- Use later for source selection and tie-breaking
+### R-008) Source reliability scoring
+Status: BACKLOG  
 
-### 9) Email digest
-- Add digest-style delivery in addition to Discord
-- Likely daily/summary-oriented rather than alert-first
+### R-009) Email digest
+Status: BACKLOG  
 
-### 10) User-facing state controls
-- Discord-triggered or future UI-triggered updates
-- Set `CLAIMED`, `IGNORED`, `FORCE_EXPIRED`, and later `OWNED`
+### R-010) User-facing state controls (Discord/UI)
+Status: BACKLOG  
 
 ---
 
 ## EXPERIMENTAL
-Promising ideas that are worthwhile but should stay controlled and narrowly scoped.
 
-### 11) Multi-deal extraction from aggregator articles
-- Extract multiple items from a single roundup article
-- Whitelisted domains only
-- Deterministic parsers first, fallback-safe behavior only
+### R-011) Multi-deal extraction from aggregator articles
+Status: EXPERIMENTAL  
 
-### 12) Alienware Arena integration
-- Synthetic source integration for giveaway pages
-- Deterministic extraction only
-- Treat as a new source class, not just another feed
+### R-012) Alienware Arena integration
+Status: EXPERIMENTAL  
 
-### 13) Performance / efficiency tuning
-- Reduce unnecessary recomputation
-- Keep builds fast as feature set grows
+### R-013) Performance / efficiency tuning
+Status: EXPERIMENTAL  
 
 ---
 
 ## PARKING LOT
-Useful ideas to revisit later, but not needed for current roadmap completion.
 
-### Expiration-related enhancements
-- Broader date parsing for more source formats
-- Expiring-soon priority boosts
-- Special urgency routing for expiring-soon items
-- Email/Discord urgency tiers
+### Expiration enhancements
+- Broader date parsing
+- Expiring-soon prioritization
+- Urgency routing
 
-### Future personalization / expansion ideas
+### Future personalization
 - Platform-specific feeds
-- More granular routing by store/platform/type
-- Owned database migration to SQLite if interaction becomes heavier
-- Claimed/ignored/owned workflows driven directly from Discord
+- SQLite migration (if needed)
+- Advanced routing controls
 
 ---
 
 ## COMPLETED
-Keep this section short and milestone-focused.
 
-### Completed roadmap items
-- State tracking expansion
-- Filtering model refinement
-- Source pruning + block logic
-- Expiration tracking
+### R-014) State tracking expansion
+Status: COMPLETED (2026-03-27)
 
----
+### R-015) Filtering model refinement
+Status: COMPLETED (2026-03-27)
 
-## Update Rules
-When updating this roadmap:
-1. Change priorities intentionally
-2. Keep ACTIVE short
-3. Move finished items to COMPLETED
-4. Move speculative ideas to EXPERIMENTAL or PARKING LOT
-5. Bump the version date when meaningful roadmap changes occur
+### R-016) Source pruning + block logic
+Status: COMPLETED (2026-03-27)
+
+### R-017) Expiration tracking
+Status: COMPLETED (2026-03-27)
 
 ---
 
-## Suggested Repository Placement
-Recommended path in your GitHub repo:
+## CHANGE LOG
 
-`/roadmap.md`
-
-Why:
-- Easy to find at repo root
-- Easy to reference in chats
-- Easy to version in Git
-- Keeps it parallel to other core control files like `sources.yaml`
-
-Alternative if you want a docs-style structure later:
-- `/docs/roadmap.md`
-
-Current recommendation:
-- Put it at the repo root as `roadmap.md`
+### 2026-03-27
+- Completed: R-014 State tracking expansion
+- Completed: R-015 Filtering model refinement
+- Completed: R-016 Source pruning + block logic
+- Completed: R-017 Expiration tracking
+- Added: R-002 Manual state management workflow (ACTIVE)
+- Added: R-003 Owned games YAML (ACTIVE)
