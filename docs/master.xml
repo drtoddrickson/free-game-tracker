@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 28 Mar 2026 14:57:00 +0000</pubDate>
+<pubDate>Mon, 30 Mar 2026 12:00:08 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 30 Mar 2026 11:56:31 +0000</lastBuildDate>
+<lastBuildDate>Mon, 30 Mar 2026 13:54:20 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PS5] [NEWS] [AGG] [PSN] Avatar Legends: The Fighting Game – elemental bending breakdown]]></title>
+<link>https://blog.playstation.com/2026/03/30/avatar-legends-the-fighting-game-elemental-bending-breakdown/</link>
+<guid isPermaLink='false'>af78f95e3718eea4</guid>
+<pubDate>Mon, 30 Mar 2026 12:00:08 +0000</pubDate>
+<description><![CDATA[Avatar Legends: The Fighting Game – elemental bending breakdown
+
+Source: PlayStation Blog
+State ID: a76c922de880a335
+Offer ID: af78f95e3718eea4
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] FrostLight Escape (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/frostlight-escape-epic-games-giveaway</link>
@@ -169,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 09f3c8ceaee6d926
 Offer ID: abe07eb337834117
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] I Need Spirit: Off Road Edition (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/i-need-spirit-off-road-edition-epic-games-giveaway</link>
-<guid isPermaLink='false'>72cb14934f1b1ca7</guid>
-<pubDate>Fri, 20 Mar 2026 00:05:39 +0000</pubDate>
-<description><![CDATA[I Need Spirit: Off Road Edition (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 32ba3d43602f44a0
-Offer ID: 72cb14934f1b1ca7
 Status: ACTIVE
 User State: NONE
 Expires At: None
