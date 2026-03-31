@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 30 Mar 2026 22:35:32 +0000</pubDate>
+<pubDate>Tue, 31 Mar 2026 18:28:41 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 31 Mar 2026 18:39:38 +0000</lastBuildDate>
+<lastBuildDate>Tue, 31 Mar 2026 19:42:42 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] Hero Wars: Polaris Gift Key Giveaway]]></title>
+<link>https://www.gamerpower.com/hero-wars-polaris-gift-key-giveaway</link>
+<guid isPermaLink='false'>91abfa5f17d21b80</guid>
+<pubDate>Tue, 31 Mar 2026 18:28:41 +0000</pubDate>
+<description><![CDATA[Hero Wars: Polaris Gift Key Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: ff6e83241981d42c
+Offer ID: 91abfa5f17d21b80
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
@@ -169,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: a320fbeb495641c5
 Offer ID: 284b00ee56c76ad0
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Narvas (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/narvas-steam-giveaway</link>
-<guid isPermaLink='false'>2c0d3b5c9e73b851</guid>
-<pubDate>Sun, 22 Mar 2026 17:10:46 +0000</pubDate>
-<description><![CDATA[Narvas (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 6f520995879f9a5e
-Offer ID: 2c0d3b5c9e73b851
 Status: ACTIVE
 User State: NONE
 Expires At: None
