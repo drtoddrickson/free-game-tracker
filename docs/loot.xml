@@ -5,9 +5,9 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/loot.xml</link>
 <description>Free DLC, cosmetics, in-game loot, and drops</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/loot.xml" rel="self" type="application/rss+xml" />
-<pubDate>Tue, 31 Mar 2026 01:02:03 +0000</pubDate>
+<pubDate>Tue, 31 Mar 2026 04:08:02 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 31 Mar 2026 01:02:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 31 Mar 2026 04:08:02 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 </channel>
 </rss>
