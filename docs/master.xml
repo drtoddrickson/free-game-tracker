@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Wed, 01 Apr 2026 01:32:36 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 01 Apr 2026 11:14:39 +0000</lastBuildDate>
+<lastBuildDate>Wed, 01 Apr 2026 12:05:11 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Dice Eater: A Supernatural Mystery Card Game (Steam) Giveaway]]></title>
@@ -334,36 +334,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: cfe93c48d9ef3faf
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Total War: ATTILA]]></title>
-<link>https://luna.amazon.com/claims/total-war-attila-epic/dp/amzn1.pg.item.379e9280-72f8-41b5-bc81-ec3a02e4603c?ingress=amzn&amp;ref_=SM_TotalWarATTILA_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>6710eb8bda5f2544</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Total War: ATTILA
-
-Source: LootScraper - Amazon Games
-State ID: 534dc9a3820b8e85
-Offer ID: 6710eb8bda5f2544
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tavern Talk]]></title>
-<link>https://luna.amazon.com/claims/tavern-talk-aga/dp/amzn1.pg.item.7a5cc817-9506-45a0-b9c9-7064d4bd1499?ingress=amzn&amp;ref_=SM_TavernTalk_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>78ec684c69e56173</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:42 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Tavern Talk
-
-Source: LootScraper - Amazon Games
-State ID: c488175997d036f7
-Offer ID: 78ec684c69e56173
 Status: ACTIVE
 User State: NONE
 Expires At: None
