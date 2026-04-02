@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
+<pubDate>Thu, 02 Apr 2026 17:00:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 02 Apr 2026 16:31:15 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Apr 2026 17:36:49 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Total War: PHARAOH DYNASTIES]]></title>
+<link>https://luna.amazon.com/claims/total-war-pharaoh-dynasties-epic/dp/amzn1.pg.item.3537f41b-c6e5-4d7b-a3c9-683253ce433f?ingress=amzn&amp;ref_=SM_TotalWarPHARAOHDYNASTIES_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>7f79c0494c15ab62</guid>
+<pubDate>Thu, 02 Apr 2026 17:00:39 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Total War: PHARAOH DYNASTIES
+
+Source: LootScraper - Amazon Games
+State ID: 4e56c96f288b778b
+Offer ID: 7f79c0494c15ab62
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Tractor Racers (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/tractor-racers-epic-games-giveaway</link>
+<guid isPermaLink='false'>d678e23796d29c3c</guid>
+<pubDate>Thu, 02 Apr 2026 16:50:49 +0000</pubDate>
+<description><![CDATA[Tractor Racers (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 8d558cdbfbe41efc
+Offer ID: d678e23796d29c3c
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Clone Drone in the Danger Zone]]></title>
 <link>https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e</link>
@@ -139,21 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: a34bc9c438d01000
 Offer ID: 69f432ddcfaca3de
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Lucky Goal (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/lucky-goal-epic-games-giveaway</link>
-<guid isPermaLink='false'>605ad48f05fac623</guid>
-<pubDate>Fri, 27 Mar 2026 01:47:49 +0000</pubDate>
-<description><![CDATA[Lucky Goal (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 7f3e670097a83e72
-Offer ID: 605ad48f05fac623
 Status: ACTIVE
 User State: NONE
 Expires At: None
