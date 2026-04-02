@@ -5,19 +5,34 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 02 Apr 2026 00:51:57 +0000</pubDate>
+<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 02 Apr 2026 14:10:11 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Apr 2026 15:16:56 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] TOMAK : Save the Earth Regeneration (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/tomak-save-the-earth-regeneration-epic-games-giveaway</link>
-<guid isPermaLink='false'>32c34004bb3b9beb</guid>
-<pubDate>Thu, 02 Apr 2026 00:51:57 +0000</pubDate>
-<description><![CDATA[TOMAK : Save the Earth Regeneration (Epic Games) Giveaway
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Clone Drone in the Danger Zone]]></title>
+<link>https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e</link>
+<guid isPermaLink='false'>cd695f2470021c13</guid>
+<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Clone Drone in the Danger Zone
 
-Source: GamerPower - All (Giveaways)
-State ID: 61283b2d85b0912f
+Source: LootScraper - Epic Games (PC)
+State ID: 3a7968d1623e9dfc
+Offer ID: cd695f2470021c13
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - TOMAK: Save the Earth Regeneration]]></title>
+<link>https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c</link>
+<guid isPermaLink='false'>32c34004bb3b9beb</guid>
+<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - TOMAK: Save the Earth Regeneration
+
+Source: LootScraper - Epic Games (PC)
+State ID: 38e842e82f2c0e9c
 Offer ID: 32c34004bb3b9beb
 Status: ACTIVE
 User State: NONE
@@ -199,36 +214,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 0581525b5bb9ec5c
 Offer ID: 873c54e5ea6acbd8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Hyper Echelon]]></title>
-<link>https://store.epicgames.com/en-US/p/hyper-echelon-2d23ff</link>
-<guid isPermaLink='false'>ceb3cde4ba572ea5</guid>
-<pubDate>Thu, 26 Mar 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Hyper Echelon
-
-Source: LootScraper - Epic Games (PC)
-State ID: 286a7642561de493
-Offer ID: ceb3cde4ba572ea5
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Havendock]]></title>
-<link>https://store.epicgames.com/en-US/p/havendock-64983e</link>
-<guid isPermaLink='false'>66b675475b9cb980</guid>
-<pubDate>Thu, 26 Mar 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Havendock
-
-Source: LootScraper - Epic Games (PC)
-State ID: fa55d26ece0a513f
-Offer ID: 66b675475b9cb980
 Status: ACTIVE
 User State: NONE
 Expires At: None
