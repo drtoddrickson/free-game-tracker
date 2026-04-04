@@ -276,6 +276,9 @@ LOOT_MARKERS = [
     " collection giveaway",
     " pack",
     " collection",
+    "gift key",
+    "gift code",
+    "key giveaway",
 ]
 
 
