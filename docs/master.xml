@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 03 Apr 2026 17:58:32 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 04 Apr 2026 11:47:43 +0000</lastBuildDate>
+<lastBuildDate>Sat, 04 Apr 2026 13:07:51 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] House Flipper (Steam) Giveaway]]></title>
@@ -349,21 +349,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 693b01a6be25b298
 Offer ID: 72c49d401b958d69
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Siege of Avalon: Anthology]]></title>
-<link>https://luna.amazon.com/claims/siege-of-avalon-anthology-gog/dp/amzn1.pg.item.dbfcfdc7-5fd2-4595-af4e-a268493ccd5b?ingress=amzn&amp;ref_=SM_SiegeofAvalonAnthology_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>19010feae274a214</guid>
-<pubDate>Thu, 05 Mar 2026 18:02:11 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Siege of Avalon: Anthology
-
-Source: LootScraper - Amazon Games
-State ID: 81dfcf4e11e2cc26
-Offer ID: 19010feae274a214
 Status: ACTIVE
 User State: NONE
 Expires At: None
