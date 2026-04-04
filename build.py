@@ -192,6 +192,23 @@ FREE_TRIGGERS = [
     "free bundle",
 ]
 
+AGG_STRONG_TRIGGERS = [
+    "free to claim",
+    "free-to-claim",
+    "claim free",
+    "claim now",
+    "claimable",
+    "redeem",
+    "redeemable",
+    "redeem now",
+    "free dlc",
+    "free pack",
+    "free bundle",
+    "free skin",
+    "free cosmetic",
+    "free to keep",
+]
+
 DEAL_SPAM_BLOCKLIST = [
     # price drop language
     "drops to $",
@@ -869,10 +886,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if any(b in title_lc for b in DEAL_SPAM_BLOCKLIST):
                     continue
 
-                # AGG non-loot items must still look like actual freebies/claims,
-                # otherwise generic news/posts leak through.
+                # AGG non-loot items must look like actual claim/redeem freebies,
+                # not just general news mentioning "free".
                 if not is_loot:
-                    matched_triggers = [k for k in FREE_TRIGGERS if k in title_lc]
+                    matched_triggers = [k for k in AGG_STRONG_TRIGGERS if k in title_lc]
                     if not matched_triggers:
                         continue
 
