@@ -785,7 +785,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 continue
             
             resolved_item_type = default_item_type
-            tags_upper = {t.upper() for t in tags}
+            tags_upper = set()  # temporary placeholder
 
             if is_gamerpower_all_source(src_name):
                 if should_suppress_gamerpower_title(title):
@@ -843,6 +843,8 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Add content-routing tags
             item_tags = add_content_tags(resolved_item_type, title, item_tags)
+            
+            tags_upper = {t.upper() for t in item_tags}
             
             # Add store tags
             for store_tag in detect_store_tags(title, src_name):
