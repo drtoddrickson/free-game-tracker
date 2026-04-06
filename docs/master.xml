@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 05 Apr 2026 13:46:24 +0000</pubDate>
+<pubDate>Mon, 06 Apr 2026 17:30:15 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 06 Apr 2026 17:08:06 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Apr 2026 18:05:49 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Chamber Survival]]></title>
+<link>https://store.steampowered.com/app/2943780</link>
+<guid isPermaLink='false'>6f5c75e697625f87</guid>
+<pubDate>Mon, 06 Apr 2026 17:30:15 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Chamber Survival
+
+Source: LootScraper - Steam Games
+State ID: cc8b60316c492829
+Offer ID: 6f5c75e697625f87
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Evergreen Valley: The Parkour Game (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/evergreen-valley-the-parkour-game-epic-games-giveaway</link>
