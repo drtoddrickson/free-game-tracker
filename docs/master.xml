@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 09 Apr 2026 16:02:03 +0000</pubDate>
+<pubDate>Thu, 09 Apr 2026 18:00:56 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 09 Apr 2026 17:38:59 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Apr 2026 18:39:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - King of Retail]]></title>
+<link>https://luna.amazon.com/claims/king-of-retail-gog/dp/amzn1.pg.item.36296c26-8f00-4a21-987a-8dc131220c5a?ingress=amzn&amp;ref_=SM_KingofRetail_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>1a0b70f99de9bc1f</guid>
+<pubDate>Thu, 09 Apr 2026 18:00:56 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - King of Retail
+
+Source: LootScraper - Amazon Games
+State ID: d2ab4c8251b0a463
+Offer ID: 1a0b70f99de9bc1f
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - A Rat's Quest: The Way Back Home]]></title>
+<link>https://luna.amazon.com/claims/a-rats-quest-the-way-back-home-epic/dp/amzn1.pg.item.34210f82-0bf5-4aa6-860e-87640c1caf50?ingress=amzn&amp;ref_=SM_ARatsQuestTheWayBackHome_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a666dbb4c0b08e01</guid>
+<pubDate>Thu, 09 Apr 2026 18:00:52 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - A Rat's Quest: The Way Back Home
+
+Source: LootScraper - Amazon Games
+State ID: 3e55171ad482e567
+Offer ID: a666dbb4c0b08e01
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Graveyard Keeper]]></title>
 <link>https://store.steampowered.com/app/599140</link>
