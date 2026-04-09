@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 06 Apr 2026 18:34:08 +0000</pubDate>
+<pubDate>Thu, 09 Apr 2026 16:02:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 09 Apr 2026 14:56:53 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Apr 2026 16:22:32 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Graveyard Keeper]]></title>
+<link>https://store.steampowered.com/app/599140</link>
+<guid isPermaLink='false'>da825d02da4c7781</guid>
+<pubDate>Thu, 09 Apr 2026 16:02:03 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Graveyard Keeper
+
+Source: LootScraper - Steam Games
+State ID: 15ce05bb05fe880a
+Offer ID: da825d02da4c7781
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Prop Sumo]]></title>
+<link>https://store.epicgames.com/en-US/p/propsumo-ca8bd7</link>
+<guid isPermaLink='false'>849a3bacc4799ef5</guid>
+<pubDate>Thu, 09 Apr 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Prop Sumo
+
+Source: LootScraper - Epic Games (PC)
+State ID: dbc5dfaa729de911
+Offer ID: 849a3bacc4799ef5
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Chamber Survival (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/chamber-survival-steam-giveaway</link>
@@ -85,21 +115,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Clone Drone in the Danger Zone]]></title>
-<link>https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e</link>
-<guid isPermaLink='false'>cd695f2470021c13</guid>
-<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Clone Drone in the Danger Zone
-
-Source: LootScraper - Epic Games (PC)
-State ID: 3a7968d1623e9dfc
-Offer ID: cd695f2470021c13
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - TOMAK: Save the Earth Regeneration]]></title>
 <link>https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c</link>
 <guid isPermaLink='false'>32c34004bb3b9beb</guid>
@@ -109,6 +124,21 @@ Expires At: None
 Source: LootScraper - Epic Games (PC)
 State ID: 38e842e82f2c0e9c
 Offer ID: 32c34004bb3b9beb
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Clone Drone in the Danger Zone (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/clone-drone-in-the-danger-zone-epic-games-giveaway</link>
+<guid isPermaLink='false'>cd695f2470021c13</guid>
+<pubDate>Thu, 02 Apr 2026 15:00:07 +0000</pubDate>
+<description><![CDATA[Clone Drone in the Danger Zone (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 4c1185521278a953
+Offer ID: cd695f2470021c13
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -154,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 1fb9958a59aac1c8
 Offer ID: be01c1c828abd3d3
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
-<guid isPermaLink='false'>526d73cca074be44</guid>
-<pubDate>Mon, 30 Mar 2026 22:35:32 +0000</pubDate>
-<description><![CDATA[Together After Dark (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 30fd5da5ed1fddb0
-Offer ID: 526d73cca074be44
 Status: ACTIVE
 User State: NONE
 Expires At: None
