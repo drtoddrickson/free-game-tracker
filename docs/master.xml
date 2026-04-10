@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 09 Apr 2026 18:00:56 +0000</pubDate>
+<pubDate>Fri, 10 Apr 2026 17:02:06 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 10 Apr 2026 16:08:26 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Apr 2026 17:08:42 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - LivingForest]]></title>
+<link>https://store.steampowered.com/app/3027490</link>
+<guid isPermaLink='false'>e53cd3211c08a929</guid>
+<pubDate>Fri, 10 Apr 2026 17:02:06 +0000</pubDate>
+<description><![CDATA[Steam (Game) - LivingForest
+
+Source: LootScraper - Steam Games
+State ID: e66dab21dccab2ee
+Offer ID: e53cd3211c08a929
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - King of Retail]]></title>
 <link>https://luna.amazon.com/claims/king-of-retail-gog/dp/amzn1.pg.item.36296c26-8f00-4a21-987a-8dc131220c5a?ingress=amzn&amp;ref_=SM_KingofRetail_S01_FGWP_CRWN</link>
