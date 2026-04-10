@@ -5,19 +5,19 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 10 Apr 2026 17:02:06 +0000</pubDate>
+<pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 10 Apr 2026 17:08:42 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Apr 2026 18:01:53 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - LivingForest]]></title>
-<link>https://store.steampowered.com/app/3027490</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] LivingForest (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/livingforest-steam-giveaway</link>
 <guid isPermaLink='false'>e53cd3211c08a929</guid>
-<pubDate>Fri, 10 Apr 2026 17:02:06 +0000</pubDate>
-<description><![CDATA[Steam (Game) - LivingForest
+<pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
+<description><![CDATA[LivingForest (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: e66dab21dccab2ee
+Source: GamerPower - All (Giveaways)
+State ID: 06ac59b4c637c225
 Offer ID: e53cd3211c08a929
 Status: ACTIVE
 User State: NONE
@@ -184,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 4c1185521278a953
 Offer ID: cd695f2470021c13
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Depths Of Horror: Mushroom Day (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/depths-of-horror-mushroom-day-steam-giveaway</link>
-<guid isPermaLink='false'>f6c0837e8f129b51</guid>
-<pubDate>Wed, 01 Apr 2026 17:20:32 +0000</pubDate>
-<description><![CDATA[Depths Of Horror: Mushroom Day (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 1dd7ab1c68340602
-Offer ID: f6c0837e8f129b51
 Status: ACTIVE
 User State: NONE
 Expires At: None
