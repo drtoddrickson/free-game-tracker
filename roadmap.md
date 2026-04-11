@@ -29,8 +29,9 @@ Infrastructure:
 - MonitoRSS distributes RSS output to Discord
 
 Outputs:
-- `master.xml`
-- `loot.xml`
+- master.xml
+- loot.xml
+- full_games.xml
 
 ---
 
@@ -169,11 +170,21 @@ Implementation status:
   - platform-aware filtering logic
   - strict vs loose matching modes (optional)
   
+Remaining:
+- improve match reliability across noisy titles (edge-case normalization)
+  
 ### R-004) Owned-aware DLC targeting
 Status: ACTIVE  
 Scope:
 - Use owned / wanted game data to filter or prioritize loot
 - Keep full games broad, keep loot targeted
+
+Notes:
+- Depends on R-003 normalization and matching
+- Should leverage:
+  - `watch_dlc` flag
+  - owned platform metadata
+- Should NOT restrict full games (only loot)
 
 ---
 
