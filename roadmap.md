@@ -111,52 +111,8 @@ Notes:
 
 ## ACTIVE
 
-### R-001) Feed structure evolution
-Status: ACTIVE  
-Scope:
-- Add `full_games.xml`
-- Keep `master.xml`
-- Keep `loot.xml`
-
-Intent:
-- Clean split between full games and loot
-- Reduce downstream filtering burden
-- Improve future email digest structure
-
----
-
-### R-002) Manual state management workflow
-Status: ACTIVE  
-
-Scope:
-- Provide a clean CLI-based workflow for interacting with `state.json`
-- Support setting:
-  - `CLAIMED`
-  - `IGNORED`
-  - `FORCE_EXPIRED`
-- Add discovery and management tools:
-  - `--list` → show recent items (with state_id, title, status, user_state)
-  - `--search <query>` → find items by title or state_id
-  - `--reset <state_id>` → revert `user_state` back to `NONE`
-
-Intent:
-- Make state features practical and fast to use
-- Eliminate need for manual JSON editing
-- Enable safe experimentation (via reset)
-- Improve usability of:
-  - filtering (`IGNORED`)
-  - lifecycle overrides (`FORCE_EXPIRED`)
-  - tracking (`CLAIMED`)
-
-Notes:
-- Extend existing CLI pattern (`--ignore`, `--claim`, `--force-expire`)
-- Keep deterministic, local-only workflow (no external dependencies)
-- Acts as bridge toward future Discord/UI-based interaction
-
----
-
 ### R-003) Owned games YAML
-Status: ACTIVE  
+Status: ACTIVE (CORE COMPLETE) 
 Scope:
 - File-based owned game inventory
 - YAML structure aligned with current system
@@ -205,17 +161,23 @@ Notes:
   - `status: owned`
   - `format: digital`
 
----
-
-## BACKLOG
-
+Implementation status:
+- Core YAML structure implemented
+- Matching + normalization implemented
+- Claim → owned ingestion implemented (--sync-owned)
+- Remaining:
+  - platform-aware filtering logic
+  - strict vs loose matching modes (optional)
+  
 ### R-004) Owned-aware DLC targeting
-Status: BACKLOG  
+Status: ACTIVE  
 Scope:
 - Use owned / wanted game data to filter or prioritize loot
 - Keep full games broad, keep loot targeted
 
 ---
+
+## BACKLOG
 
 ### R-005) Platform inference improvements
 Status: BACKLOG  
@@ -228,15 +190,11 @@ Scope:
   3. Title heuristics
   4. HTML scrape (last resort)
 
----
-
 ### R-006) Store detection expansion
 Status: BACKLOG  
 Scope:
 - Improve store / ecosystem tagging accuracy
 - Support better routing and dedupe tie-breaking
-
----
 
 ### R-007) Dedupe improvements
 Status: BACKLOG  
@@ -244,23 +202,17 @@ Scope:
 - Refine winner selection logic
 - Balance store priority, signal quality, and recency
 
----
-
 ### R-008) Source reliability scoring
 Status: BACKLOG  
 Scope:
 - Score sources based on quality / usefulness
 - Use later for tie-breaking and source evaluation
 
----
-
 ### R-009) Email digest
 Status: BACKLOG  
 Scope:
 - Add digest-style delivery in addition to Discord
 - Likely daily / summary-oriented rather than alert-first
-
----
 
 ### R-010) User-facing state controls (Discord/UI)
 Status: BACKLOG  
@@ -300,8 +252,6 @@ Notes:
 - Keep writeback deterministic and conservative
 - Do not allow uncontrolled auto-ingestion of DLC/loot
 
----
-
 ### R-018) Platform ambiguity handling
 Status: BACKLOG  
 Scope:
@@ -329,16 +279,12 @@ Notes:
 - Use accuracy hierarchy
 - Do not become a general scraping system
 
----
-
 ### R-012) Alienware Arena integration
 Status: EXPERIMENTAL  
 Scope:
 - Synthetic source integration for giveaway pages
 - Deterministic extraction only
 - Treat as a new source class, not just another feed
-
----
 
 ### R-013) Performance / efficiency tuning
 Status: EXPERIMENTAL  
@@ -375,6 +321,46 @@ Scope:
 
 ## COMPLETED
 
+### R-001) Feed structure evolution
+Status: COMPLETED (2026-04-10)
+Scope:
+- Add `full_games.xml`
+- Keep `master.xml`
+- Keep `loot.xml`
+
+Intent:
+- Clean split between full games and loot
+- Reduce downstream filtering burden
+- Improve future email digest structure
+
+### R-002) Manual state management workflow
+Status: COMPLETED (2026-04-10) 
+
+Scope:
+- Provide a clean CLI-based workflow for interacting with `state.json`
+- Support setting:
+  - `CLAIMED`
+  - `IGNORED`
+  - `FORCE_EXPIRED`
+- Add discovery and management tools:
+  - `--list` → show recent items (with state_id, title, status, user_state)
+  - `--search <query>` → find items by title or state_id
+  - `--reset <state_id>` → revert `user_state` back to `NONE`
+
+Intent:
+- Make state features practical and fast to use
+- Eliminate need for manual JSON editing
+- Enable safe experimentation (via reset)
+- Improve usability of:
+  - filtering (`IGNORED`)
+  - lifecycle overrides (`FORCE_EXPIRED`)
+  - tracking (`CLAIMED`)
+
+Notes:
+- Extend existing CLI pattern (`--ignore`, `--claim`, `--force-expire`)
+- Keep deterministic, local-only workflow (no external dependencies)
+- Acts as bridge toward future Discord/UI-based interaction
+
 ### R-014) State tracking expansion
 Status: COMPLETED (2026-03-27)
 
@@ -386,6 +372,9 @@ Status: COMPLETED (2026-03-27)
 
 ### R-017) Expiration tracking
 Status: COMPLETED (2026-03-27)
+
+### R-019) Content routing tags (FULL-GAME / LOOT-DROP)
+Status: COMPLETED (2026-04-10)
 
 ---
 
@@ -410,3 +399,9 @@ Status: COMPLETED (2026-03-27)
 - Standardized roadmap overwrite behavior
 - Restored full-detail roadmap format
 - Kept version date aligned to overwrite date
+
+### 2026-04-10
+- Completed: R-001 Feed structure evolution (master.xml, loot.xml, full_games.xml)
+- Completed: R-002 Manual state management workflow (CLI tools)
+- Added: R-019 Content routing tags (FULL-GAME / LOOT-DROP)
+- Advanced: R-003 Owned games YAML (core implementation complete, remaining refinements)
