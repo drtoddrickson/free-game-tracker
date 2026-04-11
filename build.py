@@ -461,7 +461,12 @@ def normalize_type(t: str) -> str:
     
 
 def normalize_game_name(name: str) -> str:
-    return re.sub(r"\s+", " ", (name or "").lower().strip())
+    """
+    Normalize owned/wanted game names using the same matching logic
+    used for feed item titles so YAML entries and feed titles compare
+    consistently.
+    """
+    return normalize_title_for_match(name)
     
     
 def normalize_owned_entry(entry: Any) -> Dict[str, Any]:
