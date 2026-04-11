@@ -7,10 +7,10 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 11 Apr 2026 03:21:01 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Apr 2026 05:12:13 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] LivingForest (Steam) Giveaway]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] LivingForest (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/livingforest-steam-giveaway</link>
 <guid isPermaLink='false'>e53cd3211c08a929</guid>
 <pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
@@ -55,7 +55,7 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Graveyard Keeper]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Steam (Game) - Graveyard Keeper]]></title>
 <link>https://store.steampowered.com/app/599140</link>
 <guid isPermaLink='false'>da825d02da4c7781</guid>
 <pubDate>Thu, 09 Apr 2026 16:02:03 +0000</pubDate>
@@ -85,7 +85,7 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Chamber Survival (Steam) Giveaway]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Chamber Survival (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/chamber-survival-steam-giveaway</link>
 <guid isPermaLink='false'>6f5c75e697625f87</guid>
 <pubDate>Mon, 06 Apr 2026 18:34:08 +0000</pubDate>
@@ -100,7 +100,7 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Evergreen Valley: The Parkour Game (Epic Games) Giveaway]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [EPIC] Evergreen Valley: The Parkour Game (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/evergreen-valley-the-parkour-game-epic-games-giveaway</link>
 <guid isPermaLink='false'>7e26ce479e98b5c2</guid>
 <pubDate>Sun, 05 Apr 2026 13:46:24 +0000</pubDate>
@@ -115,7 +115,7 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] House Flipper (Steam) Giveaway]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] House Flipper (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/house-flipper-steam-giveaway</link>
 <guid isPermaLink='false'>c14def5e659f393e</guid>
 <pubDate>Fri, 03 Apr 2026 17:58:32 +0000</pubDate>
@@ -175,7 +175,7 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Clone Drone in the Danger Zone (Epic Games) Giveaway]]></title>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [EPIC] Clone Drone in the Danger Zone (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/clone-drone-in-the-danger-zone-epic-games-giveaway</link>
 <guid isPermaLink='false'>cd695f2470021c13</guid>
 <pubDate>Thu, 02 Apr 2026 15:00:07 +0000</pubDate>
