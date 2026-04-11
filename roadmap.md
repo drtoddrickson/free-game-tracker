@@ -168,12 +168,17 @@ Scope:
   - Allow owned/wanted entries to specify one or more platforms
   - Use platform data to improve DLC / loot relevance matching
   - Keep platform optional so simple title-only ownership remains valid
+- Support ingestion of claimed items into owned data (controlled)
+  - Define rules for when a claimed item should be added to owned list
+  - Default: only add FULL-GAME items
+  - Do not auto-add DLC / loot unless explicitly enabled
+  - Ensure normalization before insertion to avoid duplicates
 
 Intent:
 - Move watch/ownership data out of code and into data
 - Improve maintainability and personalization
 - Increase matching accuracy for platform-specific games, DLC, and cross-platform titles
-- Keep storage simple and repo-friendly
+- Provide foundation for future automatic ownership tracking
 
 Notes:
 - Start with title-only matching as valid baseline behavior
@@ -182,6 +187,7 @@ Notes:
   - DLC / loot targeting
   - cross-platform titles
   - games owned on one ecosystem but not another
+- Ownership ingestion must be conservative to avoid polluting dataset
 
 ---
 
@@ -244,7 +250,29 @@ Scope:
 Status: BACKLOG  
 Scope:
 - Discord-triggered or future UI-triggered updates
-- Set `CLAIMED`, `IGNORED`, `FORCE_EXPIRED`, and later `OWNED`
+- Support setting:
+  - `CLAIMED`
+  - `IGNORED`
+  - `FORCE_EXPIRED`
+  - future: `OWNED`
+- Enable automatic ownership updates from user actions
+  - When an item is marked `CLAIMED`, optionally sync to `owned_games.yaml`
+  - Apply R-003 ingestion rules (FULL-GAME only by default)
+  - Normalize title before insertion
+  - Avoid duplicate owned entries
+  - Optionally capture platform when available
+
+Intent:
+- Provide true user interaction layer for the tracker
+- Eliminate manual state editing long-term
+- Enable seamless ownership tracking via normal usage (claim → owned)
+- Bridge pipeline from feed → action → persistent ownership data
+
+Notes:
+- Should build on existing CLI workflow (R-002) before Discord integration
+- Requires reliable title normalization and matching first (R-003 dependency)
+- Keep writeback deterministic and conservative
+- Do not allow uncontrolled auto-ingestion of DLC/loot
 
 ---
 
