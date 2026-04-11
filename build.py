@@ -31,6 +31,9 @@ from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 import feedparser
 import yaml
 
+import argparse
+import sys
+
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
 STATE_PATH = ROOT / "state.json"
@@ -1032,9 +1035,47 @@ def render_rss(
     parts.append("</channel>")
     parts.append("</rss>")
     return "\n".join(parts)
+    
+    
+def handle_manual_state_update():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--ignore", type=str)
+    parser.add_argument("--claim", type=str)
+    parser.add_argument("--force-expire", type=str)
+
+    args = parser.parse_args()
+
+    if not any([args.ignore, args.claim, args.force_expire]):
+        return False  # normal run
+
+    state = load_state()
+    items_state = state.get("items", {})
+
+    def update(sid: str, new_state: str):
+        if sid not in items_state:
+            print(f"State ID not found: {sid}")
+            return
+
+        items_state[sid]["user_state"] = new_state
+        print(f"Updated {sid} → {new_state}")
+
+    if args.ignore:
+        update(args.ignore, "IGNORED")
+
+    if args.claim:
+        update(args.claim, "CLAIMED")
+
+    if args.force_expire:
+        update(args.force_expire, "FORCE_EXPIRED")
+
+    save_state(state)
+    return True
 
 
 def main() -> None:
+    if handle_manual_state_update():
+        return
     sources = load_sources()
     state = load_state()
 
