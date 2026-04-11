@@ -160,6 +160,10 @@ Status: ACTIVE
 Scope:
 - File-based owned game inventory
 - YAML structure aligned with current system
+- Normalize item titles before matching against owned/wanted lists
+  - Strip punctuation, special characters
+  - Normalize whitespace and casing
+  - Remove common noise words (e.g., "free", "bundle", "giveaway", "dlc")
 
 Intent:
 - Move watch/ownership data out of code and into data
