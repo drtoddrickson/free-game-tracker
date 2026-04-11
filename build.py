@@ -308,6 +308,11 @@ def load_sources() -> List[Dict[str, Any]]:
     
     
 def load_owned_games() -> Dict[str, List[str]]:
+    """
+    owned_games.yaml supports:
+    - simple string entries
+    - object entries with optional platform metadata
+    """
     path = ROOT / "owned_games.yaml"
     if not path.exists():
         return {"owned": [], "wanted": []}
@@ -451,6 +456,34 @@ def normalize_type(t: str) -> str:
 
 def normalize_game_name(name: str) -> str:
     return re.sub(r"\s+", " ", (name or "").lower().strip())
+    
+    
+def normalize_owned_entry(entry: Any) -> Dict[str, Any]:
+    """
+    Normalize an owned/wanted YAML entry into a consistent structure.
+
+    Supported input forms:
+    - "diablo iv"
+    - {"name": "diablo iv", "platforms": ["PS5"]}
+    """
+    if isinstance(entry, str):
+        return {
+            "name": normalize_game_name(entry),
+            "platforms": [],
+        }
+
+    if isinstance(entry, dict):
+        name = normalize_game_name(entry.get("name", ""))
+        platforms = normalize_platforms(entry.get("platforms", []))
+        return {
+            "name": name,
+            "platforms": platforms,
+        }
+
+    return {
+        "name": "",
+        "platforms": [],
+    }
 
 
 def has_tag(tags: List[str], target: str) -> bool:
@@ -774,8 +807,18 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     items_state: Dict[str, Any] = state.setdefault("items", {})
     current_seen_ids = set()
     owned_data = load_owned_games()
-    owned_set = {normalize_game_name(x) for x in owned_data.get("owned", [])}
-    wanted_set = {normalize_game_name(x) for x in owned_data.get("wanted", [])}
+
+    owned_records = [
+        normalize_owned_entry(x)
+        for x in owned_data.get("owned", [])
+    ]
+    owned_records = [x for x in owned_records if x["name"]]
+
+    wanted_records = [
+        normalize_owned_entry(x)
+        for x in owned_data.get("wanted", [])
+    ]
+    wanted_records = [x for x in wanted_records if x["name"]]
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
@@ -817,12 +860,26 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
             
             expires_at = parse_expires_at(f"{title}\n{summary}")
-            
-            t = (title or "").lower()
-            matched_owned = [g for g in owned_set if g in t]
-            matched_wanted = [g for g in wanted_set if g in t]
 
             platforms = infer_platforms(title, default_platforms, link, summary)
+            
+            normalized_title = normalize_title_for_match(title)
+
+            matched_owned = [
+                rec["name"]
+                for rec in owned_records
+                if rec["name"]
+                and rec["name"] in normalized_title
+                and (not rec["platforms"] or any(p in default_platforms for p in rec["platforms"]))
+            ]
+
+            matched_wanted = [
+                rec["name"]
+                for rec in wanted_records
+                if rec["name"]
+                and rec["name"] in normalized_title
+                and (not rec["platforms"] or any(p in default_platforms for p in rec["platforms"]))
+            ]
 
             # Drop items only when no allowed platform remains
             if not any(p in ALLOWED_PLATFORMS for p in platforms):

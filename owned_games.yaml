@@ -1,5 +1,9 @@
 owned:
-  - fortnite
-  - rocket league
+  - name: fortnite
+    platforms: [PS5, Switch]
+  - name: rocket league
+    platforms: [PS5, Switch]
+  - name: diablo iv
+    platforms: [PS5]
 
 wanted:
