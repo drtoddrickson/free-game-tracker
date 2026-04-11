@@ -1258,10 +1258,13 @@ def handle_manual_state_update():
         update(args.ignore, "IGNORED")
 
     if args.claim:
+        current_lookup = {}
+        if args.sync_owned and args.claim in items_state:
+            current_lookup = build_current_item_lookup()
+
         update(args.claim, "CLAIMED")
 
         if args.sync_owned and args.claim in items_state:
-            current_lookup = build_current_item_lookup()
             current_item = current_lookup.get(args.claim)
 
             if current_item is None:
