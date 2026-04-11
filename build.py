@@ -859,7 +859,7 @@ def store_tag_score(tags: List[str]) -> int:
     Higher score = stronger/more specific store identity.
     Used only as a tie-breaker after platform specificity.
     """
-    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE"}
+    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE", "ITCH.IO"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
@@ -1024,7 +1024,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Add content-routing tags
             item_tags = add_content_tags(resolved_item_type, title, item_tags)
-            
+
             if matched_owned:
                 if not has_tag(item_tags, "OWNED"):
                     item_tags.append("OWNED")
@@ -1032,9 +1032,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if matched_wanted:
                 if not has_tag(item_tags, "WANTED"):
                     item_tags.append("WANTED")
-            
-            tags_upper = {t.upper() for t in item_tags}
-            
+
             # Add store tags
             for store_tag in detect_store_tags(title, src_name):
                 if not has_tag(item_tags, store_tag):
@@ -1044,6 +1042,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             if is_crossplatform_item(title):
                 if not has_tag(item_tags, "CROSS-PLATFORM"):
                     item_tags.append("CROSS-PLATFORM")
+
+            # Compute after all tag mutations so it reflects final item tags
+            tags_upper = {t.upper() for t in item_tags}
             
             is_loot = has_tag(item_tags, "LOOT-DROP")
 
