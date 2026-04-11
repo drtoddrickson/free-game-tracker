@@ -1061,13 +1061,17 @@ def handle_manual_state_update():
 
     state = load_state()
     items_state = state.get("items", {})
+    did_update = False
 
     def update(sid: str, new_state: str):
+        nonlocal did_update
+
         if sid not in items_state:
             print(f"State ID not found: {sid}")
             return
 
         items_state[sid]["user_state"] = new_state
+        did_update = True
         print(f"Updated {sid} → {new_state}")
 
     if args.ignore:
@@ -1091,6 +1095,9 @@ def handle_manual_state_update():
                 f"{item.get('status')} | "
                 f"{item.get('user_state')}"
             )
+
+        if did_update:
+            save_state(state)
         return True
         
     if args.search:
@@ -1109,6 +1116,9 @@ def handle_manual_state_update():
                     f"{item.get('status')} | "
                     f"{item.get('user_state')}"
                 )
+
+        if did_update:
+            save_state(state)
         return True
         
     if args.reset:
@@ -1116,6 +1126,7 @@ def handle_manual_state_update():
             print(f"State ID not found: {args.reset}")
         else:
             items_state[args.reset]["user_state"] = "NONE"
+            did_update = True
             print(f"Reset {args.reset} → NONE")
 
         save_state(state)
