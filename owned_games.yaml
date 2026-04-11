@@ -1,9 +1,359 @@
 owned:
-  - name: fortnite
-    platforms: [PS5, Switch]
-  - name: rocket league
-    platforms: [PS5, Switch]
+  - name: ace combat 7 skies unknown
+    platforms: [PS5]
+  - name: aew fight forever
+    platforms: [PS5]
+  - name: a plague tale requiem
+    platforms: [PS5]
+  - name: alan wake 2
+    platforms: [PS5]
+  - name: alan wake remastered
+    platforms: [PS5]
+  - name: aliens dark descent
+    platforms: [PS5]
+  - name: aliens fireteam elite
+    platforms: [PS5]
+  - name: alone in the dark
+    platforms: [PS5]
+  - name: among us
+    platforms: [PS5]
+  - name: anthem
+    platforms: [PS5]
+  - name: arcadegeddon
+    platforms: [PS5]
+  - name: ark survival ascended
+    platforms: [PS5]
+  - name: astro bot
+    platforms: [PS5]
+  - name: axiom verge 2
+    platforms: [PS5]
+  - name: baldurs gate 3
+    platforms: [PS5]
+  - name: balatro
+    platforms: [PS5]
+  - name: batman arkham knight
+    platforms: [PS5]
+  - name: battlefield 1
+    platforms: [PS5]
+  - name: battlefield 2042
+    platforms: [PS5]
+  - name: biomutant
+    platforms: [PS5]
+  - name: black desert
+    platforms: [PS5]
+  - name: bloodborne
+    platforms: [PS5]
+  - name: bomb rush cyberfunk
+    platforms: [PS5]
+  - name: borderlands 3
+    platforms: [PS5]
+  - name: call of duty black ops cold war
+    platforms: [PS5]
+  - name: call of duty black ops iii
+    platforms: [PS5]
+  - name: chivalry 2
+    platforms: [PS5]
+  - name: cocoon
+    platforms: [PS5]
+  - name: code vein
+    platforms: [PS5]
+  - name: core keeper
+    platforms: [PS5]
+  - name: crash bandicoot 4 its about time
+    platforms: [PS5]
+  - name: crash bandicoot n sane trilogy
+    platforms: [PS5]
+  - name: days gone
+    platforms: [PS5]
+  - name: dayz
+    platforms: [PS5]
+  - name: dead space
+    platforms: [PS5]
+  - name: death note killer within
+    platforms: [PS5]
+  - name: deaths door
+    platforms: [PS5]
+  - name: descenders
+    platforms: [PS5]
+  - name: destiny 2
+    platforms: [PS5]
+  - name: detroit become human
+    platforms: [PS5]
   - name: diablo iv
     platforms: [PS5]
+  - name: digimon story cyber sleuth hackers memory
+    platforms: [PS5]
+  - name: disney dreamlight valley
+    platforms: [PS5]
+  - name: disney epic mickey rebrushed
+    platforms: [PS5]
+  - name: divine knockout
+    platforms: [PS5]
+  - name: doki doki literature club plus
+    platforms: [PS5]
+  - name: dragon age the veilguard
+    platforms: [PS5]
+  - name: dragon ball the breakers
+    platforms: [PS5]
+  - name: dreams
+    platforms: [PS5]
+  - name: ea sports fc 24
+    platforms: [PS5]
+  - name: ea sports wrc
+    platforms: [PS5]
+  - name: elder scrolls iv oblivion remastered
+    platforms: [PS5]
+  - name: elder scrolls online
+    platforms: [PS5]
+  - name: ender lilies quietus of the knights
+    platforms: [PS5]
+  - name: endling
+    platforms: [PS5]
+  - name: evil dead the game
+    platforms: [PS5]
+  - name: evil west
+    platforms: [PS5]
+  - name: f1 23
+    platforms: [PS5]
+  - name: fallout 4
+    platforms: [PS5]
+  - name: fallout 76
+    platforms: [PS5]
+  - name: farming simulator 22
+    platforms: [PS5]
+  - name: final fantasy xv
+    platforms: [PS5]
+  - name: five nights at freddys security breach
+    platforms: [PS5]
+  - name: foamstars
+    platforms: [PS5]
+  - name: fortnite
+    platforms: [PS5, Switch]
+  - name: generation zero
+    platforms: [PS5]
+  - name: ghostrunner 2
+    platforms: [PS5]
+  - name: ghostwire tokyo
+    platforms: [PS5]
+  - name: goat simulator 3
+    platforms: [PS5]
+  - name: god of war
+    platforms: [PS5]
+  - name: gran turismo 7
+    platforms: [PS5]
+  - name: granblue fantasy versus
+    platforms: [PS5]
+  - name: graveyard keeper
+    platforms: [PS5]
+  - name: grid legends
+    platforms: [PS5]
+  - name: harry potter quidditch champions
+    platforms: [PS5]
+  - name: heavenly bodies
+    platforms: [PS5]
+  - name: hello neighbor 2
+    platforms: [PS5]
+  - name: hogwarts legacy
+    platforms: [PS5]
+  - name: hot wheels unleashed
+    platforms: [PS5]
+  - name: hot wheels unleashed 2 turbocharged
+    platforms: [PS5]
+  - name: immortals of aveum
+    platforms: [PS5]
+  - name: infamous second son
+    platforms: [PS5]
+  - name: injustice 2
+    platforms: [PS5]
+  - name: it takes two
+    platforms: [PS5]
+  - name: jurassic world evolution 2
+    platforms: [PS5]
+  - name: jusant
+    platforms: [PS5]
+  - name: killing floor 3
+    platforms: [PS5]
+  - name: lego 2k drive
+    platforms: [PS5]
+  - name: lego harry potter collection
+    platforms: [PS5]
+  - name: lego horizon adventures
+    platforms: [PS5]
+  - name: lego star wars the skywalker saga
+    platforms: [PS5, Switch]
+  - name: lies of p
+    platforms: [PS5]
+  - name: little nightmares
+    platforms: [PS5]
+  - name: little nightmares ii
+    platforms: [PS5]
+  - name: lords of the fallen
+    platforms: [PS5]
+  - name: mafia definitive edition
+    platforms: [PS5]
+  - name: mafia ii definitive edition
+    platforms: [PS5]
+  - name: mass effect legendary edition
+    platforms: [PS5]
+  - name: meet your maker
+    platforms: [PS5]
+  - name: middle earth shadow of mordor
+    platforms: [PS5]
+  - name: minecraft dungeons
+    platforms: [PS5]
+  - name: minecraft legends
+    platforms: [PS5]
+  - name: mlb the show 24
+    platforms: [PS5]
+  - name: monster hunter rise
+    platforms: [PS5]
+  - name: monster hunter world iceborne
+    platforms: [PS5]
+  - name: mortal kombat x
+    platforms: [PS5]
+  - name: my hero ones justice 2
+    platforms: [PS5]
+  - name: nba 2k23
+    platforms: [PS5]
+  - name: nba 2k25
+    platforms: [PS5]
+  - name: need for speed heat
+    platforms: [PS5]
+  - name: need for speed hot pursuit remastered
+    platforms: [PS5]
+  - name: need for speed unbound
+    platforms: [PS5]
+  - name: neon white
+    platforms: [PS5]
+  - name: nhl 24
+    platforms: [PS5]
+  - name: nickelodeon all star brawl
+    platforms: [PS5]
+  - name: nioh 2
+    platforms: [PS5]
+  - name: nobody saves the world
+    platforms: [PS5]
+  - name: olliolli world
+    platforms: [PS5]
+  - name: outlast trials
+    platforms: [PS5]
+  - name: pga tour 2k23
+    platforms: [PS5]
+  - name: pga tour 2k25
+    platforms: [PS5]
+  - name: powerwash simulator
+    platforms: [PS5]
+  - name: psychonauts 2
+    platforms: [PS5]
+  - name: ratchet and clank
+    platforms: [PS5]
+  - name: resident evil 7 biohazard
+    platforms: [PS5]
+  - name: robocop rogue city
+    platforms: [PS5]
+  - name: rocket league
+    platforms: [PS5, Switch]
+  - name: rollerdrome
+    platforms: [PS5]
+  - name: sackboy a big adventure
+    platforms: [PS5]
+  - name: sable
+    platforms: [PS5]
+  - name: sagebrush
+    platforms: [PS5]
+  - name: saints row
+    platforms: [PS5]
+  - name: sifu
+    platforms: [PS5]
+  - name: skyrim
+    platforms: [PS5]
+  - name: skul
+    platforms: [PS5]
+  - name: slime rancher 2
+    platforms: [PS5]
+  - name: sonic colors ultimate
+    platforms: [PS5]
+  - name: spongebob squarepants the cosmic shake
+    platforms: [PS5]
+  - name: stardew valley
+    platforms: [PS5]
+  - name: star wars battlefront ii
+    platforms: [PS5]
+  - name: star wars jedi fallen order
+    platforms: [PS5]
+  - name: steelrising
+    platforms: [PS5]
+  - name: streets of rage 4
+    platforms: [PS5]
+  - name: stray
+    platforms: [PS5]
+  - name: subnautica below zero
+    platforms: [PS5]
+  - name: suicide squad kill the justice league
+    platforms: [PS5]
+  - name: superhot
+    platforms: [PS5]
+  - name: sword art online fractured daydream
+    platforms: [PS5]
+  - name: synduality echo of ada
+    platforms: [PS5]
+  - name: tails of iron
+    platforms: [PS5]
+  - name: teenage mutant ninja turtles the cowabunga collection
+    platforms: [PS5]
+  - name: temtem
+    platforms: [PS5]
+  - name: texas chain saw massacre
+    platforms: [PS5]
+  - name: the callisto protocol
+    platforms: [PS5]
+  - name: the dark pictures anthology man of medan
+    platforms: [PS5]
+  - name: the king of fighters xv
+    platforms: [PS5]
+  - name: the last guardian
+    platforms: [PS5]
+  - name: the last of us remastered
+    platforms: [PS5]
+  - name: the sims 4
+    platforms: [PS5]
+  - name: the stanley parable ultra deluxe
+    platforms: [PS5]
+  - name: titanfall 2
+    platforms: [PS5]
+  - name: toem
+    platforms: [PS5]
+  - name: tomb raider i iii remastered starring lara croft
+    platforms: [PS5]
+  - name: tony hawks pro skater 1 2
+    platforms: [PS5]
+  - name: totally accurate battle simulator
+    platforms: [PS5]
+  - name: trek to yomi
+    platforms: [PS5]
+  - name: tunic
+    platforms: [PS5]
+  - name: ultros
+    platforms: [PS5]
+  - name: uncharted 4 a thiefs end
+    platforms: [PS5]
+  - name: uncharted the nathan drake collection
+    platforms: [PS5]
+  - name: undisputed
+    platforms: [PS5]
+  - name: until dawn
+    platforms: [PS5]
+  - name: viewfinder
+    platforms: [PS5]
+  - name: warhammer 40000 boltgun
+    platforms: [PS5]
+  - name: we were here expeditions the friendship
+    platforms: [PS5]
+  - name: weird west
+    platforms: [PS5]
+  - name: wwe 2k24
+    platforms: [PS5]
+  - name: yakuza like a dragon
+    platforms: [PS5]
 
-wanted:
+wanted: []
