@@ -164,11 +164,24 @@ Scope:
   - Strip punctuation, special characters
   - Normalize whitespace and casing
   - Remove common noise words (e.g., "free", "bundle", "giveaway", "dlc")
+- Support optional platform-specific ownership metadata
+  - Allow owned/wanted entries to specify one or more platforms
+  - Use platform data to improve DLC / loot relevance matching
+  - Keep platform optional so simple title-only ownership remains valid
 
 Intent:
 - Move watch/ownership data out of code and into data
 - Improve maintainability and personalization
+- Increase matching accuracy for platform-specific games, DLC, and cross-platform titles
 - Keep storage simple and repo-friendly
+
+Notes:
+- Start with title-only matching as valid baseline behavior
+- Treat platform as an optional refinement, not a required field
+- Most useful for:
+  - DLC / loot targeting
+  - cross-platform titles
+  - games owned on one ecosystem but not another
 
 ---
 
