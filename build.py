@@ -5,6 +5,7 @@ RSS-based Free Game Tracker build pipeline.
 Generates:
 - docs/master.xml
 - docs/loot.xml
+- docs/full_games.xml
 
 Responsibilities:
 - ingest configured RSS feeds from sources.yaml
@@ -36,6 +37,7 @@ STATE_PATH = ROOT / "state.json"
 OUT_DIR = ROOT / "docs"
 OUT_PATH = OUT_DIR / "master.xml"
 OUT_LOOT_PATH = OUT_DIR / "loot.xml"
+OUT_FULL_GAMES_PATH = OUT_DIR / "full_games.xml"
 
 SUPPORTED_PLATFORM_MARKERS = {
     "PC": [
@@ -1039,9 +1041,11 @@ def main() -> None:
     site_root = "https://drtoddrickson.github.io/free-game-tracker/"
     master_feed_url = site_root + "master.xml"
     loot_feed_url = site_root + "loot.xml"
+    full_games_feed_url = site_root + "full_games.xml"
 
     items = build_items(sources, state)
     loot_items = filter_items_by_tag(items, "LOOT-DROP")
+    full_game_items = filter_items_by_tag(items, "FULL-GAME")
 
     rss_xml = render_rss(
         items,
@@ -1056,15 +1060,24 @@ def main() -> None:
         feed_title="Free Game Tracker - Loot Drops",
         feed_description="Free DLC, cosmetics, in-game loot, and drops",
     )
+    
+    full_games_rss_xml = render_rss(
+        full_game_items,
+        full_games_feed_url,
+        feed_title="Free Game Tracker - Full Games",
+        feed_description="Free full games only",
+    )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(rss_xml, encoding="utf-8")
     OUT_LOOT_PATH.write_text(loot_rss_xml, encoding="utf-8")
+    OUT_FULL_GAMES_PATH.write_text(full_games_rss_xml, encoding="utf-8")
 
     save_state(state)
 
     print(f"Wrote {OUT_PATH} with {len(items)} items (rolling window).")
     print(f"Wrote {OUT_LOOT_PATH} with {len(loot_items)} items.")
+    print(f"Wrote {OUT_FULL_GAMES_PATH} with {len(full_game_items)} items.")
 
 
 if __name__ == "__main__":
