@@ -966,7 +966,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 continue
             
             resolved_item_type = default_item_type
-            tags_upper = set()  # temporary placeholder
 
             if is_gamerpower_all_source(src_name):
                 if should_suppress_gamerpower_title(title):
