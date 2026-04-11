@@ -318,6 +318,12 @@ def load_owned_games() -> Dict[str, List[str]]:
         return {"owned": [], "wanted": []}
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {"owned": [], "wanted": []}
+        
+        
+def save_owned_games(data: Dict[str, Any]) -> None:
+    path = ROOT / "owned_games.yaml"
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(data, f, sort_keys=False, allow_unicode=True)
 
 
 def xml_escape(s: str) -> str:
@@ -484,6 +490,55 @@ def normalize_owned_entry(entry: Any) -> Dict[str, Any]:
         "name": "",
         "platforms": [],
     }
+    
+    
+def ingest_claimed_item_to_owned(
+    owned_data: Dict[str, Any],
+    item: Dict[str, Any],
+    allow_dlc: bool = False,
+) -> bool:
+    """
+    Add a claimed item into owned_games.yaml conservatively.
+
+    Default behavior:
+    - only ingest FULL-GAME items
+    - never ingest DLC / loot unless explicitly enabled
+    - normalize names before insertion
+    - avoid duplicates
+    """
+    title = item.get("title", "")
+    tags = item.get("tags", [])
+    platforms = normalize_platforms(item.get("platforms", []))
+
+    is_full_game = has_tag(tags, "FULL-GAME")
+    is_loot = has_tag(tags, "LOOT-DROP")
+
+    if not is_full_game and not (allow_dlc and is_loot):
+        return False
+
+    normalized_name = normalize_title_for_match(title)
+    if not normalized_name:
+        return False
+
+    owned_list = owned_data.setdefault("owned", [])
+
+    normalized_existing = {
+        normalize_owned_entry(entry)["name"]
+        for entry in owned_list
+    }
+
+    if normalized_name in normalized_existing:
+        return False
+
+    if platforms:
+        owned_list.append({
+            "name": normalized_name,
+            "platforms": platforms,
+        })
+    else:
+        owned_list.append(normalized_name)
+
+    return True
 
 
 def has_tag(tags: List[str], target: str) -> bool:
@@ -870,7 +925,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 for rec in owned_records
                 if rec["name"]
                 and rec["name"] in normalized_title
-                and (not rec["platforms"] or any(p in default_platforms for p in rec["platforms"]))
+                and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
             ]
 
             matched_wanted = [
@@ -878,7 +933,7 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 for rec in wanted_records
                 if rec["name"]
                 and rec["name"] in normalized_title
-                and (not rec["platforms"] or any(p in default_platforms for p in rec["platforms"]))
+                and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
             ]
 
             # Drop items only when no allowed platform remains
@@ -1130,6 +1185,7 @@ def handle_manual_state_update():
     parser.add_argument("--list", action="store_true")
     parser.add_argument("--search", type=str)
     parser.add_argument("--reset", type=str)
+    parser.add_argument("--sync-owned", action="store_true")
 
     args = parser.parse_args()
 
@@ -1146,6 +1202,21 @@ def handle_manual_state_update():
     state = load_state()
     items_state = state.get("items", {})
     did_update = False
+    owned_data = load_owned_games()
+    did_sync_owned = False
+    
+    def build_current_item_lookup() -> Dict[str, Dict[str, Any]]:
+    sources = load_sources()
+    current_items = build_items(sources, state)
+    lookup: Dict[str, Dict[str, Any]] = {}
+
+    for item in current_items:
+        desc = item.get("description", "")
+        m = re.search(r"State ID:\s*([a-f0-9]{16})", desc)
+        if m:
+            lookup[m.group(1)] = item
+
+    return lookup
 
     def update(sid: str, new_state: str):
         nonlocal did_update
@@ -1162,7 +1233,20 @@ def handle_manual_state_update():
         update(args.ignore, "IGNORED")
 
     if args.claim:
-        update(args.claim, "CLAIMED")
+    update(args.claim, "CLAIMED")
+
+    if args.sync_owned and args.claim in items_state:
+        current_lookup = build_current_item_lookup()
+        current_item = current_lookup.get(args.claim)
+
+        if current_item is None:
+            print(f"Could not find current feed item for claim sync: {args.claim}")
+        else:
+            if ingest_claimed_item_to_owned(owned_data, current_item):
+                did_sync_owned = True
+                print(f"Synced claimed item to owned_games.yaml: {args.claim}")
+            else:
+                print(f"No owned sync performed for: {args.claim}")
 
     if args.force_expire:
         update(args.force_expire, "FORCE_EXPIRED")
@@ -1182,6 +1266,8 @@ def handle_manual_state_update():
 
         if did_update:
             save_state(state)
+        if did_sync_owned:
+            save_owned_games(owned_data)
         return True
         
     if args.search:
@@ -1203,6 +1289,8 @@ def handle_manual_state_update():
 
         if did_update:
             save_state(state)
+        if did_sync_owned:
+            save_owned_games(owned_data)
         return True
         
     if args.reset:
@@ -1214,9 +1302,13 @@ def handle_manual_state_update():
             print(f"Reset {args.reset} → NONE")
 
         save_state(state)
+        if did_sync_owned:
+            save_owned_games(owned_data)
         return True
 
     save_state(state)
+    if did_sync_owned:
+            save_owned_games(owned_data)
     return True
 
 
