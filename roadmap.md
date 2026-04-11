@@ -168,6 +168,14 @@ Scope:
   - Allow owned/wanted entries to specify one or more platforms
   - Use platform data to improve DLC / loot relevance matching
   - Keep platform optional so simple title-only ownership remains valid
+- Support structured ownership metadata fields
+  - `name`
+  - `platforms`
+  - `stores`
+  - `source`
+  - `date_added`
+  - `watch_dlc`
+  - `status`
 - Support ingestion of claimed items into owned data (controlled)
   - Define rules for when a claimed item should be added to owned list
   - Default: only add FULL-GAME items
@@ -188,6 +196,12 @@ Notes:
   - cross-platform titles
   - games owned on one ecosystem but not another
 - Ownership ingestion must be conservative to avoid polluting dataset
+- Recommended defaults:
+  - `platforms: []`
+  - `stores: []`
+  - `source: manual`
+  - `watch_dlc: true`
+  - `status: owned`
 
 ---
 
@@ -261,6 +275,15 @@ Scope:
   - Normalize title before insertion
   - Avoid duplicate owned entries
   - Optionally capture platform when available
+  - Optionally capture store when available
+  - Populate ownership metadata on insert:
+    - `name`
+    - `platforms`
+    - `stores`
+    - `source: claimed`
+    - `date_added`
+    - `watch_dlc: true`
+    - `status: owned`
 
 Intent:
 - Provide true user interaction layer for the tracker
