@@ -1043,10 +1043,20 @@ def handle_manual_state_update():
     parser.add_argument("--ignore", type=str)
     parser.add_argument("--claim", type=str)
     parser.add_argument("--force-expire", type=str)
+    parser.add_argument("--list", action="store_true")
+    parser.add_argument("--search", type=str)
+    parser.add_argument("--reset", type=str)
 
     args = parser.parse_args()
 
-    if not any([args.ignore, args.claim, args.force_expire]):
+    if not any([
+        args.ignore,
+        args.claim,
+        args.force_expire,
+        args.list,
+        args.search,
+        args.reset,
+    ]):
         return False  # normal run
 
     state = load_state()
@@ -1068,6 +1078,48 @@ def handle_manual_state_update():
 
     if args.force_expire:
         update(args.force_expire, "FORCE_EXPIRED")
+        
+    if args.list:
+        print("\n=== Recent Items ===")
+        items = list(items_state.values())
+        items.sort(key=lambda x: x.get("last_seen", ""), reverse=True)
+
+        for item in items[:25]:
+            print(
+                f"{item.get('id')} | "
+                f"{item.get('title')[:60]} | "
+                f"{item.get('status')} | "
+                f"{item.get('user_state')}"
+            )
+        return True
+        
+    if args.search:
+        q = args.search.lower()
+
+        print(f"\n=== Search Results: '{args.search}' ===")
+
+        for item in items_state.values():
+            title = item.get("title", "").lower()
+            sid = item.get("id", "")
+
+            if q in title or q in sid:
+                print(
+                    f"{sid} | "
+                    f"{item.get('title')[:60]} | "
+                    f"{item.get('status')} | "
+                    f"{item.get('user_state')}"
+                )
+        return True
+        
+    if args.reset:
+        if args.reset not in items_state:
+            print(f"State ID not found: {args.reset}")
+        else:
+            items_state[args.reset]["user_state"] = "NONE"
+            print(f"Reset {args.reset} → NONE")
+
+        save_state(state)
+        return True
 
     save_state(state)
     return True
