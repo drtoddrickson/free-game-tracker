@@ -472,24 +472,35 @@ def normalize_owned_entry(entry: Any) -> Dict[str, Any]:
     - "diablo iv"
     - {"name": "diablo iv", "platforms": ["PS5"]}
     """
-    if isinstance(entry, str):
-        return {
-            "name": normalize_game_name(entry),
-            "platforms": [],
-        }
-
-    if isinstance(entry, dict):
-        name = normalize_game_name(entry.get("name", ""))
-        platforms = normalize_platforms(entry.get("platforms", []))
-        return {
-            "name": name,
-            "platforms": platforms,
-        }
-
-    return {
+    defaults = {
         "name": "",
         "platforms": [],
+        "stores": [],
+        "source": "manual",
+        "date_added": None,
+        "watch_dlc": False,
+        "status": "owned",
+        "format": "digital",
     }
+
+    if isinstance(entry, str):
+        out = dict(defaults)
+        out["name"] = normalize_game_name(entry)
+        return out
+
+    if isinstance(entry, dict):
+        out = dict(defaults)
+        out["name"] = normalize_game_name(entry.get("name", ""))
+        out["platforms"] = normalize_platforms(entry.get("platforms", []))
+        out["stores"] = sorted(set((entry.get("stores", []) or [])))
+        out["source"] = entry.get("source", "manual")
+        out["date_added"] = entry.get("date_added")
+        out["watch_dlc"] = bool(entry.get("watch_dlc", False))
+        out["status"] = entry.get("status", "owned")
+        out["format"] = entry.get("format", "digital")
+        return out
+
+    return dict(defaults)
     
     
 def ingest_claimed_item_to_owned(
@@ -520,6 +531,12 @@ def ingest_claimed_item_to_owned(
     if not normalized_name:
         return False
 
+    store_tags = [
+        t for t in item.get("tags", [])
+        if t.strip().upper() in {"STEAM", "EPIC", "GOG", "HUMBLE", "AMAZON", "PSN"}
+    ]
+    stores = sorted(set(store_tags))
+
     owned_list = owned_data.setdefault("owned", [])
 
     normalized_existing = {
@@ -530,13 +547,16 @@ def ingest_claimed_item_to_owned(
     if normalized_name in normalized_existing:
         return False
 
-    if platforms:
-        owned_list.append({
-            "name": normalized_name,
-            "platforms": platforms,
-        })
-    else:
-        owned_list.append(normalized_name)
+    owned_list.append({
+        "name": normalized_name,
+        "platforms": platforms,
+        "stores": stores,
+        "source": "claimed",
+        "date_added": datetime.now(tz=timezone.utc).date().isoformat(),
+        "watch_dlc": False,
+        "status": "owned",
+        "format": "digital",
+    })
 
     return True
 
@@ -1197,26 +1217,26 @@ def handle_manual_state_update():
         args.search,
         args.reset,
     ]):
-        return False  # normal run
+        return False
 
     state = load_state()
     items_state = state.get("items", {})
     did_update = False
     owned_data = load_owned_games()
     did_sync_owned = False
-    
+
     def build_current_item_lookup() -> Dict[str, Dict[str, Any]]:
-    sources = load_sources()
-    current_items = build_items(sources, state)
-    lookup: Dict[str, Dict[str, Any]] = {}
+        sources = load_sources()
+        current_items = build_items(sources, state)
+        lookup: Dict[str, Dict[str, Any]] = {}
 
-    for item in current_items:
-        desc = item.get("description", "")
-        m = re.search(r"State ID:\s*([a-f0-9]{16})", desc)
-        if m:
-            lookup[m.group(1)] = item
+        for item in current_items:
+            desc = item.get("description", "")
+            m = re.search(r"State ID:\s*([a-f0-9]{16})", desc)
+            if m:
+                lookup[m.group(1)] = item
 
-    return lookup
+        return lookup
 
     def update(sid: str, new_state: str):
         nonlocal did_update
@@ -1233,24 +1253,24 @@ def handle_manual_state_update():
         update(args.ignore, "IGNORED")
 
     if args.claim:
-    update(args.claim, "CLAIMED")
+        update(args.claim, "CLAIMED")
 
-    if args.sync_owned and args.claim in items_state:
-        current_lookup = build_current_item_lookup()
-        current_item = current_lookup.get(args.claim)
+        if args.sync_owned and args.claim in items_state:
+            current_lookup = build_current_item_lookup()
+            current_item = current_lookup.get(args.claim)
 
-        if current_item is None:
-            print(f"Could not find current feed item for claim sync: {args.claim}")
-        else:
-            if ingest_claimed_item_to_owned(owned_data, current_item):
-                did_sync_owned = True
-                print(f"Synced claimed item to owned_games.yaml: {args.claim}")
+            if current_item is None:
+                print(f"Could not find current feed item for claim sync: {args.claim}")
             else:
-                print(f"No owned sync performed for: {args.claim}")
+                if ingest_claimed_item_to_owned(owned_data, current_item):
+                    did_sync_owned = True
+                    print(f"Synced claimed item to owned_games.yaml: {args.claim}")
+                else:
+                    print(f"No owned sync performed for: {args.claim}")
 
     if args.force_expire:
         update(args.force_expire, "FORCE_EXPIRED")
-        
+
     if args.list:
         print("\n=== Recent Items ===")
         items = list(items_state.values())
@@ -1269,7 +1289,7 @@ def handle_manual_state_update():
         if did_sync_owned:
             save_owned_games(owned_data)
         return True
-        
+
     if args.search:
         q = args.search.lower()
 
@@ -1292,7 +1312,7 @@ def handle_manual_state_update():
         if did_sync_owned:
             save_owned_games(owned_data)
         return True
-        
+
     if args.reset:
         if args.reset not in items_state:
             print(f"State ID not found: {args.reset}")
@@ -1308,7 +1328,7 @@ def handle_manual_state_update():
 
     save_state(state)
     if did_sync_owned:
-            save_owned_games(owned_data)
+        save_owned_games(owned_data)
     return True
 
 

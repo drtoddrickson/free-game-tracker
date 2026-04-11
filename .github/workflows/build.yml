@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "rss-bot"
           git config user.email "rss-bot@users.noreply.github.com"
-          git add docs/*.xml state.json
+          git add docs/*.xml state.json owned_games.yaml
       
           if git diff --cached --quiet; then
             echo "No changes to commit"
