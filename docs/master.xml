@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 11 Apr 2026 11:36:03 +0000</lastBuildDate>
+<lastBuildDate>Sat, 11 Apr 2026 12:01:50 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] LivingForest (Steam) Giveaway]]></title>
@@ -289,21 +289,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3bcb36a42d0f45c9
 Offer ID: 9274584500c8e064
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Veil of Darkness]]></title>
-<link>https://luna.amazon.com/claims/veil-of-darkness-gog/dp/amzn1.pg.item.837b8893-53b0-4072-8f3f-24037351b77d?ingress=amzn&amp;ref_=SM_VeilofDarkness_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>58e984e486e54077</guid>
-<pubDate>Thu, 12 Mar 2026 17:00:46 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Veil of Darkness
-
-Source: LootScraper - Amazon Games
-State ID: 097ec53a7a83e0f1
-Offer ID: 58e984e486e54077
 Status: ACTIVE
 User State: NONE
 Expires At: None
