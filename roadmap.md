@@ -127,17 +127,31 @@ Intent:
 
 ### R-002) Manual state management workflow
 Status: ACTIVE  
+
 Scope:
-- Easier way to update `state.json`
-- Support:
+- Provide a clean CLI-based workflow for interacting with `state.json`
+- Support setting:
   - `CLAIMED`
   - `IGNORED`
   - `FORCE_EXPIRED`
+- Add discovery and management tools:
+  - `--list` → show recent items (with state_id, title, status, user_state)
+  - `--search <query>` → find items by title or state_id
+  - `--reset <state_id>` → revert `user_state` back to `NONE`
 
 Intent:
-- Make current state features practical to use
-- Avoid tedious direct JSON editing
-- Bridge toward future user-facing controls
+- Make state features practical and fast to use
+- Eliminate need for manual JSON editing
+- Enable safe experimentation (via reset)
+- Improve usability of:
+  - filtering (`IGNORED`)
+  - lifecycle overrides (`FORCE_EXPIRED`)
+  - tracking (`CLAIMED`)
+
+Notes:
+- Extend existing CLI pattern (`--ignore`, `--claim`, `--force-expire`)
+- Keep deterministic, local-only workflow (no external dependencies)
+- Acts as bridge toward future Discord/UI-based interaction
 
 ---
 
