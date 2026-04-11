@@ -305,6 +305,14 @@ def load_sources() -> List[Dict[str, Any]]:
     with open(SOURCES_PATH, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
     return data.get("sources", [])
+    
+    
+def load_owned_games() -> Dict[str, List[str]]:
+    path = ROOT / "owned_games.yaml"
+    if not path.exists():
+        return {"owned": [], "wanted": []}
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {"owned": [], "wanted": []}
 
 
 def xml_escape(s: str) -> str:
@@ -439,6 +447,10 @@ def normalize_platforms(platforms: List[str]) -> List[str]:
 def normalize_type(t: str) -> str:
     t2 = t.strip().upper()
     return t2 if t2 in ALLOWED_TYPES else "NEWS"
+    
+
+def normalize_game_name(name: str) -> str:
+    return re.sub(r"\s+", " ", (name or "").lower().strip())
 
 
 def has_tag(tags: List[str], target: str) -> bool:
@@ -761,6 +773,9 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
     source_counts: Dict[str, int] = {}
     items_state: Dict[str, Any] = state.setdefault("items", {})
     current_seen_ids = set()
+    owned_data = load_owned_games()
+    owned_set = {normalize_game_name(x) for x in owned_data.get("owned", [])}
+    wanted_set = {normalize_game_name(x) for x in owned_data.get("wanted", [])}
 
     out: List[Dict[str, Any]] = []
     now = datetime.now(tz=timezone.utc)
@@ -802,6 +817,10 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             summary = getattr(e, "summary", "") or getattr(e, "description", "")
             
             expires_at = parse_expires_at(f"{title}\n{summary}")
+            
+            t = (title or "").lower()
+            matched_owned = [g for g in owned_set if g in t]
+            matched_wanted = [g for g in wanted_set if g in t]
 
             platforms = infer_platforms(title, default_platforms, link, summary)
 
@@ -868,6 +887,14 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
 
             # Add content-routing tags
             item_tags = add_content_tags(resolved_item_type, title, item_tags)
+            
+            if matched_owned:
+                if not has_tag(item_tags, "OWNED"):
+                    item_tags.append("OWNED")
+
+            if matched_wanted:
+                if not has_tag(item_tags, "WANTED"):
+                    item_tags.append("WANTED")
             
             tags_upper = {t.upper() for t in item_tags}
             
