@@ -176,6 +176,7 @@ Scope:
   - `date_added`
   - `watch_dlc`
   - `status`
+  - `format`
 - Support ingestion of claimed items into owned data (controlled)
   - Define rules for when a claimed item should be added to owned list
   - Default: only add FULL-GAME items
@@ -200,8 +201,9 @@ Notes:
   - `platforms: []`
   - `stores: []`
   - `source: manual`
-  - `watch_dlc: true`
+  - `watch_dlc: false`
   - `status: owned`
+  - `format: digital`
 
 ---
 
@@ -282,8 +284,9 @@ Scope:
     - `stores`
     - `source: claimed`
     - `date_added`
-    - `watch_dlc: true`
+    - `watch_dlc: false`
     - `status: owned`
+	- `format: digital`
 
 Intent:
 - Provide true user interaction layer for the tracker
