@@ -5,19 +5,19 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 15 Apr 2026 17:01:48 +0000</pubDate>
+<pubDate>Wed, 15 Apr 2026 18:56:11 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Apr 2026 17:48:25 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Apr 2026 19:26:15 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - NineHells]]></title>
-<link>https://store.steampowered.com/app/2860410</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] NineHells (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/ninehells-steam-giveaway</link>
 <guid isPermaLink='false'>89921e357f4c8635</guid>
-<pubDate>Wed, 15 Apr 2026 17:01:48 +0000</pubDate>
-<description><![CDATA[Steam (Game) - NineHells
+<pubDate>Wed, 15 Apr 2026 18:56:11 +0000</pubDate>
+<description><![CDATA[NineHells (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: f798215ec2be83f4
+Source: GamerPower - All (Giveaways)
+State ID: 4a78016be064a286
 Offer ID: 89921e357f4c8635
 Status: ACTIVE
 User State: NONE
@@ -139,21 +139,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 4e56c96f288b778b
 Offer ID: 7f79c0494c15ab62
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Tractor Racers (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/tractor-racers-epic-games-giveaway</link>
-<guid isPermaLink='false'>d678e23796d29c3c</guid>
-<pubDate>Thu, 02 Apr 2026 16:50:49 +0000</pubDate>
-<description><![CDATA[Tractor Racers (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 8d558cdbfbe41efc
-Offer ID: d678e23796d29c3c
 Status: ACTIVE
 User State: NONE
 Expires At: None
