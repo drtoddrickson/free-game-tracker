@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
+<pubDate>Wed, 15 Apr 2026 17:01:48 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Apr 2026 16:36:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Apr 2026 17:48:25 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - NineHells]]></title>
+<link>https://store.steampowered.com/app/2860410</link>
+<guid isPermaLink='false'>89921e357f4c8635</guid>
+<pubDate>Wed, 15 Apr 2026 17:01:48 +0000</pubDate>
+<description><![CDATA[Steam (Game) - NineHells
+
+Source: LootScraper - Steam Games
+State ID: f798215ec2be83f4
+Offer ID: 89921e357f4c8635
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] LivingForest (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/livingforest-steam-giveaway</link>
