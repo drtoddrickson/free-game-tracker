@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Apr 2026 11:58:35 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Apr 2026 13:59:02 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] LivingForest (Steam) Giveaway]]></title>
@@ -250,51 +250,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Turmoil]]></title>
-<link>https://luna.amazon.com/claims/turmoil-epic/dp/amzn1.pg.item.d7d941e2-d63a-41cb-9ebb-1ca172de03b0?ingress=amzn&amp;ref_=SM_Turmoil_S03_FGWP_CRWN</link>
-<guid isPermaLink='false'>9274584500c8e064</guid>
-<pubDate>Thu, 12 Mar 2026 17:00:49 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Turmoil
-
-Source: LootScraper - Amazon Games
-State ID: 3bcb36a42d0f45c9
-Offer ID: 9274584500c8e064
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Mahokenshi: The Samurai Deckbuilder]]></title>
-<link>https://luna.amazon.com/claims/mahokenshi-the-samurai-deckbuilder-gog/dp/amzn1.pg.item.63d1e16c-0f19-4672-b3d6-128f62e58a3f?ingress=amzn&amp;ref_=SM_MahokenshiTheSamuraiDeckbuilder_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>2513f18a9ccec6d8</guid>
-<pubDate>Thu, 12 Mar 2026 17:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Mahokenshi: The Samurai Deckbuilder
-
-Source: LootScraper - Amazon Games
-State ID: a0f08a5bcc50c84a
-Offer ID: 2513f18a9ccec6d8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Total War: Rome II: Emperor Edition]]></title>
-<link>https://luna.amazon.com/claims/total-war-rome-ii-emperor-edition-epic/dp/amzn1.pg.item.e39ffc2d-d79a-4f43-946d-47c9f6949d9b?ingress=amzn&amp;ref_=SM_TotalWarRomeIIEmperorEdition_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>72c49d401b958d69</guid>
-<pubDate>Thu, 12 Mar 2026 17:00:41 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Total War: Rome II: Emperor Edition
-
-Source: LootScraper - Amazon Games
-State ID: 693b01a6be25b298
-Offer ID: 72c49d401b958d69
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot]]></title>
 <link>https://luna.amazon.com/claims/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-epic/dp/amzn1.pg.item.59929a8c-55be-4c60-9ffb-546ec4293e4c?ingress=amzn&amp;ref_=SM_TinyTinasAssaultonDragonKeepAWonderlandsOneshot_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>bb6f423461850a25</guid>
@@ -379,21 +334,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 7f012b1fce49d722
 Offer ID: 3970cc5076419987
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Gunslugs: Rogue Tactics]]></title>
-<link>https://luna.amazon.com/claims/gunslugs-rogue-tactics-gog/dp/amzn1.pg.item.2673dc48-c033-48f9-9deb-7f305fe02aa7?ingress=amzn&amp;ref_=SM_GunslugsRogueTactics_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>24fed108ffdaa365</guid>
-<pubDate>Thu, 15 Jan 2026 19:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Gunslugs: Rogue Tactics
-
-Source: LootScraper - Amazon Games
-State ID: 8a11a850df5dda55
-Offer ID: 24fed108ffdaa365
 Status: ACTIVE
 User State: NONE
 Expires At: None
