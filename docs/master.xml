@@ -5,10 +5,70 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 16 Apr 2026 15:05:04 +0000</pubDate>
+<pubDate>Thu, 16 Apr 2026 17:17:04 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 16 Apr 2026 16:06:29 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Apr 2026 17:45:11 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Legend of Keepers (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/legend-of-keepers-steam-giveaway</link>
+<guid isPermaLink='false'>6862e5e8de58c4c0</guid>
+<pubDate>Thu, 16 Apr 2026 17:17:04 +0000</pubDate>
+<description><![CDATA[Legend of Keepers (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 3f21fc483402fdba
+Offer ID: 6862e5e8de58c4c0
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Uncanny Tales: Cold Road (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/uncanny-tales-cold-road-steam-giveaway</link>
+<guid isPermaLink='false'>5208b6783762a4e6</guid>
+<pubDate>Thu, 16 Apr 2026 17:14:45 +0000</pubDate>
+<description><![CDATA[Uncanny Tales: Cold Road (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 68c27442ca52d156
+Offer ID: 5208b6783762a4e6
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Stickman Killing Zombie (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/stickman-killing-zombie-steam-giveaway</link>
+<guid isPermaLink='false'>3e291cfafc3da749</guid>
+<pubDate>Thu, 16 Apr 2026 17:12:22 +0000</pubDate>
+<description><![CDATA[Stickman Killing Zombie (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: cc9b773cba2678ee
+Offer ID: 3e291cfafc3da749
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Legend of Keepers: Career of a Dungeon Manager]]></title>
+<link>https://store.steampowered.com/app/978520</link>
+<guid isPermaLink='false'>1fb0740df90fdf98</guid>
+<pubDate>Thu, 16 Apr 2026 17:01:48 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Legend of Keepers: Career of a Dungeon Manager
+
+Source: LootScraper - Steam Games
+State ID: 341b3f57a95445c4
+Offer ID: 1fb0740df90fdf98
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - The Stone of Madness]]></title>
 <link>https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3</link>
@@ -40,21 +100,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] LivingForest (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/livingforest-steam-giveaway</link>
-<guid isPermaLink='false'>e53cd3211c08a929</guid>
-<pubDate>Fri, 10 Apr 2026 17:14:23 +0000</pubDate>
-<description><![CDATA[LivingForest (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 06ac59b4c637c225
-Offer ID: e53cd3211c08a929
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - King of Retail]]></title>
 <link>https://luna.amazon.com/claims/king-of-retail-gog/dp/amzn1.pg.item.36296c26-8f00-4a21-987a-8dc131220c5a?ingress=amzn&amp;ref_=SM_KingofRetail_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>1a0b70f99de9bc1f</guid>
@@ -79,21 +124,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3e55171ad482e567
 Offer ID: a666dbb4c0b08e01
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Prop Sumo (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/prop-sumo-epic-games-giveaway</link>
-<guid isPermaLink='false'>849a3bacc4799ef5</guid>
-<pubDate>Thu, 09 Apr 2026 15:00:18 +0000</pubDate>
-<description><![CDATA[Prop Sumo (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 26658699b2edb455
-Offer ID: 849a3bacc4799ef5
 Status: ACTIVE
 User State: NONE
 Expires At: None
