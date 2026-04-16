@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 15 Apr 2026 18:56:11 +0000</pubDate>
+<pubDate>Thu, 16 Apr 2026 15:05:04 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 16 Apr 2026 14:15:59 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Apr 2026 16:06:29 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - The Stone of Madness]]></title>
+<link>https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3</link>
+<guid isPermaLink='false'>0583e3faf9ab81a9</guid>
+<pubDate>Thu, 16 Apr 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - The Stone of Madness
+
+Source: LootScraper - Epic Games (PC)
+State ID: 137c8893442acb29
+Offer ID: 0583e3faf9ab81a9
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] NineHells (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/ninehells-steam-giveaway</link>
@@ -70,45 +85,15 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Prop Sumo]]></title>
-<link>https://store.epicgames.com/en-US/p/propsumo-ca8bd7</link>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Prop Sumo (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/prop-sumo-epic-games-giveaway</link>
 <guid isPermaLink='false'>849a3bacc4799ef5</guid>
-<pubDate>Thu, 09 Apr 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Prop Sumo
+<pubDate>Thu, 09 Apr 2026 15:00:18 +0000</pubDate>
+<description><![CDATA[Prop Sumo (Epic Games) Giveaway
 
-Source: LootScraper - Epic Games (PC)
-State ID: dbc5dfaa729de911
+Source: GamerPower - All (Giveaways)
+State ID: 26658699b2edb455
 Offer ID: 849a3bacc4799ef5
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Chamber Survival (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/chamber-survival-steam-giveaway</link>
-<guid isPermaLink='false'>6f5c75e697625f87</guid>
-<pubDate>Mon, 06 Apr 2026 18:34:08 +0000</pubDate>
-<description><![CDATA[Chamber Survival (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: b01b30c187b42e97
-Offer ID: 6f5c75e697625f87
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [EPIC] Evergreen Valley: The Parkour Game (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/evergreen-valley-the-parkour-game-epic-games-giveaway</link>
-<guid isPermaLink='false'>7e26ce479e98b5c2</guid>
-<pubDate>Sun, 05 Apr 2026 13:46:24 +0000</pubDate>
-<description><![CDATA[Evergreen Valley: The Parkour Game (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 005f4f3f485469b0
-Offer ID: 7e26ce479e98b5c2
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -124,21 +109,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 4e56c96f288b778b
 Offer ID: 7f79c0494c15ab62
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - TOMAK: Save the Earth Regeneration]]></title>
-<link>https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c</link>
-<guid isPermaLink='false'>32c34004bb3b9beb</guid>
-<pubDate>Thu, 02 Apr 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - TOMAK: Save the Earth Regeneration
-
-Source: LootScraper - Epic Games (PC)
-State ID: 38e842e82f2c0e9c
-Offer ID: 32c34004bb3b9beb
 Status: ACTIVE
 User State: NONE
 Expires At: None
