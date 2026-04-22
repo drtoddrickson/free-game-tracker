@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 22 Apr 2026 17:17:55 +0000</pubDate>
+<pubDate>Wed, 22 Apr 2026 22:02:24 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 22 Apr 2026 21:02:21 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Apr 2026 22:06:19 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Aeonic]]></title>
+<link>https://store.steampowered.com/app/3277530</link>
+<guid isPermaLink='false'>9eb5dd2962def588</guid>
+<pubDate>Wed, 22 Apr 2026 22:02:24 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Aeonic
+
+Source: LootScraper - Steam Games
+State ID: 6feb888c678d78cb
+Offer ID: 9eb5dd2962def588
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] SurrounDead Poly Construction (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/surroundead-poly-construction-steam-giveaway</link>
