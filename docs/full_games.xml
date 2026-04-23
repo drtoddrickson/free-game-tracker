@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 23 Apr 2026 11:43:43 +0000</pubDate>
+<pubDate>Thu, 23 Apr 2026 14:15:19 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 23 Apr 2026 12:40:58 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Apr 2026 14:57:47 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Nocturnal (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/nocturnal-steam-giveaway</link>
+<guid isPermaLink='false'>20238365c4dce722</guid>
+<pubDate>Thu, 23 Apr 2026 14:15:19 +0000</pubDate>
+<description><![CDATA[Nocturnal (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 91b955ec77880e20
+Offer ID: 20238365c4dce722
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] Ashanti Protocol-Unmanned peacekeepers amidst conflict (Stove) Giveaway]]></title>
 <link>https://www.gamerpower.com/ashanti-protocol-unmanned-peacekeepers-amidst-conflict-pc-giveaway</link>
@@ -124,21 +139,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 470cb676174f2b88
 Offer ID: ad653f2097518c53
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Legend of Keepers (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/legend-of-keepers-steam-giveaway</link>
-<guid isPermaLink='false'>6862e5e8de58c4c0</guid>
-<pubDate>Thu, 16 Apr 2026 17:17:04 +0000</pubDate>
-<description><![CDATA[Legend of Keepers (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 3f21fc483402fdba
-Offer ID: 6862e5e8de58c4c0
 Status: ACTIVE
 User State: NONE
 Expires At: None
