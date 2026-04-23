@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 23 Apr 2026 14:15:19 +0000</pubDate>
+<pubDate>Thu, 23 Apr 2026 15:05:05 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 23 Apr 2026 14:57:47 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Apr 2026 16:50:02 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - DOOMBLADE]]></title>
+<link>https://store.epicgames.com/en-US/p/doomblade-afdf9a</link>
+<guid isPermaLink='false'>6ba0cce9998263d4</guid>
+<pubDate>Thu, 23 Apr 2026 15:05:05 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - DOOMBLADE
+
+Source: LootScraper - Epic Games (PC)
+State ID: 2e47336f21c7a501
+Offer ID: 6ba0cce9998263d4
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Nocturnal (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/nocturnal-steam-giveaway</link>
@@ -85,21 +100,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Undead Rise of the Betrayed King (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/undead-rise-of-the-betrayed-king-epic-games-giveaway</link>
-<guid isPermaLink='false'>31bb8a5691fc4220</guid>
-<pubDate>Fri, 17 Apr 2026 11:52:19 +0000</pubDate>
-<description><![CDATA[Undead Rise of the Betrayed King (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: b8cd59424b4af383
-Offer ID: 31bb8a5691fc4220
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Detective Agency: Gray Tie: CE]]></title>
 <link>https://luna.amazon.com/claims/detective-agency-gray-tie-ce-legacy/dp/amzn1.pg.item.190edc63-f7f7-4a70-addc-7d56a0ca7efd?ingress=amzn&amp;ref_=SM_DetectiveAgencyGrayTieCE_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>206f44373534cf6a</guid>
@@ -154,21 +154,6 @@ Expires At: None
 Source: LootScraper - Steam Games
 State ID: 341b3f57a95445c4
 Offer ID: 1fb0740df90fdf98
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - The Stone of Madness]]></title>
-<link>https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3</link>
-<guid isPermaLink='false'>0583e3faf9ab81a9</guid>
-<pubDate>Thu, 16 Apr 2026 15:05:04 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - The Stone of Madness
-
-Source: LootScraper - Epic Games (PC)
-State ID: 137c8893442acb29
-Offer ID: 0583e3faf9ab81a9
 Status: ACTIVE
 User State: NONE
 Expires At: None
