@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 23 Apr 2026 15:05:05 +0000</pubDate>
+<pubDate>Thu, 23 Apr 2026 18:00:51 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 23 Apr 2026 16:50:02 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Apr 2026 18:10:27 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - The Pale Beyond]]></title>
+<link>https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?ingress=amzn&amp;ref_=SM_ThePaleBeyond_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>bb0ed8ed2bc36401</guid>
+<pubDate>Thu, 23 Apr 2026 18:00:51 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - The Pale Beyond
+
+Source: LootScraper - Amazon Games
+State ID: 4d6ae73fc91f00f1
+Offer ID: bb0ed8ed2bc36401
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Neo Cab]]></title>
+<link>https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?ingress=amzn&amp;ref_=SM_NeoCab_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a936113531b72fe2</guid>
+<pubDate>Thu, 23 Apr 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Neo Cab
+
+Source: LootScraper - Amazon Games
+State ID: 6e5379d749d276ef
+Offer ID: a936113531b72fe2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - 8AM]]></title>
+<link>https://store.steampowered.com/app/2835590</link>
+<guid isPermaLink='false'>5f092e89ccacea0a</guid>
+<pubDate>Thu, 23 Apr 2026 17:30:19 +0000</pubDate>
+<description><![CDATA[Steam (Game) - 8AM
+
+Source: LootScraper - Steam Games
+State ID: 986eb22d8a537fe8
+Offer ID: 5f092e89ccacea0a
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - DOOMBLADE]]></title>
 <link>https://store.epicgames.com/en-US/p/doomblade-afdf9a</link>
@@ -139,21 +184,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 470cb676174f2b88
 Offer ID: ad653f2097518c53
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Legend of Keepers: Career of a Dungeon Manager]]></title>
-<link>https://store.steampowered.com/app/978520</link>
-<guid isPermaLink='false'>1fb0740df90fdf98</guid>
-<pubDate>Thu, 16 Apr 2026 17:01:48 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Legend of Keepers: Career of a Dungeon Manager
-
-Source: LootScraper - Steam Games
-State ID: 341b3f57a95445c4
-Offer ID: 1fb0740df90fdf98
 Status: ACTIVE
 User State: NONE
 Expires At: None
