@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 23 Apr 2026 18:00:51 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 25 Apr 2026 11:55:52 +0000</lastBuildDate>
+<lastBuildDate>Sat, 25 Apr 2026 13:20:45 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - The Pale Beyond]]></title>
@@ -229,21 +229,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 4e56c96f288b778b
 Offer ID: 7f79c0494c15ab62
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Phantasie Memorial Set]]></title>
-<link>https://luna.amazon.com/claims/phantasie-memorial-set-gog/dp/amzn1.pg.item.65303365-eba0-4a95-b10c-83c4303b9cba?ingress=amzn&amp;ref_=SM_PhantasieMemorialSet_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>463b4211db57f543</guid>
-<pubDate>Thu, 26 Mar 2026 18:00:51 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Phantasie Memorial Set
-
-Source: LootScraper - Amazon Games
-State ID: 9f4e8a7920ec6edb
-Offer ID: 463b4211db57f543
 Status: ACTIVE
 User State: NONE
 Expires At: None
