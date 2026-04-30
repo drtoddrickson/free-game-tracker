@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 30 Apr 2026 15:13:17 +0000</pubDate>
+<pubDate>Thu, 30 Apr 2026 18:00:52 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 30 Apr 2026 15:23:41 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Apr 2026 18:18:47 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fantasy General]]></title>
+<link>https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?ingress=amzn&amp;ref_=SM_FantasyGeneral_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>6f36e3c3b19f6769</guid>
+<pubDate>Thu, 30 Apr 2026 18:00:52 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Fantasy General
+
+Source: LootScraper - Amazon Games
+State ID: 21efd645dc1469f0
+Offer ID: 6f36e3c3b19f6769
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Pinball Spire]]></title>
+<link>https://luna.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?ingress=amzn&amp;ref_=SM_PinballSpire_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>4d4240324491fa47</guid>
+<pubDate>Thu, 30 Apr 2026 18:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Pinball Spire
+
+Source: LootScraper - Amazon Games
+State ID: 387c5e0fd7530783
+Offer ID: 4d4240324491fa47
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - KinnikuNeko: SUPER MUSCLE CAT]]></title>
+<link>https://luna.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?ingress=amzn&amp;ref_=SM_KinnikuNekoSUPERMUSCLECAT_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>5d4972ab71d36cc8</guid>
+<pubDate>Thu, 30 Apr 2026 18:00:46 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - KinnikuNeko: SUPER MUSCLE CAT
+
+Source: LootScraper - Amazon Games
+State ID: 42f08946f0d7c330
+Offer ID: 5d4972ab71d36cc8
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Hogwarts Legacy (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/hogwarts-legacy-epic-games-giveaway</link>
