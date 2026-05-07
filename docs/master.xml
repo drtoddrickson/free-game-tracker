@@ -5,19 +5,34 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 07 May 2026 15:00:29 +0000</pubDate>
+<pubDate>Thu, 07 May 2026 15:09:17 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 07 May 2026 15:05:58 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 17:04:36 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Trash Goblin (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/trash-goblin-epic-games-giveaway</link>
-<guid isPermaLink='false'>679171033dd09a91</guid>
-<pubDate>Thu, 07 May 2026 15:00:29 +0000</pubDate>
-<description><![CDATA[Trash Goblin (Epic Games) Giveaway
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/arranger-a-role-puzzling-adventure-epic-games-giveaway</link>
+<guid isPermaLink='false'>37d6e3ee25427510</guid>
+<pubDate>Thu, 07 May 2026 15:09:17 +0000</pubDate>
+<description><![CDATA[Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway
 
 Source: GamerPower - All (Giveaways)
-State ID: 923ef625e82b6542
+State ID: 358d691f9d19fe97
+Offer ID: 37d6e3ee25427510
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Trash Goblin]]></title>
+<link>https://store.epicgames.com/en-US/p/trash-goblin-cd5fd7</link>
+<guid isPermaLink='false'>679171033dd09a91</guid>
+<pubDate>Thu, 07 May 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Trash Goblin
+
+Source: LootScraper - Epic Games (PC)
+State ID: 2fe9b4f5fe8daa34
 Offer ID: 679171033dd09a91
 Status: ACTIVE
 User State: NONE
@@ -100,29 +115,14 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Firestone Online Idle RPG]]></title>
-<link>https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b</link>
-<guid isPermaLink='false'>a800c0e1dcc9a4cf</guid>
-<pubDate>Thu, 30 Apr 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Firestone Online Idle RPG
-
-Source: LootScraper - Epic Games (PC)
-State ID: 9b73745c6d8f8a3a
-Offer ID: a800c0e1dcc9a4cf
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Oddsparks: An Automation Adventure]]></title>
-<link>https://store.epicgames.com/en-US/p/oddsparks-58440c</link>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Oddsparks: An Automation Adventure (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/oddsparks-an-automation-adventure-epic-games-giveaway</link>
 <guid isPermaLink='false'>0e59d994a605b744</guid>
-<pubDate>Thu, 30 Apr 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Oddsparks: An Automation Adventure
+<pubDate>Thu, 30 Apr 2026 15:00:15 +0000</pubDate>
+<description><![CDATA[Oddsparks: An Automation Adventure (Epic Games) Giveaway
 
-Source: LootScraper - Epic Games (PC)
-State ID: 66e25c3965da5d46
+Source: GamerPower - All (Giveaways)
+State ID: b1f976184a773010
 Offer ID: 0e59d994a605b744
 Status: ACTIVE
 User State: NONE
@@ -184,36 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 6cc9a277566e6a16
 Offer ID: 2737f37ab3ba5f3b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] Heartlight (GOG) Giveaway]]></title>
-<link>https://www.gamerpower.com/heartlight-gog-giveaway</link>
-<guid isPermaLink='false'>f541ca06e9059287</guid>
-<pubDate>Thu, 30 Apr 2026 14:08:13 +0000</pubDate>
-<description><![CDATA[Heartlight (GOG) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 057ba05547990877
-Offer ID: f541ca06e9059287
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] Robbo (GOG) Giveaway]]></title>
-<link>https://www.gamerpower.com/robbo-gog-giveaway</link>
-<guid isPermaLink='false'>3c2aa16d4d605c21</guid>
-<pubDate>Thu, 30 Apr 2026 14:07:27 +0000</pubDate>
-<description><![CDATA[Robbo (GOG) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 66ce3103d0d366e3
-Offer ID: 3c2aa16d4d605c21
 Status: ACTIVE
 User State: NONE
 Expires At: None
