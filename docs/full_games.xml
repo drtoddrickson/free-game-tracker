@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 01 May 2026 15:52:51 +0000</pubDate>
+<pubDate>Thu, 07 May 2026 15:00:29 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 07 May 2026 12:12:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 15:05:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Trash Goblin (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/trash-goblin-epic-games-giveaway</link>
+<guid isPermaLink='false'>679171033dd09a91</guid>
+<pubDate>Thu, 07 May 2026 15:00:29 +0000</pubDate>
+<description><![CDATA[Trash Goblin (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 923ef625e82b6542
+Offer ID: 679171033dd09a91
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Overcome Your Fears - Caretaker (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/overcome-your-fears-caretaker-steam-giveaway</link>
@@ -199,21 +214,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 66ce3103d0d366e3
 Offer ID: 3c2aa16d4d605c21
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] World of Warships x Azur Lane - Quest for AL Avrora (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/world-of-warships-x-azur-lane-quest-for-al-avrora-steam-giveaway</link>
-<guid isPermaLink='false'>2fc9ba0107a82b8b</guid>
-<pubDate>Thu, 30 Apr 2026 11:55:27 +0000</pubDate>
-<description><![CDATA[World of Warships x Azur Lane - Quest for AL Avrora (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 4bac4c863e303eaf
-Offer ID: 2fc9ba0107a82b8b
 Status: ACTIVE
 User State: NONE
 Expires At: None
