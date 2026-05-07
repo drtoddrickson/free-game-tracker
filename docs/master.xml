@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 07 May 2026 15:09:17 +0000</pubDate>
+<pubDate>Thu, 07 May 2026 18:00:53 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 07 May 2026 17:04:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 18:59:59 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fruitbus]]></title>
+<link>https://luna.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?ingress=amzn&amp;ref_=SM_Fruitbus_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a789ed4f098ae1b7</guid>
+<pubDate>Thu, 07 May 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Fruitbus
+
+Source: LootScraper - Amazon Games
+State ID: 624b1f389ba7e165
+Offer ID: a789ed4f098ae1b7
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Mafia II]]></title>
+<link>https://luna.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?ingress=amzn&amp;ref_=SM_MafiaIIDefinitiveEdition_S02_FGWP_CRWN</link>
+<guid isPermaLink='false'>4767d673643dbc2b</guid>
+<pubDate>Thu, 07 May 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Mafia II
+
+Source: LootScraper - Amazon Games
+State ID: f895cf9a9e365f10
+Offer ID: 4767d673643dbc2b
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/arranger-a-role-puzzling-adventure-epic-games-giveaway</link>
