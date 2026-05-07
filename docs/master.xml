@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 01 May 2026 15:52:51 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 07 May 2026 10:00:54 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 12:12:10 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Overcome Your Fears - Caretaker (Steam) Giveaway]]></title>
@@ -325,21 +325,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Total War: PHARAOH DYNASTIES]]></title>
-<link>https://luna.amazon.com/claims/total-war-pharaoh-dynasties-epic/dp/amzn1.pg.item.3537f41b-c6e5-4d7b-a3c9-683253ce433f?ingress=amzn&amp;ref_=SM_TotalWarPHARAOHDYNASTIES_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>7f79c0494c15ab62</guid>
-<pubDate>Thu, 02 Apr 2026 17:00:39 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Total War: PHARAOH DYNASTIES
-
-Source: LootScraper - Amazon Games
-State ID: 4e56c96f288b778b
-Offer ID: 7f79c0494c15ab62
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Deep Sky Derelicts]]></title>
 <link>https://luna.amazon.com/claims/deep-sky-derelicts-aga/dp/amzn1.pg.item.2bee44d2-9560-4916-a052-6a41cd434318?ingress=amzn&amp;ref_=SM_DeepSkyDerelicts_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>8f41b3ac2495003e</guid>
@@ -454,21 +439,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 215270d4fd39412c
 Offer ID: 31f506787066a9a8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tiny Tina's Wonderlands]]></title>
-<link>https://luna.amazon.com/claims/tiny-tinas-wonderlands-epic/dp/amzn1.pg.item.bbfc2103-4d24-4c07-9467-c33b858b0346?ingress=amzn&amp;ref_=SM_TinyTinasWonderlands_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>3970cc5076419987</guid>
-<pubDate>Thu, 05 Feb 2026 19:00:49 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Tiny Tina's Wonderlands
-
-Source: LootScraper - Amazon Games
-State ID: 7f012b1fce49d722
-Offer ID: 3970cc5076419987
 Status: ACTIVE
 User State: NONE
 Expires At: None
