@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 07 May 2026 18:00:53 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 08 May 2026 11:22:36 +0000</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 12:54:13 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fruitbus]]></title>
@@ -199,21 +199,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: d448fa345865ec3f
 Offer ID: d047eaab2caab517
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] Electro Man (GOG) Giveaway]]></title>
-<link>https://www.gamerpower.com/electro-man-gog-giveaway</link>
-<guid isPermaLink='false'>2737f37ab3ba5f3b</guid>
-<pubDate>Thu, 30 Apr 2026 14:12:54 +0000</pubDate>
-<description><![CDATA[Electro Man (GOG) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 6cc9a277566e6a16
-Offer ID: 2737f37ab3ba5f3b
 Status: ACTIVE
 User State: NONE
 Expires At: None
