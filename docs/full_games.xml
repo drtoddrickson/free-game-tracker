@@ -5,19 +5,19 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 09 May 2026 17:02:01 +0000</pubDate>
+<pubDate>Sat, 09 May 2026 17:49:19 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 09 May 2026 17:06:38 +0000</lastBuildDate>
+<lastBuildDate>Sat, 09 May 2026 18:06:17 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - LivingBattle]]></title>
-<link>https://store.steampowered.com/app/3353830</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] LivingBattle (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/livingbattle-steam-giveaway</link>
 <guid isPermaLink='false'>4d96064e65e1f896</guid>
-<pubDate>Sat, 09 May 2026 17:02:01 +0000</pubDate>
-<description><![CDATA[Steam (Game) - LivingBattle
+<pubDate>Sat, 09 May 2026 17:49:19 +0000</pubDate>
+<description><![CDATA[LivingBattle (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: 5a6a710b1ea9077d
+Source: GamerPower - All (Giveaways)
+State ID: 0817856b7750f4b8
 Offer ID: 4d96064e65e1f896
 Status: ACTIVE
 User State: NONE
@@ -139,21 +139,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 42f08946f0d7c330
 Offer ID: 5d4972ab71d36cc8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Hogwarts Legacy (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/hogwarts-legacy-epic-games-giveaway</link>
-<guid isPermaLink='false'>9b841f4faae4ee1a</guid>
-<pubDate>Thu, 30 Apr 2026 15:13:17 +0000</pubDate>
-<description><![CDATA[Hogwarts Legacy (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: f83fdd0fb3c959dd
-Offer ID: 9b841f4faae4ee1a
 Status: ACTIVE
 User State: NONE
 Expires At: None
