@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 07 May 2026 18:00:53 +0000</pubDate>
+<pubDate>Sat, 09 May 2026 17:02:01 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 09 May 2026 16:00:13 +0000</lastBuildDate>
+<lastBuildDate>Sat, 09 May 2026 17:06:38 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - LivingBattle]]></title>
+<link>https://store.steampowered.com/app/3353830</link>
+<guid isPermaLink='false'>4d96064e65e1f896</guid>
+<pubDate>Sat, 09 May 2026 17:02:01 +0000</pubDate>
+<description><![CDATA[Steam (Game) - LivingBattle
+
+Source: LootScraper - Steam Games
+State ID: 5a6a710b1ea9077d
+Offer ID: 4d96064e65e1f896
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fruitbus]]></title>
 <link>https://luna.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?ingress=amzn&amp;ref_=SM_Fruitbus_S01_FGWP_CRWN</link>
