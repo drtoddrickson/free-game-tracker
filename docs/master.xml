@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 10 May 2026 12:14:42 +0000</pubDate>
+<pubDate>Sun, 10 May 2026 18:04:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 10 May 2026 17:16:05 +0000</lastBuildDate>
+<lastBuildDate>Sun, 10 May 2026 18:32:12 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Just Move Fall Dungeon Endless Abyss]]></title>
+<link>https://store.steampowered.com/app/3856040</link>
+<guid isPermaLink='false'>097e89fd2b5ad2de</guid>
+<pubDate>Sun, 10 May 2026 18:04:39 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Just Move Fall Dungeon Endless Abyss
+
+Source: LootScraper - Steam Games
+State ID: 495001b75b76f0a5
+Offer ID: 097e89fd2b5ad2de
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] World of Tanks Blitz - Welcome Bundle (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/world-of-tanks-blitz-welcome-bundle-steam-giveaway</link>
@@ -94,21 +109,6 @@ Expires At: None
 Source: LootScraper - Epic Games (PC)
 State ID: 2fe9b4f5fe8daa34
 Offer ID: 679171033dd09a91
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Overcome Your Fears - Caretaker (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/overcome-your-fears-caretaker-steam-giveaway</link>
-<guid isPermaLink='false'>865f257dc3b1bd2a</guid>
-<pubDate>Fri, 01 May 2026 15:52:51 +0000</pubDate>
-<description><![CDATA[Overcome Your Fears - Caretaker (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: c29dc9ef659aa5a0
-Offer ID: 865f257dc3b1bd2a
 Status: ACTIVE
 User State: NONE
 Expires At: None
