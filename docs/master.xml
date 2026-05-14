@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 14 May 2026 10:36:47 +0000</pubDate>
+<pubDate>Thu, 14 May 2026 15:15:23 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 14 May 2026 14:42:44 +0000</lastBuildDate>
+<lastBuildDate>Thu, 14 May 2026 16:51:51 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] The Telltale Batman Shadows Edition (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/the-telltale-batman-shadows-edition-epic-games-giveaway</link>
+<guid isPermaLink='false'>6763cd0bb50c55aa</guid>
+<pubDate>Thu, 14 May 2026 15:15:23 +0000</pubDate>
+<description><![CDATA[The Telltale Batman Shadows Edition (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: c66f73affaefec01
+Offer ID: 6763cd0bb50c55aa
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Sunderfolk (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/sunderfolk-epic-games-giveaway</link>
+<guid isPermaLink='false'>b5e11a2e8c84033b</guid>
+<pubDate>Thu, 14 May 2026 15:07:20 +0000</pubDate>
+<description><![CDATA[Sunderfolk (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 3d86200e76dd0973
+Offer ID: b5e11a2e8c84033b
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Sunderfolk: Standard Edition]]></title>
+<link>https://store.epicgames.com/en-US/p/sunderfolk-standard-edition-83c05e</link>
+<guid isPermaLink='false'>05f1a4f39162998d</guid>
+<pubDate>Thu, 14 May 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Sunderfolk: Standard Edition
+
+Source: LootScraper - Epic Games (PC)
+State ID: 6ab2d83366e52b68
+Offer ID: 05f1a4f39162998d
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Devil's Island (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/devil-s-island-epic-games-giveaway</link>
@@ -55,14 +100,14 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Just Move Fall Dungeon Endless Abyss]]></title>
-<link>https://store.steampowered.com/app/3856040</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Just Move Fall Dungeon Endless Abyss (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/just-move-fall-dungeon-endless-abyss-steam-giveaway</link>
 <guid isPermaLink='false'>097e89fd2b5ad2de</guid>
-<pubDate>Sun, 10 May 2026 18:04:39 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Just Move Fall Dungeon Endless Abyss
+<pubDate>Sun, 10 May 2026 17:24:10 +0000</pubDate>
+<description><![CDATA[Just Move Fall Dungeon Endless Abyss (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: 495001b75b76f0a5
+Source: GamerPower - All (Giveaways)
+State ID: 891a7c2eac0365eb
 Offer ID: 097e89fd2b5ad2de
 Status: ACTIVE
 User State: NONE
@@ -124,36 +169,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: f895cf9a9e365f10
 Offer ID: 4767d673643dbc2b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/arranger-a-role-puzzling-adventure-epic-games-giveaway</link>
-<guid isPermaLink='false'>37d6e3ee25427510</guid>
-<pubDate>Thu, 07 May 2026 15:09:17 +0000</pubDate>
-<description><![CDATA[Arranger: A Role-Puzzling Adventure (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 358d691f9d19fe97
-Offer ID: 37d6e3ee25427510
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Trash Goblin]]></title>
-<link>https://store.epicgames.com/en-US/p/trash-goblin-cd5fd7</link>
-<guid isPermaLink='false'>679171033dd09a91</guid>
-<pubDate>Thu, 07 May 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Trash Goblin
-
-Source: LootScraper - Epic Games (PC)
-State ID: 2fe9b4f5fe8daa34
-Offer ID: 679171033dd09a91
 Status: ACTIVE
 User State: NONE
 Expires At: None
