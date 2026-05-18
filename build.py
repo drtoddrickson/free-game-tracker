@@ -380,8 +380,8 @@ def normalize_title_for_match(title: str) -> str:
     )
 
     # Normalize common separators/punctuation
-    t = t.replace("–", "-").replace("—", "-").replace(":", " ")
-    t = re.sub(r"[^a-z0-9\s\-]", " ", t)
+    t = t.replace("–", " ").replace("—", " ").replace("-", " ").replace(":", " ")
+    t = re.sub(r"[^a-z0-9\s]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
 
     # Remove noisy offer words that vary by source
