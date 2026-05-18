@@ -289,8 +289,18 @@ LOOT_MARKERS = [
     "gift key",
     "gift code",
     "key giveaway",
-    " bundle",
-    " bundle giveaway",
+    "bundle",
+    "bundle giveaway",
+    "reward",
+    "rewards",
+]
+
+LOOT_HEAVY_GAME_MARKERS = [
+    "world of warships",
+    "world of tanks",
+    "world of tanks blitz",
+    "hero wars",
+    "firestone",
 ]
 
 
@@ -303,6 +313,9 @@ def classify_lootlike_item_type(title: str, default_item_type: str) -> str:
     t = (title or "").lower()
 
     if any(marker in t for marker in LOOT_MARKERS):
+        return "DLC"
+
+    if any(marker in t for marker in LOOT_HEAVY_GAME_MARKERS):
         return "DLC"
 
     return default_item_type
