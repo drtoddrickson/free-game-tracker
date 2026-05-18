@@ -111,67 +111,6 @@ Notes:
 ---
 
 ## ACTIVE
-
-### R-003) Owned games YAML
-Status: ACTIVE (CORE COMPLETE) 
-Scope:
-- File-based owned game inventory
-- YAML structure aligned with current system
-- Normalize item titles before matching against owned/wanted lists
-  - Strip punctuation, special characters
-  - Normalize whitespace and casing
-  - Remove common noise words (e.g., "free", "bundle", "giveaway", "dlc")
-- Support optional platform-specific ownership metadata
-  - Allow owned/wanted entries to specify one or more platforms
-  - Use platform data to improve DLC / loot relevance matching
-  - Keep platform optional so simple title-only ownership remains valid
-- Support structured ownership metadata fields
-  - `name`
-  - `platforms`
-  - `stores`
-  - `source`
-  - `date_added`
-  - `watch_dlc`
-  - `status`
-  - `format`
-- Support ingestion of claimed items into owned data (controlled)
-  - Define rules for when a claimed item should be added to owned list
-  - Default: only add FULL-GAME items
-  - Do not auto-add DLC / loot unless explicitly enabled
-  - Ensure normalization before insertion to avoid duplicates
-
-Intent:
-- Move watch/ownership data out of code and into data
-- Improve maintainability and personalization
-- Increase matching accuracy for platform-specific games, DLC, and cross-platform titles
-- Provide foundation for future automatic ownership tracking
-
-Notes:
-- Start with title-only matching as valid baseline behavior
-- Treat platform as an optional refinement, not a required field
-- Most useful for:
-  - DLC / loot targeting
-  - cross-platform titles
-  - games owned on one ecosystem but not another
-- Ownership ingestion must be conservative to avoid polluting dataset
-- Recommended defaults:
-  - `platforms: []`
-  - `stores: []`
-  - `source: manual`
-  - `watch_dlc: false`
-  - `status: owned`
-  - `format: digital`
-
-Implementation status:
-- Core YAML structure implemented
-- Matching + normalization implemented
-- Claim → owned ingestion implemented (--sync-owned)
-- Remaining:
-  - platform-aware filtering logic
-  - strict vs loose matching modes (optional)
-  
-Remaining:
-- improve match reliability across noisy titles (edge-case normalization)
   
 ### R-004) Owned-aware DLC targeting
 Status: ACTIVE  
@@ -387,6 +326,67 @@ Status: COMPLETED (2026-03-27)
 ### R-019) Content routing tags (FULL-GAME / LOOT-DROP)
 Status: COMPLETED (2026-04-10)
 
+### R-003) Owned games YAML
+Status: COMPLETED (2026-05-17)
+Scope:
+- File-based owned game inventory
+- YAML structure aligned with current system
+- Normalize item titles before matching against owned/wanted lists
+  - Strip punctuation, special characters
+  - Normalize whitespace and casing
+  - Remove common noise words (e.g., "free", "bundle", "giveaway", "dlc")
+- Support optional platform-specific ownership metadata
+  - Allow owned/wanted entries to specify one or more platforms
+  - Use platform data to improve DLC / loot relevance matching
+  - Keep platform optional so simple title-only ownership remains valid
+- Support structured ownership metadata fields
+  - `name`
+  - `platforms`
+  - `stores`
+  - `source`
+  - `date_added`
+  - `watch_dlc`
+  - `status`
+  - `format`
+- Support ingestion of claimed items into owned data (controlled)
+  - Define rules for when a claimed item should be added to owned list
+  - Default: only add FULL-GAME items
+  - Do not auto-add DLC / loot unless explicitly enabled
+  - Ensure normalization before insertion to avoid duplicates
+
+Intent:
+- Move watch/ownership data out of code and into data
+- Improve maintainability and personalization
+- Increase matching accuracy for platform-specific games, DLC, and cross-platform titles
+- Provide foundation for future automatic ownership tracking
+
+Notes:
+- Start with title-only matching as valid baseline behavior
+- Treat platform as an optional refinement, not a required field
+- Most useful for:
+  - DLC / loot targeting
+  - cross-platform titles
+  - games owned on one ecosystem but not another
+- Ownership ingestion must be conservative to avoid polluting dataset
+- Recommended defaults:
+  - `platforms: []`
+  - `stores: []`
+  - `source: manual`
+  - `watch_dlc: false`
+  - `status: owned`
+  - `format: digital`
+
+Implementation status:
+- Core YAML structure implemented
+- Matching + normalization implemented
+- Claim → owned ingestion implemented (--sync-owned)
+- Remaining:
+  - platform-aware filtering logic
+  - strict vs loose matching modes (optional)
+  
+Remaining:
+- improve match reliability across noisy titles (edge-case normalization)
+
 ---
 
 ## CHANGE LOG
@@ -419,3 +419,4 @@ Status: COMPLETED (2026-04-10)
 
 ### 2026-05-17
 - Added STOVE to global blocked store markers.
+- Completed: R-003 Owned games YAML
