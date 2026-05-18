@@ -206,11 +206,7 @@ AGG_STRONG_TRIGGERS = [
     "free to claim",
     "free-to-claim",
     "claim free",
-    "claim now",
-    "claimable",
     "redeem",
-    "redeemable",
-    "redeem now",
     "free dlc",
     "free pack",
     "free bundle",
@@ -293,6 +289,9 @@ LOOT_MARKERS = [
     "bundle giveaway",
     "reward",
     "rewards",
+    "free pulls",
+    "pulls",
+    "primogems",
 ]
 
 LOOT_HEAVY_GAME_MARKERS = [
