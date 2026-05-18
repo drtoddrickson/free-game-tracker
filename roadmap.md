@@ -420,3 +420,4 @@ Remaining:
 ### 2026-05-17
 - Added STOVE to global blocked store markers.
 - Completed: R-003 Owned games YAML
+- Sources YAML list updated

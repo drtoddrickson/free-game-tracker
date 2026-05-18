@@ -82,3 +82,15 @@ sources:
     default_platforms: [PC, PS5, SWITCH]
     default_type: NEWS
     default_tags: [AGG]
+    
+  - name: Epic Games Store News
+    url: https://store.epicgames.com/en-US/feed
+    default_platforms: [PC]
+    default_type: NEWS
+    default_tags: [AGG]
+    
+  - name: GG.deals
+    url: https://gg.deals/feed/
+    default_platforms: [PC]
+    default_type: NEWS
+    default_tags: [AGG]
