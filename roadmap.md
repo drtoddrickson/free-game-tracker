@@ -416,3 +416,6 @@ Status: COMPLETED (2026-04-10)
 - Completed: R-002 Manual state management workflow (CLI tools)
 - Added: R-019 Content routing tags (FULL-GAME / LOOT-DROP)
 - Advanced: R-003 Owned games YAML (core implementation complete, remaining refinements)
+
+### 2026-05-17
+- Added STOVE to global blocked store markers.
