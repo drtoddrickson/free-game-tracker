@@ -126,6 +126,11 @@ BLOCKED_STORE_MARKERS = {
         "itch.io",
         "itch",
     ],
+    "STOVE": [
+        "stove",
+        "onstove.com",
+        "store.onstove.com",
+    ],
 }
 
 WATCH_GAMES = [
