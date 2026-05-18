@@ -458,6 +458,17 @@ def normalize_platforms(platforms: List[str]) -> List[str]:
     # Keep a consistent order
     order = {"PC": 0, "PS5": 1, "SWITCH": 2}
     return sorted(set(out), key=lambda x: order.get(x, 99))
+    
+    
+def is_platform_match(item_platforms: List[str], owned_platforms: List[str]) -> bool:
+    """
+    Returns True if:
+    - owned_platforms is empty (no restriction)
+    - OR at least one platform overlaps
+    """
+    if not owned_platforms:
+        return True
+    return any(p in item_platforms for p in owned_platforms)
 
 
 def normalize_type(t: str) -> str:
@@ -1077,8 +1088,27 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             # Filtering model refinement:
             # - Full games pass by default unless blocked elsewhere
             # - Loot stays strict
-            if is_loot and not should_keep_loot_item(title, item_tags):
-                continue
+            if is_loot:
+                # Keep existing signal filtering
+                if not should_keep_loot_item(title, item_tags):
+                    continue
+
+                # NEW: platform-aware filtering based on owned games
+                if matched_owned:
+                    # Find owned records that matched this title
+                    owned_matches = [
+                        rec for rec in owned_records
+                        if rec["name"] and rec["name"] in normalized_title
+                    ]
+
+                    # Check if ANY owned entry allows this platform
+                    platform_allowed = any(
+                        is_platform_match(platforms, rec["platforms"])
+                        for rec in owned_matches
+                    )
+
+                    if not platform_allowed:
+                        continue
             
             system_status = get_item_status(items_state, sid)
             user_state = get_user_state(items_state, sid)
