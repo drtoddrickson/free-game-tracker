@@ -282,13 +282,15 @@ LOOT_MARKERS = [
     "in game",
     "bonus content",
     "booster",
-    " pack giveaway",
-    " collection giveaway",
-    " pack",
-    " collection",
+    "pack giveaway",
+    "collection giveaway",
+    "pack",
+    "collection",
     "gift key",
     "gift code",
     "key giveaway",
+    " bundle",
+    " bundle giveaway",
 ]
 
 
