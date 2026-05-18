@@ -388,7 +388,8 @@ def normalize_title_for_match(title: str) -> str:
     noise = {
         "free", "claim", "claimed", "redeem", "redeemable", "giveaway",
         "loot", "drop", "drops", "dlc", "bonus", "pack", "bundle",
-        "trial", "demo", "exclusive", "limited", "offer"
+        "trial", "demo", "exclusive", "limited", "offer",
+        "standard", "edition"
     }
     words = [w for w in t.split() if w not in noise]
     return " ".join(words).strip()
