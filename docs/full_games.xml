@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 21 May 2026 17:05:19 +0000</pubDate>
+<pubDate>Thu, 21 May 2026 18:00:56 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 21 May 2026 17:46:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 May 2026 20:00:33 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Hot Brass]]></title>
+<link>https://luna.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?ingress=amzn&amp;ref_=SM_HotBrass_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>11987e691abd6a5c</guid>
+<pubDate>Thu, 21 May 2026 18:00:56 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Hot Brass
+
+Source: LootScraper - Amazon Games
+State ID: 6bbc441f900f1d6e
+Offer ID: 11987e691abd6a5c
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Space Grunts]]></title>
+<link>https://luna.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?ingress=amzn&amp;ref_=SM_SpaceGrunts_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c815e1b9cfe372db</guid>
+<pubDate>Thu, 21 May 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Space Grunts
+
+Source: LootScraper - Amazon Games
+State ID: ba01bd2934566e03
+Offer ID: c815e1b9cfe372db
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Palindrome Syndrome: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/palindrome-syndrome-escape-room-gog/dp/amzn1.pg.item.2636d5ae-477e-4010-82f4-a3440c877f67?ingress=amzn&amp;ref_=SM_PalindromeSyndromeEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>9de074cbf64a6bbb</guid>
+<pubDate>Thu, 21 May 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Palindrome Syndrome: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: 02e1f9e56ca50fae
+Offer ID: 9de074cbf64a6bbb
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Car Mechanic Simulator 2018 (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/car-mechanic-simulator-2018-steam-giveaway</link>
