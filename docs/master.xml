@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 22 May 2026 17:20:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 23 May 2026 11:46:50 +0000</lastBuildDate>
+<lastBuildDate>Sat, 23 May 2026 13:48:19 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Bunny Guys! (Steam) Giveaway]]></title>
@@ -205,30 +205,15 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/dino-running-from-a-furry-gamesforfarm-steam-giveaway</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Dino running from a FURRY: GAMESFORFARM]]></title>
+<link>https://store.steampowered.com/app/3343840</link>
 <guid isPermaLink='false'>fe7d9571d95ad4f5</guid>
-<pubDate>Fri, 15 May 2026 17:18:54 +0000</pubDate>
-<description><![CDATA[Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway
+<pubDate>Fri, 15 May 2026 17:02:13 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Dino running from a FURRY: GAMESFORFARM
 
-Source: GamerPower - All (Giveaways)
-State ID: 6843bd9823a6a5fa
+Source: LootScraper - Steam Games
+State ID: e84d20cf3da9b216
 Offer ID: fe7d9571d95ad4f5
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Vaudeville (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/vaudeville-epic-games-giveaway</link>
-<guid isPermaLink='false'>f34c24dddc8d751f</guid>
-<pubDate>Thu, 14 May 2026 22:24:35 +0000</pubDate>
-<description><![CDATA[Vaudeville (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 3660df12061b5bb0
-Offer ID: f34c24dddc8d751f
 Status: ACTIVE
 User State: NONE
 Expires At: None
