@@ -929,6 +929,11 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
         for x in owned_data.get("owned", [])
     ]
     owned_records = [x for x in owned_records if x["name"]]
+    
+    watch_dlc_records = [
+        rec for rec in owned_records
+        if rec.get("watch_dlc") is True
+    ]
 
     wanted_records = [
         normalize_owned_entry(x)
@@ -984,6 +989,14 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             matched_owned = [
                 rec["name"]
                 for rec in owned_records
+                if rec["name"]
+                and rec["name"] in normalized_title
+                and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
+            ]
+            
+            matched_watch_dlc = [
+                rec["name"]
+                for rec in watch_dlc_records
                 if rec["name"]
                 and rec["name"] in normalized_title
                 and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
@@ -1113,21 +1126,20 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
                 if not should_keep_loot_item(title, item_tags):
                     continue
 
-                # NEW: platform-aware filtering based on owned games
+                # R-004: owned-aware DLC targeting
+                # Loot for owned games only passes when watch_dlc is explicitly true.
                 if matched_owned:
-                    # Find owned records that matched this title
-                    owned_matches = [
-                        rec for rec in owned_records
+                    watch_dlc_matches = [
+                        rec for rec in watch_dlc_records
                         if rec["name"] and rec["name"] in normalized_title
                     ]
 
-                    # Check if ANY owned entry allows this platform
-                    platform_allowed = any(
+                    watch_dlc_allowed = any(
                         is_platform_match(platforms, rec["platforms"])
-                        for rec in owned_matches
+                        for rec in watch_dlc_matches
                     )
 
-                    if not platform_allowed:
+                    if not watch_dlc_allowed:
                         continue
             
             system_status = get_item_status(items_state, sid)
