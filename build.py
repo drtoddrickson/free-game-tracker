@@ -32,7 +32,6 @@ import feedparser
 import yaml
 
 import argparse
-import sys
 
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
@@ -328,7 +327,7 @@ def load_sources() -> List[Dict[str, Any]]:
     return data.get("sources", [])
     
     
-def load_owned_games() -> Dict[str, List[str]]:
+def load_owned_games() -> Dict[str, Any]:
     """
     owned_games.yaml supports:
     - simple string entries
@@ -895,7 +894,7 @@ def store_tag_score(tags: List[str]) -> int:
     Higher score = stronger/more specific store identity.
     Used only as a tie-breaker after platform specificity.
     """
-    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE", "ITCH.IO"}
+    preferred = {"PSN", "STEAM", "EPIC", "GOG", "AMAZON", "HUMBLE"}
     return sum(1 for t in tags if t.strip().upper() in preferred)
 
 
@@ -989,14 +988,6 @@ def build_items(sources: List[Dict[str, Any]], state: Dict[str, Any]) -> List[Di
             matched_owned = [
                 rec["name"]
                 for rec in owned_records
-                if rec["name"]
-                and rec["name"] in normalized_title
-                and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
-            ]
-            
-            matched_watch_dlc = [
-                rec["name"]
-                for rec in watch_dlc_records
                 if rec["name"]
                 and rec["name"] in normalized_title
                 and (not rec["platforms"] or any(p in platforms for p in rec["platforms"]))
