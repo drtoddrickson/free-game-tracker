@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 22 May 2026 17:20:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 24 May 2026 23:17:45 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 01:32:37 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Bunny Guys! (Steam) Giveaway]]></title>
@@ -100,21 +100,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [GOG] GOG (Game) - Warhammer Skulls 2026 Digital Goodie Bag]]></title>
-<link>https://www.gog.com/en/game/warhammer_skulls_2026_digital_goodie_bag</link>
-<guid isPermaLink='false'>1c1e75d6d207621d</guid>
-<pubDate>Thu, 21 May 2026 17:00:34 +0000</pubDate>
-<description><![CDATA[GOG (Game) - Warhammer Skulls 2026 Digital Goodie Bag
-
-Source: LootScraper - GOG Games
-State ID: a710f6decefe432e
-Offer ID: 1c1e75d6d207621d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/warhammer-40-000-gladius-relics-of-war-steam-giveaway</link>
 <guid isPermaLink='false'>10163cfc48f4f81f</guid>
@@ -154,21 +139,6 @@ Expires At: None
 Source: LootScraper - Epic Games (PC)
 State ID: 1c941def6c4df25d
 Offer ID: 2c18c9a1271ef004
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Tomb Raider I-III Remastered Starring Lara Croft]]></title>
-<link>https://store.epicgames.com/en-US/p/tomb-raider-iiii-remastered-538640</link>
-<guid isPermaLink='false'>6d09a4f421f87e65</guid>
-<pubDate>Thu, 21 May 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Tomb Raider I-III Remastered Starring Lara Croft
-
-Source: LootScraper - Epic Games (PC)
-State ID: d3d1c641c90393b0
-Offer ID: 6d09a4f421f87e65
 Status: ACTIVE
 User State: NONE
 Expires At: None
