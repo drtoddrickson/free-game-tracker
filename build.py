@@ -292,6 +292,8 @@ LOOT_MARKERS = [
     "free pulls",
     "pulls",
     "primogems",
+    "goodie bag",
+    "digital goodie bag",
 ]
 
 LOOT_HEAVY_GAME_MARKERS = [
