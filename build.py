@@ -397,6 +397,9 @@ def normalize_title_for_match(title: str) -> str:
     t = t.replace("–", " ").replace("—", " ").replace("-", " ").replace(":", " ")
     t = re.sub(r"[^a-z0-9\s]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
+    
+    # Normalize common roman numeral ranges used in store titles
+    t = re.sub(r"\bi\s+iii\b", "1 3", t)
 
     # Remove noisy offer words that vary by source
     noise = {
