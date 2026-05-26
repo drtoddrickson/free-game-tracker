@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 22 May 2026 17:20:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 26 May 2026 08:01:09 +0000</lastBuildDate>
+<lastBuildDate>Tue, 26 May 2026 14:18:57 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Bunny Guys! (Steam) Giveaway]]></title>
@@ -424,21 +424,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 7a325cd856e840db
 Offer ID: 6835aa2db9e241f2
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Rebel Galaxy Outlaw]]></title>
-<link>https://luna.amazon.com/claims/rebel-galaxy-outlaw-gog/dp/amzn1.pg.item.adb93773-6c48-4660-b1ee-006818c6902b?ingress=amzn&amp;ref_=SM_RebelGalaxyOutlaw_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>f1e9ed239611b6e4</guid>
-<pubDate>Thu, 26 Feb 2026 19:00:40 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy Outlaw
-
-Source: LootScraper - Amazon Games
-State ID: ada16268ecf34c03
-Offer ID: f1e9ed239611b6e4
 Status: ACTIVE
 User State: NONE
 Expires At: None
