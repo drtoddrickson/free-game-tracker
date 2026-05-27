@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 22 May 2026 17:20:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 27 May 2026 10:13:31 +0000</lastBuildDate>
+<lastBuildDate>Wed, 27 May 2026 13:51:42 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Bunny Guys! (Steam) Giveaway]]></title>
@@ -295,36 +295,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - The Pale Beyond]]></title>
-<link>https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?ingress=amzn&amp;ref_=SM_ThePaleBeyond_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>33a386360a844241</guid>
-<pubDate>Thu, 23 Apr 2026 18:00:51 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - The Pale Beyond
-
-Source: LootScraper - Amazon Games
-State ID: 4d6ae73fc91f00f1
-Offer ID: 33a386360a844241
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Neo Cab]]></title>
-<link>https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?ingress=amzn&amp;ref_=SM_NeoCab_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>52610bdb41bac480</guid>
-<pubDate>Thu, 23 Apr 2026 18:00:48 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Neo Cab
-
-Source: LootScraper - Amazon Games
-State ID: 6e5379d749d276ef
-Offer ID: 52610bdb41bac480
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Snake Core]]></title>
 <link>https://luna.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?ingress=amzn&amp;ref_=SM_SnakeCore_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>625df2451d37470d</guid>
@@ -349,21 +319,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3e55171ad482e567
 Offer ID: d6c47ba7cbfc3998
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Deep Sky Derelicts]]></title>
-<link>https://luna.amazon.com/claims/deep-sky-derelicts-aga/dp/amzn1.pg.item.2bee44d2-9560-4916-a052-6a41cd434318?ingress=amzn&amp;ref_=SM_DeepSkyDerelicts_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>11a27c8942c2eb45</guid>
-<pubDate>Thu, 26 Mar 2026 18:00:49 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Deep Sky Derelicts
-
-Source: LootScraper - Amazon Games
-State ID: 309e693a6f6cce09
-Offer ID: 11a27c8942c2eb45
 Status: ACTIVE
 User State: NONE
 Expires At: None
