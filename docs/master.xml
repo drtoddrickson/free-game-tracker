@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 22 May 2026 17:20:03 +0000</pubDate>
+<pubDate>Thu, 28 May 2026 16:06:38 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 28 May 2026 12:33:22 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 16:43:08 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Drift86 (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/drift86-steam-giveaway</link>
+<guid isPermaLink='false'>b8c45127be1d9009</guid>
+<pubDate>Thu, 28 May 2026 16:06:38 +0000</pubDate>
+<description><![CDATA[Drift86 (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: c0545323c5e40795
+Offer ID: b8c45127be1d9009
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] LONESTAR (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/lonestar-epic-games-giveaway</link>
+<guid isPermaLink='false'>5014a9b60bd5f207</guid>
+<pubDate>Thu, 28 May 2026 15:09:40 +0000</pubDate>
+<description><![CDATA[LONESTAR (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: bf877e72b087ca46
+Offer ID: 5014a9b60bd5f207
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Calico]]></title>
+<link>https://store.epicgames.com/en-US/p/calico</link>
+<guid isPermaLink='false'>cabedc74011ff5af</guid>
+<pubDate>Thu, 28 May 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Calico
+
+Source: LootScraper - Epic Games (PC)
+State ID: 8a4783d9db3cfbe8
+Offer ID: cabedc74011ff5af
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Bunny Guys! (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/bunny-guys-steam-giveaway</link>
@@ -145,30 +190,15 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Down in Bermuda]]></title>
-<link>https://store.epicgames.com/en-US/p/down-in-bermuda</link>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Down in Bermuda (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/down-in-bermuda-epic-games-giveaway</link>
 <guid isPermaLink='false'>2c18c9a1271ef004</guid>
-<pubDate>Thu, 21 May 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Down in Bermuda
-
-Source: LootScraper - Epic Games (PC)
-State ID: 1c941def6c4df25d
-Offer ID: 2c18c9a1271ef004
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Spirit Catcher 93' (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/spirit-catcher-93-epic-games-giveaway</link>
-<guid isPermaLink='false'>2a9b836979fcd6a4</guid>
-<pubDate>Sat, 16 May 2026 23:07:30 +0000</pubDate>
-<description><![CDATA[Spirit Catcher 93' (Epic Games) Giveaway
+<pubDate>Thu, 21 May 2026 15:04:49 +0000</pubDate>
+<description><![CDATA[Down in Bermuda (Epic Games) Giveaway
 
 Source: GamerPower - All (Giveaways)
-State ID: dbfa5c281256c5e2
-Offer ID: 2a9b836979fcd6a4
+State ID: 03d92789f4f526ce
+Offer ID: 2c18c9a1271ef004
 Status: ACTIVE
 User State: NONE
 Expires At: None
