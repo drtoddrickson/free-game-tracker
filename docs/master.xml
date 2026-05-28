@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 28 May 2026 16:06:38 +0000</pubDate>
+<pubDate>Thu, 28 May 2026 18:00:55 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 28 May 2026 16:43:08 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 19:28:38 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Moon Mystery]]></title>
+<link>https://luna.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?ingress=amzn&amp;ref_=SM_MoonMystery_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>dd37fd6e71abf8a5</guid>
+<pubDate>Thu, 28 May 2026 18:00:55 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Moon Mystery
+
+Source: LootScraper - Amazon Games
+State ID: a89b21f55c05fade
+Offer ID: dd37fd6e71abf8a5
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Nordic Storm Solitaire]]></title>
+<link>https://luna.amazon.com/claims/nordic-storm-solitaire-legacy/dp/amzn1.pg.item.468f5c94-de63-4c8b-86c3-e22b5fc1510e?ingress=amzn&amp;ref_=SM_NordicStormSolitaire_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>56d25bc83d360220</guid>
+<pubDate>Thu, 28 May 2026 18:00:52 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Nordic Storm Solitaire
+
+Source: LootScraper - Amazon Games
+State ID: 7c446ea00c83b313
+Offer ID: 56d25bc83d360220
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Pro Basketball Manager 2026]]></title>
+<link>https://luna.amazon.com/claims/pro-basketball-manager-2026-aga/dp/amzn1.pg.item.eb7ccd3b-4efd-4b0a-9a45-722b53d76a16?ingress=amzn&amp;ref_=SM_ProBasketballManager2026_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c25fd200bfeea655</guid>
+<pubDate>Thu, 28 May 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Pro Basketball Manager 2026
+
+Source: LootScraper - Amazon Games
+State ID: 95931f5bb578ca86
+Offer ID: c25fd200bfeea655
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Drift86 (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/drift86-steam-giveaway</link>
@@ -184,21 +229,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 0850469d5d5c25e2
 Offer ID: d4a2fe23e8df3432
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Down in Bermuda (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/down-in-bermuda-epic-games-giveaway</link>
-<guid isPermaLink='false'>2c18c9a1271ef004</guid>
-<pubDate>Thu, 21 May 2026 15:04:49 +0000</pubDate>
-<description><![CDATA[Down in Bermuda (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 03d92789f4f526ce
-Offer ID: 2c18c9a1271ef004
 Status: ACTIVE
 User State: NONE
 Expires At: None
