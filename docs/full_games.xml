@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 29 May 2026 14:15:25 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 30 May 2026 11:06:27 +0000</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 12:16:35 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Bunny Guys! (Epic Games) Giveaway]]></title>
@@ -289,21 +289,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: f895cf9a9e365f10
 Offer ID: be5777ea4a7dac8d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fantasy General]]></title>
-<link>https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?ingress=amzn&amp;ref_=SM_FantasyGeneral_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>f4b273844d0b574f</guid>
-<pubDate>Thu, 30 Apr 2026 18:00:52 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Fantasy General
-
-Source: LootScraper - Amazon Games
-State ID: 21efd645dc1469f0
-Offer ID: f4b273844d0b574f
 Status: ACTIVE
 User State: NONE
 Expires At: None
