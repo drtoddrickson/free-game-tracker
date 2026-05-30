@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 29 May 2026 14:15:25 +0000</pubDate>
+<pubDate>Sat, 30 May 2026 17:02:15 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 30 May 2026 16:44:17 +0000</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 17:49:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - IQ Under Construction]]></title>
+<link>https://store.steampowered.com/app/3771740</link>
+<guid isPermaLink='false'>af1ab9d220d2aa81</guid>
+<pubDate>Sat, 30 May 2026 17:02:15 +0000</pubDate>
+<description><![CDATA[Steam (Game) - IQ Under Construction
+
+Source: LootScraper - Steam Games
+State ID: 480bfccc9401b146
+Offer ID: af1ab9d220d2aa81
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Moonrise Fall]]></title>
+<link>https://store.steampowered.com/app/1035110</link>
+<guid isPermaLink='false'>cd5bc531ce91e1ec</guid>
+<pubDate>Sat, 30 May 2026 17:02:12 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Moonrise Fall
+
+Source: LootScraper - Steam Games
+State ID: 0d0f18a437d32d72
+Offer ID: cd5bc531ce91e1ec
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Bunny Guys! (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/bunny-guys-epic-games-giveaway</link>
@@ -199,21 +229,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 9acc2e4fba82adad
 Offer ID: 10163cfc48f4f81f
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Dino running from a FURRY: GAMESFORFARM]]></title>
-<link>https://store.steampowered.com/app/3343840</link>
-<guid isPermaLink='false'>fe7d9571d95ad4f5</guid>
-<pubDate>Fri, 15 May 2026 17:02:13 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Dino running from a FURRY: GAMESFORFARM
-
-Source: LootScraper - Steam Games
-State ID: e84d20cf3da9b216
-Offer ID: fe7d9571d95ad4f5
 Status: ACTIVE
 User State: NONE
 Expires At: None
