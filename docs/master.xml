@@ -5,35 +5,35 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 30 May 2026 17:02:15 +0000</pubDate>
+<pubDate>Sat, 30 May 2026 17:57:19 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 30 May 2026 17:49:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 19:25:11 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - IQ Under Construction]]></title>
-<link>https://store.steampowered.com/app/3771740</link>
-<guid isPermaLink='false'>af1ab9d220d2aa81</guid>
-<pubDate>Sat, 30 May 2026 17:02:15 +0000</pubDate>
-<description><![CDATA[Steam (Game) - IQ Under Construction
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Moonrise Fall (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/moonrise-fall-steam-giveaway</link>
+<guid isPermaLink='false'>cd5bc531ce91e1ec</guid>
+<pubDate>Sat, 30 May 2026 17:57:19 +0000</pubDate>
+<description><![CDATA[Moonrise Fall (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: 480bfccc9401b146
-Offer ID: af1ab9d220d2aa81
+Source: GamerPower - All (Giveaways)
+State ID: b5733575a6ad7e4e
+Offer ID: cd5bc531ce91e1ec
 Status: ACTIVE
 User State: NONE
 Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Moonrise Fall]]></title>
-<link>https://store.steampowered.com/app/1035110</link>
-<guid isPermaLink='false'>cd5bc531ce91e1ec</guid>
-<pubDate>Sat, 30 May 2026 17:02:12 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Moonrise Fall
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] IQ Under Construction (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/iq-under-construction-steam-giveaway</link>
+<guid isPermaLink='false'>af1ab9d220d2aa81</guid>
+<pubDate>Sat, 30 May 2026 17:53:35 +0000</pubDate>
+<description><![CDATA[IQ Under Construction (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: 0d0f18a437d32d72
-Offer ID: cd5bc531ce91e1ec
+Source: GamerPower - All (Giveaways)
+State ID: 59c8c9c622999272
+Offer ID: af1ab9d220d2aa81
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -214,21 +214,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 24ed848b0a4b18dc
 Offer ID: cd6b127a8e08ff24
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/warhammer-40-000-gladius-relics-of-war-steam-giveaway</link>
-<guid isPermaLink='false'>10163cfc48f4f81f</guid>
-<pubDate>Thu, 21 May 2026 16:23:46 +0000</pubDate>
-<description><![CDATA[Warhammer 40,000: Gladius - Relics of War (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 9acc2e4fba82adad
-Offer ID: 10163cfc48f4f81f
 Status: ACTIVE
 User State: NONE
 Expires At: None
