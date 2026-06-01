@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 30 May 2026 17:57:19 +0000</pubDate>
+<pubDate>Mon, 01 Jun 2026 17:14:07 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 01 Jun 2026 16:21:55 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 20:43:52 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Gravity Circuit (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/gravity-circuit-steam-giveaway</link>
+<guid isPermaLink='false'>93d44a2b92b2e740</guid>
+<pubDate>Mon, 01 Jun 2026 17:14:07 +0000</pubDate>
+<description><![CDATA[Gravity Circuit (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 4f601496f9bd3944
+Offer ID: 93d44a2b92b2e740
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Moonrise Fall (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/moonrise-fall-steam-giveaway</link>
@@ -205,21 +220,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Car Mechanic Simulator 2018 (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/car-mechanic-simulator-2018-steam-giveaway</link>
-<guid isPermaLink='false'>cd6b127a8e08ff24</guid>
-<pubDate>Thu, 21 May 2026 17:05:19 +0000</pubDate>
-<description><![CDATA[Car Mechanic Simulator 2018 (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 24ed848b0a4b18dc
-Offer ID: cd6b127a8e08ff24
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Lethal Honor: Order of the Apocalypse]]></title>
 <link>https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?ingress=amzn&amp;ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>8c67be57819b2f12</guid>
@@ -304,21 +304,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 387c5e0fd7530783
 Offer ID: 3d251b527821949b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - KinnikuNeko: SUPER MUSCLE CAT]]></title>
-<link>https://luna.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?ingress=amzn&amp;ref_=SM_KinnikuNekoSUPERMUSCLECAT_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>2969f3ce4a17493d</guid>
-<pubDate>Thu, 30 Apr 2026 18:00:46 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - KinnikuNeko: SUPER MUSCLE CAT
-
-Source: LootScraper - Amazon Games
-State ID: 42f08946f0d7c330
-Offer ID: 2969f3ce4a17493d
 Status: ACTIVE
 User State: NONE
 Expires At: None
