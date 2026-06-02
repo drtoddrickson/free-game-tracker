@@ -5,10 +5,70 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 01 Jun 2026 21:32:24 +0000</pubDate>
+<pubDate>Tue, 02 Jun 2026 17:10:28 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 02 Jun 2026 12:56:24 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Jun 2026 17:46:02 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Winexy (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/winexy-steam-giveaway</link>
+<guid isPermaLink='false'>a559ee6248bf2693</guid>
+<pubDate>Tue, 02 Jun 2026 17:10:28 +0000</pubDate>
+<description><![CDATA[Winexy (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 64a6b27ace94703b
+Offer ID: a559ee6248bf2693
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tomb Raider IV-VI Remastered]]></title>
+<link>https://luna.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?ingress=amzn&amp;ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>0b21eaf467c3c4c2</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tomb Raider IV-VI Remastered
+
+Source: LootScraper - Amazon Games
+State ID: cc32a8d2bf155db9
+Offer ID: 0b21eaf467c3c4c2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Mafia III]]></title>
+<link>https://luna.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?ingress=amzn&amp;ref_=SM_MafiaIIIDefinitiveEdition_S02_FGWP_CRWN</link>
+<guid isPermaLink='false'>7589a6d641d42189</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:46 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Mafia III
+
+Source: LootScraper - Amazon Games
+State ID: 2268396bb5f29aea
+Offer ID: 7589a6d641d42189
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - XCOM: Chimera Squad]]></title>
+<link>https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn&amp;ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>0c18c3d76e503bda</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:43 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - XCOM: Chimera Squad
+
+Source: LootScraper - Amazon Games
+State ID: b11a88d539fac202
+Offer ID: 0c18c3d76e503bda
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Tell Me Why (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/tell-me-why-steam-giveaway</link>
