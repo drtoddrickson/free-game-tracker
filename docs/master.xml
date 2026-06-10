@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Sun, 07 Jun 2026 20:04:32 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 10 Jun 2026 10:33:41 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 14:02:22 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Remothered: Tormented Fathers (Steam) Giveaway]]></title>
@@ -40,14 +40,14 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game) - Remothered: Broken Porcelain]]></title>
-<link>https://www.gog.com/en/game/remothered_broken_porcelain</link>
+<title><![CDATA[[PC] [FULL-GAME] [GOG] Remothered: Broken Porcelain (GOG) Giveaway]]></title>
+<link>https://www.gamerpower.com/remothered-broken-porcelain-gog-giveaway</link>
 <guid isPermaLink='false'>798a1b2098a00f3f</guid>
-<pubDate>Sun, 07 Jun 2026 19:00:33 +0000</pubDate>
-<description><![CDATA[GOG (Game) - Remothered: Broken Porcelain
+<pubDate>Sun, 07 Jun 2026 19:00:04 +0000</pubDate>
+<description><![CDATA[Remothered: Broken Porcelain (GOG) Giveaway
 
-Source: LootScraper - GOG Games
-State ID: 9ce9592deb6b6561
+Source: GamerPower - All (Giveaways)
+State ID: d5e9396735616246
 Offer ID: 798a1b2098a00f3f
 Status: ACTIVE
 User State: NONE
@@ -304,36 +304,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: f90a09cc8185c5f5
 Offer ID: 05c19a48ad6eaa9b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Fruitbus]]></title>
-<link>https://luna.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?ingress=amzn&amp;ref_=SM_Fruitbus_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>aabc8b8646f6619d</guid>
-<pubDate>Thu, 07 May 2026 18:00:53 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Fruitbus
-
-Source: LootScraper - Amazon Games
-State ID: 624b1f389ba7e165
-Offer ID: aabc8b8646f6619d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Mafia II]]></title>
-<link>https://luna.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?ingress=amzn&amp;ref_=SM_MafiaIIDefinitiveEdition_S02_FGWP_CRWN</link>
-<guid isPermaLink='false'>be5777ea4a7dac8d</guid>
-<pubDate>Thu, 07 May 2026 18:00:50 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Mafia II
-
-Source: LootScraper - Amazon Games
-State ID: f895cf9a9e365f10
-Offer ID: be5777ea4a7dac8d
 Status: ACTIVE
 User State: NONE
 Expires At: None
