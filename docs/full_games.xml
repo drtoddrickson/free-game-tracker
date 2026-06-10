@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Sun, 07 Jun 2026 20:04:32 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 10 Jun 2026 06:07:02 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 10:33:41 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Remothered: Tormented Fathers (Steam) Giveaway]]></title>
@@ -160,14 +160,14 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Gravity Circuit (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/gravity-circuit-steam-giveaway</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Gravity Circuit]]></title>
+<link>https://store.steampowered.com/app/858710</link>
 <guid isPermaLink='false'>93d44a2b92b2e740</guid>
-<pubDate>Mon, 01 Jun 2026 17:14:07 +0000</pubDate>
-<description><![CDATA[Gravity Circuit (Steam) Giveaway
+<pubDate>Mon, 01 Jun 2026 17:02:19 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Gravity Circuit
 
-Source: GamerPower - All (Giveaways)
-State ID: 4f601496f9bd3944
+Source: LootScraper - Steam Games
+State ID: 61ce391816bfa903
 Offer ID: 93d44a2b92b2e740
 Status: ACTIVE
 User State: NONE
