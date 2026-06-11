@@ -5,10 +5,85 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 11 Jun 2026 15:15:06 +0000</pubDate>
+<pubDate>Thu, 11 Jun 2026 18:03:41 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 11 Jun 2026 16:57:26 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Jun 2026 19:38:39 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Eets]]></title>
+<link>https://store.steampowered.com/app/6100</link>
+<guid isPermaLink='false'>a30b45ee47fb839f</guid>
+<pubDate>Thu, 11 Jun 2026 18:03:41 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Eets
+
+Source: LootScraper - Steam Games
+State ID: 7c3c255da234fe10
+Offer ID: a30b45ee47fb839f
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Paradise Killer]]></title>
+<link>https://luna.amazon.com/claims/paradise-killer-gog/dp/amzn1.pg.item.e97c8537-f08d-4c4f-a5f9-ed4f45c718cb?ingress=amzn&amp;ref_=SM_ParadiseKiller_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>5838dbb815ee8886</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:55 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Paradise Killer
+
+Source: LootScraper - Amazon Games
+State ID: c6ad84fca4493e4a
+Offer ID: 5838dbb815ee8886
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Sin Slayers: Reign of The 8th]]></title>
+<link>https://luna.amazon.com/claims/sin-slayers-reign-of-the-8th-gog/dp/amzn1.pg.item.ea8df5d6-3ac5-4fd2-9714-0b018f9009d3?ingress=amzn&amp;ref_=SM_SinSlayersReignofThe8th_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a6b81e25267718da</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sin Slayers: Reign of The 8th
+
+Source: LootScraper - Amazon Games
+State ID: a2bef1e423b69f43
+Offer ID: a6b81e25267718da
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tested on Humans: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/tested-on-humans-escape-room-gog/dp/amzn1.pg.item.4773676b-c4df-4033-a1cb-df53ad7ce4ad?ingress=amzn&amp;ref_=SM_TestedonHumansEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>09016ddc6a866364</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:51 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tested on Humans: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: fc072cb731c06058
+Offer ID: 09016ddc6a866364
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - G.I. JOE: Wrath of Cobra]]></title>
+<link>https://luna.amazon.com/claims/gi-joe-wrath-of-cobra-epic/dp/amzn1.pg.item.836bb0d3-ecce-4da0-b763-292ae3f9d362?ingress=amzn&amp;ref_=SM_GIJOEWrathofCobra_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>b305be2041ac72b2</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - G.I. JOE: Wrath of Cobra
+
+Source: LootScraper - Amazon Games
+State ID: 1e4d43e6c3cd972c
+Offer ID: b305be2041ac72b2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Warhammer 40K Speed Freeks]]></title>
 <link>https://store.epicgames.com/en-US/p/warhammer-40k-speed-freeks-12879c</link>
@@ -79,21 +154,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 96a13e1b8987abda
 Offer ID: 92e3006a966d8058
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Remothered: Tormented Fathers (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/remothered-tormented-fathers-steam-giveaway</link>
-<guid isPermaLink='false'>9893ad84dd1d30e0</guid>
-<pubDate>Sun, 07 Jun 2026 20:04:32 +0000</pubDate>
-<description><![CDATA[Remothered: Tormented Fathers (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: d0a629d4585cdfc8
-Offer ID: 9893ad84dd1d30e0
 Status: ACTIVE
 User State: NONE
 Expires At: None
