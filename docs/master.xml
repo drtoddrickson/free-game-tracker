@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 11 Jun 2026 18:03:41 +0000</pubDate>
+<pubDate>Fri, 12 Jun 2026 17:01:56 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 12 Jun 2026 14:15:53 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 17:23:15 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Wild Terra 2: New Lands]]></title>
+<link>https://store.steampowered.com/app/1134700</link>
+<guid isPermaLink='false'>146a8689dc1b6da7</guid>
+<pubDate>Fri, 12 Jun 2026 17:01:56 +0000</pubDate>
+<description><![CDATA[Steam (Game) - Wild Terra 2: New Lands
+
+Source: LootScraper - Steam Games
+State ID: 4c50ebcbb60a7765
+Offer ID: 146a8689dc1b6da7
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Eets]]></title>
 <link>https://store.steampowered.com/app/6100</link>
