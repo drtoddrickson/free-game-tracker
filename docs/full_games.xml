@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 12 Jun 2026 17:19:55 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 13 Jun 2026 23:48:37 +0000</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 04:44:54 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Wild Terra 2: New Lands (Steam) Giveaway]]></title>
@@ -34,6 +34,66 @@ Expires At: None
 Source: LootScraper - Steam Games
 State ID: 7c3c255da234fe10
 Offer ID: a30b45ee47fb839f
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Paradise Killer]]></title>
+<link>https://luna.amazon.com/claims/paradise-killer-gog/dp/amzn1.pg.item.e97c8537-f08d-4c4f-a5f9-ed4f45c718cb?ingress=amzn&amp;ref_=SM_ParadiseKiller_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>5838dbb815ee8886</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:55 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Paradise Killer
+
+Source: LootScraper - Amazon Games
+State ID: c6ad84fca4493e4a
+Offer ID: 5838dbb815ee8886
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Sin Slayers: Reign of The 8th]]></title>
+<link>https://luna.amazon.com/claims/sin-slayers-reign-of-the-8th-gog/dp/amzn1.pg.item.ea8df5d6-3ac5-4fd2-9714-0b018f9009d3?ingress=amzn&amp;ref_=SM_SinSlayersReignofThe8th_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>a6b81e25267718da</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sin Slayers: Reign of The 8th
+
+Source: LootScraper - Amazon Games
+State ID: a2bef1e423b69f43
+Offer ID: a6b81e25267718da
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tested on Humans: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/tested-on-humans-escape-room-gog/dp/amzn1.pg.item.4773676b-c4df-4033-a1cb-df53ad7ce4ad?ingress=amzn&amp;ref_=SM_TestedonHumansEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>09016ddc6a866364</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:51 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tested on Humans: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: fc072cb731c06058
+Offer ID: 09016ddc6a866364
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - G.I. JOE: Wrath of Cobra]]></title>
+<link>https://luna.amazon.com/claims/gi-joe-wrath-of-cobra-epic/dp/amzn1.pg.item.836bb0d3-ecce-4da0-b763-292ae3f9d362?ingress=amzn&amp;ref_=SM_GIJOEWrathofCobra_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>b305be2041ac72b2</guid>
+<pubDate>Thu, 11 Jun 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - G.I. JOE: Wrath of Cobra
+
+Source: LootScraper - Amazon Games
+State ID: 1e4d43e6c3cd972c
+Offer ID: b305be2041ac72b2
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -115,6 +175,51 @@ Expires At: None
 ]]></description>
 </item>
 <item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Tomb Raider IV-VI Remastered]]></title>
+<link>https://luna.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?ingress=amzn&amp;ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>0b21eaf467c3c4c2</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Tomb Raider IV-VI Remastered
+
+Source: LootScraper - Amazon Games
+State ID: cc32a8d2bf155db9
+Offer ID: 0b21eaf467c3c4c2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Mafia III]]></title>
+<link>https://luna.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?ingress=amzn&amp;ref_=SM_MafiaIIIDefinitiveEdition_S02_FGWP_CRWN</link>
+<guid isPermaLink='false'>7589a6d641d42189</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:46 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Mafia III
+
+Source: LootScraper - Amazon Games
+State ID: 2268396bb5f29aea
+Offer ID: 7589a6d641d42189
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - XCOM: Chimera Squad]]></title>
+<link>https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn&amp;ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>0c18c3d76e503bda</guid>
+<pubDate>Tue, 02 Jun 2026 17:00:43 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - XCOM: Chimera Squad
+
+Source: LootScraper - Amazon Games
+State ID: b11a88d539fac202
+Offer ID: 0c18c3d76e503bda
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Tell Me Why]]></title>
 <link>https://store.steampowered.com/app/1180660</link>
 <guid isPermaLink='false'>a4b62b13ebccf190</guid>
@@ -139,6 +244,201 @@ Expires At: None
 Source: LootScraper - Steam Games
 State ID: 61ce391816bfa903
 Offer ID: 93d44a2b92b2e740
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Moon Mystery]]></title>
+<link>https://luna.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?ingress=amzn&amp;ref_=SM_MoonMystery_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>dd37fd6e71abf8a5</guid>
+<pubDate>Thu, 28 May 2026 18:00:55 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Moon Mystery
+
+Source: LootScraper - Amazon Games
+State ID: a89b21f55c05fade
+Offer ID: dd37fd6e71abf8a5
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Nordic Storm Solitaire]]></title>
+<link>https://luna.amazon.com/claims/nordic-storm-solitaire-legacy/dp/amzn1.pg.item.468f5c94-de63-4c8b-86c3-e22b5fc1510e?ingress=amzn&amp;ref_=SM_NordicStormSolitaire_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>56d25bc83d360220</guid>
+<pubDate>Thu, 28 May 2026 18:00:52 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Nordic Storm Solitaire
+
+Source: LootScraper - Amazon Games
+State ID: 7c446ea00c83b313
+Offer ID: 56d25bc83d360220
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Pro Basketball Manager 2026]]></title>
+<link>https://luna.amazon.com/claims/pro-basketball-manager-2026-aga/dp/amzn1.pg.item.eb7ccd3b-4efd-4b0a-9a45-722b53d76a16?ingress=amzn&amp;ref_=SM_ProBasketballManager2026_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c25fd200bfeea655</guid>
+<pubDate>Thu, 28 May 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Pro Basketball Manager 2026
+
+Source: LootScraper - Amazon Games
+State ID: 95931f5bb578ca86
+Offer ID: c25fd200bfeea655
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Hot Brass]]></title>
+<link>https://luna.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?ingress=amzn&amp;ref_=SM_HotBrass_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>11987e691abd6a5c</guid>
+<pubDate>Thu, 21 May 2026 18:00:56 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Hot Brass
+
+Source: LootScraper - Amazon Games
+State ID: 6bbc441f900f1d6e
+Offer ID: 11987e691abd6a5c
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Space Grunts]]></title>
+<link>https://luna.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?ingress=amzn&amp;ref_=SM_SpaceGrunts_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c815e1b9cfe372db</guid>
+<pubDate>Thu, 21 May 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Space Grunts
+
+Source: LootScraper - Amazon Games
+State ID: ba01bd2934566e03
+Offer ID: c815e1b9cfe372db
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Palindrome Syndrome: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/palindrome-syndrome-escape-room-gog/dp/amzn1.pg.item.2636d5ae-477e-4010-82f4-a3440c877f67?ingress=amzn&amp;ref_=SM_PalindromeSyndromeEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>9de074cbf64a6bbb</guid>
+<pubDate>Thu, 21 May 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Palindrome Syndrome: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: 02e1f9e56ca50fae
+Offer ID: 9de074cbf64a6bbb
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Lethal Honor: Order of the Apocalypse]]></title>
+<link>https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?ingress=amzn&amp;ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>8c67be57819b2f12</guid>
+<pubDate>Thu, 14 May 2026 17:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Lethal Honor: Order of the Apocalypse
+
+Source: LootScraper - Amazon Games
+State ID: 560ba5edb8ba0940
+Offer ID: 8c67be57819b2f12
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Survival: Fountain of Youth]]></title>
+<link>https://luna.amazon.com/claims/survival-fountain-of-youth-aga/dp/amzn1.pg.item.35fc21f8-36dc-4f75-903b-795b97b13cc5?ingress=amzn&amp;ref_=SM_SurvivalFountainofYouth_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c6a51f199a001c32</guid>
+<pubDate>Thu, 14 May 2026 17:00:47 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Survival: Fountain of Youth
+
+Source: LootScraper - Amazon Games
+State ID: 14a301ed17d29693
+Offer ID: c6a51f199a001c32
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - 60 Minutes to Extinction: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?ingress=amzn&amp;ref_=SM_60MinutestoExtinctionEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>05c19a48ad6eaa9b</guid>
+<pubDate>Thu, 14 May 2026 17:00:44 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - 60 Minutes to Extinction: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: f90a09cc8185c5f5
+Offer ID: 05c19a48ad6eaa9b
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Snake Core]]></title>
+<link>https://luna.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?ingress=amzn&amp;ref_=SM_SnakeCore_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>625df2451d37470d</guid>
+<pubDate>Thu, 16 Apr 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Snake Core
+
+Source: LootScraper - Amazon Games
+State ID: 451ce21d7de3a153
+Offer ID: 625df2451d37470d
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - A Rat's Quest: The Way Back Home]]></title>
+<link>https://luna.amazon.com/claims/a-rats-quest-the-way-back-home-epic/dp/amzn1.pg.item.34210f82-0bf5-4aa6-860e-87640c1caf50?ingress=amzn&amp;ref_=SM_ARatsQuestTheWayBackHome_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>d6c47ba7cbfc3998</guid>
+<pubDate>Thu, 09 Apr 2026 18:00:52 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - A Rat's Quest: The Way Back Home
+
+Source: LootScraper - Amazon Games
+State ID: 3e55171ad482e567
+Offer ID: d6c47ba7cbfc3998
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Sir Questionnaire]]></title>
+<link>https://luna.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?ingress=amzn&amp;ref_=SM_SirQuestionnaire_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>26fbcb51b2ed5c6f</guid>
+<pubDate>Thu, 19 Mar 2026 18:00:42 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sir Questionnaire
+
+Source: LootScraper - Amazon Games
+State ID: c6a2bc56aa21f2b7
+Offer ID: 26fbcb51b2ed5c6f
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Rebel Galaxy]]></title>
+<link>https://luna.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?ingress=amzn&amp;ref_=SM_RebelGalaxy_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>03c921dfce726a32</guid>
+<pubDate>Thu, 19 Mar 2026 18:00:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy
+
+Source: LootScraper - Amazon Games
+State ID: dee852aa2b4da929
+Offer ID: 03c921dfce726a32
 Status: ACTIVE
 User State: NONE
 Expires At: None
