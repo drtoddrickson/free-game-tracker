@@ -5,10 +5,100 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 12 Jun 2026 17:19:55 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 17:01:25 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 18 Jun 2026 14:28:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 17:44:30 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Between Time: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/between-time-escape-room-gog/dp/amzn1.pg.item.07c10161-f6df-41bd-9beb-05824a06c78b?ingress=amzn&amp;ref_=SM_BetweenTimeEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>6ce451139a3c0247</guid>
+<pubDate>Thu, 18 Jun 2026 17:01:25 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Between Time: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: 8d4f11fd59855ed5
+Offer ID: 6ce451139a3c0247
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Space Grunts 2]]></title>
+<link>https://luna.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?ingress=amzn&amp;ref_=SM_SpaceGrunts2_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>53bae8789aed1f50</guid>
+<pubDate>Thu, 18 Jun 2026 17:01:23 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Space Grunts 2
+
+Source: LootScraper - Amazon Games
+State ID: 2a6c281ee29bcbc3
+Offer ID: 53bae8789aed1f50
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Sugardew Island]]></title>
+<link>https://luna.amazon.com/claims/sugardew-island-gog/dp/amzn1.pg.item.108bde02-53dc-4d19-ba66-f89088a65f18?ingress=amzn&amp;ref_=SM_SugardewIsland_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>8c810f14f1d25cc3</guid>
+<pubDate>Thu, 18 Jun 2026 17:01:21 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Sugardew Island
+
+Source: LootScraper - Amazon Games
+State ID: 5bfed0813843a22d
+Offer ID: 8c810f14f1d25cc3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Wargame Construction Set III: Age of Rifles 1846-1905]]></title>
+<link>https://luna.amazon.com/claims/wargame-construction-set-iii-age-of-rifles-1846-1905-gog/dp/amzn1.pg.item.51552780-cfd7-4bf1-bbed-07dfa3060e0b?ingress=amzn&amp;ref_=SM_WargameConstructionSetIIIAgeofRifles18461905_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>fe697fb2ccae15e6</guid>
+<pubDate>Thu, 18 Jun 2026 17:01:18 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Wargame Construction Set III: Age of Rifles 1846-1905
+
+Source: LootScraper - Amazon Games
+State ID: 7060d430a9198ebc
+Offer ID: fe697fb2ccae15e6
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Citizen Sleeper]]></title>
+<link>https://store.epicgames.com/en-US/p/citizen-sleeper-944858</link>
+<guid isPermaLink='false'>cee173dd28a1a0a4</guid>
+<pubDate>Thu, 18 Jun 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - Citizen Sleeper
+
+Source: LootScraper - Epic Games (PC)
+State ID: 0791348e29af3f29
+Offer ID: cee173dd28a1a0a4
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - ROBOBEAT]]></title>
+<link>https://store.epicgames.com/en-US/p/robobeat-5f084b</link>
+<guid isPermaLink='false'>9fbba81dcaac6faa</guid>
+<pubDate>Thu, 18 Jun 2026 15:05:06 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - ROBOBEAT
+
+Source: LootScraper - Epic Games (PC)
+State ID: bd4eaefe6d4a230a
+Offer ID: 9fbba81dcaac6faa
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Wild Terra 2: New Lands (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/wild-terra-2-new-lands-steam-giveaway</link>
@@ -100,21 +190,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Warhammer 40K Speed Freeks]]></title>
-<link>https://store.epicgames.com/en-US/p/warhammer-40k-speed-freeks-12879c</link>
-<guid isPermaLink='false'>8895f0b900e4c48d</guid>
-<pubDate>Thu, 11 Jun 2026 15:15:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Warhammer 40K Speed Freeks
-
-Source: LootScraper - Epic Games (PC)
-State ID: 930544346cd639c7
-Offer ID: 8895f0b900e4c48d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] The Red Lantern (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/the-red-lantern-steam-giveaway</link>
 <guid isPermaLink='false'>f75b5a6edbfde8cf</guid>
@@ -130,21 +205,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - The Ouroboros King]]></title>
-<link>https://store.epicgames.com/en-US/p/the-ouroboros-king-e1d547</link>
-<guid isPermaLink='false'>4aeeaaa1b8ee48c4</guid>
-<pubDate>Thu, 11 Jun 2026 15:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - The Ouroboros King
-
-Source: LootScraper - Epic Games (PC)
-State ID: b799cfb550379499
-Offer ID: 4aeeaaa1b8ee48c4
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Warhammer 40,000: Speed Freeks (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/warhammer-40-000-speed-freeks-epic-games-giveaway</link>
 <guid isPermaLink='false'>e0da96610f779970</guid>
@@ -154,6 +214,21 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 26229faf9c5de783
 Offer ID: e0da96610f779970
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] The Ouroboros King (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/the-ouroboros-king-epic-games-giveaway</link>
+<guid isPermaLink='false'>4aeeaaa1b8ee48c4</guid>
+<pubDate>Thu, 11 Jun 2026 15:01:03 +0000</pubDate>
+<description><![CDATA[The Ouroboros King (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 2475657bec64c3dd
+Offer ID: 4aeeaaa1b8ee48c4
 Status: ACTIVE
 User State: NONE
 Expires At: None
