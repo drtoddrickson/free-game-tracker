@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 12 Jun 2026 17:19:55 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 18 Jun 2026 11:17:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 14:28:56 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Wild Terra 2: New Lands (Steam) Giveaway]]></title>
@@ -19,21 +19,6 @@
 Source: GamerPower - All (Giveaways)
 State ID: 6dd989d556eff4e6
 Offer ID: 146a8689dc1b6da7
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Eets]]></title>
-<link>https://store.steampowered.com/app/6100</link>
-<guid isPermaLink='false'>a30b45ee47fb839f</guid>
-<pubDate>Thu, 11 Jun 2026 18:03:41 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Eets
-
-Source: LootScraper - Steam Games
-State ID: 7c3c255da234fe10
-Offer ID: a30b45ee47fb839f
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -94,6 +79,21 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 1e4d43e6c3cd972c
 Offer ID: b305be2041ac72b2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Eets (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/eets-steam-giveaway</link>
+<guid isPermaLink='false'>a30b45ee47fb839f</guid>
+<pubDate>Thu, 11 Jun 2026 17:10:17 +0000</pubDate>
+<description><![CDATA[Eets (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 3e70c69e02b64f2d
+Offer ID: a30b45ee47fb839f
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -235,21 +235,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - Gravity Circuit]]></title>
-<link>https://store.steampowered.com/app/858710</link>
-<guid isPermaLink='false'>93d44a2b92b2e740</guid>
-<pubDate>Mon, 01 Jun 2026 17:02:19 +0000</pubDate>
-<description><![CDATA[Steam (Game) - Gravity Circuit
-
-Source: LootScraper - Steam Games
-State ID: 61ce391816bfa903
-Offer ID: 93d44a2b92b2e740
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Moon Mystery]]></title>
 <link>https://luna.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?ingress=amzn&amp;ref_=SM_MoonMystery_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>dd37fd6e71abf8a5</guid>
@@ -370,21 +355,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - 60 Minutes to Extinction: Escape Room]]></title>
-<link>https://luna.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?ingress=amzn&amp;ref_=SM_60MinutestoExtinctionEscapeRoom_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>05c19a48ad6eaa9b</guid>
-<pubDate>Thu, 14 May 2026 17:00:44 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - 60 Minutes to Extinction: Escape Room
-
-Source: LootScraper - Amazon Games
-State ID: f90a09cc8185c5f5
-Offer ID: 05c19a48ad6eaa9b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Snake Core]]></title>
 <link>https://luna.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?ingress=amzn&amp;ref_=SM_SnakeCore_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>625df2451d37470d</guid>
@@ -409,36 +379,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3e55171ad482e567
 Offer ID: d6c47ba7cbfc3998
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Sir Questionnaire]]></title>
-<link>https://luna.amazon.com/claims/sir-questionnaire-gog/dp/amzn1.pg.item.6dd1d038-96ea-4b01-af91-64731bfa55ef?ingress=amzn&amp;ref_=SM_SirQuestionnaire_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>26fbcb51b2ed5c6f</guid>
-<pubDate>Thu, 19 Mar 2026 18:00:42 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Sir Questionnaire
-
-Source: LootScraper - Amazon Games
-State ID: c6a2bc56aa21f2b7
-Offer ID: 26fbcb51b2ed5c6f
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Rebel Galaxy]]></title>
-<link>https://luna.amazon.com/claims/rebel-galaxy-gog/dp/amzn1.pg.item.e1e1ec5b-0df4-4091-9c63-ede5a86cb9ed?ingress=amzn&amp;ref_=SM_RebelGalaxy_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>03c921dfce726a32</guid>
-<pubDate>Thu, 19 Mar 2026 18:00:40 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Rebel Galaxy
-
-Source: LootScraper - Amazon Games
-State ID: dee852aa2b4da929
-Offer ID: 03c921dfce726a32
 Status: ACTIVE
 User State: NONE
 Expires At: None
