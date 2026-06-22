@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 18 Jun 2026 17:01:25 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 22 Jun 2026 11:23:35 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 16:11:24 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Between Time: Escape Room]]></title>
@@ -379,21 +379,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: ba01bd2934566e03
 Offer ID: c815e1b9cfe372db
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Palindrome Syndrome: Escape Room]]></title>
-<link>https://luna.amazon.com/claims/palindrome-syndrome-escape-room-gog/dp/amzn1.pg.item.2636d5ae-477e-4010-82f4-a3440c877f67?ingress=amzn&amp;ref_=SM_PalindromeSyndromeEscapeRoom_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>9de074cbf64a6bbb</guid>
-<pubDate>Thu, 21 May 2026 18:00:50 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game) - Palindrome Syndrome: Escape Room
-
-Source: LootScraper - Amazon Games
-State ID: 02e1f9e56ca50fae
-Offer ID: 9de074cbf64a6bbb
 Status: ACTIVE
 User State: NONE
 Expires At: None
