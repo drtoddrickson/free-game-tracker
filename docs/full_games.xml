@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 25 Jun 2026 15:05:03 +0000</pubDate>
+<pubDate>Thu, 25 Jun 2026 18:00:51 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 25 Jun 2026 17:32:12 +0000</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 19:30:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Please, Touch the Artwork]]></title>
+<link>https://luna.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?ingress=amzn&amp;ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>089d62ecda87c3a2</guid>
+<pubDate>Thu, 25 Jun 2026 18:00:51 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Please, Touch the Artwork
+
+Source: LootScraper - Amazon Games
+State ID: 721d040b71de6d8e
+Offer ID: 089d62ecda87c3a2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Terraforming Mars]]></title>
+<link>https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn&amp;ref_=SM_TerraformingMars_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>77544d12529a6dcc</guid>
+<pubDate>Thu, 25 Jun 2026 18:00:49 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Terraforming Mars
+
+Source: LootScraper - Amazon Games
+State ID: c2f6ac8a28ed8d2a
+Offer ID: 77544d12529a6dcc
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Space Grunts: Chrono Shard]]></title>
+<link>https://luna.amazon.com/claims/space-grunts-chrono-shard-epic/dp/amzn1.pg.item.dbfe54c6-6298-46ec-808d-49d3915b9734?ingress=amzn&amp;ref_=SM_SpaceGruntsChronoShard_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>7cbd82a8ca365dbb</guid>
+<pubDate>Thu, 25 Jun 2026 18:00:44 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Space Grunts: Chrono Shard
+
+Source: LootScraper - Amazon Games
+State ID: 2d3a43707f12fa27
+Offer ID: 7cbd82a8ca365dbb
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - RollerCoaster Tycoon 3 Complete Edition]]></title>
 <link>https://store.epicgames.com/en-US/p/rollercoaster-tycoon-3-complete-edition</link>
