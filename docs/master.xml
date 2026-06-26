@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 25 Jun 2026 18:00:51 +0000</pubDate>
+<pubDate>Fri, 26 Jun 2026 18:30:20 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 26 Jun 2026 18:10:30 +0000</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 20:11:37 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - POPGOES Arcade]]></title>
+<link>https://store.steampowered.com/app/1986840</link>
+<guid isPermaLink='false'>c959343bd7535bc3</guid>
+<pubDate>Fri, 26 Jun 2026 18:30:20 +0000</pubDate>
+<description><![CDATA[Steam (Game) - POPGOES Arcade
+
+Source: LootScraper - Steam Games
+State ID: 7df9769beaea698f
+Offer ID: c959343bd7535bc3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Please, Touch the Artwork]]></title>
 <link>https://luna.amazon.com/claims/please-touch-the-artwork-legacy/dp/amzn1.pg.item.a0412a54-5c63-4afb-b444-2fbbd937c9da?ingress=amzn&amp;ref_=SM_PleaseTouchtheArtwork_S01_FGWP_CRWN</link>
