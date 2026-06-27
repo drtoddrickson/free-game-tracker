@@ -5,19 +5,19 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 26 Jun 2026 18:30:20 +0000</pubDate>
+<pubDate>Sat, 27 Jun 2026 02:31:10 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 27 Jun 2026 00:13:21 +0000</lastBuildDate>
+<lastBuildDate>Sat, 27 Jun 2026 04:28:31 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game) - POPGOES Arcade]]></title>
-<link>https://store.steampowered.com/app/1986840</link>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] POPGOES Arcade (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/popgoes-arcade-steam-giveaway</link>
 <guid isPermaLink='false'>c959343bd7535bc3</guid>
-<pubDate>Fri, 26 Jun 2026 18:30:20 +0000</pubDate>
-<description><![CDATA[Steam (Game) - POPGOES Arcade
+<pubDate>Sat, 27 Jun 2026 02:31:10 +0000</pubDate>
+<description><![CDATA[POPGOES Arcade (Steam) Giveaway
 
-Source: LootScraper - Steam Games
-State ID: 7df9769beaea698f
+Source: GamerPower - All (Giveaways)
+State ID: ce6c05fd7022bad6
 Offer ID: c959343bd7535bc3
 Status: ACTIVE
 User State: NONE
@@ -259,21 +259,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 1e4d43e6c3cd972c
 Offer ID: b305be2041ac72b2
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Eets (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/eets-steam-giveaway</link>
-<guid isPermaLink='false'>a30b45ee47fb839f</guid>
-<pubDate>Thu, 11 Jun 2026 17:10:17 +0000</pubDate>
-<description><![CDATA[Eets (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 3e70c69e02b64f2d
-Offer ID: a30b45ee47fb839f
 Status: ACTIVE
 User State: NONE
 Expires At: None
