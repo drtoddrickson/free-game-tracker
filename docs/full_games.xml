@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 02 Jul 2026 15:05:03 +0000</pubDate>
+<pubDate>Thu, 02 Jul 2026 18:00:48 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 02 Jul 2026 17:20:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 18:57:57 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Symphony of War: The Nephilim Saga]]></title>
+<link>https://luna.amazon.com/claims/symphony-of-war-the-nephilim-saga-epic/dp/amzn1.pg.item.db94348f-9423-423e-a707-aed5ebf07c0c?ingress=amzn&amp;ref_=SM_SymphonyofWarTheNephilimSaga_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>e04b5f126352aa7a</guid>
+<pubDate>Thu, 02 Jul 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Symphony of War: The Nephilim Saga
+
+Source: LootScraper - Amazon Games
+State ID: f1976a3ce0b64060
+Offer ID: e04b5f126352aa7a
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - LONESTAR]]></title>
+<link>https://luna.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?ingress=amzn&amp;ref_=SM_LONESTAR_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>cf867538d6c6db7b</guid>
+<pubDate>Thu, 02 Jul 2026 18:00:45 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - LONESTAR
+
+Source: LootScraper - Amazon Games
+State ID: bdf19f42057df0b9
+Offer ID: cf867538d6c6db7b
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - CyClones]]></title>
+<link>https://luna.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?ingress=amzn&amp;ref_=SM_CyClones_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>007fd3bbacb894a0</guid>
+<pubDate>Thu, 02 Jul 2026 18:00:42 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - CyClones
+
+Source: LootScraper - Amazon Games
+State ID: 6fbe867b5a96f014
+Offer ID: 007fd3bbacb894a0
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - River City Girls 2]]></title>
 <link>https://store.epicgames.com/en-US/p/river-city-girls-2-77af3a</link>
