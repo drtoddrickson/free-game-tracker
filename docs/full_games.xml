@@ -5,20 +5,35 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sat, 27 Jun 2026 02:31:10 +0000</pubDate>
+<pubDate>Thu, 02 Jul 2026 15:05:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 02 Jul 2026 13:00:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 02 Jul 2026 15:31:37 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] POPGOES Arcade (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/popgoes-arcade-steam-giveaway</link>
-<guid isPermaLink='false'>c959343bd7535bc3</guid>
-<pubDate>Sat, 27 Jun 2026 02:31:10 +0000</pubDate>
-<description><![CDATA[POPGOES Arcade (Steam) Giveaway
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - River City Girls 2]]></title>
+<link>https://store.epicgames.com/en-US/p/river-city-girls-2-77af3a</link>
+<guid isPermaLink='false'>26e3b184a683db91</guid>
+<pubDate>Thu, 02 Jul 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - River City Girls 2
 
-Source: GamerPower - All (Giveaways)
-State ID: ce6c05fd7022bad6
-Offer ID: c959343bd7535bc3
+Source: LootScraper - Epic Games (PC)
+State ID: 0da31c4915bc9ea8
+Offer ID: 26e3b184a683db91
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - I Have No Mouth, and I Must Scream]]></title>
+<link>https://store.epicgames.com/en-US/p/i-have-no-mouth-and-i-must-scream-95c5c2</link>
+<guid isPermaLink='false'>123e1cc1e8376ee8</guid>
+<pubDate>Thu, 02 Jul 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game) - I Have No Mouth, and I Must Scream
+
+Source: LootScraper - Epic Games (PC)
+State ID: 6b0f63db52164a27
+Offer ID: 123e1cc1e8376ee8
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -64,36 +79,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 2d3a43707f12fa27
 Offer ID: 7cbd82a8ca365dbb
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - RollerCoaster Tycoon 3 Complete Edition]]></title>
-<link>https://store.epicgames.com/en-US/p/rollercoaster-tycoon-3-complete-edition</link>
-<guid isPermaLink='false'>4eb3eb6865814446</guid>
-<pubDate>Thu, 25 Jun 2026 15:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - RollerCoaster Tycoon 3 Complete Edition
-
-Source: LootScraper - Epic Games (PC)
-State ID: b68d74953d5abcc4
-Offer ID: 4eb3eb6865814446
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game) - Voidwrought]]></title>
-<link>https://store.epicgames.com/en-US/p/voidwrought-ce8f4b</link>
-<guid isPermaLink='false'>dede496f757f76e5</guid>
-<pubDate>Thu, 25 Jun 2026 15:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game) - Voidwrought
-
-Source: LootScraper - Epic Games (PC)
-State ID: bb7de888caf463ec
-Offer ID: dede496f757f76e5
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -154,36 +139,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 7060d430a9198ebc
 Offer ID: fe697fb2ccae15e6
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] ROBOBEAT (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/robobeat-epic-games-giveaway</link>
-<guid isPermaLink='false'>9fbba81dcaac6faa</guid>
-<pubDate>Thu, 18 Jun 2026 15:03:53 +0000</pubDate>
-<description><![CDATA[ROBOBEAT (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: ff1c3caec6f06fac
-Offer ID: 9fbba81dcaac6faa
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Citizen Sleeper (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/citizen-sleeper-epic-games-giveaway</link>
-<guid isPermaLink='false'>cee173dd28a1a0a4</guid>
-<pubDate>Thu, 18 Jun 2026 15:01:35 +0000</pubDate>
-<description><![CDATA[Citizen Sleeper (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 50f1743109380d29
-Offer ID: cee173dd28a1a0a4
 Status: ACTIVE
 User State: NONE
 Expires At: None
