@@ -5,19 +5,19 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 03 Jul 2026 12:54:19 +0000</pubDate>
+<pubDate>Sun, 05 Jul 2026 12:36:54 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 05 Jul 2026 12:20:15 +0000</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 14:17:08 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] Nexus: The Jupiter Incident (GOG) Giveaway]]></title>
-<link>https://www.gamerpower.com/nexus-the-jupiter-incident-gog-giveaway</link>
+<title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game) - Nexus: The Jupiter Incident]]></title>
+<link>https://www.gog.com/en/game/nexus_the_jupiter_incident</link>
 <guid isPermaLink='false'>71f2dee83e4fa0a6</guid>
-<pubDate>Fri, 03 Jul 2026 12:54:19 +0000</pubDate>
-<description><![CDATA[Nexus: The Jupiter Incident (GOG) Giveaway
+<pubDate>Sun, 05 Jul 2026 12:36:54 +0000</pubDate>
+<description><![CDATA[GOG (Game) - Nexus: The Jupiter Incident
 
-Source: GamerPower - All (Giveaways)
-State ID: 9f7fa7d71b087e64
+Source: LootScraper - GOG Games
+State ID: 7aaaf4418392c275
 Offer ID: 71f2dee83e4fa0a6
 Status: ACTIVE
 User State: NONE
