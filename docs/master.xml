@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 03 Jul 2026 12:54:19 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 14:00:32 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 07 Jul 2026 13:27:27 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 16:04:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game) - Silence]]></title>
+<link>https://www.gog.com/en/game/silence</link>
+<guid isPermaLink='false'>c17ab2174658d704</guid>
+<pubDate>Tue, 07 Jul 2026 14:00:32 +0000</pubDate>
+<description><![CDATA[GOG (Game) - Silence
+
+Source: LootScraper - GOG Games
+State ID: e0aa03c16a591c08
+Offer ID: c17ab2174658d704
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [GOG] Nexus: The Jupiter Incident (GOG) Giveaway]]></title>
 <link>https://www.gamerpower.com/nexus-the-jupiter-incident-gog-giveaway</link>
