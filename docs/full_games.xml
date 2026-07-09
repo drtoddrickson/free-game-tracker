@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 09 Jul 2026 15:10:44 +0000</pubDate>
+<pubDate>Thu, 09 Jul 2026 18:01:07 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 09 Jul 2026 16:42:38 +0000</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 18:29:35 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Still There]]></title>
+<link>https://luna.amazon.com/claims/still-there-gog/dp/amzn1.pg.item.67c6d7c2-3050-431b-ae6d-91f34ad7d313?ingress=amzn&amp;ref_=SM_StillThere_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>520ffa57bf2257c1</guid>
+<pubDate>Thu, 09 Jul 2026 18:01:07 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Still There
+
+Source: LootScraper - Amazon Games
+State ID: bc6c868e07ae149f
+Offer ID: 520ffa57bf2257c1
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game) - Regular Factory: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/regular-factory-escape-room-gog/dp/amzn1.pg.item.1b071387-e61c-48a3-bcdf-f3086b8d18ba?ingress=amzn&amp;ref_=SM_RegularFactoryEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>c90b778cb935e279</guid>
+<pubDate>Thu, 09 Jul 2026 18:01:05 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game) - Regular Factory: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: 756832df58deddd1
+Offer ID: c90b778cb935e279
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Tattoo Tycoon (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/tattoo-tycoon-epic-games-giveaway</link>
