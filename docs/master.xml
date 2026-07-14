@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 12 Jul 2026 16:19:41 +0000</pubDate>
+<pubDate>Tue, 14 Jul 2026 02:44:57 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 14 Jul 2026 00:10:25 +0000</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 03:36:22 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
+<guid isPermaLink='false'>526d73cca074be44</guid>
+<pubDate>Tue, 14 Jul 2026 02:44:57 +0000</pubDate>
+<description><![CDATA[Together After Dark (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 30fd5da5ed1fddb0
+Offer ID: 526d73cca074be44
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] KeepUp Survival (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/keepup-survival-epic-games-giveaway</link>
@@ -199,21 +214,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 2f4b2f64a1a26fba
 Offer ID: 315cb4c03f90a4f7
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] River City Girls 2 (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/river-city-girls-2-epic-games-giveaway</link>
-<guid isPermaLink='false'>26e3b184a683db91</guid>
-<pubDate>Thu, 02 Jul 2026 15:03:31 +0000</pubDate>
-<description><![CDATA[River City Girls 2 (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 17121fb37963abca
-Offer ID: 26e3b184a683db91
 Status: ACTIVE
 User State: NONE
 Expires At: None
