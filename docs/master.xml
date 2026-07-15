@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 15 Jul 2026 17:01:57 +0000</pubDate>
+<pubDate>Wed, 15 Jul 2026 17:09:34 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Jul 2026 17:21:48 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 18:38:48 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Catch Me! (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/catch-me-steam-giveaway</link>
+<guid isPermaLink='false'>ce803c8da419e85e</guid>
+<pubDate>Wed, 15 Jul 2026 17:09:34 +0000</pubDate>
+<description><![CDATA[Catch Me! (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 493cf566bc6d788d
+Offer ID: ce803c8da419e85e
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Catch Me!]]></title>
 <link>https://store.steampowered.com/app/1741160</link>
