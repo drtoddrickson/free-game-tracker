@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Tue, 14 Jul 2026 02:44:57 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Jul 2026 10:28:59 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 12:03:11 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
@@ -325,36 +325,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Paradise Killer]]></title>
-<link>https://luna.amazon.com/claims/paradise-killer-gog/dp/amzn1.pg.item.e97c8537-f08d-4c4f-a5f9-ed4f45c718cb?ingress=amzn&amp;ref_=SM_ParadiseKiller_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>689c4d7ef84c854a</guid>
-<pubDate>Thu, 11 Jun 2026 18:00:55 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Paradise Killer
-
-Source: LootScraper - Amazon Games
-State ID: a6bafb65b948016e
-Offer ID: 689c4d7ef84c854a
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - G.I. JOE: Wrath of Cobra]]></title>
-<link>https://luna.amazon.com/claims/gi-joe-wrath-of-cobra-epic/dp/amzn1.pg.item.836bb0d3-ecce-4da0-b763-292ae3f9d362?ingress=amzn&amp;ref_=SM_GIJOEWrathofCobra_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>2f92112de09fdfe3</guid>
-<pubDate>Thu, 11 Jun 2026 18:00:48 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - G.I. JOE: Wrath of Cobra
-
-Source: LootScraper - Amazon Games
-State ID: 6625887b2d31ac1b
-Offer ID: 2f92112de09fdfe3
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Tomb Raider IV-VI Remastered]]></title>
 <link>https://luna.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?ingress=amzn&amp;ref_=SM_TombRaiderIVVIRemastered_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>665438aa00f8aee2</guid>
@@ -409,36 +379,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 5c5c348ec098f638
 Offer ID: 3774536371a23b3c
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Survival: Fountain of Youth]]></title>
-<link>https://luna.amazon.com/claims/survival-fountain-of-youth-aga/dp/amzn1.pg.item.35fc21f8-36dc-4f75-903b-795b97b13cc5?ingress=amzn&amp;ref_=SM_SurvivalFountainofYouth_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>09951ce0a7bd6288</guid>
-<pubDate>Thu, 14 May 2026 17:00:47 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Survival: Fountain of Youth
-
-Source: LootScraper - Amazon Games
-State ID: 54a2d0f670190e37
-Offer ID: 09951ce0a7bd6288
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Snake Core]]></title>
-<link>https://luna.amazon.com/claims/snake-core-gog/dp/amzn1.pg.item.8dae30db-2cb3-4de1-99c4-9a1ce8700286?ingress=amzn&amp;ref_=SM_SnakeCore_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>996a4c350b9a53a1</guid>
-<pubDate>Thu, 16 Apr 2026 18:00:50 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Snake Core
-
-Source: LootScraper - Amazon Games
-State ID: 4e6037c7d9c74940
-Offer ID: 996a4c350b9a53a1
 Status: ACTIVE
 User State: NONE
 Expires At: None
