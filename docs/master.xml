@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Tue, 14 Jul 2026 02:44:57 +0000</pubDate>
+<pubDate>Wed, 15 Jul 2026 17:01:57 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 15 Jul 2026 15:52:31 +0000</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 17:21:48 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Catch Me!]]></title>
+<link>https://store.steampowered.com/app/1741160</link>
+<guid isPermaLink='false'>4a0dc274dd9109a3</guid>
+<pubDate>Wed, 15 Jul 2026 17:01:57 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Catch Me!
+
+Source: LootScraper - Steam Games
+State ID: 59221abda690bbee
+Offer ID: 4a0dc274dd9109a3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
