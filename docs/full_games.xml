@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 16 Jul 2026 15:31:49 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 18:00:58 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 16 Jul 2026 17:54:30 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 19:20:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Escape Academy]]></title>
+<link>https://luna.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?ingress=amzn&amp;ref_=SM_EscapeAcademy_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>394505d195148a5c</guid>
+<pubDate>Thu, 16 Jul 2026 18:00:58 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Escape Academy
+
+Source: LootScraper - Amazon Games
+State ID: f801325bc4dbe6c7
+Offer ID: 394505d195148a5c
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Poly Vita]]></title>
+<link>https://luna.amazon.com/claims/poly-vita-legacy/dp/amzn1.pg.item.54ad3d4e-b323-4092-a8d1-f64e5de67cbc?ingress=amzn&amp;ref_=SM_PolyVita_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>d4111a2273c5a9d8</guid>
+<pubDate>Thu, 16 Jul 2026 18:00:56 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Poly Vita
+
+Source: LootScraper - Amazon Games
+State ID: 744fd30a06797cf6
+Offer ID: d4111a2273c5a9d8
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Echo Generation: Midnight Edition (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/echo-generation-midnight-edition-epic-games-giveaway</link>
