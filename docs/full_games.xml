@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 15 Jul 2026 17:09:34 +0000</pubDate>
+<pubDate>Thu, 16 Jul 2026 15:05:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 16 Jul 2026 12:53:02 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 15:06:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Luto]]></title>
+<link>https://store.epicgames.com/en-US/p/luto-0a4ab3</link>
+<guid isPermaLink='false'>7538e1a062844913</guid>
+<pubDate>Thu, 16 Jul 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Luto
+
+Source: LootScraper - Epic Games (PC)
+State ID: c0538e633229a150
+Offer ID: 7538e1a062844913
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Echo Generation: Midnight Edition]]></title>
+<link>https://store.epicgames.com/en-US/p/echo-generation-midnight-edition-069026</link>
+<guid isPermaLink='false'>d66279c3211330e2</guid>
+<pubDate>Thu, 16 Jul 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Echo Generation: Midnight Edition
+
+Source: LootScraper - Epic Games (PC)
+State ID: be6a488eb7de0e74
+Offer ID: d66279c3211330e2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Catch Me! (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/catch-me-steam-giveaway</link>
@@ -139,36 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 5f07852c0eb70ee0
 Offer ID: dd7b119db869671e
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Nova Lands]]></title>
-<link>https://store.epicgames.com/en-US/p/nova-lands-4d1788</link>
-<guid isPermaLink='false'>71b51e1662bcd2aa</guid>
-<pubDate>Thu, 09 Jul 2026 15:05:08 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Nova Lands
-
-Source: LootScraper - Epic Games (PC)
-State ID: 87007104f7f3ff0b
-Offer ID: 71b51e1662bcd2aa
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Tattoo Tycoon]]></title>
-<link>https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c</link>
-<guid isPermaLink='false'>43c1f5b07687bb52</guid>
-<pubDate>Thu, 09 Jul 2026 15:05:08 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Tattoo Tycoon
-
-Source: LootScraper - Epic Games (PC)
-State ID: d85677781af962ef
-Offer ID: 43c1f5b07687bb52
 Status: ACTIVE
 User State: NONE
 Expires At: None
