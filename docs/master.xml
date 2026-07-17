@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 16 Jul 2026 18:00:58 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 17 Jul 2026 12:36:34 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 14:16:47 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Escape Academy]]></title>
@@ -199,36 +199,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 76688cbc27238432
 Offer ID: 22cc2587e2737f89
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Tattoo Tycoon (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/tattoo-tycoon-epic-games-giveaway</link>
-<guid isPermaLink='false'>b4bff05d0f34c199</guid>
-<pubDate>Thu, 09 Jul 2026 15:10:44 +0000</pubDate>
-<description><![CDATA[Tattoo Tycoon (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 74ceb8213737e5ab
-Offer ID: b4bff05d0f34c199
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Nova Lands (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/nova-lands-epic-games-giveaway</link>
-<guid isPermaLink='false'>dd7b119db869671e</guid>
-<pubDate>Thu, 09 Jul 2026 15:05:51 +0000</pubDate>
-<description><![CDATA[Nova Lands (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 5f07852c0eb70ee0
-Offer ID: dd7b119db869671e
 Status: ACTIVE
 User State: NONE
 Expires At: None
