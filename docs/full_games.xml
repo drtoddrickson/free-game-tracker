@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 16 Jul 2026 18:00:58 +0000</pubDate>
+<pubDate>Fri, 17 Jul 2026 17:02:11 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 17 Jul 2026 15:56:52 +0000</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 17:18:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - The Life and Suffering of Sir Brante]]></title>
+<link>https://store.steampowered.com/app/1272160</link>
+<guid isPermaLink='false'>2bfa4ff6d303f104</guid>
+<pubDate>Fri, 17 Jul 2026 17:02:11 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - The Life and Suffering of Sir Brante
+
+Source: LootScraper - Steam Games
+State ID: addb33ccd585e093
+Offer ID: 2bfa4ff6d303f104
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Escape Academy]]></title>
 <link>https://luna.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?ingress=amzn&amp;ref_=SM_EscapeAcademy_S01_FGWP_CRWN</link>
@@ -109,21 +124,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 493cf566bc6d788d
 Offer ID: ce803c8da419e85e
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Catch Me!]]></title>
-<link>https://store.steampowered.com/app/1741160</link>
-<guid isPermaLink='false'>4a0dc274dd9109a3</guid>
-<pubDate>Wed, 15 Jul 2026 17:01:57 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Catch Me!
-
-Source: LootScraper - Steam Games
-State ID: 59221abda690bbee
-Offer ID: 4a0dc274dd9109a3
 Status: ACTIVE
 User State: NONE
 Expires At: None
