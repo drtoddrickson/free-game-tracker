@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 17 Jul 2026 17:26:16 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 19 Jul 2026 11:43:10 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 12:39:10 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] The Life and Suffering of Sir Brante (Steam) Giveaway]]></title>
@@ -310,21 +310,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Between Time: Escape Room]]></title>
-<link>https://luna.amazon.com/claims/between-time-escape-room-gog/dp/amzn1.pg.item.07c10161-f6df-41bd-9beb-05824a06c78b?ingress=amzn&amp;ref_=SM_BetweenTimeEscapeRoom_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>1d19d4885295cba3</guid>
-<pubDate>Thu, 18 Jun 2026 17:01:25 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Between Time: Escape Room
-
-Source: LootScraper - Amazon Games
-State ID: e58936aadd7c983e
-Offer ID: 1d19d4885295cba3
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Space Grunts 2]]></title>
 <link>https://luna.amazon.com/claims/space-grunts-2-gog/dp/amzn1.pg.item.f92a0c83-29ce-4767-819b-e417b1f238f8?ingress=amzn&amp;ref_=SM_SpaceGrunts2_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>af16bb3da0ac257a</guid>
@@ -349,21 +334,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 0d9942de4051ffd5
 Offer ID: 38063b8c51759524
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Wargame Construction Set III: Age of Rifles 1846-1905]]></title>
-<link>https://luna.amazon.com/claims/wargame-construction-set-iii-age-of-rifles-1846-1905-gog/dp/amzn1.pg.item.51552780-cfd7-4bf1-bbed-07dfa3060e0b?ingress=amzn&amp;ref_=SM_WargameConstructionSetIIIAgeofRifles18461905_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>46b8ec301db45b4d</guid>
-<pubDate>Thu, 18 Jun 2026 17:01:18 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Wargame Construction Set III: Age of Rifles 1846-1905
-
-Source: LootScraper - Amazon Games
-State ID: 18722ef105942a64
-Offer ID: 46b8ec301db45b4d
 Status: ACTIVE
 User State: NONE
 Expires At: None
