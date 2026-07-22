@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 17 Jul 2026 17:26:16 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 22 Jul 2026 11:25:38 +0000</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 13:03:15 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] The Life and Suffering of Sir Brante (Steam) Giveaway]]></title>
@@ -319,21 +319,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 2a4c24e8ca6dbee9
 Offer ID: af16bb3da0ac257a
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Sugardew Island]]></title>
-<link>https://luna.amazon.com/claims/sugardew-island-gog/dp/amzn1.pg.item.108bde02-53dc-4d19-ba66-f89088a65f18?ingress=amzn&amp;ref_=SM_SugardewIsland_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>38063b8c51759524</guid>
-<pubDate>Thu, 18 Jun 2026 17:01:21 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Sugardew Island
-
-Source: LootScraper - Amazon Games
-State ID: 0d9942de4051ffd5
-Offer ID: 38063b8c51759524
 Status: ACTIVE
 User State: NONE
 Expires At: None
