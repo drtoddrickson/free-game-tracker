@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 23 Jul 2026 15:05:05 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 17:15:30 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 23 Jul 2026 16:14:18 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 17:49:56 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Yet Another Zombie Defense HD (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/yet-another-zombie-defense-hd-steam-giveaway</link>
+<guid isPermaLink='false'>bc2f3531a7b46335</guid>
+<pubDate>Thu, 23 Jul 2026 17:15:30 +0000</pubDate>
+<description><![CDATA[Yet Another Zombie Defense HD (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: f886bd5f7429601a
+Offer ID: bc2f3531a7b46335
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Yet Another Zombie Defense HD]]></title>
+<link>https://store.steampowered.com/app/674750</link>
+<guid isPermaLink='false'>ecd0e13a1f4b9558</guid>
+<pubDate>Thu, 23 Jul 2026 17:01:54 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Yet Another Zombie Defense HD
+
+Source: LootScraper - Steam Games
+State ID: 495acf8ef32e8144
+Offer ID: ecd0e13a1f4b9558
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Foretales]]></title>
 <link>https://store.epicgames.com/en-US/p/foretales-d6c5bd</link>
@@ -49,21 +79,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 33894285499601e5
 Offer ID: 2794ad30d781404a
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - The Life and Suffering of Sir Brante]]></title>
-<link>https://store.steampowered.com/app/1272160</link>
-<guid isPermaLink='false'>2bfa4ff6d303f104</guid>
-<pubDate>Fri, 17 Jul 2026 17:02:11 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - The Life and Suffering of Sir Brante
-
-Source: LootScraper - Steam Games
-State ID: addb33ccd585e093
-Offer ID: 2bfa4ff6d303f104
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -169,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: c47650a668aae870
 Offer ID: a49078e59d7e8751
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] NoRush! - Tower Edition (Epic Games) Giveaways]]></title>
-<link>https://www.gamerpower.com/norush-tower-edition-epic-games-giveaways</link>
-<guid isPermaLink='false'>6e9f41112bbf4f02</guid>
-<pubDate>Sun, 12 Jul 2026 14:10:12 +0000</pubDate>
-<description><![CDATA[NoRush! - Tower Edition (Epic Games) Giveaways
-
-Source: GamerPower - All (Giveaways)
-State ID: 97b332090fb5afb9
-Offer ID: 6e9f41112bbf4f02
 Status: ACTIVE
 User State: NONE
 Expires At: None
