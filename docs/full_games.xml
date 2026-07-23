@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 23 Jul 2026 17:15:30 +0000</pubDate>
+<pubDate>Thu, 23 Jul 2026 18:01:14 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 23 Jul 2026 17:49:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 19:25:12 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Mystic Academy: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?ingress=amzn&amp;ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>229e866fc147a402</guid>
+<pubDate>Thu, 23 Jul 2026 18:01:14 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Mystic Academy: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: e699bbcc1d44daf0
+Offer ID: 229e866fc147a402
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - In Sound Mind]]></title>
+<link>https://luna.amazon.com/claims/in-sound-mind-aga/dp/amzn1.pg.item.1a5c5cac-5445-48ba-89f6-91c4e0068399?ingress=amzn&amp;ref_=SM_InSoundMind_S02_FGWP_CRWN</link>
+<guid isPermaLink='false'>c9cce62850a29984</guid>
+<pubDate>Thu, 23 Jul 2026 18:01:11 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - In Sound Mind
+
+Source: LootScraper - Amazon Games
+State ID: 3fb68894eef2c3ca
+Offer ID: c9cce62850a29984
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Yet Another Zombie Defense HD (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/yet-another-zombie-defense-hd-steam-giveaway</link>
