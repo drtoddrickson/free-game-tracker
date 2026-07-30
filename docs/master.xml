@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 30 Jul 2026 15:05:04 +0000</pubDate>
+<pubDate>Thu, 30 Jul 2026 18:01:02 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 30 Jul 2026 17:50:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 19:40:19 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Zoria: Age of Shattering]]></title>
+<link>https://luna.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?ingress=amzn&amp;ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>65497bbcb576985b</guid>
+<pubDate>Thu, 30 Jul 2026 18:01:02 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Zoria: Age of Shattering
+
+Source: LootScraper - Amazon Games
+State ID: 473c46666f60eef9
+Offer ID: 65497bbcb576985b
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Weakless]]></title>
+<link>https://luna.amazon.com/claims/weakless-gog/dp/amzn1.pg.item.35aae84a-f566-4890-8fd3-492318a39036?ingress=amzn&amp;ref_=SM_Weakless_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>986a2b4eec8cd8bd</guid>
+<pubDate>Thu, 30 Jul 2026 18:00:59 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Weakless
+
+Source: LootScraper - Amazon Games
+State ID: fa2f2f151a86a070
+Offer ID: 986a2b4eec8cd8bd
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - OTXO]]></title>
 <link>https://store.epicgames.com/en-US/p/otxo-396b8b</link>
@@ -124,21 +154,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: f886bd5f7429601a
 Offer ID: bc2f3531a7b46335
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Yet Another Zombie Defense HD]]></title>
-<link>https://store.steampowered.com/app/674750</link>
-<guid isPermaLink='false'>ecd0e13a1f4b9558</guid>
-<pubDate>Thu, 23 Jul 2026 17:01:54 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Yet Another Zombie Defense HD
-
-Source: LootScraper - Steam Games
-State ID: 495acf8ef32e8144
-Offer ID: ecd0e13a1f4b9558
 Status: ACTIVE
 User State: NONE
 Expires At: None
