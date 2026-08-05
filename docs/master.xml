@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Mon, 03 Aug 2026 22:14:16 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 05 Aug 2026 10:08:29 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 12:17:32 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Project First Contact (Epic Games) Giveaway]]></title>
@@ -274,36 +274,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 76688cbc27238432
 Offer ID: 22cc2587e2737f89
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Symphony of War: The Nephilim Saga]]></title>
-<link>https://luna.amazon.com/claims/symphony-of-war-the-nephilim-saga-epic/dp/amzn1.pg.item.db94348f-9423-423e-a707-aed5ebf07c0c?ingress=amzn&amp;ref_=SM_SymphonyofWarTheNephilimSaga_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>c868d274bc6e9f59</guid>
-<pubDate>Thu, 02 Jul 2026 18:00:48 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Symphony of War: The Nephilim Saga
-
-Source: LootScraper - Amazon Games
-State ID: 55b38bd6cc7db36f
-Offer ID: c868d274bc6e9f59
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - LONESTAR]]></title>
-<link>https://luna.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?ingress=amzn&amp;ref_=SM_LONESTAR_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>283abbf26227eb8f</guid>
-<pubDate>Thu, 02 Jul 2026 18:00:45 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - LONESTAR
-
-Source: LootScraper - Amazon Games
-State ID: 3f410ca9ae6920f3
-Offer ID: 283abbf26227eb8f
 Status: ACTIVE
 User State: NONE
 Expires At: None
