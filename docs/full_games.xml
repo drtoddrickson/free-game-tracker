@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 03 Aug 2026 22:14:16 +0000</pubDate>
+<pubDate>Wed, 05 Aug 2026 18:30:20 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 05 Aug 2026 18:24:18 +0000</lastBuildDate>
+<lastBuildDate>Wed, 05 Aug 2026 20:09:22 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Moonlighter]]></title>
+<link>https://store.steampowered.com/app/606150</link>
+<guid isPermaLink='false'>8dc38c51370bb263</guid>
+<pubDate>Wed, 05 Aug 2026 18:30:20 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Moonlighter
+
+Source: LootScraper - Steam Games
+State ID: b9ff7365b0e53998
+Offer ID: 8dc38c51370bb263
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Moonlighter (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/moonlighter-steam-giveawaway</link>
+<guid isPermaLink='false'>c54cbf63ba4a1e61</guid>
+<pubDate>Wed, 05 Aug 2026 18:23:24 +0000</pubDate>
+<description><![CDATA[Moonlighter (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 0c04d91aba144297
+Offer ID: c54cbf63ba4a1e61
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Project First Contact (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/project-first-contact-epic-games-giveaway</link>
