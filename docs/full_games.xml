@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 06 Aug 2026 18:00:58 +0000</pubDate>
+<pubDate>Fri, 07 Aug 2026 16:10:45 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 07 Aug 2026 16:01:37 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 17:08:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] happiness market (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/happiness-market-epic-games-giveaway</link>
+<guid isPermaLink='false'>d6b6da6010f76024</guid>
+<pubDate>Fri, 07 Aug 2026 16:10:45 +0000</pubDate>
+<description><![CDATA[happiness market (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 49a4c04a55c12c6b
+Offer ID: d6b6da6010f76024
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Hiveswap Friendsim]]></title>
 <link>https://luna.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?ingress=amzn&amp;ref_=SM_HiveswapFriendsim_S01_FGWP_CRWN</link>
@@ -214,21 +229,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: fa2f2f151a86a070
 Offer ID: 986a2b4eec8cd8bd
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Sol Cesto (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/sol-cesto-epic-games-giveaway</link>
-<guid isPermaLink='false'>0bc3b3bb3ebfa248</guid>
-<pubDate>Thu, 30 Jul 2026 15:03:41 +0000</pubDate>
-<description><![CDATA[Sol Cesto (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 7fc27857f0a51270
-Offer ID: 0bc3b3bb3ebfa248
 Status: ACTIVE
 User State: NONE
 Expires At: None
