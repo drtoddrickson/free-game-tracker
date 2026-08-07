@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 06 Aug 2026 18:00:58 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 07 Aug 2026 12:29:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 13:53:25 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Hiveswap Friendsim]]></title>
@@ -229,21 +229,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 7fc27857f0a51270
 Offer ID: 0bc3b3bb3ebfa248
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] OTXO (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/otxo-epic-games-giveaway</link>
-<guid isPermaLink='false'>a647658c43f6f41c</guid>
-<pubDate>Thu, 30 Jul 2026 15:01:00 +0000</pubDate>
-<description><![CDATA[OTXO (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 83b098b7da41b762
-Offer ID: a647658c43f6f41c
 Status: ACTIVE
 User State: NONE
 Expires At: None
