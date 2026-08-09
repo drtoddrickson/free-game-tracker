@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 07 Aug 2026 17:30:27 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 12:33:22 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 09 Aug 2026 11:49:23 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 13:00:56 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Cat Named Mojave (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/cat-named-mojave-epic-games-giveaway</link>
+<guid isPermaLink='false'>5e4894650281823e</guid>
+<pubDate>Sun, 09 Aug 2026 12:33:22 +0000</pubDate>
+<description><![CDATA[Cat Named Mojave (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 03671e6bba9451b1
+Offer ID: 5e4894650281823e
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Breathedge]]></title>
 <link>https://store.steampowered.com/app/738520</link>
@@ -220,21 +235,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] The Elder Scrolls Online: 2000 Trade Bars Code Giveaway]]></title>
-<link>https://www.gamerpower.com/eso-code-giveaway</link>
-<guid isPermaLink='false'>15f429deed2c9119</guid>
-<pubDate>Fri, 31 Jul 2026 16:42:59 +0000</pubDate>
-<description><![CDATA[The Elder Scrolls Online: 2000 Trade Bars Code Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: b1b5011d238224e4
-Offer ID: 15f429deed2c9119
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Zoria: Age of Shattering]]></title>
 <link>https://luna.amazon.com/claims/zoria-age-of-shattering-gog/dp/amzn1.pg.item.ec074069-a977-4885-b5b0-6f972d17abb7?ingress=amzn&amp;ref_=SM_ZoriaAgeofShattering_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>65497bbcb576985b</guid>
@@ -334,21 +334,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: ab2ee952329a86db
 Offer ID: 6987751962a41e0d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Regular Factory: Escape Room]]></title>
-<link>https://luna.amazon.com/claims/regular-factory-escape-room-gog/dp/amzn1.pg.item.1b071387-e61c-48a3-bcdf-f3086b8d18ba?ingress=amzn&amp;ref_=SM_RegularFactoryEscapeRoom_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>22cc2587e2737f89</guid>
-<pubDate>Thu, 09 Jul 2026 18:01:05 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Regular Factory: Escape Room
-
-Source: LootScraper - Amazon Games
-State ID: 76688cbc27238432
-Offer ID: 22cc2587e2737f89
 Status: ACTIVE
 User State: NONE
 Expires At: None
