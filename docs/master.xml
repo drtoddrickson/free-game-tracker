@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Sun, 09 Aug 2026 12:33:22 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 11 Aug 2026 11:57:59 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 13:24:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Cat Named Mojave (Epic Games) Giveaway]]></title>
@@ -19,21 +19,6 @@
 Source: GamerPower - All (Giveaways)
 State ID: 03671e6bba9451b1
 Offer ID: 5e4894650281823e
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Breathedge]]></title>
-<link>https://store.steampowered.com/app/738520</link>
-<guid isPermaLink='false'>bc5b799e97042572</guid>
-<pubDate>Fri, 07 Aug 2026 17:30:27 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Breathedge
-
-Source: LootScraper - Steam Games
-State ID: a3dbffb0f041b745
-Offer ID: bc5b799e97042572
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -184,21 +169,6 @@ Expires At: None
 Source: LootScraper - Epic Games (PC)
 State ID: e357a35073c027fb
 Offer ID: b39da99ae8a2e4c8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Moonlighter]]></title>
-<link>https://store.steampowered.com/app/606150</link>
-<guid isPermaLink='false'>8dc38c51370bb263</guid>
-<pubDate>Wed, 05 Aug 2026 18:30:20 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Moonlighter
-
-Source: LootScraper - Steam Games
-State ID: b9ff7365b0e53998
-Offer ID: 8dc38c51370bb263
 Status: ACTIVE
 User State: NONE
 Expires At: None
