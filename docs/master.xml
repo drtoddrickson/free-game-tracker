@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Wed, 12 Aug 2026 21:36:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 13 Aug 2026 14:08:05 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 15:15:50 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Targeted – 10 Days (Epic Games) Giveaway]]></title>
@@ -154,36 +154,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 9fa60ec2c763c0c1
 Offer ID: c76f7a00e14bfe38
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Beacon Pines]]></title>
-<link>https://store.epicgames.com/en-US/p/beacon-pines-629fc3</link>
-<guid isPermaLink='false'>785add708669bd3b</guid>
-<pubDate>Thu, 06 Aug 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Beacon Pines
-
-Source: LootScraper - Epic Games (PC)
-State ID: 53b8cd63e40fdde7
-Offer ID: 785add708669bd3b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - We Were Here Together]]></title>
-<link>https://store.epicgames.com/en-US/p/we-were-here-together-6a6d66</link>
-<guid isPermaLink='false'>b39da99ae8a2e4c8</guid>
-<pubDate>Thu, 06 Aug 2026 15:05:05 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - We Were Here Together
-
-Source: LootScraper - Epic Games (PC)
-State ID: e357a35073c027fb
-Offer ID: b39da99ae8a2e4c8
 Status: ACTIVE
 User State: NONE
 Expires At: None
