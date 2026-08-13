@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Wed, 12 Aug 2026 21:36:39 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 13 Aug 2026 11:31:12 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 12:33:34 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Targeted – 10 Days (Epic Games) Giveaway]]></title>
@@ -310,21 +310,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Still There]]></title>
-<link>https://luna.amazon.com/claims/still-there-gog/dp/amzn1.pg.item.67c6d7c2-3050-431b-ae6d-91f34ad7d313?ingress=amzn&amp;ref_=SM_StillThere_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>6987751962a41e0d</guid>
-<pubDate>Thu, 09 Jul 2026 18:01:07 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Still There
-
-Source: LootScraper - Amazon Games
-State ID: ab2ee952329a86db
-Offer ID: 6987751962a41e0d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Terraforming Mars]]></title>
 <link>https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn&amp;ref_=SM_TerraformingMars_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>0ca9ce1e1ce44be8</guid>
@@ -394,21 +379,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: f2813c3293cd00e2
 Offer ID: dd9e841ee70ff400
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Lethal Honor: Order of the Apocalypse]]></title>
-<link>https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?ingress=amzn&amp;ref_=SM_LethalHonorOrderoftheApocalypse_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>3774536371a23b3c</guid>
-<pubDate>Thu, 14 May 2026 17:00:49 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Lethal Honor: Order of the Apocalypse
-
-Source: LootScraper - Amazon Games
-State ID: 5c5c348ec098f638
-Offer ID: 3774536371a23b3c
 Status: ACTIVE
 User State: NONE
 Expires At: None
