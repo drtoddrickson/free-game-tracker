@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 12 Aug 2026 21:36:39 +0000</pubDate>
+<pubDate>Thu, 13 Aug 2026 17:05:54 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 13 Aug 2026 16:25:53 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 17:30:26 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Deponia (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/deponia-steam-giveaway</link>
+<guid isPermaLink='false'>46aeda2e1518df09</guid>
+<pubDate>Thu, 13 Aug 2026 17:05:54 +0000</pubDate>
+<description><![CDATA[Deponia (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 99a1133140690988
+Offer ID: 46aeda2e1518df09
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Steam (Game, PC) - Deponia]]></title>
+<link>https://store.steampowered.com/app/214340</link>
+<guid isPermaLink='false'>c6e4c0eeec9a2b50</guid>
+<pubDate>Thu, 13 Aug 2026 17:01:41 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Deponia
+
+Source: LootScraper - Steam Games
+State ID: de28b3a6f38512a8
+Offer ID: c6e4c0eeec9a2b50
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Targeted – 10 Days (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/targeted-10-days-epic-games-giveaway</link>
@@ -139,21 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 7f5d351004829042
 Offer ID: 6ac82978100c561d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] We Were Here Together (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/we-were-here-together-epic-games-giveaway</link>
-<guid isPermaLink='false'>c76f7a00e14bfe38</guid>
-<pubDate>Thu, 06 Aug 2026 15:06:55 +0000</pubDate>
-<description><![CDATA[We Were Here Together (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 870535fb1a4adcd2
-Offer ID: c76f7a00e14bfe38
 Status: ACTIVE
 User State: NONE
 Expires At: None
