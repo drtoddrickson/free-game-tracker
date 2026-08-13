@@ -5,10 +5,55 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 13 Aug 2026 17:05:54 +0000</pubDate>
+<pubDate>Thu, 13 Aug 2026 18:00:53 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 13 Aug 2026 17:30:26 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Aug 2026 18:38:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Steelrising]]></title>
+<link>https://luna.amazon.com/claims/steelrising-epic/dp/amzn1.pg.item.2e34e997-a137-48b3-9b5c-ad2eb51c45f7?ingress=amzn&amp;ref_=SM_Steelrising_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>658f947ef41e0deb</guid>
+<pubDate>Thu, 13 Aug 2026 18:00:53 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Steelrising
+
+Source: LootScraper - Amazon Games
+State ID: 05f1a7e196f829d1
+Offer ID: 658f947ef41e0deb
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Airship: Kingdoms Adrift]]></title>
+<link>https://luna.amazon.com/claims/airship-kingdoms-adrift-epic/dp/amzn1.pg.item.aa62d067-6b98-4929-bc49-3ccdd11d888a?ingress=amzn&amp;ref_=SM_AirshipKingdomsAdrift_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>df6ae603984be53a</guid>
+<pubDate>Thu, 13 Aug 2026 18:00:51 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Airship: Kingdoms Adrift
+
+Source: LootScraper - Amazon Games
+State ID: 23ff31f8f5e12c6f
+Offer ID: df6ae603984be53a
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Pyramids and Aliens: Escape Room]]></title>
+<link>https://luna.amazon.com/claims/pyramids-and-aliens-escape-room-gog/dp/amzn1.pg.item.ea4a762d-4616-4f5d-af80-61c76ea1abd3?ingress=amzn&amp;ref_=SM_PyramidsandAliensEscapeRoom_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>fbe473428a143d95</guid>
+<pubDate>Thu, 13 Aug 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Pyramids and Aliens: Escape Room
+
+Source: LootScraper - Amazon Games
+State ID: b81f67b942a4eca6
+Offer ID: fbe473428a143d95
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Deponia (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/deponia-steam-giveaway</link>
