@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 19 Aug 2026 23:41:21 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 15:05:04 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 20 Aug 2026 14:56:01 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 15:39:27 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Cardpocalypse Standard Edition]]></title>
+<link>https://store.epicgames.com/en-US/p/cardpocalypse</link>
+<guid isPermaLink='false'>ebb345c32b571b74</guid>
+<pubDate>Thu, 20 Aug 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Cardpocalypse Standard Edition
+
+Source: LootScraper - Epic Games (PC)
+State ID: 62fb06a7203af196
+Offer ID: ebb345c32b571b74
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Cardpocalypse (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/cardpocalypse-epic-games-giveaway</link>
+<guid isPermaLink='false'>6e4edd5326cd42f3</guid>
+<pubDate>Thu, 20 Aug 2026 15:02:34 +0000</pubDate>
+<description><![CDATA[Cardpocalypse (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 9e12cda24ab8f9c7
+Offer ID: 6e4edd5326cd42f3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Grow And Go: Cozy Deliveries (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/grow-and-go-cozy-deliveries-epic-games-giveaway</link>
@@ -124,21 +154,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 03671e6bba9451b1
 Offer ID: 5e4894650281823e
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Breathedge (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/breathedge-steam-giveaway</link>
-<guid isPermaLink='false'>84a77fdfd9413fe5</guid>
-<pubDate>Fri, 07 Aug 2026 17:21:36 +0000</pubDate>
-<description><![CDATA[Breathedge (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 0668d428f93c403e
-Offer ID: 84a77fdfd9413fe5
 Status: ACTIVE
 User State: NONE
 Expires At: None
