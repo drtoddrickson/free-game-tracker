@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 20 Aug 2026 15:05:04 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 15:40:45 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 20 Aug 2026 15:39:27 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 16:12:46 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Bolmn (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/bolmn-epic-games-giveaway</link>
+<guid isPermaLink='false'>0e7e650ed6da2ee6</guid>
+<pubDate>Thu, 20 Aug 2026 15:40:45 +0000</pubDate>
+<description><![CDATA[Bolmn (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 7f4d4bd70d6a6698
+Offer ID: 0e7e650ed6da2ee6
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Cardpocalypse Standard Edition]]></title>
 <link>https://store.epicgames.com/en-US/p/cardpocalypse</link>
@@ -139,21 +154,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 5a18682de74b7535
 Offer ID: 9a20f86887e299df
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Cat Named Mojave (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/cat-named-mojave-epic-games-giveaway</link>
-<guid isPermaLink='false'>5e4894650281823e</guid>
-<pubDate>Sun, 09 Aug 2026 12:33:22 +0000</pubDate>
-<description><![CDATA[Cat Named Mojave (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 03671e6bba9451b1
-Offer ID: 5e4894650281823e
 Status: ACTIVE
 User State: NONE
 Expires At: None
