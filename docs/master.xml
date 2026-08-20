@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 20 Aug 2026 15:40:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 18:00:50 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 20 Aug 2026 17:34:05 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 18:03:50 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic]]></title>
+<link>https://luna.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?ingress=amzn&amp;ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>91775e34a4fa61e2</guid>
+<pubDate>Thu, 20 Aug 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic
+
+Source: LootScraper - Amazon Games
+State ID: 3b7a3bd257bd927c
+Offer ID: 91775e34a4fa61e2
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Bolmn (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/bolmn-epic-games-giveaway</link>
@@ -124,21 +139,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 99a1133140690988
 Offer ID: 46aeda2e1518df09
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Steam (Game, PC) - Deponia]]></title>
-<link>https://store.steampowered.com/app/214340</link>
-<guid isPermaLink='false'>c6e4c0eeec9a2b50</guid>
-<pubDate>Thu, 13 Aug 2026 17:01:41 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Deponia
-
-Source: LootScraper - Steam Games
-State ID: de28b3a6f38512a8
-Offer ID: c6e4c0eeec9a2b50
 Status: ACTIVE
 User State: NONE
 Expires At: None
