@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Wed, 19 Aug 2026 23:41:21 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 20 Aug 2026 11:31:06 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 12:02:45 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Grow And Go: Cozy Deliveries (Epic Games) Giveaway]]></title>
@@ -235,36 +235,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Escape Academy]]></title>
-<link>https://luna.amazon.com/claims/escape-academy-epic/dp/amzn1.pg.item.b1e0afe5-c3f4-464b-8731-e174e110ae2d?ingress=amzn&amp;ref_=SM_EscapeAcademy_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>394505d195148a5c</guid>
-<pubDate>Thu, 16 Jul 2026 18:00:58 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Escape Academy
-
-Source: LootScraper - Amazon Games
-State ID: f801325bc4dbe6c7
-Offer ID: 394505d195148a5c
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Poly Vita]]></title>
-<link>https://luna.amazon.com/claims/poly-vita-legacy/dp/amzn1.pg.item.54ad3d4e-b323-4092-a8d1-f64e5de67cbc?ingress=amzn&amp;ref_=SM_PolyVita_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>d4111a2273c5a9d8</guid>
-<pubDate>Thu, 16 Jul 2026 18:00:56 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Poly Vita
-
-Source: LootScraper - Amazon Games
-State ID: 744fd30a06797cf6
-Offer ID: d4111a2273c5a9d8
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Terraforming Mars]]></title>
 <link>https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn&amp;ref_=SM_TerraformingMars_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>0ca9ce1e1ce44be8</guid>
@@ -319,21 +289,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 4bddcdd0a86bc0a9
 Offer ID: cd7efd3268a48374
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Space Grunts]]></title>
-<link>https://luna.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?ingress=amzn&amp;ref_=SM_SpaceGrunts_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>dd9e841ee70ff400</guid>
-<pubDate>Thu, 21 May 2026 18:00:53 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Space Grunts
-
-Source: LootScraper - Amazon Games
-State ID: f2813c3293cd00e2
-Offer ID: dd9e841ee70ff400
 Status: ACTIVE
 User State: NONE
 Expires At: None
