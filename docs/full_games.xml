@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 20 Aug 2026 18:00:50 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sat, 22 Aug 2026 11:58:35 +0000</lastBuildDate>
+<lastBuildDate>Sat, 22 Aug 2026 12:54:41 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic]]></title>
@@ -214,21 +214,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: fa2f2f151a86a070
 Offer ID: 986a2b4eec8cd8bd
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Mystic Academy: Escape Room]]></title>
-<link>https://luna.amazon.com/claims/mystic-academy-escape-room-gog/dp/amzn1.pg.item.61f57a96-121c-443f-8432-652773456072?ingress=amzn&amp;ref_=SM_MysticAcademyEscapeRoom_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>229e866fc147a402</guid>
-<pubDate>Thu, 23 Jul 2026 18:01:14 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Mystic Academy: Escape Room
-
-Source: LootScraper - Amazon Games
-State ID: e699bbcc1d44daf0
-Offer ID: 229e866fc147a402
 Status: ACTIVE
 User State: NONE
 Expires At: None
