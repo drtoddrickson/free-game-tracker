@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 20 Aug 2026 18:00:50 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Sun, 23 Aug 2026 14:01:44 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 14:41:53 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic]]></title>
@@ -25,6 +25,21 @@ Expires At: None
 ]]></description>
 </item>
 <item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Bolmn (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/bolmn-epic-games-giveaway</link>
+<guid isPermaLink='false'>0e7e650ed6da2ee6</guid>
+<pubDate>Thu, 20 Aug 2026 15:40:45 +0000</pubDate>
+<description><![CDATA[Bolmn (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 7f4d4bd70d6a6698
+Offer ID: 0e7e650ed6da2ee6
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Cardpocalypse Standard Edition]]></title>
 <link>https://store.epicgames.com/en-US/p/cardpocalypse</link>
 <guid isPermaLink='false'>ebb345c32b571b74</guid>
@@ -34,6 +49,36 @@ Expires At: None
 Source: LootScraper - Epic Games (PC)
 State ID: 62fb06a7203af196
 Offer ID: ebb345c32b571b74
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Cardpocalypse (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/cardpocalypse-epic-games-giveaway</link>
+<guid isPermaLink='false'>6e4edd5326cd42f3</guid>
+<pubDate>Thu, 20 Aug 2026 15:02:34 +0000</pubDate>
+<description><![CDATA[Cardpocalypse (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 9e12cda24ab8f9c7
+Offer ID: 6e4edd5326cd42f3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Grow And Go: Cozy Deliveries (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/grow-and-go-cozy-deliveries-epic-games-giveaway</link>
+<guid isPermaLink='false'>7430c1520d8275d5</guid>
+<pubDate>Wed, 19 Aug 2026 23:41:21 +0000</pubDate>
+<description><![CDATA[Grow And Go: Cozy Deliveries (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 982226a5017e11ac
+Offer ID: 7430c1520d8275d5
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -79,6 +124,36 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: b81f67b942a4eca6
 Offer ID: fbe473428a143d95
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Deponia (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/deponia-steam-giveaway</link>
+<guid isPermaLink='false'>46aeda2e1518df09</guid>
+<pubDate>Thu, 13 Aug 2026 17:05:54 +0000</pubDate>
+<description><![CDATA[Deponia (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 99a1133140690988
+Offer ID: 46aeda2e1518df09
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Targeted – 10 Days (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/targeted-10-days-epic-games-giveaway</link>
+<guid isPermaLink='false'>9a20f86887e299df</guid>
+<pubDate>Wed, 12 Aug 2026 21:36:39 +0000</pubDate>
+<description><![CDATA[Targeted – 10 Days (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 5a18682de74b7535
+Offer ID: 9a20f86887e299df
 Status: ACTIVE
 User State: NONE
 Expires At: None
