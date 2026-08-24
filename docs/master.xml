@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 20 Aug 2026 18:00:50 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:30:17 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 24 Aug 2026 16:48:28 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 17:34:22 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Dokimon Quest]]></title>
+<link>https://store.steampowered.com/app/2019300</link>
+<guid isPermaLink='false'>32813bccf6669164</guid>
+<pubDate>Mon, 24 Aug 2026 17:30:17 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Dokimon Quest
+
+Source: LootScraper - Steam Games
+State ID: 5d82304fb9450acc
+Offer ID: 32813bccf6669164
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Dokimon Quest (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/dokimon-quest-steam-giveaway</link>
+<guid isPermaLink='false'>6a9f2d8bcce29286</guid>
+<pubDate>Mon, 24 Aug 2026 17:29:37 +0000</pubDate>
+<description><![CDATA[Dokimon Quest (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 0fd1f32b7042c070
+Offer ID: 6a9f2d8bcce29286
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic]]></title>
 <link>https://luna.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?ingress=amzn&amp;ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN</link>
@@ -139,21 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 99a1133140690988
 Offer ID: 46aeda2e1518df09
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Targeted – 10 Days (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/targeted-10-days-epic-games-giveaway</link>
-<guid isPermaLink='false'>9a20f86887e299df</guid>
-<pubDate>Wed, 12 Aug 2026 21:36:39 +0000</pubDate>
-<description><![CDATA[Targeted – 10 Days (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 5a18682de74b7535
-Offer ID: 9a20f86887e299df
 Status: ACTIVE
 User State: NONE
 Expires At: None
