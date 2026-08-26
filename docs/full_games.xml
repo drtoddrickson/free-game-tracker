@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 24 Aug 2026 18:17:57 +0000</pubDate>
+<pubDate>Wed, 26 Aug 2026 11:39:16 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 26 Aug 2026 11:14:50 +0000</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 11:49:55 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
+<guid isPermaLink='false'>526d73cca074be44</guid>
+<pubDate>Wed, 26 Aug 2026 11:39:16 +0000</pubDate>
+<description><![CDATA[Together After Dark (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 30fd5da5ed1fddb0
+Offer ID: 526d73cca074be44
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway]]></title>
 <link>https://www.gamerpower.com/microsoft-flight-simulator-suite-themes-reimagined-steam-giveaway</link>
@@ -169,21 +184,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: b81f67b942a4eca6
 Offer ID: fbe473428a143d95
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [OWNED] [STEAM] Deponia (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/deponia-steam-giveaway</link>
-<guid isPermaLink='false'>46aeda2e1518df09</guid>
-<pubDate>Thu, 13 Aug 2026 17:05:54 +0000</pubDate>
-<description><![CDATA[Deponia (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 99a1133140690988
-Offer ID: 46aeda2e1518df09
 Status: ACTIVE
 User State: NONE
 Expires At: None
