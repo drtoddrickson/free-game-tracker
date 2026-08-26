@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Wed, 26 Aug 2026 11:39:16 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 26 Aug 2026 11:49:55 +0000</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 13:01:11 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
@@ -259,21 +259,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3fb68894eef2c3ca
 Offer ID: c9cce62850a29984
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Terraforming Mars]]></title>
-<link>https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn&amp;ref_=SM_TerraformingMars_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>0ca9ce1e1ce44be8</guid>
-<pubDate>Thu, 25 Jun 2026 18:00:49 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Terraforming Mars
-
-Source: LootScraper - Amazon Games
-State ID: a36e72192d008dce
-Offer ID: 0ca9ce1e1ce44be8
 Status: ACTIVE
 User State: NONE
 Expires At: None
