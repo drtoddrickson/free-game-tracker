@@ -5,10 +5,100 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Wed, 26 Aug 2026 11:39:16 +0000</pubDate>
+<pubDate>Thu, 27 Aug 2026 18:00:50 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 27 Aug 2026 14:31:06 +0000</lastBuildDate>
+<lastBuildDate>Fri, 28 Aug 2026 00:01:35 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Clash: Artifacts of Chaos]]></title>
+<link>https://luna.amazon.com/claims/clash-artifacts-of-chaos-epic/dp/amzn1.pg.item.f156cdf9-2d60-465f-9977-b0fac64e9fc3?ingress=amzn&amp;ref_=SM_ClashArtifactsofChaos_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>e3a33cae68c58841</guid>
+<pubDate>Thu, 27 Aug 2026 18:00:50 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Clash: Artifacts of Chaos
+
+Source: LootScraper - Amazon Games
+State ID: 7d845b00462294c6
+Offer ID: e3a33cae68c58841
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Havendock]]></title>
+<link>https://luna.amazon.com/claims/havendock-aga/dp/amzn1.pg.item.ef222081-3e6c-4949-9e87-aaf2c27b6bc6?ingress=amzn&amp;ref_=SM_Havendock_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>2f537fe8e628af15</guid>
+<pubDate>Thu, 27 Aug 2026 18:00:48 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Havendock
+
+Source: LootScraper - Amazon Games
+State ID: dcaff250899183a7
+Offer ID: 2f537fe8e628af15
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Rival Stars Horse Racing (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/rival-stars-horse-racing-epic-games-giveaway</link>
+<guid isPermaLink='false'>9140767280668fc6</guid>
+<pubDate>Thu, 27 Aug 2026 15:18:39 +0000</pubDate>
+<description><![CDATA[Rival Stars Horse Racing (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: eda028e8ec7723dd
+Offer ID: 9140767280668fc6
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Breathedge]]></title>
+<link>https://store.epicgames.com/en-US/p/breathedge</link>
+<guid isPermaLink='false'>2a9af56fc828f1d3</guid>
+<pubDate>Thu, 27 Aug 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Breathedge
+
+Source: LootScraper - Epic Games (PC)
+State ID: f603e1b39543bf18
+Offer ID: 2a9af56fc828f1d3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Rival Stars Horse Racing: Desktop Edition]]></title>
+<link>https://store.epicgames.com/en-US/p/rival-stars-horse-racing-dd09de</link>
+<guid isPermaLink='false'>9e99e77731dd4d97</guid>
+<pubDate>Thu, 27 Aug 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Rival Stars Horse Racing: Desktop Edition
+
+Source: LootScraper - Epic Games (PC)
+State ID: 943a927d1d79508c
+Offer ID: 9e99e77731dd4d97
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Breathedge (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/breathedge-epic-games-giveaway</link>
+<guid isPermaLink='false'>84a77fdfd9413fe5</guid>
+<pubDate>Thu, 27 Aug 2026 15:04:35 +0000</pubDate>
+<description><![CDATA[Breathedge (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: f07f41187d94166c
+Offer ID: 84a77fdfd9413fe5
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
@@ -34,21 +124,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: e1df3483297a21fb
 Offer ID: eb9eff129856e62c
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Dokimon Quest]]></title>
-<link>https://store.steampowered.com/app/2019300</link>
-<guid isPermaLink='false'>32813bccf6669164</guid>
-<pubDate>Mon, 24 Aug 2026 17:30:17 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Dokimon Quest
-
-Source: LootScraper - Steam Games
-State ID: 5d82304fb9450acc
-Offer ID: 32813bccf6669164
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -94,21 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 7f4d4bd70d6a6698
 Offer ID: 0e7e650ed6da2ee6
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Cardpocalypse Standard Edition]]></title>
-<link>https://store.epicgames.com/en-US/p/cardpocalypse</link>
-<guid isPermaLink='false'>ebb345c32b571b74</guid>
-<pubDate>Thu, 20 Aug 2026 15:05:04 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Cardpocalypse Standard Edition
-
-Source: LootScraper - Epic Games (PC)
-State ID: 62fb06a7203af196
-Offer ID: ebb345c32b571b74
 Status: ACTIVE
 User State: NONE
 Expires At: None
