@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 28 Aug 2026 15:18:37 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 01 Sep 2026 10:29:46 +0000</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 15:08:34 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] NoRush! - Tower Edition (Epic Games) Giveaways]]></title>
@@ -349,21 +349,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 2a4c24e8ca6dbee9
 Offer ID: af16bb3da0ac257a
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - XCOM: Chimera Squad]]></title>
-<link>https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn&amp;ref_=SM_XCOMChimeraSquad_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>cd7efd3268a48374</guid>
-<pubDate>Tue, 02 Jun 2026 17:00:43 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - XCOM: Chimera Squad
-
-Source: LootScraper - Amazon Games
-State ID: 4bddcdd0a86bc0a9
-Offer ID: cd7efd3268a48374
 Status: ACTIVE
 User State: NONE
 Expires At: None
