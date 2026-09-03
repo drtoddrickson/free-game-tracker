@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 03 Sep 2026 15:05:03 +0000</pubDate>
+<pubDate>Thu, 03 Sep 2026 18:00:59 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 03 Sep 2026 15:12:48 +0000</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 18:43:28 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - War Hospital]]></title>
+<link>https://luna.amazon.com/claims/war-hospital-epic/dp/amzn1.pg.item.77edd2b0-e0d7-41b2-87f7-8ef5541701e4?ingress=amzn&amp;ref_=SM_WarHospital_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>233b6ac0ae583870</guid>
+<pubDate>Thu, 03 Sep 2026 18:00:59 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - War Hospital
+
+Source: LootScraper - Amazon Games
+State ID: 8ae42946422fbac4
+Offer ID: 233b6ac0ae583870
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Just Die Already]]></title>
+<link>https://luna.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?ingress=amzn&amp;ref_=SM_JustDieAlready_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>ef532dfc04366663</guid>
+<pubDate>Thu, 03 Sep 2026 18:00:57 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Just Die Already
+
+Source: LootScraper - Amazon Games
+State ID: 4771898ee8ea3ad6
+Offer ID: ef532dfc04366663
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Alone With You]]></title>
 <link>https://store.epicgames.com/en-US/p/alone-with-you-028a15</link>
@@ -19,6 +49,21 @@
 Source: LootScraper - Epic Games (PC)
 State ID: 4b13e5c8b200b0e2
 Offer ID: 55c5330d8b7833ac
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Alone With You (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/alone-with-you-epic-games-giveaway</link>
+<guid isPermaLink='false'>2f424b6644fde625</guid>
+<pubDate>Thu, 03 Sep 2026 15:01:44 +0000</pubDate>
+<description><![CDATA[Alone With You (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: b4f55cb85262384f
+Offer ID: 2f424b6644fde625
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -115,36 +160,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/microsoft-flight-simulator-suite-themes-reimagined-steam-giveaway</link>
-<guid isPermaLink='false'>eb9eff129856e62c</guid>
-<pubDate>Mon, 24 Aug 2026 18:17:57 +0000</pubDate>
-<description><![CDATA[Microsoft Flight Simulator Suite: Themes Reimagined (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: e1df3483297a21fb
-Offer ID: eb9eff129856e62c
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Dokimon Quest (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/dokimon-quest-steam-giveaway</link>
-<guid isPermaLink='false'>6a9f2d8bcce29286</guid>
-<pubDate>Mon, 24 Aug 2026 17:29:37 +0000</pubDate>
-<description><![CDATA[Dokimon Quest (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 0fd1f32b7042c070
-Offer ID: 6a9f2d8bcce29286
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Royal Romances: Forbidden Magic]]></title>
 <link>https://luna.amazon.com/claims/royal-romances-forbidden-magic-legacy/dp/amzn1.pg.item.727672b5-8661-4f8f-b4ed-a6c40a1248ee?ingress=amzn&amp;ref_=SM_RoyalRomancesForbiddenMagic_S01_FGWP_CRWN</link>
 <guid isPermaLink='false'>91775e34a4fa61e2</guid>
@@ -154,21 +169,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 3b7a3bd257bd927c
 Offer ID: 91775e34a4fa61e2
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Bolmn (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/bolmn-epic-games-giveaway</link>
-<guid isPermaLink='false'>0e7e650ed6da2ee6</guid>
-<pubDate>Thu, 20 Aug 2026 15:40:45 +0000</pubDate>
-<description><![CDATA[Bolmn (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 7f4d4bd70d6a6698
-Offer ID: 0e7e650ed6da2ee6
 Status: ACTIVE
 User State: NONE
 Expires At: None
