@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 28 Aug 2026 15:18:37 +0000</pubDate>
+<pubDate>Thu, 03 Sep 2026 15:05:03 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 03 Sep 2026 11:35:21 +0000</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 15:12:48 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Alone With You]]></title>
+<link>https://store.epicgames.com/en-US/p/alone-with-you-028a15</link>
+<guid isPermaLink='false'>55c5330d8b7833ac</guid>
+<pubDate>Thu, 03 Sep 2026 15:05:03 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Alone With You
+
+Source: LootScraper - Epic Games (PC)
+State ID: 4b13e5c8b200b0e2
+Offer ID: 55c5330d8b7833ac
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] NoRush! - Tower Edition (Epic Games) Giveaways]]></title>
 <link>https://www.gamerpower.com/norush-tower-edition-epic-games-giveaways</link>
@@ -64,36 +79,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: eda028e8ec7723dd
 Offer ID: 9140767280668fc6
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Breathedge]]></title>
-<link>https://store.epicgames.com/en-US/p/breathedge</link>
-<guid isPermaLink='false'>2a9af56fc828f1d3</guid>
-<pubDate>Thu, 27 Aug 2026 15:05:04 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Breathedge
-
-Source: LootScraper - Epic Games (PC)
-State ID: f603e1b39543bf18
-Offer ID: 2a9af56fc828f1d3
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Rival Stars Horse Racing: Desktop Edition]]></title>
-<link>https://store.epicgames.com/en-US/p/rival-stars-horse-racing-dd09de</link>
-<guid isPermaLink='false'>9e99e77731dd4d97</guid>
-<pubDate>Thu, 27 Aug 2026 15:05:04 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Rival Stars Horse Racing: Desktop Edition
-
-Source: LootScraper - Epic Games (PC)
-State ID: 943a927d1d79508c
-Offer ID: 9e99e77731dd4d97
 Status: ACTIVE
 User State: NONE
 Expires At: None
