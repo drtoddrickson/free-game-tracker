@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 04 Sep 2026 13:55:23 +0000</pubDate>
+<pubDate>Mon, 07 Sep 2026 14:00:38 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 07 Sep 2026 12:39:11 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 17:56:13 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game, PC) - State of Mind]]></title>
+<link>https://www.gog.com/en/game/state_of_mind</link>
+<guid isPermaLink='false'>057fcacd7c14be39</guid>
+<pubDate>Mon, 07 Sep 2026 14:00:38 +0000</pubDate>
+<description><![CDATA[GOG (Game, PC) - State of Mind
+
+Source: LootScraper - GOG Games
+State ID: 1c4eaf14265dbebd
+Offer ID: 057fcacd7c14be39
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [GOG] State of Mind (GOG) Giveaway]]></title>
+<link>https://www.gamerpower.com/state-of-mind-gog-giveaway</link>
+<guid isPermaLink='false'>bb91ab19ee0c4bac</guid>
+<pubDate>Mon, 07 Sep 2026 13:32:42 +0000</pubDate>
+<description><![CDATA[State of Mind (GOG) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 65b7f2c4016d6dc3
+Offer ID: bb91ab19ee0c4bac
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Beach Invasion 1944 (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/beach-invasion-1944-epic-games-giveaway</link>
@@ -154,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: f07f41187d94166c
 Offer ID: 84a77fdfd9413fe5
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Together After Dark (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/together-after-dark-epic-games-giveaway</link>
-<guid isPermaLink='false'>526d73cca074be44</guid>
-<pubDate>Wed, 26 Aug 2026 11:39:16 +0000</pubDate>
-<description><![CDATA[Together After Dark (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 30fd5da5ed1fddb0
-Offer ID: 526d73cca074be44
 Status: ACTIVE
 User State: NONE
 Expires At: None
