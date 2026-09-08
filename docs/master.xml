@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Mon, 07 Sep 2026 14:00:38 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 08 Sep 2026 15:21:24 +0000</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 18:55:16 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game, PC) - State of Mind]]></title>
@@ -169,21 +169,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: eda028e8ec7723dd
 Offer ID: 9140767280668fc6
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Breathedge (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/breathedge-epic-games-giveaway</link>
-<guid isPermaLink='false'>84a77fdfd9413fe5</guid>
-<pubDate>Thu, 27 Aug 2026 15:04:35 +0000</pubDate>
-<description><![CDATA[Breathedge (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: f07f41187d94166c
-Offer ID: 84a77fdfd9413fe5
 Status: ACTIVE
 User State: NONE
 Expires At: None
