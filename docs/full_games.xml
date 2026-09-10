@@ -5,10 +5,100 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Mon, 07 Sep 2026 14:00:38 +0000</pubDate>
+<pubDate>Thu, 10 Sep 2026 17:00:40 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 10 Sep 2026 13:37:34 +0000</lastBuildDate>
+<lastBuildDate>Thu, 10 Sep 2026 17:14:46 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - DOOM + DOOM II]]></title>
+<link>https://luna.amazon.com/claims/doom-doom-ii-gog/dp/amzn1.pg.item.db1d5024-9037-4d32-9543-37a9577e7d86?ingress=amzn&amp;ref_=SM_DOOMDOOMII_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>adef7e76f5b2575c</guid>
+<pubDate>Thu, 10 Sep 2026 17:00:40 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - DOOM + DOOM II
+
+Source: LootScraper - Amazon Games
+State ID: 0bf567a6b041efcd
+Offer ID: adef7e76f5b2575c
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Botany Manor]]></title>
+<link>https://luna.amazon.com/claims/botany-manor-epic/dp/amzn1.pg.item.fe9fbd08-590e-4d6d-9a94-f22f4548c09d?ingress=amzn&amp;ref_=SM_BotanyManor_S01_FGWP_CRWN</link>
+<guid isPermaLink='false'>aa2fd1358ba33c34</guid>
+<pubDate>Thu, 10 Sep 2026 17:00:38 +0000</pubDate>
+<description><![CDATA[Amazon Prime (Game, PC) - Botany Manor
+
+Source: LootScraper - Amazon Games
+State ID: 1b1f0cbabee13c5d
+Offer ID: aa2fd1358ba33c34
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Astral Ascent (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/astral-ascent-epic-games-giveaway</link>
+<guid isPermaLink='false'>184a8b8b62c379c3</guid>
+<pubDate>Thu, 10 Sep 2026 15:09:39 +0000</pubDate>
+<description><![CDATA[Astral Ascent (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 35bdafed676dae01
+Offer ID: 184a8b8b62c379c3
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Luftrausers]]></title>
+<link>https://store.epicgames.com/en-US/p/luftrausers-51e5e9</link>
+<guid isPermaLink='false'>2f56cdbc63c5d1fa</guid>
+<pubDate>Thu, 10 Sep 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Luftrausers
+
+Source: LootScraper - Epic Games (PC)
+State ID: 4a88fc386baa9082
+Offer ID: 2f56cdbc63c5d1fa
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Astral Ascent]]></title>
+<link>https://store.epicgames.com/en-US/p/astral-ascent-b33bc2</link>
+<guid isPermaLink='false'>96df9138efe4d015</guid>
+<pubDate>Thu, 10 Sep 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Astral Ascent
+
+Source: LootScraper - Epic Games (PC)
+State ID: 58865d23bbed7750
+Offer ID: 96df9138efe4d015
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Luftrausers (Epic Games) Giveaway]]></title>
+<link>https://www.gamerpower.com/luftrausers-epic-games-giveaway</link>
+<guid isPermaLink='false'>cf8f72d5beccdfdc</guid>
+<pubDate>Thu, 10 Sep 2026 15:01:07 +0000</pubDate>
+<description><![CDATA[Luftrausers (Epic Games) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: c85b2e20eb79c93f
+Offer ID: cf8f72d5beccdfdc
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game, PC) - State of Mind]]></title>
 <link>https://www.gog.com/en/game/state_of_mind</link>
@@ -85,21 +175,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Alone With You]]></title>
-<link>https://store.epicgames.com/en-US/p/alone-with-you-028a15</link>
-<guid isPermaLink='false'>55c5330d8b7833ac</guid>
-<pubDate>Thu, 03 Sep 2026 15:05:03 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - Alone With You
-
-Source: LootScraper - Epic Games (PC)
-State ID: 4b13e5c8b200b0e2
-Offer ID: 55c5330d8b7833ac
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Alone With You (Epic Games) Giveaway]]></title>
 <link>https://www.gamerpower.com/alone-with-you-epic-games-giveaway</link>
 <guid isPermaLink='false'>2f424b6644fde625</guid>
@@ -109,21 +184,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: b4f55cb85262384f
 Offer ID: 2f424b6644fde625
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] NoRush! - Tower Edition (Epic Games) Giveaways]]></title>
-<link>https://www.gamerpower.com/norush-tower-edition-epic-games-giveaways</link>
-<guid isPermaLink='false'>6e9f41112bbf4f02</guid>
-<pubDate>Fri, 28 Aug 2026 15:18:37 +0000</pubDate>
-<description><![CDATA[NoRush! - Tower Edition (Epic Games) Giveaways
-
-Source: GamerPower - All (Giveaways)
-State ID: 97b332090fb5afb9
-Offer ID: 6e9f41112bbf4f02
 Status: ACTIVE
 User State: NONE
 Expires At: None
