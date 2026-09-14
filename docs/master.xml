@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 10 Sep 2026 17:00:40 +0000</pubDate>
+<pubDate>Mon, 14 Sep 2026 11:16:37 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Mon, 14 Sep 2026 06:20:23 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 13:13:44 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Crystal Crisis (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/crystal-crisis-steam-giveaway</link>
+<guid isPermaLink='false'>691a1ff0e33af028</guid>
+<pubDate>Mon, 14 Sep 2026 11:16:37 +0000</pubDate>
+<description><![CDATA[Crystal Crisis (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 1c47bb892cdd0cd5
+Offer ID: 691a1ff0e33af028
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Crystal Crisis]]></title>
+<link>https://store.steampowered.com/app/447700</link>
+<guid isPermaLink='false'>1dc002a5d3c91b26</guid>
+<pubDate>Mon, 14 Sep 2026 07:01:49 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Crystal Crisis
+
+Source: LootScraper - Steam Games
+State ID: d0748f842a08c034
+Offer ID: 1dc002a5d3c91b26
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - DOOM + DOOM II]]></title>
 <link>https://luna.amazon.com/claims/doom-doom-ii-gog/dp/amzn1.pg.item.db1d5024-9037-4d32-9543-37a9577e7d86?ingress=amzn&amp;ref_=SM_DOOMDOOMII_S01_FGWP_CRWN</link>
@@ -94,21 +124,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: c85b2e20eb79c93f
 Offer ID: cf8f72d5beccdfdc
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [GOG] GOG (Game, PC) - State of Mind]]></title>
-<link>https://www.gog.com/en/game/state_of_mind</link>
-<guid isPermaLink='false'>057fcacd7c14be39</guid>
-<pubDate>Mon, 07 Sep 2026 14:00:38 +0000</pubDate>
-<description><![CDATA[GOG (Game, PC) - State of Mind
-
-Source: LootScraper - GOG Games
-State ID: 1c4eaf14265dbebd
-Offer ID: 057fcacd7c14be39
 Status: ACTIVE
 User State: NONE
 Expires At: None
