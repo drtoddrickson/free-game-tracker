@@ -5,10 +5,25 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/full_games.xml</link>
 <description>Free full games only</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 17 Sep 2026 18:00:49 +0000</pubDate>
+<pubDate>Fri, 18 Sep 2026 17:01:59 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 18 Sep 2026 14:15:05 +0000</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 17:44:40 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Deadshot]]></title>
+<link>https://store.steampowered.com/app/2484180</link>
+<guid isPermaLink='false'>2fbbd75986996784</guid>
+<pubDate>Fri, 18 Sep 2026 17:01:59 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Deadshot
+
+Source: LootScraper - Steam Games
+State ID: 76c7e42f353b50ef
+Offer ID: 2fbbd75986996784
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - DOOM Eternal]]></title>
 <link>https://luna.amazon.com/claims/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?ingress=amzn&amp;ref_=SM_DOOMEternal_S02_FGWP_CRWN</link>
@@ -55,21 +70,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Shogun Showdown (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/shogun-showdown-epic-games-giveaway</link>
-<guid isPermaLink='false'>0aae081961984fbd</guid>
-<pubDate>Thu, 17 Sep 2026 15:07:30 +0000</pubDate>
-<description><![CDATA[Shogun Showdown (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 39c20411787a9152
-Offer ID: 0aae081961984fbd
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Mindcop]]></title>
 <link>https://store.epicgames.com/en-US/p/mindcop-78e6c1</link>
 <guid isPermaLink='false'>a8c7c759c7c6465a</guid>
@@ -100,36 +100,6 @@ Expires At: None
 ]]></description>
 </item>
 <item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Mindcop (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/mindcop-epic-games-giveaway</link>
-<guid isPermaLink='false'>22d7b4ee8ce204f7</guid>
-<pubDate>Thu, 17 Sep 2026 15:00:12 +0000</pubDate>
-<description><![CDATA[Mindcop (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 1a5fbbe5a4e989d7
-Offer ID: 22d7b4ee8ce204f7
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Space Menace (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/space-menace-steam-giveaway</link>
-<guid isPermaLink='false'>a48bfe584140abf1</guid>
-<pubDate>Wed, 16 Sep 2026 17:42:36 +0000</pubDate>
-<description><![CDATA[Space Menace (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: ed88d307a3409034
-Offer ID: a48bfe584140abf1
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Space Menace]]></title>
 <link>https://store.steampowered.com/app/2000040</link>
 <guid isPermaLink='false'>c81c1e177e4cf35c</guid>
@@ -139,36 +109,6 @@ Expires At: None
 Source: LootScraper - Steam Games
 State ID: 03ab68f7d9ca14cf
 Offer ID: c81c1e177e4cf35c
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] FOR HONOR (Ubisoft) Giveaway]]></title>
-<link>https://www.gamerpower.com/for-honor-ubisoft-giveaway</link>
-<guid isPermaLink='false'>f01a8e6dc4ab5023</guid>
-<pubDate>Tue, 15 Sep 2026 13:49:57 +0000</pubDate>
-<description><![CDATA[FOR HONOR (Ubisoft) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: b32fe8fa5bae982f
-Offer ID: f01a8e6dc4ab5023
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Crystal Crisis (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/crystal-crisis-steam-giveaway</link>
-<guid isPermaLink='false'>691a1ff0e33af028</guid>
-<pubDate>Mon, 14 Sep 2026 11:16:37 +0000</pubDate>
-<description><![CDATA[Crystal Crisis (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 1c47bb892cdd0cd5
-Offer ID: 691a1ff0e33af028
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -214,36 +154,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 1b1f0cbabee13c5d
 Offer ID: aa2fd1358ba33c34
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Astral Ascent (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/astral-ascent-epic-games-giveaway</link>
-<guid isPermaLink='false'>184a8b8b62c379c3</guid>
-<pubDate>Thu, 10 Sep 2026 15:09:39 +0000</pubDate>
-<description><![CDATA[Astral Ascent (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 35bdafed676dae01
-Offer ID: 184a8b8b62c379c3
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Luftrausers (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/luftrausers-epic-games-giveaway</link>
-<guid isPermaLink='false'>cf8f72d5beccdfdc</guid>
-<pubDate>Thu, 10 Sep 2026 15:01:07 +0000</pubDate>
-<description><![CDATA[Luftrausers (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: c85b2e20eb79c93f
-Offer ID: cf8f72d5beccdfdc
 Status: ACTIVE
 User State: NONE
 Expires At: None
