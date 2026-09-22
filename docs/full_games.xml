@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 18 Sep 2026 17:04:56 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 22 Sep 2026 06:48:46 +0000</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 12:29:14 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Deadshot (Steam) Giveaway]]></title>
@@ -199,21 +199,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 1c47bb892cdd0cd5
 Offer ID: 691a1ff0e33af028
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Crystal Crisis]]></title>
-<link>https://store.steampowered.com/app/447700</link>
-<guid isPermaLink='false'>1dc002a5d3c91b26</guid>
-<pubDate>Mon, 14 Sep 2026 07:01:49 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Crystal Crisis
-
-Source: LootScraper - Steam Games
-State ID: d0748f842a08c034
-Offer ID: 1dc002a5d3c91b26
 Status: ACTIVE
 User State: NONE
 Expires At: None
