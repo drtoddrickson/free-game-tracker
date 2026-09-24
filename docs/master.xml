@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Fri, 18 Sep 2026 17:04:56 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 24 Sep 2026 06:40:19 +0000</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 12:16:00 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [STEAM] Deadshot (Steam) Giveaway]]></title>
@@ -19,21 +19,6 @@
 Source: GamerPower - All (Giveaways)
 State ID: 1e22a8e546d75340
 Offer ID: f6a52c2cc4aa817b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Deadshot]]></title>
-<link>https://store.steampowered.com/app/2484180</link>
-<guid isPermaLink='false'>2fbbd75986996784</guid>
-<pubDate>Fri, 18 Sep 2026 17:01:59 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Deadshot
-
-Source: LootScraper - Steam Games
-State ID: 76c7e42f353b50ef
-Offer ID: 2fbbd75986996784
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -154,21 +139,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: ed88d307a3409034
 Offer ID: a48bfe584140abf1
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Space Menace]]></title>
-<link>https://store.steampowered.com/app/2000040</link>
-<guid isPermaLink='false'>c81c1e177e4cf35c</guid>
-<pubDate>Wed, 16 Sep 2026 17:01:38 +0000</pubDate>
-<description><![CDATA[Steam (Game, PC) - Space Menace
-
-Source: LootScraper - Steam Games
-State ID: 03ab68f7d9ca14cf
-Offer ID: c81c1e177e4cf35c
 Status: ACTIVE
 User State: NONE
 Expires At: None
