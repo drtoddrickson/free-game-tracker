@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/full_games.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 24 Sep 2026 18:00:47 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Tue, 29 Sep 2026 09:37:47 +0000</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 16:08:17 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - The Da Vinci Cryptex]]></title>
@@ -169,21 +169,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 5aeba9880168309d
 Offer ID: 368a22d009b8a64b
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Shogun Showdown (Epic Games) Giveaway]]></title>
-<link>https://www.gamerpower.com/shogun-showdown-epic-games-giveaway</link>
-<guid isPermaLink='false'>0aae081961984fbd</guid>
-<pubDate>Thu, 17 Sep 2026 15:07:30 +0000</pubDate>
-<description><![CDATA[Shogun Showdown (Epic Games) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 39c20411787a9152
-Offer ID: 0aae081961984fbd
 Status: ACTIVE
 User State: NONE
 Expires At: None
