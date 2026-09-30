@@ -7,7 +7,7 @@
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
 <pubDate>Thu, 24 Sep 2026 18:00:47 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Wed, 30 Sep 2026 11:22:52 +0000</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 16:57:01 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - The Da Vinci Cryptex]]></title>
@@ -109,21 +109,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: e142d06e5ffefaf9
 Offer ID: 10c72add8188a89a
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] Deadshot (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/deadshot-steam-giveaway</link>
-<guid isPermaLink='false'>f6a52c2cc4aa817b</guid>
-<pubDate>Fri, 18 Sep 2026 17:04:56 +0000</pubDate>
-<description><![CDATA[Deadshot (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 1e22a8e546d75340
-Offer ID: f6a52c2cc4aa817b
 Status: ACTIVE
 User State: NONE
 Expires At: None
