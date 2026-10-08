@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Fri, 02 Oct 2026 13:30:56 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 15:05:04 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Thu, 08 Oct 2026 07:53:53 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 15:25:39 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - Out of Sight]]></title>
+<link>https://store.epicgames.com/en-US/p/out-of-sight-b96ca8</link>
+<guid isPermaLink='false'>608849c6b8154cb9</guid>
+<pubDate>Thu, 08 Oct 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - Out of Sight
+
+Source: LootScraper - Epic Games (PC)
+State ID: 75df0b836bb0e767
+Offer ID: 608849c6b8154cb9
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - TerraScape]]></title>
+<link>https://store.epicgames.com/en-US/p/terrascape-2b12b1</link>
+<guid isPermaLink='false'>5448adc6f5f44e25</guid>
+<pubDate>Thu, 08 Oct 2026 15:05:04 +0000</pubDate>
+<description><![CDATA[Epic Games (Game, PC) - TerraScape
+
+Source: LootScraper - Epic Games (PC)
+State ID: 0675316694a82dfd
+Offer ID: 5448adc6f5f44e25
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [GOG] Bounty Train (GOG) Giveaway]]></title>
 <link>https://www.gamerpower.com/bounty-train-gog-giveaway</link>
@@ -64,36 +94,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: 807efb76adf4816b
 Offer ID: bfb13ba001d66383
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - System Shock 2: 25th Anniversary Remaster]]></title>
-<link>https://store.epicgames.com/en-US/p/system-shock-2-25th-anniversary-remaster-cb94d9</link>
-<guid isPermaLink='false'>6821db4dec132472</guid>
-<pubDate>Thu, 01 Oct 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - System Shock 2: 25th Anniversary Remaster
-
-Source: LootScraper - Epic Games (PC)
-State ID: abb093cf6b456f1e
-Offer ID: 6821db4dec132472
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [EPIC] Epic Games (Game, PC) - BURIED STARS]]></title>
-<link>https://store.epicgames.com/en-US/p/buried-stars-d7c88c</link>
-<guid isPermaLink='false'>487e4fc54486fcca</guid>
-<pubDate>Thu, 01 Oct 2026 15:05:06 +0000</pubDate>
-<description><![CDATA[Epic Games (Game, PC) - BURIED STARS
-
-Source: LootScraper - Epic Games (PC)
-State ID: c190bb3946cb11b4
-Offer ID: 487e4fc54486fcca
 Status: ACTIVE
 User State: NONE
 Expires At: None
@@ -244,36 +244,6 @@ Expires At: None
 Source: LootScraper - Amazon Games
 State ID: 1b1f0cbabee13c5d
 Offer ID: aa2fd1358ba33c34
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - War Hospital]]></title>
-<link>https://luna.amazon.com/claims/war-hospital-epic/dp/amzn1.pg.item.77edd2b0-e0d7-41b2-87f7-8ef5541701e4?ingress=amzn&amp;ref_=SM_WarHospital_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>233b6ac0ae583870</guid>
-<pubDate>Thu, 03 Sep 2026 18:00:59 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - War Hospital
-
-Source: LootScraper - Amazon Games
-State ID: 8ae42946422fbac4
-Offer ID: 233b6ac0ae583870
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Just Die Already]]></title>
-<link>https://luna.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?ingress=amzn&amp;ref_=SM_JustDieAlready_S01_FGWP_CRWN</link>
-<guid isPermaLink='false'>ef532dfc04366663</guid>
-<pubDate>Thu, 03 Sep 2026 18:00:57 +0000</pubDate>
-<description><![CDATA[Amazon Prime (Game, PC) - Just Die Already
-
-Source: LootScraper - Amazon Games
-State ID: 4771898ee8ea3ad6
-Offer ID: ef532dfc04366663
 Status: ACTIVE
 User State: NONE
 Expires At: None
