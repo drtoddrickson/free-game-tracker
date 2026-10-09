@@ -5,10 +5,40 @@
 <link>https://drtoddrickson.github.io/free-game-tracker/master.xml</link>
 <description>Free games + free DLC/cosmetics/drops tracker</description>
 <atom:link href="https://drtoddrickson.github.io/free-game-tracker/master.xml" rel="self" type="application/rss+xml" />
-<pubDate>Thu, 08 Oct 2026 18:00:43 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 17:15:36 +0000</pubDate>
 <ttl>15</ttl>
-<lastBuildDate>Fri, 09 Oct 2026 14:32:57 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 19:48:58 +0000</lastBuildDate>
 <generator>free-game-tracker/build.py</generator>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Fireside Feelings (Steam) Giveaway]]></title>
+<link>https://www.gamerpower.com/fireside-feelings-steam-giveaway</link>
+<guid isPermaLink='false'>88112cc8ea0b8fd7</guid>
+<pubDate>Fri, 09 Oct 2026 17:15:36 +0000</pubDate>
+<description><![CDATA[Fireside Feelings (Steam) Giveaway
+
+Source: GamerPower - All (Giveaways)
+State ID: 7d35d56c57fbb45c
+Offer ID: 88112cc8ea0b8fd7
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
+<item>
+<title><![CDATA[[PC] [FULL-GAME] [STEAM] Steam (Game, PC) - Fireside Feelings]]></title>
+<link>https://store.steampowered.com/app/2990600</link>
+<guid isPermaLink='false'>205564be025bb432</guid>
+<pubDate>Fri, 09 Oct 2026 17:01:52 +0000</pubDate>
+<description><![CDATA[Steam (Game, PC) - Fireside Feelings
+
+Source: LootScraper - Steam Games
+State ID: e4ffdfd7f3fb44bc
+Offer ID: 205564be025bb432
+Status: ACTIVE
+User State: NONE
+Expires At: None
+]]></description>
+</item>
 <item>
 <title><![CDATA[[PC] [FULL-GAME] [AMAZON] Amazon Prime (Game, PC) - Conarium]]></title>
 <link>https://luna.amazon.com/claims/conarium-gog/dp/amzn1.pg.item.82e258e7-827e-46e0-8228-25e9720b48b4?ingress=amzn&amp;ref_=SM_Conarium_S01_FGWP_CRWN</link>
@@ -199,21 +229,6 @@ Expires At: None
 Source: GamerPower - All (Giveaways)
 State ID: bc78eceaff3df8e2
 Offer ID: 4d2d449827c9bd9d
-Status: ACTIVE
-User State: NONE
-Expires At: None
-]]></description>
-</item>
-<item>
-<title><![CDATA[[PC] [FULL-GAME] [STEAM] MXGP 26 - Scrubdesignz Liveries (Steam) Giveaway]]></title>
-<link>https://www.gamerpower.com/mxgp-26-scrubdesignz-liveries-steam-giveaway</link>
-<guid isPermaLink='false'>f9a033ff18d512da</guid>
-<pubDate>Thu, 01 Oct 2026 13:37:30 +0000</pubDate>
-<description><![CDATA[MXGP 26 - Scrubdesignz Liveries (Steam) Giveaway
-
-Source: GamerPower - All (Giveaways)
-State ID: 9d7dbf6fba21e0ec
-Offer ID: f9a033ff18d512da
 Status: ACTIVE
 User State: NONE
 Expires At: None
