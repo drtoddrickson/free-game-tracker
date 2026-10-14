@@ -1,31 +1,43 @@
 # RSS Free Game Tracker Roadmap
-Version: 2026-04-04  
-Status: Source-of-truth roadmap for architecture, prioritization, and feature sequencing.
+Version: 2026-10-13  
+Status: RETIRED / ARCHIVED — final historical record; no active development.
 
 ---
 
 ## Project Status
-Status: SUNSET / ARCHIVED
+Status: RETIRED / ARCHIVED
 Date: 2026-10-13
 
 Reason:
-- Project no longer provides sufficient personal value
-- Remaining bugs and maintenance are not worth further investment
+- Project no longer provides sufficient personal value.
+- Outstanding bugs and ongoing maintenance are not worth further investment.
 
-Decisions:
-- Development discontinued
-- Roadmap frozen
-- Unfinished features retained for historical reference
-- Repository preserved for potential future use
-- Scheduled automation and Discord distribution to be retired
+Final decisions:
+- Development and bug fixes discontinued; no new features planned.
+- All unfinished roadmap work frozen, not scheduled or active.
+- Repository, source code, configuration, historical state, and existing RSS outputs preserved.
+- GitHub Pages remains enabled, publishing from `main` → `/docs`.
+- Reactivation only upon an explicit future decision; none is planned.
 
-Reactivation:
-- Only upon explicit decision to resume development
+Shutdown completed:
+- GitHub Actions workflow disabled (previously ran every 15 minutes).
+- MonitoRSS subscriptions disabled: "Free Game Tracker - Loot Drops" and "Free Game Tracker - Master Feed".
+- No other services or automations consume the feeds.
+- ChatGPT project labeled archived.
+
+## Known Issues at Retirement
+The following are **observed symptoms reported at retirement**, not confirmed diagnoses. No root-cause investigation or remediation is planned.
+
+1. **Duplicate entries** — Numerous duplicate offers appear from LootScraper and GamerPower sources despite the intended deduplication behavior. **Root cause: not confirmed.**
+2. **Incorrect feed routing** — Loot items appear in the master/normal feed, although the desired behavior was to restrict them to the dedicated loot feed. **Root cause: not confirmed.** The existing implementation's feed design and the observed output differ from the desired routing; no technical cause is asserted here.
+3. **Platform coverage** — Observed feed output contains only PC games, not the other intended supported platforms (PS5 and Nintendo Switch). **Root cause: not confirmed.**
+
+These issues remain unresolved by choice at retirement. Historical completion statuses below describe features implemented, not a claim that production behavior was bug-free.
 
 ---
 
-## Purpose
-Controls direction of:
+## Purpose (Historical)
+Originally controlled direction of:
 - Build / Feature Development
 - Debugging follow-up priorities
 - Source / Feed Optimization decisions
@@ -40,13 +52,13 @@ Principles:
 
 ---
 
-## Current System Snapshot
+## System Snapshot (Historical Architecture)
 Infrastructure:
-- GitHub Actions runs every 15 minutes
+- GitHub Actions previously ran every 15 minutes (now disabled)
 - `build.py` aggregates configured sources from `sources.yaml`
 - `state.json` persists lifecycle and manual state
 - GitHub Pages serves feeds from `/docs`
-- MonitoRSS distributes RSS output to Discord
+- MonitoRSS previously distributed RSS output to Discord (subscriptions now disabled)
 
 Outputs:
 - master.xml
@@ -63,7 +75,7 @@ Core:
 - `PyYAML` (source config)
 
 Infrastructure:
-- GitHub Actions (15-minute scheduled runs)
+- GitHub Actions (historically 15-minute scheduled runs; disabled at retirement)
 - GitHub Pages (RSS hosting via `/docs`)
 
 Data / State:
@@ -76,7 +88,7 @@ Output:
   - `loot.xml`
 
 Distribution:
-- MonitoRSS (Discord delivery)
+- MonitoRSS (historical Discord delivery; both subscriptions disabled)
 
 Architecture:
 - Deterministic pipeline
@@ -86,7 +98,7 @@ Architecture:
 
 ---
 
-## Planned / Future Stack
+## Planned / Future Stack (Historical; Not Planned)
 
 Delivery:
 - Email digest system
@@ -116,7 +128,7 @@ Architecture direction:
 
 ---
 
-## Accuracy Strategy
+## Accuracy Strategy (Historical)
 Preferred signal hierarchy for future accuracy improvements:
 1. Structured feed fields (if available)
 2. Source-specific parsing
@@ -130,27 +142,18 @@ Notes:
 
 ---
 
-## ACTIVE
-  
-### R-004) Owned-aware DLC targeting
-Status: ACTIVE  
-Scope:
-- Use owned / wanted game data to filter or prioritize loot
-- Keep full games broad, keep loot targeted
+## ACTIVE (Frozen at Retirement)
 
-Notes:
-- Depends on R-003 normalization and matching
-- Should leverage:
-  - `watch_dlc` flag
-  - owned platform metadata
-- Should NOT restrict full games (only loot)
+No active work. R-004 was implemented and is recorded under COMPLETED.
 
 ---
 
-## BACKLOG
+## BACKLOG (Frozen / Not Planned)
+
+Historical proposals only; no implementation is planned.
 
 ### R-005) Platform inference improvements
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Reduce false positives
 - Improve confidence across mixed-source titles
@@ -161,31 +164,31 @@ Scope:
   4. HTML scrape (last resort)
 
 ### R-006) Store detection expansion
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Improve store / ecosystem tagging accuracy
 - Support better routing and dedupe tie-breaking
 
 ### R-007) Dedupe improvements
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Refine winner selection logic
 - Balance store priority, signal quality, and recency
 
 ### R-008) Source reliability scoring
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Score sources based on quality / usefulness
 - Use later for tie-breaking and source evaluation
 
 ### R-009) Email digest
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Add digest-style delivery in addition to Discord
 - Likely daily / summary-oriented rather than alert-first
 
 ### R-010) User-facing state controls (Discord/UI)
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Discord-triggered or future UI-triggered updates
 - Support setting:
@@ -223,7 +226,7 @@ Notes:
 - Do not allow uncontrolled auto-ingestion of DLC/loot
 
 ### R-018) Platform ambiguity handling
-Status: BACKLOG  
+Status: FROZEN / NOT PLANNED (historically BACKLOG)
 Scope:
 - Detect multi-platform / low-confidence items
 - Strip platform tags or tag as `MULTI-PLATFORM`
@@ -235,10 +238,12 @@ Intent:
 
 ---
 
-## EXPERIMENTAL
+## EXPERIMENTAL (Frozen / Not Planned)
+
+Historical experiments only; no implementation is planned.
 
 ### R-011) Multi-deal extraction from aggregator articles
-Status: EXPERIMENTAL  
+Status: FROZEN / NOT PLANNED (historically EXPERIMENTAL)
 Scope:
 - Extract multiple items from a single roundup article
 - Whitelisted domains only
@@ -250,21 +255,23 @@ Notes:
 - Do not become a general scraping system
 
 ### R-012) Alienware Arena integration
-Status: EXPERIMENTAL  
+Status: FROZEN / NOT PLANNED (historically EXPERIMENTAL)
 Scope:
 - Synthetic source integration for giveaway pages
 - Deterministic extraction only
 - Treat as a new source class, not just another feed
 
 ### R-013) Performance / efficiency tuning
-Status: EXPERIMENTAL  
+Status: FROZEN / NOT PLANNED (historically EXPERIMENTAL)
 Scope:
 - Reduce unnecessary recomputation
 - Keep builds fast as feature set grows
 
 ---
 
-## PARKING LOT
+## PARKING LOT (Frozen / Not Planned)
+
+Historical ideas only; no implementation is planned.
 
 ### Expiration enhancements
 - Broader date parsing:
@@ -396,16 +403,30 @@ Notes:
   - `status: owned`
   - `format: digital`
 
-Implementation status:
-- Core YAML structure implemented
-- Matching + normalization implemented
-- Claim → owned ingestion implemented (--sync-owned)
-- Remaining:
-  - platform-aware filtering logic
-  - strict vs loose matching modes (optional)
-  
-Remaining:
-- improve match reliability across noisy titles (edge-case normalization)
+Implementation status at retirement:
+- Core YAML structure implemented.
+- Matching + normalization implemented.
+- Claim → owned ingestion implemented (`--sync-owned`).
+- Platform-aware DLC filtering subsequently implemented under R-004.
+- Historical optional refinements (strict vs. loose matching and noisy-title edge cases) were not pursued further; frozen / not planned.
+
+---
+
+### R-004) Owned-aware DLC targeting
+Status: COMPLETED (date not independently recorded; confirmed implemented before retirement)
+Scope:
+- Use owned / wanted game data to filter or prioritize loot.
+- Keep full-game discovery broad while applying stricter loot targeting.
+- Apply platform-aware ownership matching and `watch_dlc` flags to owned-game loot.
+
+Implementation record:
+- Uses normalized owned-game records from R-003.
+- Builds a `watch_dlc`-enabled subset of owned games.
+- Checks matching owned games and platform overlap before allowing their loot.
+- Full-game items are not restricted by this owned-game DLC gate.
+
+Caveat:
+- Completion reflects the implementation verified in `build.py`, not resolution of the separate feed-routing and platform-coverage symptoms documented above.
 
 ---
 
@@ -441,3 +462,12 @@ Remaining:
 - Added STOVE to global blocked store markers.
 - Completed: R-003 Owned games YAML
 - Sources YAML list updated
+
+### 2026-10-13 — Final archival update
+- Retired and archived project; no further development or bug fixes planned.
+- Recorded R-004 as implemented/completed (completion date not independently recorded).
+- Froze all remaining backlog, experimental, and parking-lot work; retained historical scopes and IDs.
+- Documented three observed unresolved symptoms (duplicates, loot routing, PC-only output); root causes unconfirmed.
+- Confirmed GitHub Actions workflow disabled and both MonitoRSS subscriptions disabled.
+- Confirmed GitHub Pages remains enabled (`main` → `/docs`); repository, state, and RSS outputs preserved.
+- Confirmed no other feed consumers; ChatGPT project archived.
