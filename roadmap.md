@@ -4,6 +4,26 @@ Status: Source-of-truth roadmap for architecture, prioritization, and feature se
 
 ---
 
+## Project Status
+Status: SUNSET / ARCHIVED
+Date: 2026-10-13
+
+Reason:
+- Project no longer provides sufficient personal value
+- Remaining bugs and maintenance are not worth further investment
+
+Decisions:
+- Development discontinued
+- Roadmap frozen
+- Unfinished features retained for historical reference
+- Repository preserved for potential future use
+- Scheduled automation and Discord distribution to be retired
+
+Reactivation:
+- Only upon explicit decision to resume development
+
+---
+
 ## Purpose
 Controls direction of:
 - Build / Feature Development
